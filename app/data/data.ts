@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== IMPORTING ETHIOPIAN COFFEE TO MALAYSIA =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-malaysia.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-malaysia.webp',
+      date: 'May 9, 2026',
+      title: 'Import Ethiopian Coffee to Malaysia',
+      slug: 'importing-ethiopian-coffee-to-malaysia',
+      category: 'Import Guide / Malaysia Market / Ethiopian Coffee Export / ASEAN Buyer Strategy',
+      keywords: [
+        'import Ethiopian coffee to Malaysia',
+        'Malaysia coffee import guide',
+        'Malaysia green coffee import permit',
+        'MAQIS coffee import permit',
+        'Malaysia ePermit coffee',
+        'Port Klang coffee import',
+        'Ethiopian coffee Malaysia',
+        'green coffee importer Malaysia',
+        'coffee phytosanitary certificate Malaysia',
+        'import green coffee beans Malaysia',
+        'Malaysia specialty coffee market',
+        'Ethiopian coffee roasters Malaysia',
+        'Malaysia coffee customs clearance',
+        'Peninsular Malaysia coffee import',
+        'East Malaysia coffee import'
+      ],
+      desc: 'Import Ethiopian coffee to Malaysia with MAQIS permit steps, Port Klang routing, and buyer strategy for specialty roasters and distributors.'
+    },
     // ===== ETHIOPIAN COFFEE SAMPLE APPROVAL GUIDE =====
     {
       small_image_url: 'insights/ethiopian-coffee-sample-approval-guide.webp',

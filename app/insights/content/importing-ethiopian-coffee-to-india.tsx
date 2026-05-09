@@ -59,6 +59,10 @@ export default function ImportingEthiopianCoffeeToIndia({ title, date, large_ima
         For Indian roasters, cafe chains, and green coffee traders, importing Ethiopian coffee requires understanding FSSAI food safety licensing, customs duty structures under HS code 0901, and shipping routes from the Port of Djibouti across the Arabian Sea to Nhava Sheva (JNPT) or Chennai. This guide covers every step of the process: regulatory requirements, tariff rates, logistics, landed costs, market positioning, and how to work with an Ethiopian exporter to bring premium green coffee into the Indian market.
       </p>
 
+      <p className='my-4'>
+        Buyers comparing South Asia and Southeast Asia entry strategies should also review our <Link href='/insights/importing-ethiopian-coffee-to-malaysia' className='text-amber-700 hover:underline font-semibold'>Malaysia import guide</Link>. India offers scale and a deep roasting market, while Malaysia can suit buyers who want a smaller specialty market, lighter permit burden, or an ASEAN-adjacent distribution base without India&apos;s high-duty structure.
+      </p>
+
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />

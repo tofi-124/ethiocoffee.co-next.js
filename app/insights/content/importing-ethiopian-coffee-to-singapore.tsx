@@ -102,6 +102,10 @@ export default function ImportingEthiopianCoffeeToSingapore({ title, date, large
         Local market researchers in Singapore describe coffee buying as occasion-driven rather than brand-loyal. The same person may buy hawker kopi in the morning, app-delivered chain coffee before lunch, and a single-origin pour-over later in the day. That matters for Ethiopian coffee. It means a Singapore importer does not need mass-market volume to win. It needs the right slot in the market: menu differentiation, premium retail bags, corporate gifting, hospitality programs, or ASEAN redistribution.
       </p>
 
+      <p className='my-4'>
+        Buyers deciding between a regional hub model and a single-country destination model should also read our <Link href='/insights/importing-ethiopian-coffee-to-malaysia' className='text-amber-700 hover:underline font-semibold'>Malaysia import guide</Link>. Singapore usually wins when the coffee will be warehoused and redistributed across ASEAN, while Malaysia is often the better fit when the importer&apos;s end market is local roasting, domestic wholesale, or a Port Klang-centered distribution program.
+      </p>
+
       <div className='grid md:grid-cols-2 gap-4 my-6'>
         <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
           <h4 className='font-bold mb-2'>Premium Local Roasting Market</h4>

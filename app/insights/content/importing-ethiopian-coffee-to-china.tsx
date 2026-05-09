@@ -425,6 +425,10 @@ export default function ImportingEthiopianCoffeeToChina({ title, date, large_ima
         Buyers choosing between direct mainland entry and an ASEAN staging model should compare this route with our <Link href='/insights/importing-ethiopian-coffee-to-singapore' className='text-amber-700 hover:underline font-semibold'>Singapore import guide</Link>. Singapore usually makes more sense for mixed-origin warehousing and regional redistribution, while direct China entry is stronger when the coffee is already committed to one importer and one customs process.
       </p>
 
+      <p className='my-4'>
+        Buyers who want a smaller destination market with meaningful specialty upside should also compare China with our <Link href='/insights/importing-ethiopian-coffee-to-malaysia' className='text-amber-700 hover:underline font-semibold'>Malaysia import guide</Link>. Malaysia is not a substitute for China&apos;s scale, but it can be the cleaner play when the importer wants faster market testing, simpler plant-product permitting, and a route built around roaster turnover rather than GACC compliance.
+      </p>
+
       <div className='overflow-x-auto my-6'>
         <table className='w-full border-collapse text-sm'>
           <thead>
