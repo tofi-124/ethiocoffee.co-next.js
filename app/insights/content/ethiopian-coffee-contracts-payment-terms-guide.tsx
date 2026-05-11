@@ -136,6 +136,9 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
       <p className='my-4'>
         Ethiopian coffee contracts carry additional complexity that buyers may not encounter when sourcing from other origins. The country's foreign exchange regulations, the role of the Ethiopia Commodity Exchange (ECX), and the evolving direct-export licensing system all shape how contracts are structured. Importers who understand these factors negotiate better terms and avoid delays.
       </p>
+      <p className='my-4'>
+        If you are still deciding whether a lot deserves sampling, start one step earlier with our <Link href='/insights/ethiopian-coffee-offer-sheet-guide' className='text-amber-700 hover:underline font-semibold'>Ethiopian coffee offer sheet guide</Link>. It explains how to screen live offers before price terms and payment mechanics move into contract language.
+      </p>
 
       <div className='bg-blue-50 p-5 rounded-lg border border-blue-200 my-6'>
         <p className='font-bold text-blue-800 mb-2 flex items-center gap-2'>

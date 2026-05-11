@@ -88,6 +88,9 @@ export default function EthiopianCoffeeScreenSizeGuide({
       <p className='my-4'>
         For importers, green buyers, and roasters, the practical questions are these: what should screen size mean on Ethiopian lot sheets, which ranges are normal by origin, and how tight should a specification be for filter, espresso, blends, or private-label programs? For the full Ethiopian grade system, see our <Link href='/coffee-grading-ethiopia' className='text-amber-700 hover:underline font-semibold'>coffee grading Ethiopia reference</Link>. For the milling stage where these separations happen, see our <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline font-semibold'>dry milling export guide</Link>.
       </p>
+      <p className='my-4'>
+        If you are reading screen size inside a live exporter lot sheet rather than as a stand-alone spec, see our <Link href='/insights/ethiopian-coffee-offer-sheet-guide' className='text-amber-700 hover:underline font-semibold'>Ethiopian coffee offer sheet guide</Link>. It shows how buyers weigh screen data alongside moisture, price basis, bag availability, and sample readiness before shortlisting a lot.
+      </p>
 
       {/* Section 1 */}
       <h2 id='what-screen-size-means' className='text-2xl font-extrabold mt-12 mb-4 flex items-center gap-3'>

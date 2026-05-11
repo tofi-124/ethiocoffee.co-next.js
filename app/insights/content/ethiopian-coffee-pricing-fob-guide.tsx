@@ -107,6 +107,9 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
       <p className='my-4'>
         <span className='font-bold'>Important:</span> Because ECX prices shift daily based on auction results and demand, export quotes are typically valid for a limited window (often 24 to 72 hours). If market conditions change between your inquiry and confirmation, pricing may be adjusted.
       </p>
+      <p className='my-4'>
+        When pricing appears on a live lot sheet, it should be read beside quality specs, bag availability, and sample status, not in isolation. Our <Link href='/insights/ethiopian-coffee-offer-sheet-guide' className='text-amber-700 hover:underline font-semibold'>Ethiopian coffee offer sheet guide</Link> shows how importers compare those fields together before they request samples.
+      </p>
 
       {/* ====== SECTION 2: ECX ====== */}
 

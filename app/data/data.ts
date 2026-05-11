@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE OFFER SHEET GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-offer-sheet-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-offer-sheet-guide.webp',
+      date: 'May 11, 2026',
+      title: 'Ethiopian Coffee Offer Sheet Guide',
+      slug: 'ethiopian-coffee-offer-sheet-guide',
+      category: 'Offer Sheet / Green Coffee Buying / Sourcing Workflow / Importer Resources',
+      keywords: [
+        'Ethiopian coffee offer sheet guide',
+        'Ethiopian coffee offer sheet',
+        'how to read Ethiopian coffee offer sheet',
+        'green coffee offer sheet guide',
+        'green coffee offer list Ethiopia',
+        'Ethiopian coffee spec sheet',
+        'how to compare Ethiopian coffee lots',
+        'Ethiopian coffee price basis FOB',
+        'Ethiopian coffee sample request guide',
+        'origin offer sheet coffee',
+        'green coffee importer offer sheet',
+        'Ethiopian coffee buying workflow',
+        'Ethiopian coffee lot sheet',
+        'offer sample vs offer sheet coffee',
+        'Ethiopian coffee buyer guide'
+      ],
+      desc: 'Ethiopian coffee offer sheet guide for buyers: compare origin lots, decode specs, check price basis, and know what to ask before sampling.'
+    },
     // ===== IMPORTING ETHIOPIAN COFFEE TO MALAYSIA =====
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-malaysia.webp',
