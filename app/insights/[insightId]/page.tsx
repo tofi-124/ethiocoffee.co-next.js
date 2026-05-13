@@ -58,6 +58,7 @@ const readingTimeMap: Record<string, number> = {
   'coffee-is-commerce-exporting-importing-buying': 20,
   'coffee-is-science-analysis-compounds-evaluation': 14,
   'coffee-is-art-roasting-brewing': 14,
+  'ethiopian-coffee-harvest-2026-buyer-report': 10,
   'how-to-source-green-coffee-from-ethiopia': 17,
   'guide-ethiopian-coffee-origins': 14,
   'yirgacheffe-vs-sidamo-vs-guji-comparison': 13,

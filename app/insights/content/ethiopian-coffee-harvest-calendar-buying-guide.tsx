@@ -231,6 +231,9 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
       <p className='my-4'>
         The key takeaway from this calendar: there is a 2-4 month gap between peak harvest (November-December) and peak export availability (March-May). That gap is the processing, milling, and grading pipeline. Buyers who initiate contact during harvest season (October-December) position themselves to receive pre-shipment samples in January-March and secure the best lots before peak export season.
       </p>
+      <p className='my-4'>
+        If you want the live market read behind those timing windows, see our <Link href='/insights/ethiopian-coffee-harvest-2026-buyer-report' className='text-amber-700 hover:underline font-semibold'>Ethiopian Coffee Harvest 2026 buyer report</Link> for allocation pressure, FOB behavior, and booking strategy.
+      </p>
 
       {/* SECTION 2: REGION-BY-REGION HARVEST WINDOWS */}
       <h3 id="region-harvest-windows" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>

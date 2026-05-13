@@ -167,6 +167,9 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <p className='my-4'>
         For importers who rely on <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline font-semibold'>washed Ethiopian coffee</Link>, this means committing early in the season. Waiting for spot offers risks finding top washed lots already allocated. For a full breakdown of the current season, see our <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='underline font-semibold'>2025/26 Harvest Season Outlook</Link>.
       </p>
+      <p className='my-4'>
+        Buyers who need a sharper read on allocation risk, buyer timing, and lot coverage can also use our <Link href='/insights/ethiopian-coffee-harvest-2026-buyer-report' className='underline font-semibold'>Ethiopian Coffee Harvest 2026 buyer report</Link>.
+      </p>
 
       {/* SECTION 4: BIRR & COSTS */}
       <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>

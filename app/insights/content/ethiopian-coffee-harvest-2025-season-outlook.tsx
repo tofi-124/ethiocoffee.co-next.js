@@ -57,6 +57,9 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
           <p className='my-4'>
             This report combines the latest USDA production data with on-ground market intelligence from our <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>sourcing network across Ethiopia&apos;s coffee regions</Link>. It covers regional outlooks, macroeconomic drivers, pricing, policy changes, and a practical timeline to help importers plan Ethiopian coffee purchases with confidence.
           </p>
+          <p className='my-4'>
+            For a current-season allocation and timing read built around live buyer decisions, see our <Link href='/insights/ethiopian-coffee-harvest-2026-buyer-report' className='underline font-semibold'>Ethiopian Coffee Harvest 2026 buyer report</Link>.
+          </p>
 
           <div className='bg-gray-50 border border-gray-200 rounded-lg p-6 my-8'>
             <h3 className='text-xl font-bold mb-3'>2025/26 Season At a Glance</h3>

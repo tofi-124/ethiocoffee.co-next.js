@@ -109,6 +109,8 @@ export const insightContentMap: Record<string, () => Promise<any>> = {
     import('./coffee-is-science-analysis-compounds-evaluation').then(mod => mod.default),
   'coffee-is-art-roasting-brewing': () =>
     import('./coffee-is-art-roasting-brewing').then(mod => mod.default),
+  'ethiopian-coffee-harvest-2026-buyer-report': () =>
+    import('./ethiopian-coffee-harvest-2026-buyer-report').then(mod => mod.default),
   'ethiopian-coffee-harvest-2025-season-outlook': () =>
     import('./ethiopian-coffee-harvest-2025-season-outlook').then(mod => mod.default),
   'green-coffee-quality-control-defects-grading': () =>

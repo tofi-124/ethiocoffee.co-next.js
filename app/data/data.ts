@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE HARVEST 2026 BUYER REPORT =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-harvest-2026-buyer-report.webp',
+      large_image_url: 'insights/ethiopian-coffee-harvest-2026-buyer-report.webp',
+      date: 'May 13, 2026',
+      title: 'Ethiopian Coffee Harvest 2026: Buyer Report',
+      slug: 'ethiopian-coffee-harvest-2026-buyer-report',
+      category: 'Harvest Report / Market Intelligence / 2026 Season / Importer Resources',
+      keywords: [
+        'Ethiopian coffee harvest 2026',
+        'Ethiopian coffee harvest 2026 buyer report',
+        'Ethiopian coffee market report 2026',
+        'Ethiopian coffee harvest update',
+        'Ethiopian coffee pricing 2026',
+        'washed Ethiopian coffee shortage',
+        'Ethiopian coffee buyer strategy',
+        'Ethiopian coffee export forecast 2026',
+        'Ethiopian coffee allocation 2026',
+        'Ethiopian coffee FOB 2026',
+        'Ethiopian coffee harvest timing 2026',
+        'Ethiopian coffee market intelligence',
+        'Ethiopian green coffee buying strategy',
+        'Ethiopian coffee natural vs washed 2026',
+        'Ethiopian coffee importer report'
+      ],
+      desc: 'Ethiopian coffee harvest 2026 buyer report: washed vs natural availability, FOB pressure, and booking strategy for green coffee importers.'
+    },
     // ===== ETHIOPIAN COFFEE OFFER SHEET GUIDE =====
     {
       small_image_url: 'insights/ethiopian-coffee-offer-sheet-guide.webp',
