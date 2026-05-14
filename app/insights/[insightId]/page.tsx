@@ -5,6 +5,9 @@ import { HiOutlineUserCircle, HiOutlineClock, HiOutlineCalendarDays } from 'reac
 import { insightContentMap, hasContentFile } from '../content'
 import AutoScrollTo from '@/app/components/AutoScrollTo'
 
+// Return 404 for slugs not in generateStaticParams instead of attempting dynamic render
+export const dynamicParams = false
+
 // Estimated reading times (words per post, divided by 238 wpm average reading speed)
 // These are pre-calculated from actual content word counts
 const readingTimeMap: Record<string, number> = {

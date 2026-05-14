@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import { offerings } from '@/app/data/offerings'
 
+// Return 404 for product IDs not in generateStaticParams instead of attempting dynamic render
+export const dynamicParams = false
+
 type Props = {
   params: Promise<{ productId: string }>
   children: React.ReactNode

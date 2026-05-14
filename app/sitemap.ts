@@ -3,117 +3,118 @@ import { offerings } from './data/offerings'
 import { posts } from './data/data'
 import { newsArticles } from './data/news'
 
+// Cache the sitemap for 24 hours to reduce ISR reads from frequent crawler requests
+export const revalidate = 86400
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.ethiocoffee.co'
-  
-  const now = new Date()
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: now,
+      lastModified: new Date('2025-11-01'),
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
       url: `${baseUrl}/ethiopian-coffee-exporter`,
-      lastModified: now,
+      lastModified: new Date('2025-11-01'),
       changeFrequency: 'weekly',
       priority: 0.95,
     },
     {
       url: `${baseUrl}/about`,
-      lastModified: now,
+      lastModified: new Date('2025-01-01'),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${baseUrl}/offerings`,
-      lastModified: now,
+      lastModified: new Date('2025-11-01'),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
       url: `${baseUrl}/ordering-info`,
-      lastModified: now,
+      lastModified: new Date('2025-01-01'),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${baseUrl}/insights`,
-      lastModified: now,
+      lastModified: new Date('2025-11-01'),
       changeFrequency: 'weekly',
       priority: 0.7,
     },
     {
       url: `${baseUrl}/contact-us`,
-      lastModified: now,
+      lastModified: new Date('2025-01-01'),
       changeFrequency: 'monthly',
       priority: 0.6,
     },
     {
       url: `${baseUrl}/ethiopia-coffee-export-news`,
-      lastModified: now,
+      lastModified: new Date('2025-11-01'),
       changeFrequency: 'weekly',
       priority: 0.6,
     },
     {
       url: `${baseUrl}/ethiopian-green-coffee-beans`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
       url: `${baseUrl}/buy-ethiopian-coffee-wholesale`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
       url: `${baseUrl}/coffee-grading-ethiopia`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${baseUrl}/ethiopian-coffee-yirgacheffe`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
       url: `${baseUrl}/organic-ethiopian-coffee-export`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
       url: `${baseUrl}/ethiopian-coffee-sidamo`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
       url: `${baseUrl}/ethiopian-coffee-guji`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
       url: `${baseUrl}/ethiopian-coffee-harar`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
       url: `${baseUrl}/ethiopian-coffee-limu`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
       url: `${baseUrl}/ethiopian-coffee-jimma`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'monthly',
       priority: 0.85,
     },
@@ -127,8 +128,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const productRoutes: MetadataRoute.Sitemap = offerings.map((o) => ({
     url: `${baseUrl}/product/${o.id}`,
-    lastModified: now,
-    changeFrequency: 'weekly',
+    lastModified: new Date('2025-11-01'),
+    changeFrequency: 'monthly',
     priority: 0.8,
   }))
 

@@ -4,6 +4,9 @@ import { ArrowLeft } from '@/app/components/Arrow'
 import AutoScrollTo from '@/app/components/AutoScrollTo'
 import { newsContentMap, hasNewsContent } from '../content'
 
+// Return 404 for slugs not in generateStaticParams instead of attempting dynamic render
+export const dynamicParams = false
+
 type Props = {
   params: Promise<{ newsId: string }>
 }
