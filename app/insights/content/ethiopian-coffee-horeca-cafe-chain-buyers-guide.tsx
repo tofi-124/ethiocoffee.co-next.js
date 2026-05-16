@@ -24,7 +24,7 @@ export default function EthiopianCoffeeHorecaCafeChainBuyersGuide({
     <>
       {/* H1 + H2 */}
       <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
-        Ethiopian Coffee for HoReCa: A Café Chain Procurement Guide
+        {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
         How hotel groups, restaurant chains, and multi-location cafés source, specify, and manage Ethiopian coffee at scale
@@ -58,13 +58,13 @@ export default function EthiopianCoffeeHorecaCafeChainBuyersGuide({
         <p className='font-semibold mb-1'>Further reading:</p>
         <ul className='list-disc ml-5 space-y-1'>
           <li>
-            <a href='https://www.ico.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>International Coffee Organization (ICO)</a> &mdash; global coffee trade statistics, market reports, and composite indicator prices.
+            <a href='https://www.ico.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>International Coffee Organization (ICO)</a> - global coffee trade statistics, market reports, and composite indicator prices.
           </li>
           <li>
-            <a href='https://www.thecoffeeguide.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>The Coffee Guide (ITC)</a> &mdash; International Trade Centre reference for procurement frameworks, contracts, and food service sourcing.
+            <a href='https://www.thecoffeeguide.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>The Coffee Guide (ITC)</a> - International Trade Centre reference for procurement frameworks, contracts, and food service sourcing.
           </li>
           <li>
-            <a href='https://www.sca.coffee' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Specialty Coffee Association (SCA)</a> &mdash; cupping protocols, green coffee classification standards, and barista training resources.
+            <a href='https://www.sca.coffee' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Specialty Coffee Association (SCA)</a> - cupping protocols, green coffee classification standards, and barista training resources.
           </li>
         </ul>
       </div>
@@ -449,7 +449,7 @@ export default function EthiopianCoffeeHorecaCafeChainBuyersGuide({
         {[
           {
             q: 'What is the minimum order quantity for a café chain sourcing Ethiopian coffee directly?',
-            a: 'Most Ethiopian exporters work with a minimum of one full 20-foot container, equivalent to approximately 300 to 320 bags of 60 kilograms (18 to 19 metric tons). For café chains that cannot absorb a full FCL, purchasing through a specialty importer in your destination country allows access to Ethiopian lots in smaller pallet quantities. See our MOQ guide for detailed quantity structures by buyer type.'
+            a: 'Most Ethiopian exporters require a minimum of one full container per order. For café chains sourcing below that threshold, purchasing through a specialty importer in your destination market provides access to Ethiopian lots in smaller pallet quantities. See our Ethiopian coffee MOQ guide for detailed quantity tiers and alternative structures by buyer type.'
           },
           {
             q: 'Can I get Ethiopian coffee with organic certification for a hotel sustainability program?',
@@ -457,15 +457,15 @@ export default function EthiopianCoffeeHorecaCafeChainBuyersGuide({
           },
           {
             q: 'How do I maintain consistent flavor across 50 or more café locations using Ethiopian coffee?',
-            a: 'Consistency across locations depends on three things: a written sensory specification with an acceptable range rather than a single flavor note, pre-shipment sample approval for every container, and alignment between your Ethiopian green coffee supplier and your roasting partner(s) on roast profile targets. For multi-roaster supply chains, the sensory specification document serves as the shared reference point that prevents divergence between locations.'
+            a: 'Consistency across locations depends on three factors: a written sensory specification with an acceptable range (not a single flavor note), pre-shipment sample approval for every container, and alignment between supplier and roasting partner on roast profile targets. For multi-roaster supply chains, the sensory specification serves as the shared reference that prevents divergence between locations.'
           },
           {
             q: 'What does an EU hotel group need from an Ethiopian exporter for EUDR compliance?',
-            a: 'EU operators importing green coffee after December 30, 2026 need their supplier to provide GPS polygon coordinates for each coffee-producing plot included in the shipment, a Due Diligence Statement (DDS), and documentary evidence that the coffee was not produced on land deforested after December 31, 2020. Ethiopian exporters working with cooperative mapping programs can provide this documentation. Confirm EUDR readiness explicitly before signing a supply contract.'
+            a: 'EU operators importing green coffee after December 30, 2026 require GPS polygon coordinates for each plot in the shipment, a Due Diligence Statement (DDS), and deforestation-free evidence for land used after December 2020. Ethiopian exporters with cooperative mapping programs can supply this documentation. Confirm EUDR readiness at the supplier qualification stage, before signing a supply contract.'
           },
           {
             q: 'Is Ethiopian green coffee suitable for automatic espresso machines commonly used in HoReCa?',
-            a: 'Yes. Grade 2 and Grade 3 washed Ethiopian lots from Jimma and Limu are well-suited to commercial automatic espresso machines, including bean-to-cup systems used in hotels and offices. These lots have lower acidity and consistent body that produce predictable extraction across different water temperatures and machine calibrations. Grade 1 specialty lots, particularly natural-processed Guji and Sidamo, are better reserved for barista-served specialty applications where the quality justifies the additional handling.'
+            a: 'Yes. Grade 2 and Grade 3 washed lots from Jimma and Limu perform reliably in commercial automatic espresso machines and bean-to-cup systems. Lower acidity and consistent body produce predictable extraction across varying water temperatures and machine calibrations. Grade 1 natural-processed lots from Guji and Sidamo are better reserved for barista-served specialty applications where the quality premium is justified.'
           },
         ].map((item, idx) => (
           <div key={idx}>
