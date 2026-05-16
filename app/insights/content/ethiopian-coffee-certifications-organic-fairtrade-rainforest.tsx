@@ -430,7 +430,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       </div>
 
       <p className='my-4'>
-        Rainforest Alliance certification is widely available for Ethiopian coffee through both large cooperative unions (often holding RA alongside Fair Trade) and private exporters. Ethiopia's shade-grown and forest coffee aligns well with RA's biodiversity requirements. RA is often preferred by large commercial buyers and multinational roasters due to broader supply chain coverage and lower premium costs.
+        Rainforest Alliance certification is widely available for Ethiopian coffee through both large cooperative unions (often holding RA alongside Fair Trade) and private exporters. Ethiopia's shade-grown and forest coffee aligns well with RA's biodiversity requirements. RA is often preferred by large commercial buyers and multinational roasters due to broader supply chain coverage and lower premium costs. Hotel groups and café chains sourcing Ethiopian coffee for multi-location programs often require Rainforest Alliance alongside organic certification for their sustainability programs; the <Link href='/insights/ethiopian-coffee-horeca-cafe-chain-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian coffee HoReCa procurement guide</Link> covers how institutional buyers match certification requirements to their program tier.
       </p>
 
       {/* SECTION 5: BIRD FRIENDLY & NICHE */}
