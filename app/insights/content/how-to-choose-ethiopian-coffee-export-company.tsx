@@ -393,6 +393,10 @@ export default function HowToChooseEthiopianCoffeeExportCompany({ title, date, l
         To see what the buyer journey looks like with an origin-connected exporter, from initial inquiry through samples, contracting, and shipment, read our <Link href='/insights/ethio-coffee-export-launch' className='underline font-bold'>Ethiopian coffee exporter partnership guide</Link>.
       </p>
 
+      <p className='my-4'>
+        If you want a buyer-side pass or fail framework after exporter discovery, use our <Link href='/insights/green-coffee-supplier-evaluation-checklist' className='underline font-bold'>green coffee supplier evaluation checklist</Link> to score documentation readiness, sample discipline, traceability support, and delivery risk before you sign.
+      </p>
+
       {/* CTA BLOCK */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Traceable Ethiopian Coffee Direct from Origin</h4>

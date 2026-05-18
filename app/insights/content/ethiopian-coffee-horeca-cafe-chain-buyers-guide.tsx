@@ -400,6 +400,9 @@ export default function EthiopianCoffeeHorecaCafeChainBuyersGuide({
       <p className='my-4'>
         Procurement managers conducting a vendor qualification process for an Ethiopian coffee supplier should use a structured evaluation framework. The eight criteria below cover the operational, quality, and compliance factors relevant to institutional buyers. For general exporter evaluation criteria, see our guide on <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>how to choose an Ethiopian coffee export company</Link>.
       </p>
+      <p className='my-4'>
+        For a broader buyer-side framework that scores documentation, sample control, and delivery risk across any Ethiopian sourcing program, use our <Link href='/insights/green-coffee-supplier-evaluation-checklist' className='text-amber-700 hover:underline'>green coffee supplier evaluation checklist</Link> alongside the HoReCa-specific criteria below.
+      </p>
       <div className='space-y-4 my-6'>
         {[
           { num: '01', title: 'ECTA Export License', desc: 'Confirm the exporter is licensed with the Ethiopian Coffee and Tea Authority and actively registered for the current export season. Request license number and cross-reference with ECTA registry.' },

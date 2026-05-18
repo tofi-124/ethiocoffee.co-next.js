@@ -452,6 +452,10 @@ export default function EthiopianCoffeeOfferSheetGuide({
         Used well, an Ethiopian coffee offer sheet becomes a fast commercial filter instead of a passive spec sheet. It helps importers compare lots on fit, price basis, physical stability, timing, and sample readiness before they commit lab time or move into contract discussions.
       </p>
 
+      <p className='my-4'>
+        If a lot looks promising and you need to assess the supplier behind the sheet, continue with our <Link href='/insights/green-coffee-supplier-evaluation-checklist' className='text-amber-700 hover:underline font-semibold'>green coffee supplier evaluation checklist</Link> to score sample control, documentation readiness, and execution risk before contracting.
+      </p>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Use Better Offer Sheets to Buy Faster</h4>
         <p className='my-2'>

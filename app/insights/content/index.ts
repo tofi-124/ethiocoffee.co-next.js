@@ -219,6 +219,8 @@ export const insightContentMap: Record<string, () => Promise<any>> = {
     import('./green-coffee-quality-claims-guide').then(mod => mod.default),
   'ethiopian-coffee-horeca-cafe-chain-buyers-guide': () =>
     import('./ethiopian-coffee-horeca-cafe-chain-buyers-guide').then(mod => mod.default),
+  'green-coffee-supplier-evaluation-checklist': () =>
+    import('./green-coffee-supplier-evaluation-checklist').then(mod => mod.default),
   // Add more insights here as you create them:
   // 'next-insight-slug': () => import('./next-insight-file').then(mod => mod.default),
 }

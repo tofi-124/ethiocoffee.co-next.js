@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE SUPPLIER EVALUATION CHECKLIST =====
+    {
+      small_image_url: 'insights/green-coffee-supplier-evaluation-checklist.webp',
+      large_image_url: 'insights/green-coffee-supplier-evaluation-checklist.webp',
+      date: 'May 18, 2026',
+      title: 'Green Coffee Supplier Evaluation Checklist',
+      slug: 'green-coffee-supplier-evaluation-checklist',
+      category: 'Supplier Due Diligence / Green Coffee Buying / Sourcing Workflow / Importer Resources',
+      keywords: [
+        'green coffee supplier evaluation checklist',
+        'green coffee supplier checklist',
+        'Ethiopian coffee supplier evaluation',
+        'how to evaluate a green coffee supplier',
+        'questions to ask green coffee suppliers',
+        'coffee supplier due diligence checklist',
+        'green coffee importer checklist',
+        'green coffee supplier scorecard',
+        'Ethiopian coffee exporter evaluation',
+        'supplier evaluation checklist coffee importers',
+        'traceability checklist green coffee',
+        'EUDR coffee supplier evaluation',
+        'green coffee sample and document checklist',
+        'how to vet Ethiopian coffee suppliers',
+        'green coffee buying workflow'
+      ],
+      desc: 'Use this green coffee supplier evaluation checklist to score Ethiopian suppliers on quality, documentation, traceability, and delivery risk.'
+    },
     // ===== ETHIOPIAN COFFEE HARVEST 2026 BUYER REPORT =====
     {
       small_image_url: 'insights/ethiopian-coffee-harvest-2026-buyer-report.webp',
