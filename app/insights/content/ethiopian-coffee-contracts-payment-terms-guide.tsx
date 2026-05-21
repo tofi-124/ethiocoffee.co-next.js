@@ -365,6 +365,9 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
       <p className='my-4'>
         A Letter of Credit is a payment guarantee issued by the buyer's bank, promising to pay the seller upon presentation of specified shipping and quality documents. It is the most common payment method for Ethiopian coffee exports, especially for new trading relationships.
       </p>
+      <p className='my-4'>
+        Most LC problems come from document mismatch rather than from the finance structure itself. Before opening an LC, pair your contract review with a <Link href='/insights/green-coffee-shipping-documents-checklist' className='text-amber-700 hover:underline font-semibold'>green coffee shipping documents checklist</Link> so the invoice, packing list, bill of lading draft, and certificate set are built from the same shipment data.
+      </p>
 
       <div className='bg-gray-50 p-5 rounded-lg border border-gray-200 my-6'>
         <p className='font-bold mb-3'>How an LC Works, Step by Step:</p>

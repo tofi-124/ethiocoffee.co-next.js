@@ -191,6 +191,9 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       <p className='my-4'>
         For EU-bound coffee, EUDR compliance adds a traceability layer from 2025 onward. The exporter must provide polygon coordinates for the farm plots where the coffee was grown, plus evidence that no deforestation occurred after December 31, 2020. For the full EUDR framework, see the <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='underline font-bold'>EUDR compliance guide</Link>.
       </p>
+      <p className='my-4'>
+        Buyers should also review how these documents line up with the invoice draft, packing list, and bill of lading draft before anything becomes final. Our <Link href='/insights/green-coffee-shipping-documents-checklist' className='underline font-bold'>green coffee shipping documents checklist</Link> breaks down that buyer-side review order field by field.
+      </p>
 
       {/* Step 5 */}
       <h3 className='text-xl font-bold mt-8 mb-2'>Step 5: Customs Clearance and Container Loading (Days 25 to 35)</h3>

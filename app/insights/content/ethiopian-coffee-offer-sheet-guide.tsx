@@ -405,6 +405,9 @@ export default function EthiopianCoffeeOfferSheetGuide({
       <p className='my-4'>
         A good Ethiopian coffee offer sheet should shorten the path from shortlist to commercial clarity. Once a lot survives your first-pass filter, the next steps are straightforward.
       </p>
+      <p className='my-4'>
+        After sample approval and contract alignment, the next control point is document review. Our <Link href='/insights/green-coffee-shipping-documents-checklist' className='text-amber-700 hover:underline font-semibold'>green coffee shipping documents checklist</Link> shows how to verify invoices, packing lists, bill of lading drafts, and origin papers before the shipment pack is finalized.
+      </p>
 
       <div className='overflow-x-auto my-6'>
         <table className='w-full border-collapse text-sm'>

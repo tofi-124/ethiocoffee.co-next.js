@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE SHIPPING DOCUMENTS CHECKLIST =====
+    {
+      small_image_url: 'insights/green-coffee-shipping-documents-checklist.webp',
+      large_image_url: 'insights/green-coffee-shipping-documents-checklist.webp',
+      date: 'May 21, 2026',
+      title: 'Green Coffee Shipping Documents Checklist',
+      slug: 'green-coffee-shipping-documents-checklist',
+      category: 'Shipping Documents / Export Logistics / Contract Execution / Importer Resources',
+      keywords: [
+        'green coffee shipping documents checklist',
+        'coffee export documents checklist',
+        'green coffee shipping documents',
+        'Ethiopian coffee shipping documents',
+        'green coffee bill of lading',
+        'coffee phytosanitary certificate',
+        'coffee certificate of origin',
+        'ICO certificate of origin coffee',
+        'green coffee commercial invoice checklist',
+        'coffee packing list export',
+        'coffee shipping documents for importers',
+        'Ethiopian coffee export documents',
+        'coffee document review checklist',
+        'green coffee customs documents',
+        'coffee shipping paperwork'
+      ],
+      desc: 'Use this green coffee shipping documents checklist to review invoices, bill of lading drafts, origin papers, and phytosanitary papers before cargo sails.'
+    },
     // ===== GREEN COFFEE SUPPLIER EVALUATION CHECKLIST =====
     {
       small_image_url: 'insights/green-coffee-supplier-evaluation-checklist.webp',
