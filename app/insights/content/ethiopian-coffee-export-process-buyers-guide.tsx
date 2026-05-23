@@ -137,7 +137,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       {/* Step 1 */}
       <h3 className='text-xl font-bold mt-8 mb-2'>Step 1: Contract Signing and Payment Setup (Days 1 to 5)</h3>
       <p className='my-4'>
-        The process begins when importer and exporter agree on terms: origin, grade, processing method, volume, price (FOB Djibouti), and payment method. The exporter prepares a sales contract specifying these details plus Incoterms, quality tolerances, and the arbitration clause.
+        The process begins when importer and exporter agree on terms: origin, grade, processing method, volume, price (FOB Djibouti), and payment method. The exporter prepares a sales contract specifying these details plus Incoterms (see our <Link href='/insights/ethiopian-coffee-incoterms-guide' className='text-amber-700 underline font-semibold'>Ethiopian coffee Incoterms guide</Link> for a full breakdown of FOB, FCA, CIF, and DAP), quality tolerances, and the arbitration clause.
       </p>
       <p className='my-4'>
         The exporter submits a copy of the signed contract to their commercial bank (typically the Commercial Bank of Ethiopia) along with a freight cost estimate. If the payment method is a Letter of Credit, the importer's bank issues the LC and the exporter's bank confirms receipt. For CAD (Cash Against Documents), the exporter typically requires a deposit or proof of bank relationship. This step typically takes 3 to 5 business days, though LC confirmation can extend to 7 to 10 days for first-time buyers.

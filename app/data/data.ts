@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE INCOTERMS GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-incoterms-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-incoterms-guide.webp',
+      date: 'May 23, 2026',
+      title: 'Ethiopian Coffee Incoterms: FOB, FCA, CIF & DAP Explained',
+      slug: 'ethiopian-coffee-incoterms-guide',
+      category: 'Trade Logistics / Import Contracts / Incoterms 2020 / Importer Resources',
+      keywords: [
+        'Ethiopian coffee Incoterms',
+        'FOB Djibouti Ethiopian coffee',
+        'FCA Addis Ababa coffee',
+        'CIF Ethiopian coffee',
+        'green coffee Incoterms 2020',
+        'what Incoterm to use for Ethiopian coffee',
+        'difference between FOB and FCA Ethiopian coffee',
+        'when to use CIF vs FOB coffee Ethiopia',
+        'Ethiopian coffee delivery terms guide',
+        'FOB vs FCA Ethiopian coffee for importers',
+        'how does FOB work for Ethiopian coffee',
+        'green coffee Incoterms comparison',
+        'what does FOB mean Ethiopian coffee',
+        'DAP Ethiopian coffee delivery',
+        'Ethiopian coffee shipping terms explained'
+      ],
+      desc: 'Ethiopian coffee Incoterms guide: choose between FOB Djibouti, FCA Addis Ababa, CIF, and DAP with a buyer decision matrix and cost impact breakdown.'
+    },
     // ===== GREEN COFFEE SHIPPING DOCUMENTS CHECKLIST =====
     {
       small_image_url: 'insights/green-coffee-shipping-documents-checklist.webp',

@@ -108,7 +108,7 @@ export default function EthiopianCoffeeLandedCostGuide({ title, date, large_imag
       </p>
 
       <p className='my-4'>
-        The concept differs from FOB (Free on Board) pricing, where the exporter&apos;s responsibility ends once the coffee is loaded onto the vessel. Everything after that point (freight, insurance, duties, handling, delivery) falls on the buyer. Some contracts use CIF (Cost, Insurance, Freight), where the exporter covers freight and insurance to the destination port, but the buyer still pays for customs clearance, inland transport, and warehousing.
+        The concept differs from FOB (Free on Board) pricing, where the exporter&apos;s responsibility ends once the coffee is loaded onto the vessel. Everything after that point (freight, insurance, duties, handling, delivery) falls on the buyer. Some contracts use CIF (Cost, Insurance, Freight), where the exporter covers freight and insurance to the destination port, but the buyer still pays for customs clearance, inland transport, and warehousing. For a full explanation of all Incoterms used in Ethiopian coffee trade and a buyer decision matrix, see our <Link href='/insights/ethiopian-coffee-incoterms-guide' className='underline font-bold'>Ethiopian coffee Incoterms guide</Link>.
       </p>
 
       <p className='my-4'>

@@ -683,7 +683,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
       </div>
 
       <p className='my-4'>
-        Most experienced importers prefer FOB Djibouti because it gives them control over the shipping line, schedule, and insurance coverage. The cost transparency is also better: you can see exactly what you're paying for coffee versus freight. FCA (Free Carrier) is used for air freight shipments where the buyer arranges and pays for the main carriage from a nominated point. Learn more about shipping and logistics in our guide to <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 underline font-semibold'>specialty coffee storage and freight</Link>.
+        Most experienced importers prefer FOB Djibouti because it gives them control over the shipping line, schedule, and insurance coverage. The cost transparency is also better: you can see exactly what you're paying for coffee versus freight. FCA (Free Carrier) is used for air freight shipments where the buyer arranges and pays for the main carriage from a nominated point. For a full comparison of FOB, FCA, CIF, and DAP applied specifically to Ethiopian coffee, see our <Link href='/insights/ethiopian-coffee-incoterms-guide' className='text-amber-700 underline font-semibold'>Ethiopian coffee Incoterms guide</Link>. Learn more about shipping and logistics in our guide to <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 underline font-semibold'>specialty coffee storage and freight</Link>.
       </p>
 
       {/* SECTION 6: QUALITY CLAUSES */}
