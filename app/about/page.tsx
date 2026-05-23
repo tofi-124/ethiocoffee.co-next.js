@@ -257,13 +257,13 @@ const About = () => {
               <div className='flex flex-wrap gap-3'>
                 <Link
                   href="/ordering-info"
-                  className='px-5 py-2.5 border-2 border-dark text-dark rounded-xl font-bold text-sm hover:bg-dark hover:text-primary transition-all duration-300'
+                  className='px-5 py-2.5 border-2 border-dark text-dark rounded-full font-bold text-sm hover:bg-dark hover:text-primary transition-all duration-300'
                 >
                   How to Order
                 </Link>
                 <Link
                   href="/contact-us"
-                  className='px-5 py-2.5 border-2 border-accent bg-accent text-white rounded-xl font-bold text-sm hover:bg-accent/90 transition-all duration-300'
+                  className='px-5 py-2.5 border-2 border-accent bg-accent text-white rounded-full font-bold text-sm hover:bg-accent/90 transition-all duration-300'
                 >
                   Get in Touch
                 </Link>

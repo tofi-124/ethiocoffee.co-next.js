@@ -25,7 +25,7 @@ const Hero = () => {
               px-6 py-3 sm:py-4 w-fit
               bg-accent hover:bg-accent/90 text-white
               border-2 border-accent
-              rounded-xl
+              rounded-full
               font-bold
               transition-[background-color,box-shadow]
               shadow-sm hover:shadow-md
@@ -34,7 +34,7 @@ const Hero = () => {
               px-6 py-3 sm:py-4 w-fit
               bg-transparent text-primary
               border-2 border-primary/40
-              rounded-xl
+              rounded-full
               font-bold
               hover:border-primary hover:bg-white/10
               transition-all

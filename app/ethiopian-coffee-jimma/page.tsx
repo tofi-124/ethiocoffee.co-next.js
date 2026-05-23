@@ -38,11 +38,11 @@ export default function JimmaCoffeePage() {
         <div className='mt-6 flex flex-col sm:flex-row justify-center gap-4 relative z-10 px-6 w-full sm:w-auto'>
           <button
             onClick={() => setQuoteOpen(true)}
-            className='w-full sm:w-auto bg-accent text-white px-8 py-3 rounded-xl font-bold hover:bg-accent/90 transition-colors'
+            className='w-full sm:w-auto bg-accent text-white px-8 py-3 rounded-full font-bold hover:bg-accent/90 transition-colors'
           >
             Request Pricing
           </button>
-          <Link href='/offerings' className='w-full sm:w-auto text-center border-2 border-primary/40 text-primary px-8 py-3 rounded-xl font-bold hover:bg-white/10 transition-colors'>
+          <Link href='/offerings' className='w-full sm:w-auto text-center border-2 border-primary/40 text-primary px-8 py-3 rounded-full font-bold hover:bg-white/10 transition-colors'>
             View Available Lots
           </Link>
         </div>
@@ -163,7 +163,7 @@ export default function JimmaCoffeePage() {
                       className='object-cover'
                     />
                     {product.isContracted && (
-                      <span className='absolute top-3 left-3 px-2.5 py-1 rounded-full bg-blue-600/90 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider'>Contracted</span>
+                      <span className='absolute top-3 left-3 px-2.5 py-1 rounded-full bg-secondary/90 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider'>Contracted</span>
                     )}
                   </div>
                   <div className='p-6'>
@@ -348,14 +348,14 @@ export default function JimmaCoffeePage() {
           <div className='flex flex-col sm:flex-row justify-center gap-4'>
             <button
               onClick={() => setQuoteOpen(true)}
-              className='w-full sm:w-auto bg-dark text-primary px-8 py-3 rounded-xl font-bold hover:bg-dark/90 transition-colors'
+              className='w-full sm:w-auto bg-dark text-primary px-8 py-3 rounded-full font-bold hover:bg-dark/90 transition-colors'
             >
               Request Wholesale Pricing
             </button>
-            <Link href='/offerings' className='w-full sm:w-auto text-center border-2 border-white/40 text-white px-8 py-3 rounded-xl font-bold hover:bg-white/10 transition-colors'>
+            <Link href='/offerings' className='w-full sm:w-auto text-center border-2 border-white/40 text-white px-8 py-3 rounded-full font-bold hover:bg-white/10 transition-colors'>
               View Current Offerings
             </Link>
-            <Link href='/ordering-info' className='w-full sm:w-auto text-center border-2 border-white/40 text-white px-8 py-3 rounded-xl font-bold hover:bg-white/10 transition-colors'>
+            <Link href='/ordering-info' className='w-full sm:w-auto text-center border-2 border-white/40 text-white px-8 py-3 rounded-full font-bold hover:bg-white/10 transition-colors'>
               How to Order
             </Link>
           </div>

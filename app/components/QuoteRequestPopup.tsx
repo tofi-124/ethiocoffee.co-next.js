@@ -151,7 +151,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
       aria-label={isAllocationList ? 'Join Allocation List' : 'Get a Quote'}
       tabIndex={-1}
     >
-      <div className='bg-primary p-6 rounded-md max-w-2xl w-full max-h-[90vh] overflow-y-auto' onClick={e => e.stopPropagation()}>
+      <div className='bg-primary p-6 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto' onClick={e => e.stopPropagation()}>
         <div className='flex justify-between items-center mb-6'>
           <h2 className='text-2xl font-bold'>{isAllocationList ? 'Join Allocation List' : 'Get a Quote'}</h2>
           <button onClick={onClose} className='text-2xl font-bold' aria-label='Close dialog'>
@@ -169,7 +169,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
               <button
                 type='button'
                 onClick={onClose}
-                className='p-10 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-md font-bold'
+                className='p-10 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-full font-bold'
               >
                 CLOSE
               </button>
@@ -202,7 +202,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
                 required
                 value={formData.businessName}
                 onChange={handleChange}
-                className='w-full p-2 border border-gray-300 rounded mt-1 bg-white'
+                className='w-full p-2 border border-gray-300 rounded-lg mt-1 bg-white'
               />
             </div>
             <div>
@@ -213,7 +213,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
                 required
                 value={formData.contactName}
                 onChange={handleChange}
-                className='w-full p-2 border border-gray-300 rounded mt-1 bg-white'
+                className='w-full p-2 border border-gray-300 rounded-lg mt-1 bg-white'
               />
             </div>
           </div>
@@ -228,7 +228,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className='w-full p-2 border border-gray-300 rounded mt-1 bg-white'
+                className='w-full p-2 border border-gray-300 rounded-lg mt-1 bg-white'
               />
             </div>
             <div>
@@ -240,7 +240,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
                 required
                 value={formData.phone}
                 onChange={handleChange}
-                className='w-full p-2 border border-gray-300 rounded mt-1 bg-white'
+                className='w-full p-2 border border-gray-300 rounded-lg mt-1 bg-white'
               />
             </div>
           </div>
@@ -253,7 +253,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
               rows={4}
               value={formData.message}
               onChange={handleChange}
-              className='w-full p-2 border border-gray-300 rounded mt-1 bg-white'
+              className='w-full p-2 border border-gray-300 rounded-lg mt-1 bg-white'
               placeholder='Volume needed, destination, preferred shipping dates, etc.'
             />
           </div>
@@ -268,14 +268,14 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
               <button
                 type='button'
                 onClick={onClose}
-                className='p-10 py-3 bg-primary hover:bg-dark text-dark hover:text-primary border border-dark rounded-md font-bold'
+                className='p-10 py-3 bg-primary hover:bg-dark text-dark hover:text-primary border border-dark rounded-full font-bold'
               >
                 CANCEL
               </button>
               <button
                 type='submit'
                 disabled={isSubmitting}
-                className='p-10 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-md font-bold disabled:opacity-70 disabled:cursor-not-allowed'
+                className='p-10 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-full font-bold disabled:opacity-70 disabled:cursor-not-allowed'
               >
                 {isSubmitting ? 'SENDING...' : 'SEND REQUEST'}
               </button>

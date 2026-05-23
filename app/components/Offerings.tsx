@@ -33,7 +33,7 @@ const Offerings = () => {
             inline-flex items-center gap-2 px-6 py-4
             bg-accent hover:bg-accent/90 text-white
             border-2 border-accent
-            rounded-xl
+            rounded-full
             font-bold
             transition-all
             shadow-sm hover:shadow-md

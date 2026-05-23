@@ -18,10 +18,10 @@ export default function HararCoffeePage() {
           Wild Berry. Wine-Like Complexity. The Original Mocha.
         </p>
         <div className='mt-8 flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 relative z-10 w-full sm:w-auto'>
-          <Link href='/contact-us' className='w-full sm:w-auto text-center bg-accent text-white px-6 py-3 sm:px-8 rounded-xl font-bold hover:bg-accent/90 transition-all duration-300 shadow-sm hover:shadow-md'>
+          <Link href='/contact-us' className='w-full sm:w-auto text-center bg-accent text-white px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-accent/90 transition-all duration-300 shadow-sm hover:shadow-md'>
             Contact Us for Pricing
           </Link>
-          <Link href='/offerings' className='w-full sm:w-auto text-center border-2 border-primary/40 text-primary px-6 py-3 sm:px-8 rounded-xl font-bold hover:bg-white/10 transition-all duration-300'>
+          <Link href='/offerings' className='w-full sm:w-auto text-center border-2 border-primary/40 text-primary px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-white/10 transition-all duration-300'>
             View Available Lots
           </Link>
         </div>
@@ -257,13 +257,13 @@ export default function HararCoffeePage() {
             or discuss your requirements with our export team.
           </p>
           <div className='flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4'>
-            <Link href='/contact-us' className='w-full sm:w-auto bg-white text-accent px-6 py-3 sm:px-8 rounded-xl font-bold hover:bg-white/90 transition-all duration-300 shadow-sm hover:shadow-md'>
+            <Link href='/contact-us' className='w-full sm:w-auto bg-white text-accent px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-white/90 transition-all duration-300 shadow-sm hover:shadow-md'>
               Contact Us for Pricing
             </Link>
-            <Link href='/offerings' className='w-full sm:w-auto border-2 border-white/40 text-white px-6 py-3 sm:px-8 rounded-xl font-bold hover:bg-white/10 transition-all duration-300'>
+            <Link href='/offerings' className='w-full sm:w-auto border-2 border-white/40 text-white px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-white/10 transition-all duration-300'>
               View Current Offerings
             </Link>
-            <Link href='/ordering-info' className='w-full sm:w-auto border-2 border-white/40 text-white px-6 py-3 sm:px-8 rounded-xl font-bold hover:bg-white/10 transition-all duration-300'>
+            <Link href='/ordering-info' className='w-full sm:w-auto border-2 border-white/40 text-white px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-white/10 transition-all duration-300'>
               How to Order
             </Link>
           </div>

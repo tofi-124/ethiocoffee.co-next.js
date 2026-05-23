@@ -525,10 +525,9 @@ const OfferingDetail = ({ params }: Props) => {
                         <p className='text-base text-dark font-medium'>Contact us for current pricing and availability</p>
                       </div>
                       {product.isContracted && (
-                        <div className='flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-200 flex-shrink-0'>
-                          <span className='w-2 h-2 rounded-full bg-blue-500'></span>
-                          <span className='text-xs font-semibold text-blue-700'>Contracted</span>
-                        </div>
+                        <span className='px-3 py-1.5 rounded-full bg-dark text-white text-[10px] font-bold uppercase tracking-wider flex-shrink-0'>
+                          Contracted
+                        </span>
                       )}
                       {product.availableBags !== null && !product.isSoldOut && !product.isContracted && (
                         <div className='flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 flex-shrink-0'>

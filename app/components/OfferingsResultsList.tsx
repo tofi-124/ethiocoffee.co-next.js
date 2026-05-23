@@ -16,7 +16,7 @@ const OfferingsResultsList = ({ items }: Props) => {
           className={`group rounded-3xl overflow-hidden transition-[box-shadow,border-color] duration-500 flex flex-col ${
             o.isFeatured
               ? 'bg-gradient-to-b from-amber-50/60 to-white shadow-xl shadow-amber-200/30 hover:shadow-2xl hover:shadow-amber-300/40 border-2 border-amber-400 hover:border-amber-500 ring-1 ring-amber-200/50'
-              : 'bg-white shadow-lg hover:shadow-2xl border-2 border-[#1e3a5f] hover:border-accent'
+              : 'bg-white shadow-lg hover:shadow-2xl border-2 border-dark hover:border-accent'
           }`}
         >
         <Link href={`/product/${o.id}`} className='flex flex-col flex-1'>
@@ -40,7 +40,7 @@ const OfferingsResultsList = ({ items }: Props) => {
             
             {/* Status badge */}
             {o.isContracted ? (
-              <span className='absolute top-4 left-4 px-3 py-1.5 rounded-full bg-blue-600/90 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider'>
+              <span className='absolute top-4 left-4 px-3 py-1.5 rounded-full bg-secondary/90 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider'>
                 Contracted
               </span>
             ) : o.isFeatured ? (

@@ -27,10 +27,10 @@ export default function SidamoCoffeePage() {
           Berry-Forward. Wine-Like Acidity. Rich Mouthfeel.
         </p>
         <div className='mt-8 flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 relative z-10 w-full sm:w-auto'>
-          <Link href='/offerings' className='w-full sm:w-auto text-center bg-accent text-white px-6 py-3 sm:px-8 rounded-xl font-bold hover:bg-accent/90 transition-all duration-300 shadow-sm hover:shadow-md'>
+          <Link href='/offerings' className='w-full sm:w-auto text-center bg-accent text-white px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-accent/90 transition-all duration-300 shadow-sm hover:shadow-md'>
             Order a Sample
           </Link>
-          <Link href='/offerings' className='w-full sm:w-auto text-center border-2 border-primary/40 text-primary px-6 py-3 sm:px-8 rounded-xl font-bold hover:bg-white/10 transition-all duration-300'>
+          <Link href='/offerings' className='w-full sm:w-auto text-center border-2 border-primary/40 text-primary px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-white/10 transition-all duration-300'>
             View Available Lots
           </Link>
         </div>
@@ -170,7 +170,7 @@ export default function SidamoCoffeePage() {
                     <div className='flex items-center justify-between gap-2'>
                       <p className='text-xs text-accent font-bold uppercase tracking-widest'>{product.specifications.processingMethod} · {product.specifications.grade}</p>
                       {product.isContracted && (
-                        <span className='px-2.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-[10px] font-bold uppercase tracking-wider text-blue-700'>Contracted</span>
+                        <span className='px-2.5 py-1 rounded-full bg-secondary/10 border border-secondary/30 text-[10px] font-bold uppercase tracking-wider text-secondary'>Contracted</span>
                       )}
                     </div>
                     <h3 className='text-lg font-bold text-dark mt-2'>{product.name}</h3>
@@ -314,13 +314,13 @@ export default function SidamoCoffeePage() {
             Sidamo requirements with our export team.
           </p>
           <div className='flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4'>
-            <Link href='/offerings' className='w-full sm:w-auto bg-white text-accent px-6 py-3 sm:px-8 rounded-xl font-bold hover:bg-white/90 transition-all duration-300 shadow-sm hover:shadow-md'>
+            <Link href='/offerings' className='w-full sm:w-auto bg-white text-accent px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-white/90 transition-all duration-300 shadow-sm hover:shadow-md'>
               View Current Offerings
             </Link>
-            <button onClick={() => setQuoteOpen(true)} className='w-full sm:w-auto border-2 border-white/40 text-white px-6 py-3 sm:px-8 rounded-xl font-bold hover:bg-white/10 transition-all duration-300'>
+            <button onClick={() => setQuoteOpen(true)} className='w-full sm:w-auto border-2 border-white/40 text-white px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-white/10 transition-all duration-300'>
               Request a Wholesale Quote
             </button>
-            <Link href='/ordering-info' className='w-full sm:w-auto border-2 border-white/40 text-white px-6 py-3 sm:px-8 rounded-xl font-bold hover:bg-white/10 transition-all duration-300'>
+            <Link href='/ordering-info' className='w-full sm:w-auto border-2 border-white/40 text-white px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-white/10 transition-all duration-300'>
               How to Order
             </Link>
           </div>
