@@ -426,6 +426,7 @@ export default function HowToChooseEthiopianCoffeeExportCompany({ title, date, l
               <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
               <li>&bull; <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export Guide</Link></li>
               <li>&bull; <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs. Cooperative Ethiopian Coffee Exporters</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-exporter-vs-broker-vs-trader' className='text-amber-700 hover:underline'>Ethiopian Coffee Exporter vs Broker vs Trader</Link></li>
               <li>&bull; <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade: Supporting Ethiopian Farmers</Link></li>
               <li>&bull; <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
             </ul>

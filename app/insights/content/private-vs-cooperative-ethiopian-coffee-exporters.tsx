@@ -589,6 +589,7 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
             <h4 className='font-semibold mb-2 text-sm'>Exporter Evaluation</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Export Company</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-exporter-vs-broker-vs-trader' className='text-amber-700 hover:underline'>Ethiopian Coffee Exporter vs Broker vs Trader</Link></li>
               <li>• <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:underline'>2026 Ethiopian Specialty Coffee Exporters</Link></li>
               <li>• <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
             </ul>

@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE EXPORTER VS BROKER VS TRADER =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-exporter-vs-broker-vs-trader.webp',
+      large_image_url: 'insights/ethiopian-coffee-exporter-vs-broker-vs-trader.webp',
+      date: 'May 27, 2026',
+      title: 'Ethiopian Coffee Exporter vs Broker vs Trader: What Buyers Need to Know',
+      slug: 'ethiopian-coffee-exporter-vs-broker-vs-trader',
+      category: 'Sourcing Strategy / Ethiopian Coffee Exporter / Supply Chain / Importer Resources',
+      keywords: [
+        'Ethiopian coffee exporter vs broker',
+        'direct Ethiopian coffee exporter',
+        'Ethiopian coffee broker vs direct trade',
+        'Ethiopian coffee supply chain models',
+        'buy Ethiopian coffee direct from exporter',
+        'should I buy Ethiopian coffee from broker or direct',
+        'Ethiopian coffee exporter or importer which is better',
+        'how to buy Ethiopian coffee without a broker',
+        'Ethiopian coffee trader vs exporter difference',
+        'cost of using Ethiopian coffee broker vs direct',
+        'Ethiopian coffee supply chain layers',
+        'working with Ethiopian coffee exporter vs green coffee importer',
+        'direct trade Ethiopian coffee exporter benefits',
+        'Ethiopian coffee broker markup pricing',
+        'Ethiopian coffee exporter minimum order'
+      ],
+      desc: 'Ethiopian coffee exporter vs broker vs trader: cost comparison, traceability, MOQ, EUDR implications, and a decision matrix to choose the right supply chain model.'
+    },
     // ===== ETHIOPIAN COFFEE INCOTERMS GUIDE =====
     {
       small_image_url: 'insights/ethiopian-coffee-incoterms-guide.webp',
