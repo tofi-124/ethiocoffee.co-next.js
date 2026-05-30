@@ -312,7 +312,7 @@ export default function ImportingEthiopianCoffeeToPoland({
         5. Gdansk, Gdynia, and Inland Routing Choices
       </h3>
       <p className='my-4'>
-        Port strategy is where Poland becomes commercially interesting. The <a href='https://www.portgdansk.pl/en/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Port of Gdansk</a> describes itself as the largest Baltic container port, handling 57% of Poland&apos;s marine shipping market, with a 17-meter deepwater profile, no tides, no freezing, and developed road and rail infrastructure. For coffee buyers, that means Gdansk is not a symbolic Baltic option. It is a credible operating gateway.
+        Port strategy is where Poland becomes commercially interesting. Gdansk is a credible Baltic gateway for coffee buyers who want direct Polish clearance and strong inland road and rail connections instead of a warehouse-first entry through Rotterdam or Antwerp. That means the routing decision is commercial, not symbolic.
       </p>
 
       <div className='overflow-x-auto my-6'>
@@ -484,24 +484,6 @@ export default function ImportingEthiopianCoffeeToPoland({
         Ethio Coffee supports both paths as an origin-connected exporter with a trusted sourcing network, export documentation discipline, and buyer-ready traceability across Ethiopia&apos;s major coffee regions. If your team wants to import Ethiopian coffee to Poland, the most efficient starting point is a buyer-specific offer sheet tied to route, Incoterm, lot type, and compliance readiness, not a generic quote request.
       </p>
 
-      <div className='bg-dark text-primary p-8 rounded-lg my-10'>
-        <h3 className='text-2xl font-bold mb-3'>Build a Poland-Ready Ethiopian Coffee Program</h3>
-        <p className='text-sm leading-relaxed text-primary/90'>
-          We can prepare a Poland-focused offer sheet with suitable Ethiopian origins, sample options, pricing structure, recommended Incoterms, and the traceability pack your importer or broker will expect.
-        </p>
-        <div className='flex flex-col sm:flex-row gap-4 mt-5'>
-          <Link href='/contact-us' className='inline-flex items-center justify-center px-5 py-3 rounded-md bg-amber-500 text-dark font-bold hover:bg-amber-400 transition-colors'>
-            Request a Quote
-          </Link>
-          <Link href='/offerings' className='inline-flex items-center justify-center px-5 py-3 rounded-md border border-primary/30 text-primary font-bold hover:bg-primary/10 transition-colors'>
-            View Current Offerings
-          </Link>
-          <Link href='/ordering-info' className='inline-flex items-center justify-center px-5 py-3 rounded-md border border-primary/30 text-primary font-bold hover:bg-primary/10 transition-colors'>
-            How to Order
-          </Link>
-        </div>
-      </div>
-
       <h3 id='faq' className='text-2xl font-extrabold mt-12 mb-4 flex items-center gap-3'>
         <HiOutlineScale className='w-8 h-8 text-amber-600' />
         11. FAQ
@@ -530,30 +512,53 @@ export default function ImportingEthiopianCoffeeToPoland({
         </div>
       </div>
 
+      <div className='bg-amber-50 border border-amber-200 text-dark p-8 rounded-lg my-10'>
+        <h3 className='text-2xl font-bold mb-3'>Source Ethiopian Coffee for Poland with Clearer Costs and Buyer-Ready Documents</h3>
+        <p className='text-sm leading-relaxed text-gray-800'>
+          We prepare Poland-focused offer sheets with suitable Ethiopian origins, sample options, pricing logic, recommended Incoterms, and the traceability pack your importer or broker will expect before cargo reaches port.
+        </p>
+        <div className='flex flex-col sm:flex-row gap-4 mt-5'>
+          <Link href='/offerings' className='inline-flex items-center justify-center px-5 py-3 rounded-md bg-amber-500 text-dark font-bold hover:bg-amber-400 transition-colors'>
+            View Current Offerings
+          </Link>
+          <Link href='/contact-us' className='inline-flex items-center justify-center px-5 py-3 rounded-md border border-amber-300 text-dark font-bold hover:bg-amber-100 transition-colors'>
+            Request a Poland Quote
+          </Link>
+          <Link href='/ordering-info' className='inline-flex items-center justify-center px-5 py-3 rounded-md border border-amber-300 text-dark font-bold hover:bg-amber-100 transition-colors'>
+            How to Order
+          </Link>
+        </div>
+      </div>
+
       <h3 className='text-2xl font-extrabold mt-12 mb-4'>Related Articles</h3>
       <div className='grid md:grid-cols-2 gap-6 my-6'>
         <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
-          <h4 className='font-bold mb-3'>EU Market Entry</h4>
+          <h4 className='font-bold mb-3'>EU Route Comparisons</h4>
           <ul className='list-disc ml-5 space-y-2 text-sm text-gray-700'>
             <li><Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the Netherlands</Link></li>
             <li><Link href='/insights/importing-ethiopian-coffee-to-belgium' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Belgium</Link></li>
             <li><Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>
-            <li><Link href='/insights/importing-ethiopian-coffee-to-france' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to France</Link></li>
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
-          <h4 className='font-bold mb-3'>Trade Execution</h4>
+          <h4 className='font-bold mb-3'>Commercial Planning</h4>
           <ul className='list-disc ml-5 space-y-2 text-sm text-gray-700'>
-            <li><Link href='/insights/green-coffee-shipping-documents-checklist' className='text-amber-700 hover:underline'>Green Coffee Shipping Documents Checklist</Link></li>
-            <li><Link href='/insights/ethiopian-coffee-incoterms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Incoterms Guide</Link></li>
+            <li><Link href='/insights/importing-ethiopian-coffee-to-france' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to France</Link></li>
             <li><Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
             <li><Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
-          <h4 className='font-bold mb-3'>Quality and Compliance</h4>
+          <h4 className='font-bold mb-3'>Documents and Compliance</h4>
           <ul className='list-disc ml-5 space-y-2 text-sm text-gray-700'>
+            <li><Link href='/insights/green-coffee-shipping-documents-checklist' className='text-amber-700 hover:underline'>Green Coffee Shipping Documents Checklist</Link></li>
+            <li><Link href='/insights/ethiopian-coffee-incoterms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Incoterms Guide</Link></li>
             <li><Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR and Ethiopian Coffee Compliance</Link></li>
+          </ul>
+        </div>
+        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
+          <h4 className='font-bold mb-3'>Quality and Supplier Review</h4>
+          <ul className='list-disc ml-5 space-y-2 text-sm text-gray-700'>
             <li><Link href='/insights/ethiopian-coffee-sample-approval-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Sample Approval Guide</Link></li>
             <li><Link href='/insights/green-coffee-supplier-evaluation-checklist' className='text-amber-700 hover:underline'>Green Coffee Supplier Evaluation Checklist</Link></li>
             <li><Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
@@ -562,14 +567,14 @@ export default function ImportingEthiopianCoffeeToPoland({
       </div>
 
       <div className='border-t border-gray-200 pt-6 mt-10 text-sm text-gray-600'>
-        <h4 className='font-bold text-dark mb-3'>About This Insight</h4>
-        <p className='mb-4'>This insight was prepared by Ethio Coffee Import and Export PLC, an origin-connected Ethiopian coffee exporter working through a trusted sourcing network across Ethiopia&apos;s major coffee regions. It is intended for B2B planning and should be paired with broker, customs, and tax advice before shipment.</p>
         <div className='flex flex-wrap gap-x-6 gap-y-2 mb-4'>
           <Link href='/insights' className='text-amber-700 hover:underline'>All Insights</Link>
           <Link href='/offerings' className='text-amber-700 hover:underline'>Export Services</Link>
           <Link href='/about' className='text-amber-700 hover:underline'>About</Link>
           <Link href='/contact-us' className='text-amber-700 hover:underline'>Contact</Link>
         </div>
+        <h4 className='font-bold text-dark mb-3'>About This Insight</h4>
+        <p className='mb-4'>This insight was prepared by Ethio Coffee Import and Export PLC, an origin-connected Ethiopian coffee exporter working through a trusted sourcing network across Ethiopia&apos;s major coffee regions. It is intended for B2B planning and should be paired with broker, customs, and tax advice before shipment.</p>
         <p>Published: {date}</p>
         <p className='mt-2'>Before booking a shipment, confirm customs classification, VAT treatment, and inspection requirements with your Polish broker or tax adviser.</p>
       </div>
