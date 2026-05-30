@@ -14,7 +14,7 @@ import {
   HiOutlineExclamationTriangle,
   HiOutlineCheckCircle,
   HiOutlineCube,
-  HiOutlineScale,
+  HiOutlineQuestionMarkCircle,
   HiOutlineGlobeAlt,
 } from 'react-icons/hi2'
 
@@ -105,7 +105,7 @@ export default function ImportingEthiopianCoffeeToPoland({
           <li><a href='#timeline' className='text-amber-700 hover:underline'>8. A realistic shipment timeline</a></li>
           <li><a href='#mistakes' className='text-amber-700 hover:underline'>9. Common mistakes to avoid</a></li>
           <li><a href='#conclusion' className='text-amber-700 hover:underline'>10. Is Poland the right route for you?</a></li>
-          <li><a href='#faq' className='text-amber-700 hover:underline'>11. FAQ</a></li>
+          <li><a href='#faq' className='text-amber-700 hover:underline'>FAQ</a></li>
         </ol>
       </div>
 
@@ -484,99 +484,103 @@ export default function ImportingEthiopianCoffeeToPoland({
         Ethio Coffee supports both paths as an origin-connected exporter with a trusted sourcing network, export documentation discipline, and buyer-ready traceability across Ethiopia&apos;s major coffee regions. If your team wants to import Ethiopian coffee to Poland, the most efficient starting point is a buyer-specific offer sheet tied to route, Incoterm, lot type, and compliance readiness, not a generic quote request.
       </p>
 
-      <h3 id='faq' className='text-2xl font-extrabold mt-12 mb-4 flex items-center gap-3'>
-        <HiOutlineScale className='w-8 h-8 text-amber-600' />
-        11. FAQ
-      </h3>
-
-      <div className='space-y-4 my-6'>
-        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
-          <h4 className='font-bold mb-2'>Does Ethiopian green coffee enter Poland duty free?</h4>
-          <p className='text-sm text-gray-700'>Yes. Ethiopian green coffee can enter Poland at 0% customs duty under the EU&apos;s Everything But Arms arrangement for least developed countries. Importers still need the right origin proof, correct customs classification, and a broker workflow that matches the shipment terms before cargo reaches port.</p>
-        </div>
-        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
-          <h4 className='font-bold mb-2'>Do I need an EORI to import coffee into Poland?</h4>
-          <p className='text-sm text-gray-700'>Yes. Commercial import into Poland requires an EORI number because the cargo is entering the EU customs system. In practice, importers usually set this up through PUESC before shipment so brokerage permissions, declarations, and pre-arrival paperwork are ready before the container lands.</p>
-        </div>
-        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
-          <h4 className='font-bold mb-2'>Is there a coffee tax in Poland like there is in Germany?</h4>
-          <p className='text-sm text-gray-700'>No. Poland&apos;s excise framework does not apply a coffee-specific tax like Germany&apos;s Kaffeesteuer. That simplifies landed-cost planning for green coffee because the main fiscal issue is usually import VAT cash flow, not an additional coffee duty layered on top of the shipment.</p>
-        </div>
-        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
-          <h4 className='font-bold mb-2'>Should I clear in Poland or through Rotterdam or Antwerp first?</h4>
-          <p className='text-sm text-gray-700'>Clear in Poland when the buyer is already Polish or Central European and direct local delivery is the priority. Use Rotterdam or Antwerp first when you need western EU warehousing, flexible multi-country stock allocation, or a Benelux-first logistics strategy before deciding which market receives the coffee.</p>
-        </div>
-        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
-          <h4 className='font-bold mb-2'>What Ethiopian coffees usually fit Polish buyers best?</h4>
-          <p className='text-sm text-gray-700'>Specialty roasters often respond best to traceable washed and natural lots from Yirgacheffe, Guji, and Sidama. Distributors and larger wholesale buyers usually care more about repeatable regional programs, blend components, and disciplined physical specs than about micro-lot exclusivity or highly experimental processing.</p>
-        </div>
-      </div>
-
-      <div className='bg-amber-50 border border-amber-200 text-dark p-8 rounded-lg my-10'>
-        <h3 className='text-2xl font-bold mb-3'>Source Ethiopian Coffee for Poland with Clearer Costs and Buyer-Ready Documents</h3>
-        <p className='text-sm leading-relaxed text-gray-800'>
-          We prepare Poland-focused offer sheets with suitable Ethiopian origins, sample options, pricing logic, recommended Incoterms, and the traceability pack your importer or broker will expect before cargo reaches port.
-        </p>
-        <div className='flex flex-col sm:flex-row gap-4 mt-5'>
-          <Link href='/offerings' className='inline-flex items-center justify-center px-5 py-3 rounded-md bg-amber-500 text-dark font-bold hover:bg-amber-400 transition-colors'>
-            View Current Offerings
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Plan a Poland-Ready Ethiopian Coffee Shipment</h4>
+        <p className='my-2'>Ethio Coffee Import and Export PLC can match the right Ethiopian origin, lot size, and document set to your Polish buyer or Gdansk clearance model. Tell us whether your goal is a direct Polish roaster program, a Central European distribution network, or a first trial shipment.</p>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Offerings
           </Link>
-          <Link href='/contact-us' className='inline-flex items-center justify-center px-5 py-3 rounded-md border border-amber-300 text-dark font-bold hover:bg-amber-100 transition-colors'>
-            Request a Poland Quote
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Request Samples
           </Link>
-          <Link href='/ordering-info' className='inline-flex items-center justify-center px-5 py-3 rounded-md border border-amber-300 text-dark font-bold hover:bg-amber-100 transition-colors'>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
             How to Order
           </Link>
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-12 mb-4'>Related Articles</h3>
-      <div className='grid md:grid-cols-2 gap-6 my-6'>
-        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
-          <h4 className='font-bold mb-3'>EU Route Comparisons</h4>
-          <ul className='list-disc ml-5 space-y-2 text-sm text-gray-700'>
-            <li><Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the Netherlands</Link></li>
-            <li><Link href='/insights/importing-ethiopian-coffee-to-belgium' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Belgium</Link></li>
-            <li><Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>
-          </ul>
+      <section id='faq' className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200'>
+        <h3 className='text-2xl font-bold mb-6 text-gray-900 flex items-center gap-3'>
+          <HiOutlineQuestionMarkCircle className='w-8 h-8 text-amber-600' />
+          Frequently Asked Questions
+        </h3>
+        <div className='space-y-6'>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>Does Ethiopian green coffee enter Poland duty free?</h4>
+            <p className='text-sm text-gray-600'>Yes. Ethiopian green coffee can enter Poland at 0% customs duty under the EU&apos;s Everything But Arms arrangement for least developed countries. Importers still need the right origin proof, correct customs classification, and a broker workflow that matches the shipment terms before cargo reaches port.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>Do I need an EORI to import coffee into Poland?</h4>
+            <p className='text-sm text-gray-600'>Yes. Commercial import into Poland requires an EORI number because the cargo is entering the EU customs system. In practice, importers usually set this up through PUESC before shipment so brokerage permissions, declarations, and pre-arrival paperwork are ready before the container lands.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>Is there a coffee tax in Poland like there is in Germany?</h4>
+            <p className='text-sm text-gray-600'>No. Poland&apos;s excise framework does not apply a coffee-specific tax like Germany&apos;s Kaffeesteuer. That simplifies landed-cost planning for green coffee because the main fiscal issue is usually import VAT cash flow, not an additional coffee duty layered on top of the shipment.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>Should I clear in Poland or through Rotterdam or Antwerp first?</h4>
+            <p className='text-sm text-gray-600'>Clear in Poland when the buyer is already Polish or Central European and direct local delivery is the priority. Use Rotterdam or Antwerp first when you need western EU warehousing, flexible multi-country stock allocation, or a Benelux-first logistics strategy before deciding which market receives the coffee.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>What Ethiopian coffees usually fit Polish buyers best?</h4>
+            <p className='text-sm text-gray-600'>Specialty roasters often respond best to traceable washed and natural lots from Yirgacheffe, Guji, and Sidama. Distributors and larger wholesale buyers usually care more about repeatable regional programs, blend components, and disciplined physical specs than about micro-lot exclusivity or highly experimental processing.</p>
+          </div>
         </div>
-        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
-          <h4 className='font-bold mb-3'>Commercial Planning</h4>
-          <ul className='list-disc ml-5 space-y-2 text-sm text-gray-700'>
-            <li><Link href='/insights/importing-ethiopian-coffee-to-france' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to France</Link></li>
-            <li><Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
-            <li><Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
-          </ul>
-        </div>
-        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
-          <h4 className='font-bold mb-3'>Documents and Compliance</h4>
-          <ul className='list-disc ml-5 space-y-2 text-sm text-gray-700'>
-            <li><Link href='/insights/green-coffee-shipping-documents-checklist' className='text-amber-700 hover:underline'>Green Coffee Shipping Documents Checklist</Link></li>
-            <li><Link href='/insights/ethiopian-coffee-incoterms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Incoterms Guide</Link></li>
-            <li><Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR and Ethiopian Coffee Compliance</Link></li>
-          </ul>
-        </div>
-        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
-          <h4 className='font-bold mb-3'>Quality and Supplier Review</h4>
-          <ul className='list-disc ml-5 space-y-2 text-sm text-gray-700'>
-            <li><Link href='/insights/ethiopian-coffee-sample-approval-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Sample Approval Guide</Link></li>
-            <li><Link href='/insights/green-coffee-supplier-evaluation-checklist' className='text-amber-700 hover:underline'>Green Coffee Supplier Evaluation Checklist</Link></li>
-            <li><Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
-          </ul>
+      </section>
+
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>EU Import Guides</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Netherlands</Link></li>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-belgium' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Belgium</Link></li>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-france' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to France</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Compliance &amp; Documents</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR Compliance for Ethiopian Coffee</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-incoterms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Incoterms Guide</Link></li>
+              <li>&bull; <Link href='/insights/green-coffee-shipping-documents-checklist' className='text-amber-700 hover:underline'>Green Coffee Shipping Documents Checklist</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing Foundations</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
+              <li>&bull; <Link href='/insights/green-coffee-supplier-evaluation-checklist' className='text-amber-700 hover:underline'>Green Coffee Supplier Evaluation Checklist</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-sample-approval-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Sample Approval Guide</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Origin &amp; Quality</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
+              <li>&bull; <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
+              <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Ethiopian Green Coffee</Link></li>
+            </ul>
+          </div>
         </div>
       </div>
 
-      <div className='border-t border-gray-200 pt-6 mt-10 text-sm text-gray-600'>
-        <div className='flex flex-wrap gap-x-6 gap-y-2 mb-4'>
-          <Link href='/insights' className='text-amber-700 hover:underline'>All Insights</Link>
-          <Link href='/offerings' className='text-amber-700 hover:underline'>Export Services</Link>
-          <Link href='/about' className='text-amber-700 hover:underline'>About</Link>
-          <Link href='/contact-us' className='text-amber-700 hover:underline'>Contact</Link>
-        </div>
-        <h4 className='font-bold text-dark mb-3'>About This Insight</h4>
-        <p className='mb-4'>This insight was prepared by Ethio Coffee Import and Export PLC, an origin-connected Ethiopian coffee exporter working through a trusted sourcing network across Ethiopia&apos;s major coffee regions. It is intended for B2B planning and should be paired with broker, customs, and tax advice before shipment.</p>
-        <p>Published: {date}</p>
-        <p className='mt-2'>Before booking a shipment, confirm customs classification, VAT treatment, and inspection requirements with your Polish broker or tax adviser.</p>
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC, an origin-connected Ethiopian exporter serving importers, roasters, and private-label buyers with traceable coffees from Yirgacheffe, Sidamo, Guji, Limu, Jimma, and Harar. Published {date}. Regulations and costs change; <Link href='/contact-us' className='underline'>contact us</Link> for current information before booking a shipment.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> &middot;{' '}
+          <Link href='/ethiopian-coffee-exporter' className='underline'>Export Services</Link> &middot;{' '}
+          <Link href='/about' className='underline'>About</Link> &middot;{' '}
+          <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )
