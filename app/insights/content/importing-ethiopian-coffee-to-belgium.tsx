@@ -74,6 +74,10 @@ export default function ImportingEthiopianCoffeeToBelgium({
         For Ethiopian exporters and international importers, that creates a practical question: should Belgium be your destination market, your warehouse market, or your first EU compliance landing point? This guide answers that question with a Belgium-specific lens. It focuses on how coffee actually moves through Antwerp, which buyer profiles matter most, how to budget the landed-cost elements that are verified today, and how to keep compliance lean by linking out to our deeper resources on <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline font-bold'>EUDR compliance</Link>, <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline font-bold'>landed cost planning</Link>, and the <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline font-bold'>export process from Ethiopia</Link>.
       </p>
 
+      <p className='my-4'>
+        If the coffee is already sold into a Polish or Central European account and you do not need Antwerp as the first warehouse stop, compare this model with our <Link href='/insights/importing-ethiopian-coffee-to-poland' className='text-amber-700 hover:underline font-bold'>Poland import guide</Link>.
+      </p>
+
       <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4 flex items-center gap-2'>
           <HiOutlineClipboardDocumentList className='text-amber-600' /> In This Guide

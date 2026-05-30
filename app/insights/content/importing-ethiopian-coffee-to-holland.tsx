@@ -50,6 +50,10 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
         Rotterdam processed more green coffee in 2024 than any year prior, with imports growing an average of 3.6% annually since 2015. For importers of Ethiopian coffee, the Netherlands combines duty-free access, efficient customs clearance, and a vibrant specialty market into a single entry point for European distribution. This guide covers every step from regulations to landed cost, updated for 2026 with current EUDR timelines and market data.
       </p>
 
+      <p className='my-4'>
+        If your end customer is already in Poland and you are weighing direct destination clearance against a Rotterdam-first warehouse model, compare this route with our <Link href='/insights/importing-ethiopian-coffee-to-poland' className='text-amber-700 hover:underline font-bold'>Poland import guide</Link>.
+      </p>
+
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />

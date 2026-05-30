@@ -62,6 +62,10 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         This guide covers every step from EU regulations and cost breakdowns to shipping logistics, customs clearance, and market strategies. For the commercial side (buyer segments, competitive positioning, pricing strategy), see our companion article: <Link href='/insights/germany-specialty-coffee-market-guide' className='text-amber-700 hover:underline font-bold'>German Coffee Market: Ethiopian Exporter&apos;s Guide</Link>.
       </p>
 
+      <p className='my-4'>
+        If your buyer is based in Central Europe and you are deciding whether to clear directly in the destination market instead of using Hamburg first, compare this route with our <Link href='/insights/importing-ethiopian-coffee-to-poland' className='text-amber-700 hover:underline font-bold'>Poland import guide</Link>.
+      </p>
+
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />

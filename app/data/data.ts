@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== IMPORTING ETHIOPIAN COFFEE TO POLAND =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-poland.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-poland.webp',
+      date: 'May 30, 2026',
+      title: 'Import Ethiopian Coffee to Poland',
+      slug: 'importing-ethiopian-coffee-to-poland',
+      category: 'Import Guide / Poland Market / Ethiopian Coffee Export / Central Europe Buyer Strategy',
+      keywords: [
+        'import Ethiopian coffee to Poland',
+        'Poland coffee import guide',
+        'import green coffee beans Poland',
+        'Ethiopian coffee Poland',
+        'PUESC coffee import',
+        'Poland EORI coffee',
+        'Gdansk coffee import',
+        'Gdynia coffee import',
+        'coffee customs clearance Poland',
+        'coffee import VAT Poland',
+        'green coffee importer Poland',
+        'Polish specialty coffee market',
+        'EUDR Poland coffee import',
+        'Ethiopian green coffee Poland',
+        'Central Europe coffee distribution'
+      ],
+      desc: 'Import Ethiopian coffee to Poland with PUESC customs steps, 23% VAT planning, Gdansk logistics, EUDR compliance, and buyer strategy.'
+    },
     // ===== ETHIOPIAN COFFEE EXPORTER VS BROKER VS TRADER =====
     {
       small_image_url: 'insights/ethiopian-coffee-exporter-vs-broker-vs-trader.webp',
