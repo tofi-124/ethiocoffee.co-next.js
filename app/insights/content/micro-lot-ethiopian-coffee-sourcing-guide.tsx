@@ -330,7 +330,11 @@ export default function MicroLotEthiopianCoffeeSourcingGuide({ title, date, larg
         For a complete breakdown of Ethiopian FOB pricing mechanics, including how contracts are structured, see our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline font-bold'>Ethiopian coffee pricing guide for importers</Link>.
       </p>
 
-      {/* SECTION 6 */}
+      <p className='my-4'>
+        For the highest independently verified quality tier, scoring 87+ after international blind cupping by 20–25 expert jurors, see our guide to the <Link href='/insights/ethiopian-cup-of-excellence-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Cup of Excellence</Link>. CoE lots are a distinct procurement channel from direct micro-lot sourcing, with auction-based pricing and different logistics requirements.
+      </p>
+
+      {/* SECTION 6 */
       <h2 id="how-to-source" className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
         <HiOutlineBuildingStorefront className='text-amber-600' />
         How to Source Micro-Lot Coffee from Ethiopia

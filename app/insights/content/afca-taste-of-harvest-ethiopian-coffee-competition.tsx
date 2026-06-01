@@ -683,6 +683,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Quality and Evaluation</h4>
             <ul className='space-y-1 text-sm'>
+              <li>&#8226; <Link href="/insights/ethiopian-cup-of-excellence-buyers-guide" className='text-amber-700 hover:underline'>Ethiopian Cup of Excellence: Buyer&apos;s Guide (ACE / CoE)</Link></li>
               <li>&#8226; <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-amber-700 hover:underline'>Green Coffee Quality Control and Grading</Link></li>
               <li>&#8226; <Link href="/insights/new-sca-coffee-value-assessment" className='text-amber-700 hover:underline'>SCA Coffee Value Assessment Guide</Link></li>
               <li>&#8226; <Link href="/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest" className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>

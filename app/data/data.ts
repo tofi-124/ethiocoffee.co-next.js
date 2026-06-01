@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN CUP OF EXCELLENCE BUYER'S GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-cup-of-excellence-buyers-guide.webp',
+      large_image_url: 'insights/ethiopian-cup-of-excellence-buyers-guide.webp',
+      date: 'Jun 1, 2026',
+      title: 'Ethiopian Cup of Excellence: A Buyer\'s Guide',
+      slug: 'ethiopian-cup-of-excellence-buyers-guide',
+      category: 'Competition Coffee / Premium Lot Sourcing / Green Coffee Buying / Importer Resources',
+      keywords: [
+        'Ethiopian Cup of Excellence',
+        'Ethiopia Cup of Excellence',
+        'Ethiopia CoE lots',
+        'Ethiopian Cup of Excellence buyer guide',
+        'buy Ethiopian CoE coffee',
+        'Cup of Excellence Ethiopia auction',
+        'how to buy Ethiopian Cup of Excellence lots',
+        'Ethiopian Cup of Excellence auction price per pound',
+        'is Ethiopian Cup of Excellence worth it for roasters',
+        'Ethiopian CoE vs specialty grade difference',
+        'how does Cup of Excellence work in Ethiopia',
+        'ACE Ethiopia coffee auction',
+        'Ethiopian premium lot auction',
+        'Ethiopia 87 plus coffee',
+        'Ethiopian Cup of Excellence 2024 results'
+      ],
+      desc: 'Ethiopian Cup of Excellence lots: how the competition works, 2020-2024 auction data, how to bid, packaging, and when the CoE premium is worth it.'
+    },
     // ===== IMPORTING ETHIOPIAN COFFEE TO POLAND =====
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-poland.webp',
