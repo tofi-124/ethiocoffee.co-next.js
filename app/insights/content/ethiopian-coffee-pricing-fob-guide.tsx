@@ -45,6 +45,11 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
       </p>
 
       <p className='my-4'>
+        If your immediate question is how that benchmark differs from a live Ethiopian exporter quote,
+        read our <Link href='/insights/coffee-c-market-explained-for-ethiopian-coffee-buyers' className='underline font-semibold'>Coffee C market explained for Ethiopian coffee buyers</Link> guide before you compare offers.
+      </p>
+
+      <p className='my-4'>
         This guide explains each layer so you can read an Ethiopian coffee offer sheet with confidence, compare quotes between exporters accurately, and plan your purchasing budgets with realistic numbers.
       </p>
 

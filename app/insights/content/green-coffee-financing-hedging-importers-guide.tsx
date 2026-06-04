@@ -119,6 +119,10 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
         This matters for hedging because the correlation between the ICE C price and Ethiopian FOB prices is real but imperfect. When the C-market rallies sharply, Ethiopian export prices generally move upward, but the ECX can lag the C-market or move at a different magnitude depending on local harvest conditions and policy. If you hedge Ethiopian coffee exposure purely through ICE futures, you are taking on what traders call "basis risk": the risk that your hedge moves differently from your actual price.
       </p>
       <p className='my-4'>
+        Buyers who need a cleaner primer on that benchmark-versus-physical-price gap should review our
+        <Link href='/insights/coffee-c-market-explained-for-ethiopian-coffee-buyers' className='underline font-semibold'>Coffee C market explained for Ethiopian coffee buyers</Link> guide alongside this hedging framework.
+      </p>
+      <p className='my-4'>
         For most buyers of Ethiopian specialty grades (G1/G2 lots), the most reliable hedge is not a futures position but a well-structured physical contract directly with your exporter. The sections below cover both approaches.
       </p>
 

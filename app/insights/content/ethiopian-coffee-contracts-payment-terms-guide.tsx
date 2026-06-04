@@ -225,6 +225,11 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
       </p>
 
       <p className='my-4'>
+        If your team still needs to map that benchmark to a real Ethiopian FOB quote, use our
+        <Link href='/insights/coffee-c-market-explained-for-ethiopian-coffee-buyers' className='underline font-semibold'>Coffee C market explained for Ethiopian coffee buyers</Link> guide before negotiating the differential itself.
+      </p>
+
+      <p className='my-4'>
         For Ethiopian specialty coffee, differentials are almost always positive, meaning buyers pay a premium above the "C" market. High-quality washed Yirgacheffe might carry a differential of +$0.80 to +$1.50/lb above the "C" price, while commercial-grade Jimma might be closer to +$0.10 to +$0.30/lb.
       </p>
 

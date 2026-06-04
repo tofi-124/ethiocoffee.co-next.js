@@ -15,6 +15,7 @@ const readingTimeMap: Record<string, number> = {
   'importing-ethiopian-coffee-to-poland': 14,
   'ethiopian-coffee-dry-milling-export-guide': 14,
   'ethiopian-coffee-pricing-fob-guide': 22,
+  'coffee-c-market-explained-for-ethiopian-coffee-buyers': 16,
   'top-ethiopian-coffee-importers-buyers-2024-2025': 32,
   'rising-ethiopian-coffee-prices-explained': 15,
   'private-vs-cooperative-ethiopian-coffee-exporters': 14,

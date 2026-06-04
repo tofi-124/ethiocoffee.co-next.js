@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== COFFEE C MARKET EXPLAINED FOR ETHIOPIAN COFFEE BUYERS =====
+    {
+      small_image_url: 'insights/coffee-c-market-explained-for-ethiopian-coffee-buyers.webp',
+      large_image_url: 'insights/coffee-c-market-explained-for-ethiopian-coffee-buyers.webp',
+      date: 'Jun 4, 2026',
+      title: 'Coffee C Market Explained for Ethiopian Coffee Buyers',
+      slug: 'coffee-c-market-explained-for-ethiopian-coffee-buyers',
+      category: 'Pricing Mechanics / Coffee Futures / Ethiopian Coffee Export / Importer Resources',
+      keywords: [
+        'coffee c market explained',
+        'coffee c market explained for Ethiopian coffee buyers',
+        'coffee c market vs Ethiopian coffee FOB',
+        'ICE Coffee C Ethiopian coffee',
+        'Ethiopian coffee FOB vs C market',
+        'how Coffee C market affects Ethiopian coffee prices',
+        'what is Coffee C market',
+        'Coffee C market and ECX pricing',
+        'Ethiopian coffee price benchmark',
+        'ICE Arabica futures for importers',
+        'Ethiopian coffee futures pricing',
+        'when to fix Ethiopian coffee contract',
+        'basis risk Ethiopian coffee',
+        'Coffee C market FOB Djibouti',
+        'ICE coffee board for green coffee buyers'
+      ],
+      desc: 'Coffee C market explained for Ethiopian coffee buyers: learn how ICE futures, ECX pricing, and FOB offers connect before you fix a contract.'
+    },
     // ===== ETHIOPIAN CUP OF EXCELLENCE BUYER'S GUIDE =====
     {
       small_image_url: 'insights/ethiopian-cup-of-excellence-buyers-guide.webp',

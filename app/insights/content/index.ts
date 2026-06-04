@@ -86,6 +86,8 @@ export const insightContentMap: Record<string, () => Promise<any>> = {
     import('./selective-coffee-harvesting').then(mod => mod.default),
   'ethiopian-coffee-pricing-fob-guide': () =>
     import('./ethiopian-coffee-pricing-fob-guide').then(mod => mod.default),
+  'coffee-c-market-explained-for-ethiopian-coffee-buyers': () =>
+    import('./coffee-c-market-explained-for-ethiopian-coffee-buyers').then(mod => mod.default),
   'ethio-coffee-export-launch': () =>
     import('./ethio-coffee-export-launch').then(mod => mod.default),
 
