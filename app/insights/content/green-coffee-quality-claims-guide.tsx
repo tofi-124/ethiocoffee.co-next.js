@@ -209,6 +209,9 @@ export default function GreenCoffeeQualityClaimsGuide({ title, date, large_image
           A washed Ethiopian lot was approved at 10.8% moisture with a clean citrus and jasmine profile. Arrival testing shows 12.1% moisture, faint bag staining, and a two-point drop with papery finish. No single datapoint wins the argument by itself. Together, the readings, visuals, and cup comparison create a coherent claim file that points toward transit or storage damage after approval.
         </p>
       </div>
+      <p className='my-4'>
+        If the goal is to stop a risky lot before loading instead of building an arrival dispute after landing, use our <Link href='/insights/green-coffee-mycotoxin-testing-guide' className='text-amber-700 hover:underline font-bold'>green coffee mycotoxin testing guide</Link> to define the pre-shipment sample, retained split, and hold-or-release rules earlier in the workflow.
+      </p>
 
       <h3 id='arrival-response' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineClock className='text-amber-600 flex-shrink-0' />

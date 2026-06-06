@@ -327,6 +327,9 @@ export default function GreenCoffeeSupplierEvaluationChecklist({
         </p>
       </div>
       <p className='my-4'>
+        If your approval gate also includes contamination screening, pair this checklist with our <Link href='/insights/green-coffee-mycotoxin-testing-guide' className='text-amber-700 hover:underline font-semibold'>green coffee mycotoxin testing guide</Link> so the sample logic, retained split, and lab brief stay aligned before a supplier moves into contract review.
+      </p>
+      <p className='my-4'>
         If you need a detailed operating procedure for these checkpoints, use our <Link href='/insights/ethiopian-coffee-sample-approval-guide' className='text-amber-700 hover:underline font-semibold'>sample approval guide</Link>. If the bulk lot still fails after approval, the next workflow is in our <Link href='/insights/green-coffee-quality-claims-guide' className='text-amber-700 hover:underline font-semibold'>quality claims guide</Link>. The point here is that supplier evaluation should predict whether you will need those tools often or rarely.
       </p>
 

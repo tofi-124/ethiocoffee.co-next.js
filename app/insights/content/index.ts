@@ -187,6 +187,8 @@ export const insightContentMap: Record<string, () => Promise<any>> = {
     import('./bombe-sidama-coffee-sourcing-guide').then(mod => mod.default),
   'green-coffee-moisture-content-water-activity-guide': () =>
     import('./green-coffee-moisture-content-water-activity-guide').then(mod => mod.default),
+  'green-coffee-mycotoxin-testing-guide': () =>
+    import('./green-coffee-mycotoxin-testing-guide').then(mod => mod.default),
   'importing-ethiopian-coffee-to-india': () =>
     import('./importing-ethiopian-coffee-to-india').then(mod => mod.default),
   'importing-ethiopian-coffee-to-malaysia': () =>

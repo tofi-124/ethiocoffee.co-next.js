@@ -178,6 +178,9 @@ export default function GreenCoffeeMoistureContentWaterActivityGuide({ title, da
       <p className='my-4'>
         Molds such as Aspergillus ochraceus begin growing at water activity levels above 0.70 to 0.80. Some species can colonize at aw as low as 0.65 under warm, humid conditions. Ochratoxin A (OTA), a mycotoxin produced by these molds, is a regulated contaminant in the European Union (maximum 5 ppb in roasted coffee, 10 ppb in soluble). OTA cannot be fully eliminated by roasting, so prevention at the green stage is essential.
       </p>
+      <p className='my-4'>
+        If you need the buyer-side workflow for turning that risk into a defensible sample, lab brief, and release decision, continue with our <Link href='/insights/green-coffee-mycotoxin-testing-guide' className='text-amber-700 hover:underline font-bold'>green coffee mycotoxin testing guide</Link>.
+      </p>
 
       <h4 className='text-xl font-bold mt-8 mb-4'>Chemical Degradation</h4>
       <p className='my-4'>

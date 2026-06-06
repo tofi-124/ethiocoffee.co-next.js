@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE MYCOTOXIN TESTING GUIDE =====
+    {
+      small_image_url: 'insights/green-coffee-mycotoxin-testing-guide.webp',
+      large_image_url: 'insights/green-coffee-mycotoxin-testing-guide.webp',
+      date: 'Jun 6, 2026',
+      title: 'Green Coffee Mycotoxin Testing Guide for Importers',
+      slug: 'green-coffee-mycotoxin-testing-guide',
+      category: 'Food Safety / Quality Assurance / Green Coffee Buying / Importer Resources',
+      keywords: [
+        'green coffee mycotoxin testing',
+        'green coffee mycotoxin testing guide',
+        'green coffee OTA testing',
+        'ochratoxin A testing coffee importers',
+        'Ethiopian coffee mycotoxin testing',
+        'green coffee contamination testing',
+        'OTA testing Ethiopian coffee',
+        'coffee lot sampling for mycotoxins',
+        'pre-shipment coffee lab testing',
+        'coffee mycotoxin screening before shipment',
+        'how to test green coffee for ochratoxin A',
+        'green coffee food safety testing',
+        'coffee lab brief importers',
+        'coffee retained sample workflow',
+        'green coffee release hold reject workflow'
+      ],
+      desc: 'Green coffee mycotoxin testing guide for importers: when to screen OTA, sample lots correctly, and hold or release Ethiopian coffee.'
+    },
     // ===== COFFEE C MARKET EXPLAINED FOR ETHIOPIAN COFFEE BUYERS =====
     {
       small_image_url: 'insights/coffee-c-market-explained-for-ethiopian-coffee-buyers.webp',
