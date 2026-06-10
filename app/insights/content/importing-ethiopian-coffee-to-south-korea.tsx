@@ -978,6 +978,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
             <h4 className='font-semibold mb-2 text-sm'>Import Guides by Market</h4>
             <ul className='space-y-1 text-sm'>
               <li>&#8226; <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Japan</Link></li>
+              <li>&#8226; <Link href='/insights/importing-ethiopian-coffee-to-taiwan' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Taiwan</Link></li>
               <li>&#8226; <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Australia</Link></li>
               <li>&#8226; <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the United States</Link></li>
               <li>&#8226; <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to UAE</Link></li>

@@ -680,6 +680,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
             <h4 className='font-semibold mb-2 text-sm'>Asia-Pacific Import Guides</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Importing to South Korea</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-taiwan' className='text-amber-700 hover:underline'>Importing to Taiwan</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline'>Importing to Australia</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>Importing to UAE</Link></li>
             </ul>

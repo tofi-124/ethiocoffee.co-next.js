@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== IMPORTING ETHIOPIAN COFFEE TO TAIWAN =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-taiwan.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-taiwan.webp',
+      date: 'Jun 9, 2026',
+      title: 'Import Ethiopian Coffee to Taiwan',
+      slug: 'importing-ethiopian-coffee-to-taiwan',
+      category: 'Import Guide / Taiwan Market / Ethiopian Coffee Export / Asia-Pacific Buyer Strategy',
+      keywords: [
+        'import Ethiopian coffee to Taiwan',
+        'Ethiopian coffee Taiwan',
+        'Taiwan green coffee import regulations',
+        'TFDA coffee import Taiwan',
+        'Ethiopian coffee Taiwan customs',
+        'APHIA coffee import permit Taiwan',
+        'how to import green coffee to Taiwan',
+        'Ethiopia coffee customs clearance Taiwan',
+        'Ethiopian Yirgacheffe Taiwan specialty roasters',
+        'green coffee tariff Taiwan 0901',
+        'Kaohsiung coffee import Ethiopia',
+        'TFDA food business operator coffee Taiwan',
+        'Taiwan coffee import phytosanitary certificate',
+        'Taiwan specialty coffee Ethiopian origins',
+        'Keelung coffee import Ethiopia'
+      ],
+      desc: 'Import Ethiopian coffee to Taiwan: TFDA compliance, APHIA quarantine, Kaohsiung shipping, 0% tariff, and landed cost breakdown for specialty roasters.'
+    },
     // ===== GREEN COFFEE MYCOTOXIN TESTING GUIDE =====
     {
       small_image_url: 'insights/green-coffee-mycotoxin-testing-guide.webp',
