@@ -165,7 +165,7 @@ export async function POST(request: NextRequest) {
 
               <p style="margin:0 0 18px;">Once you have reviewed the offerings, reply with the lots you are interested in and we will take it from there.</p>
 
-              <p style="margin:0 0 32px;">We typically respond within <strong style="color:#1B3A4B;">5 business days</strong>.</p>
+              <p style="margin:0 0 32px;">We typically respond within <strong style="color:#1B3A4B;">3 business days</strong>.</p>
 
               <!-- accent pill CTA (matches hero button) -->
               <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto 8px;">
