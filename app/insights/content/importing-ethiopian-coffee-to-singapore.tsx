@@ -476,6 +476,7 @@ export default function ImportingEthiopianCoffeeToSingapore({ title, date, large
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-china' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to China</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Japan</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to South Korea</Link></li>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-thailand' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Thailand</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-taiwan' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Taiwan</Link></li>
             </ul>
           </div>

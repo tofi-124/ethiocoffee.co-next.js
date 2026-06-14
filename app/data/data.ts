@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== IMPORTING ETHIOPIAN COFFEE TO THAILAND =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-thailand.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-thailand.webp',
+      date: 'Jun 14, 2026',
+      title: 'Import Ethiopian Coffee to Thailand',
+      slug: 'importing-ethiopian-coffee-to-thailand',
+      category: 'Import Guide / Thailand Market / Ethiopian Coffee Export / ASEAN Buyer Strategy',
+      keywords: [
+        'import Ethiopian coffee to Thailand',
+        'Ethiopian coffee Thailand',
+        'Thailand green coffee import regulations',
+        'Thai Department of Agriculture plant permit coffee',
+        'Ethiopian coffee Thailand customs',
+        'how to import green coffee to Thailand',
+        'Laem Chabang coffee import Ethiopia',
+        'Thailand coffee import duty HS 0901',
+        'Thai FDA green coffee import',
+        'Ethiopia Thailand coffee trade',
+        'Thailand specialty coffee market Ethiopian origins',
+        'green coffee import permit Thailand',
+        'Thailand LDC GSP coffee',
+        'Ethiopian coffee Bangkok roasters',
+        'phytosanitary certificate Thailand coffee import'
+      ],
+      desc: 'Import Ethiopian coffee to Thailand: Department of Agriculture plant quarantine permit, e-Customs workflow, 7% VAT, Laem Chabang routing, and buyer strategy for specialty roasters and distributors.'
+    },
     // ===== IMPORTING ETHIOPIAN COFFEE TO TAIWAN =====
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-taiwan.webp',

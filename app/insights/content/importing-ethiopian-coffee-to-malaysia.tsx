@@ -502,6 +502,7 @@ export default function ImportingEthiopianCoffeeToMalaysia({ title, date, large_
             <h4 className='font-semibold mb-2 text-sm'>Market Entry</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-singapore' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Singapore</Link></li>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-thailand' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Thailand</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-india' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to India</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-china' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to China</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
