@@ -159,11 +159,9 @@ export async function POST(request: NextRequest) {
 
               <p style="margin:0 0 18px;">For details on logistics, packaging, and minimum order quantities, please visit our <a href="https://www.ethiocoffee.co/ordering-info" style="color:#B45D38;font-weight:700;text-decoration:underline;">Ordering Info Page</a>.</p>
 
-              <p style="margin:0 0 18px;">For current availability, please visit our <a href="https://www.ethiocoffee.co/offerings" style="color:#B45D38;font-weight:700;text-decoration:underline;">Offerings Page</a>. What you see there is what we have. We operate as a quality-focused exporter with a curated selection and our lots move quickly. Any lot marked as <strong style="color:#1B3A4B;">Contracted</strong> is no longer available.</p>
+              <p style="margin:0 0 18px;">A quick heads-up on availability: every lot from our current offering is now fully <strong style="color:#1B3A4B;">Contracted</strong>. We operate as a quality-focused exporter with a curated selection, and our lots move quickly. You can still view the full list on our <a href="https://www.ethiocoffee.co/offerings" style="color:#B45D38;font-weight:700;text-decoration:underline;">Offerings Page</a>, where each lot is marked <strong style="color:#1B3A4B;">Contracted</strong>.</p>
 
-              <p style="margin:0 0 18px;">If you would like to cup before committing, 300g evaluation samples are available to purchase directly from any product page and ship via DHL Express from Ethiopia.</p>
-
-              <p style="margin:0 0 18px;">Once you have reviewed the offerings, reply with the lots you are interested in and we will take it from there.</p>
+              <p style="margin:0 0 18px;">We would be glad to keep you on our priority list for the next harvest and upcoming lots. Just reply and let us know the profiles, grades, and volumes you are after, and we will reach out as soon as new coffee is allocated.</p>
 
               <p style="margin:0 0 32px;">We typically respond within <strong style="color:#1B3A4B;">3 business days</strong>.</p>
 
@@ -171,7 +169,7 @@ export async function POST(request: NextRequest) {
               <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto 8px;">
                 <tr>
                   <td align="center" style="background-color:#B45D38;border-radius:999px;">
-                    <a href="https://www.ethiocoffee.co/offerings" style="display:inline-block;padding:15px 36px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#ffffff;text-decoration:none;">See Available Lots</a>
+                    <a href="https://www.ethiocoffee.co/offerings" style="display:inline-block;padding:15px 36px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#ffffff;text-decoration:none;">View Our Offerings</a>
                   </td>
                 </tr>
               </table>
