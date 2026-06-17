@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE VS YEMENI COFFEE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-vs-yemeni-coffee.webp',
+      large_image_url: 'insights/ethiopian-coffee-vs-yemeni-coffee.webp',
+      date: 'Jun 16, 2026',
+      title: 'Ethiopian Coffee vs Yemeni Coffee: A Buyer\'s Comparison',
+      slug: 'ethiopian-coffee-vs-yemeni-coffee',
+      category: 'Origin Comparison / Sourcing Strategy / Green Coffee Buying / Importer Resources',
+      keywords: [
+        'Ethiopian coffee vs Yemeni coffee',
+        'Yemeni coffee vs Ethiopian coffee',
+        'Ethiopian vs Yemen coffee comparison',
+        'Yemen Mocha coffee vs Ethiopian',
+        'is Yemeni coffee better than Ethiopian',
+        'why is Yemeni coffee so expensive',
+        'which Ethiopian coffee tastes like Yemeni',
+        'Ethiopian Harar vs Yemeni Mocha',
+        'Mocha coffee origin Yemen Ethiopia',
+        'Yemeni coffee varieties Udaini Tuffahi',
+        'Yemen coffee production vs Ethiopia',
+        'Mocha coffee mislabeling Ethiopian Harar',
+        'Yemeni coffee price per pound',
+        'natural Ethiopian coffee Mocha profile',
+        'Yemen coffee EUDR traceability'
+      ],
+      desc: 'Ethiopian coffee vs Yemeni coffee: Mocha heritage, cup profiles, scarcity pricing, mislabeling risks, and which origin fits your sourcing program.'
+    },
     // ===== IMPORTING ETHIOPIAN COFFEE TO THAILAND =====
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-thailand.webp',
