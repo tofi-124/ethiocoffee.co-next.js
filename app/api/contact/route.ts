@@ -221,6 +221,7 @@ export async function POST(request: NextRequest) {
       {
         from: `Ethio Coffee <${FROM_EMAIL}>`,
         to: [safeEmail],
+        bcc: [TO_EMAIL],
         replyTo: TO_EMAIL,
         subject: autoReplySubject,
         html: autoReplyHtml,
