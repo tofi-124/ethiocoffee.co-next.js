@@ -86,7 +86,7 @@ export default function DecafGreenCoffeeProcessingSourcingGuide({ title, date, l
       </p>
 
       <p className='my-4'>
-        For importers and roasters, this creates a clear commercial opportunity. Roasters who offer only caffeinated options lose customers to competitors with quality decaf programs. The challenge is that most decaf on the market tastes flat, woody, and one-dimensional, so buyers associate decaf with compromise. That perception is changing. Advances in processing technology, combined with better green coffee selection, now make it possible to produce decaf that cups at 84 to 87 points on the <Link href='/insights/new-sca-coffee-value-assessment' className='underline font-bold'>SCA scale</Link>.
+        For importers and roasters, this creates a clear commercial opportunity. Decaf sells especially well in single-serve formats, where the convenience buyer often wants an evening option from the same machine; see the <Link href='/insights/ethiopian-coffee-for-capsules-pods-sourcing-guide' className='underline font-bold'>capsules and pods sourcing guide</Link>. Roasters who offer only caffeinated options lose customers to competitors with quality decaf programs. The challenge is that most decaf on the market tastes flat, woody, and one-dimensional, so buyers associate decaf with compromise. That perception is changing. Advances in processing technology, combined with better green coffee selection, now make it possible to produce decaf that cups at 84 to 87 points on the <Link href='/insights/new-sca-coffee-value-assessment' className='underline font-bold'>SCA scale</Link>.
       </p>
 
       <p className='my-4'>

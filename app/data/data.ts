@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE FOR CAPSULES & PODS =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-for-capsules-pods-sourcing-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-for-capsules-pods-sourcing-guide.webp',
+      date: 'Jun 20, 2026',
+      title: 'Ethiopian Coffee for Capsules & Pods: Sourcing Guide',
+      slug: 'ethiopian-coffee-for-capsules-pods-sourcing-guide',
+      category: 'Capsules & Pods / Sourcing Guide / Green Coffee Buying / Roaster Resources',
+      keywords: [
+        'Ethiopian coffee for capsules',
+        'Ethiopian coffee for pods',
+        'Ethiopian coffee capsule sourcing',
+        'Nespresso compatible Ethiopian coffee',
+        'single-serve Ethiopian coffee sourcing',
+        'best Ethiopian coffee for capsules',
+        'green coffee for coffee capsules',
+        'Ethiopian coffee pod manufacturing',
+        'private label Ethiopian coffee capsules',
+        'single origin Ethiopian capsule',
+        'green coffee for single-serve production',
+        'Ethiopian coffee for Nespresso compatible pods',
+        'capsule coffee blend Ethiopian',
+        'compostable coffee capsule sourcing',
+        'which Ethiopian coffee for pods'
+      ],
+      desc: 'Ethiopian coffee for capsules and pods: which origins, processing, and grades suit single-serve production, plus crema, freshness, and volume planning.'
+    },
     // ===== ETHIOPIAN COFFEE VS YEMENI COFFEE =====
     {
       small_image_url: 'insights/ethiopian-coffee-vs-yemeni-coffee.webp',
