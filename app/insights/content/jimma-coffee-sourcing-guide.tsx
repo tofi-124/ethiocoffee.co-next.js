@@ -110,7 +110,7 @@ export default function JimmaCoffeeSourcingGuide({ title, date, large_image_url 
         </div>
         <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
           <h4 className='font-bold mb-2'>Blend Base Excellence</h4>
-          <p className='text-sm text-gray-700'>Jimma&apos;s full body, low acidity, and chocolate-forward profile make it the preferred base for <Link href='/insights/ethiopian-coffee-espresso-blend-sourcing-guide' className='text-amber-700 hover:underline'>espresso blends</Link>. It adds depth and body without overpowering brighter blend components. Major instant coffee producers worldwide also rely on Jimma for its clean extraction properties.</p>
+          <p className='text-sm text-gray-700'>Jimma&apos;s full body, low acidity, and chocolate-forward profile make it the preferred base for <Link href='/insights/ethiopian-coffee-espresso-blend-sourcing-guide' className='text-amber-700 hover:underline'>espresso blends</Link>. It adds depth and body without overpowering brighter blend components. Major <Link href='/insights/ethiopian-coffee-for-instant-soluble-sourcing-guide' className='text-amber-700 hover:underline'>instant and soluble coffee</Link> producers worldwide also rely on Jimma for its clean extraction properties.</p>
         </div>
         <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
           <h4 className='font-bold mb-2'>Hidden Specialty Potential</h4>

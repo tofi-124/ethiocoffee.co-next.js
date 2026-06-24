@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE FOR INSTANT & SOLUBLE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-for-instant-soluble-sourcing-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-for-instant-soluble-sourcing-guide.webp',
+      date: 'Jun 24, 2026',
+      title: 'Ethiopian Coffee for Instant & Soluble: Sourcing Guide',
+      slug: 'ethiopian-coffee-for-instant-soluble-sourcing-guide',
+      category: 'Instant & Soluble / Sourcing Guide / Green Coffee Buying / Manufacturer Resources',
+      keywords: [
+        'Ethiopian coffee for instant coffee',
+        'Ethiopian coffee for soluble coffee',
+        'Ethiopian coffee instant manufacturing',
+        'green coffee for instant coffee production',
+        'best Ethiopian coffee for freeze dried instant',
+        'single origin instant coffee sourcing',
+        'premium freeze dried Ethiopian coffee',
+        'spray dried vs freeze dried green coffee',
+        'soluble coffee green bean sourcing',
+        'arabica green coffee for instant',
+        'Ethiopian coffee microground instant',
+        'instant coffee extraction yield green coffee',
+        'private label single origin instant coffee',
+        'ochratoxin A soluble coffee testing',
+        'which Ethiopian coffee for instant'
+      ],
+      desc: 'Ethiopian coffee for instant and soluble: extraction yield, spray-dried vs freeze-dried green selection, and the premium single-origin play.'
+    },
     // ===== ETHIOPIAN COFFEE FOR CAPSULES & PODS =====
     {
       small_image_url: 'insights/ethiopian-coffee-for-capsules-pods-sourcing-guide.webp',

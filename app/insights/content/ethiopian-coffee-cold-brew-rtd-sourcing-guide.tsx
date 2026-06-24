@@ -587,6 +587,7 @@ export default function EthiopianCoffeeColdBrewRtdSourcingGuide({
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing for Importers</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-espresso-blend-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Espresso Blends</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-for-instant-soluble-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Instant &amp; Soluble</Link></li>
               <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities: Ethiopian Coffee</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts &amp; Payment Terms</Link></li>
             </ul>
