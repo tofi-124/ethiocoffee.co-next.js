@@ -405,6 +405,7 @@ export default function EthiopianCoffeeForInstantSolubleSourcingGuide({
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-coffee-for-capsules-pods-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Capsules &amp; Pods</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-cold-brew-rtd-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Cold Brew &amp; RTD</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-for-drip-bags-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Drip Bags</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-espresso-blend-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Espresso Blends</Link></li>
               <li>&bull; <Link href='/insights/decaf-green-coffee-processing-sourcing-guide' className='text-amber-700 hover:underline'>Decaf Green Coffee: Processing &amp; Sourcing</Link></li>
             </ul>

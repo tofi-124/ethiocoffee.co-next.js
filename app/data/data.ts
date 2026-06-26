@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE FOR DRIP BAGS =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-for-drip-bags-sourcing-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-for-drip-bags-sourcing-guide.webp',
+      date: 'Jun 26, 2026',
+      title: 'Ethiopian Coffee for Drip Bags: Sourcing Guide',
+      slug: 'ethiopian-coffee-for-drip-bags-sourcing-guide',
+      category: 'Drip Bags / Sourcing Guide / Green Coffee Buying / Manufacturer Resources',
+      keywords: [
+        'Ethiopian coffee for drip bags',
+        'Ethiopian coffee drip bag sourcing',
+        'hanging ear coffee Ethiopian',
+        'single serve drip bag coffee sourcing',
+        'best Ethiopian coffee for drip bags',
+        'green coffee for drip coffee bags',
+        'drip bag coffee manufacturing green coffee',
+        'washed Yirgacheffe drip bag',
+        'single origin drip bag coffee',
+        'private label Ethiopian drip bags',
+        'drip bag coffee grind size sourcing',
+        'nitrogen flushed drip bag coffee',
+        'pour over coffee bag Ethiopian',
+        'which Ethiopian coffee for drip bags',
+        'drip bag vs capsule coffee sourcing'
+      ],
+      desc: 'Ethiopian coffee for drip bags: which washed and natural origins, grind, dose, and nitrogen-flush freshness suit single-serve hanging-ear production.'
+    },
     // ===== ETHIOPIAN COFFEE FOR INSTANT & SOLUBLE =====
     {
       small_image_url: 'insights/ethiopian-coffee-for-instant-soluble-sourcing-guide.webp',
