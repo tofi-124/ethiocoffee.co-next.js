@@ -542,6 +542,7 @@ export default function EthiopianCoffeeEspressoBlendSourcingGuide({ title, date,
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Roasting and Brewing</h4>
             <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-for-filter-batch-brew-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Filter &amp; Batch Brew</Link></li>
               <li>&bull; <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='text-amber-700 hover:underline'>How to Roast Ethiopian Coffee Beans</Link></li>
               <li>&bull; <Link href='/insights/best-coffee-guide-french-press-pour-over-scales' className='text-amber-700 hover:underline'>Ethiopian Coffee Brew Profiles for Roasters</Link></li>
               <li>&bull; <Link href='/insights/coffee-is-art-roasting-brewing' className='text-amber-700 hover:underline'>Coffee Roasting and Brewing Guide</Link></li>

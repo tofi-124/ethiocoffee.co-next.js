@@ -416,6 +416,7 @@ export default function EthiopianCoffeeForDripBagsSourcingGuide({
               <li>&bull; <Link href='/insights/ethiopian-coffee-for-instant-soluble-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Instant &amp; Soluble</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-cold-brew-rtd-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Cold Brew &amp; RTD</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-espresso-blend-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Espresso Blends</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-for-filter-batch-brew-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Filter &amp; Batch Brew</Link></li>
             </ul>
           </div>
           <div>

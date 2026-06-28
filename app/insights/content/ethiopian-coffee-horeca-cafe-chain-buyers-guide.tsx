@@ -496,6 +496,7 @@ export default function EthiopianCoffeeHorecaCafeChainBuyersGuide({
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/bombe-sidama-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Bombe Sidama Coffee Sourcing Guide</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-cold-brew-rtd-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Cold Brew and RTD Programs</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-for-filter-batch-brew-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee for Filter and Batch Brew</Link></li>
               <li>&bull; <Link href='/ethiopian-coffee-yirgacheffe' className='text-amber-700 hover:underline'>Ethiopia Yirgacheffe Green Coffee</Link></li>
               <li>&bull; <Link href='/ethiopian-coffee-jimma' className='text-amber-700 hover:underline'>Jimma Green Coffee</Link></li>
             </ul>

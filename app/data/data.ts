@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE FOR FILTER & BATCH BREW =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-for-filter-batch-brew-sourcing-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-for-filter-batch-brew-sourcing-guide.webp',
+      date: 'Jun 27, 2026',
+      title: 'Ethiopian Coffee for Filter & Batch Brew: Sourcing Guide',
+      slug: 'ethiopian-coffee-for-filter-batch-brew-sourcing-guide',
+      category: 'Filter & Batch Brew / Sourcing Guide / Green Coffee Buying / Roaster & Café Resources',
+      keywords: [
+        'Ethiopian coffee for filter brew',
+        'Ethiopian coffee for batch brew',
+        'best Ethiopian coffee for filter',
+        'best Ethiopian coffee for batch brew',
+        'Ethiopian pour over coffee wholesale',
+        'single origin filter coffee sourcing',
+        'washed Yirgacheffe filter coffee',
+        'Ethiopian coffee café batch brew',
+        'green coffee for pour over',
+        'batch brew vs pour over sourcing',
+        'Ethiopian coffee filter roast',
+        'which Ethiopian coffee for filter',
+        'Ethiopian filter coffee program',
+        'café single origin Ethiopian rotation',
+        'Ethiopian coffee brew ratio filter'
+      ],
+      desc: 'Ethiopian coffee for filter and batch brew: which washed and natural origins, grades, roast, and brew ratios suit café pour-over and batch programs.'
+    },
     // ===== ETHIOPIAN COFFEE FOR DRIP BAGS =====
     {
       small_image_url: 'insights/ethiopian-coffee-for-drip-bags-sourcing-guide.webp',
