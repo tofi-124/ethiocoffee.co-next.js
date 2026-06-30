@@ -668,6 +668,7 @@ export default function EthiopianCoffeeVsKenyanCoffee({ title, date, large_image
               <li>&bull; <Link href='/insights/ethiopian-coffee-vs-colombian-coffee' className='text-amber-700 hover:underline'>Ethiopian Coffee vs Colombian Coffee</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-vs-brazilian-coffee' className='text-amber-700 hover:underline'>Ethiopian Coffee vs Brazilian Coffee</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-vs-yemeni-coffee' className='text-amber-700 hover:underline'>Ethiopian Coffee vs Yemeni Coffee</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-vs-sumatran-coffee' className='text-amber-700 hover:underline'>Ethiopian Coffee vs Sumatran Coffee</Link></li>
             </ul>
           </div>
           <div>

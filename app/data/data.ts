@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE VS SUMATRAN COFFEE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-vs-sumatran-coffee.webp',
+      large_image_url: 'insights/ethiopian-coffee-vs-sumatran-coffee.webp',
+      date: 'Jun 30, 2026',
+      title: 'Ethiopian Coffee vs Sumatran Coffee: Buyer\'s Guide',
+      slug: 'ethiopian-coffee-vs-sumatran-coffee',
+      category: 'Origin Comparison / Sourcing Strategy / Green Coffee Buying / Importer Resources',
+      keywords: [
+        'Ethiopian coffee vs Sumatran coffee',
+        'Sumatran coffee vs Ethiopian coffee',
+        'Ethiopia vs Sumatra coffee comparison',
+        'Ethiopian vs Indonesian coffee',
+        'Giling Basah wet hulling vs washed',
+        'Sumatra Mandheling vs Yirgacheffe',
+        'Gayo coffee vs Ethiopian coffee',
+        'earthy vs fruity coffee origins',
+        'best coffee for dark roast espresso base',
+        'Sumatra G1 TP triple picked grading',
+        'wet hulled coffee bean appearance bluish green',
+        'Sumatra arabica FOB price',
+        'Ethiopian vs Sumatran coffee for blends',
+        'which coffee for filter vs espresso origin',
+        'Sumatra coffee EUDR traceability'
+      ],
+      desc: 'Ethiopian coffee vs Sumatran coffee: wet-hulling vs washed processing, flavor, grading, EUDR, pricing, and blend roles for green coffee importers.'
+    },
     // ===== ETHIOPIAN COFFEE FOR FILTER & BATCH BREW =====
     {
       small_image_url: 'insights/ethiopian-coffee-for-filter-batch-brew-sourcing-guide.webp',
