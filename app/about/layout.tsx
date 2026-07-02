@@ -1,10 +1,8 @@
 import { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'About Us | Ethiopian Coffee Export Company | Ethio Coffee',
   description: 'Leading Ethiopian coffee export company with 30+ years family legacy. We export green coffee from Ethiopia to importers worldwide. Grade 1-5 available.',
-  keywords: 'Ethiopian coffee export company, Ethiopian coffee exporter, about Ethio Coffee, export coffee from Ethiopia, Ethiopian green coffee supplier, direct trade coffee Ethiopia, family coffee business Ethiopia, coffee export Ethiopia',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/about',
   },
@@ -84,12 +82,12 @@ export default function AboutLayout({
 
   return (
     <>
-      <Script
+      <script
         id="about-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
       />
-      <Script
+      <script
         id="about-breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

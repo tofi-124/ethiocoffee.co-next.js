@@ -1,5 +1,4 @@
 import { Metadata } from 'next'
-import Script from 'next/script'
 import { newsArticles } from '../data/news'
 
 const parseDateLocal = (value: string) => {
@@ -13,7 +12,6 @@ export const metadata: Metadata = {
   title: 'Ethiopian Coffee Export News | Industry Updates | Ethio Coffee',
   description:
     'Latest news and updates from the Ethiopian coffee export industry. Stay informed on policy changes, trade events, and market developments.',
-  keywords: 'Ethiopian coffee news, coffee export news, Ethiopian coffee industry, IACO, African coffee, coffee trade updates, Ethiopian coffee market',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopia-coffee-export-news',
   },
@@ -70,7 +68,7 @@ export default function NewsLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <>
-      <Script
+      <script
         id="news-collection-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageSchema) }}

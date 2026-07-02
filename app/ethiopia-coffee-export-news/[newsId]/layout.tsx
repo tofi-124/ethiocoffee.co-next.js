@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { newsArticles } from '@/app/data/news'
-import Script from 'next/script'
 
 type Props = {
   params: Promise<{ newsId: string }>
@@ -21,7 +20,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${article.title} | Ethio Coffee`,
     description: article.desc.substring(0, 160),
-    keywords: article.keywords || 'Ethiopian coffee news, coffee export news, Ethiopian coffee industry, Ethiopian coffee market',
     alternates: {
       canonical: `https://www.ethiocoffee.co/ethiopia-coffee-export-news/${article.slug}`,
     },
@@ -121,12 +119,12 @@ export default async function NewsArticleLayout({
 
   return (
     <>
-      <Script
+      <script
         id="news-article-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(newsArticleSchema) }}
       />
-      <Script
+      <script
         id="news-breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

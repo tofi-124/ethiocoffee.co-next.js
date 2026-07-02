@@ -12,7 +12,9 @@ const nextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     qualities: [60, 70, 75],
     formats: ['image/webp', 'image/avif'],
-    minimumCacheTTL: 60,
+    // 31 days: optimized images were being served with max-age=0, forcing
+    // browsers to revalidate every image on every navigation
+    minimumCacheTTL: 2678400,
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },

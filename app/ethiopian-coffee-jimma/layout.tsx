@@ -1,10 +1,8 @@
 import { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Ethiopian Jimma Coffee Beans | Commercial Export | Ethio Coffee',
   description: 'Buy Ethiopian Jimma (Djimmah) coffee beans direct from exporter. Grade 4 & 5 natural and washed Jimma green coffee. Earthy, full-bodied, blend-friendly. Ethiopia\'s main commercial coffee. FOB Djibouti.',
-  keywords: 'jimma coffee, djimmah coffee, ethiopian jimma coffee beans, djimma green coffee, buy jimma coffee, jimma coffee exporter, commercial ethiopian coffee, jimma grade 5, jimma natural coffee, bulk ethiopian coffee export, jimma coffee blend',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-jimma',
   },
@@ -90,12 +88,12 @@ const breadcrumbSchema = {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Script
+      <script
         id='jimma-faq-schema'
         type='application/ld+json'
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <Script
+      <script
         id='jimma-breadcrumb-schema'
         type='application/ld+json'
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

@@ -1,7 +1,16 @@
 'use client'
 
 import { useState, useCallback } from 'react'
-import type { Post } from '@/app/data/data'
+
+// Slim projection of Post — only what the card needs; the server page maps
+// data.ts down to this so the full dataset stays out of the client bundle.
+export type InstaPost = {
+  slug: string
+  title: string
+  desc: string
+  category?: string
+  keywords?: string[]
+}
 
 const SITE = 'https://www.ethiocoffee.co'
 
@@ -168,7 +177,7 @@ function buildBody(desc: string): string {
   return short
 }
 
-function buildCaption(post: Post) {
+function buildCaption(post: InstaPost) {
   const slug = post.slug || ''
   const hash = slugHash(slug)
   const category = post.category?.split('/')[0]?.trim() || ''
@@ -197,7 +206,7 @@ function buildCaption(post: Post) {
   ].join('\n')
 }
 
-export default function InstaCard({ post }: { post: Post }) {
+export default function InstaCard({ post }: { post: InstaPost }) {
   const [copiedCaption, setCopiedCaption] = useState(false)
   const [showCaption, setShowCaption] = useState(false)
   const [sharing, setSharing] = useState(false)

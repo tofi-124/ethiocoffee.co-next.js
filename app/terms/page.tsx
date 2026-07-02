@@ -6,7 +6,6 @@ export const metadata: Metadata = {
   title: 'Terms of Service | Ethio Coffee',
   description:
     'Terms of Service for Ethio Coffee (Ethio Coffee Import and Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
-  keywords: 'Ethio Coffee terms of service, Ethiopian coffee export terms, coffee business terms',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/terms',
   },

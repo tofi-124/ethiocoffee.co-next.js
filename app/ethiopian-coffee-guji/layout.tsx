@@ -1,10 +1,8 @@
 import { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Ethiopian Guji Coffee Beans | Green Coffee Export | Ethio Coffee',
   description: 'Buy Ethiopian Guji coffee beans direct from exporter. Grade 1 & 2 washed, natural, honey Guji green coffee. SCA 85-89+ scored. Stone fruit, tropical, floral. FOB Djibouti.',
-  keywords: 'guji coffee, ethiopian guji coffee beans, guji green coffee, buy guji coffee, guji coffee exporter, guji grade 1, guji washed coffee, guji natural coffee, hambela coffee, shakiso coffee, specialty guji coffee export, guji coffee flavor profile',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-guji',
   },
@@ -90,12 +88,12 @@ const breadcrumbSchema = {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Script
+      <script
         id='guji-faq-schema'
         type='application/ld+json'
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <Script
+      <script
         id='guji-breadcrumb-schema'
         type='application/ld+json'
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

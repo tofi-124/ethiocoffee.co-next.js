@@ -1,10 +1,8 @@
 import { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Ethiopian Yirgacheffe Coffee | Green Coffee Export | Ethio Coffee',
   description: 'Buy Ethiopian Yirgacheffe coffee beans direct from exporter. Grade 1 & 2 washed and natural Yirgacheffe green coffee. SCA 84-88+ scored. Floral, citrus, tea-like. FOB Djibouti.',
-  keywords: 'yirgacheffe coffee, ethiopian yirgacheffe coffee beans, yirgacheffe green coffee, buy yirgacheffe coffee, yirgacheffe coffee exporter, yirgacheffe grade 1, yirgacheffe washed coffee, yirgacheffe natural coffee, kochere coffee, gedeo coffee, specialty yirgacheffe coffee export, yirgacheffe coffee flavor profile',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-yirgacheffe',
   },
@@ -90,12 +88,12 @@ const breadcrumbSchema = {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Script
+      <script
         id='yirgacheffe-faq-schema'
         type='application/ld+json'
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <Script
+      <script
         id='yirgacheffe-breadcrumb-schema'
         type='application/ld+json'
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

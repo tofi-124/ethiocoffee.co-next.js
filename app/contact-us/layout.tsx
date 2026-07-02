@@ -1,11 +1,9 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Request Coffee Samples & Pricing | Ethio Coffee',
   description:
     'Get a quote for Ethiopian green coffee. Request samples of Yirgacheffe, Sidamo, or Guji. Professional export service for importers worldwide.',
-  keywords: 'Ethiopian coffee samples, green coffee pricing, Ethiopian coffee quote, wholesale coffee inquiry, coffee supplier contact',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/contact-us',
   },
@@ -80,12 +78,12 @@ export default function ContactUsLayout({ children }: { children: React.ReactNod
 
   return (
     <>
-      <Script
+      <script
         id="contact-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }}
       />
-      <Script
+      <script
         id="contact-breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 import { offerings } from '@/app/data/offerings'
+
+// Next.js only picks up generateStaticParams exported from page.tsx/layout.tsx,
+// so re-export it here — the standalone file alone is ignored and the route
+// would silently fall back to dynamic (uncached) rendering.
+export { generateStaticParams } from './generateStaticParams'
 
 // Return 404 for product IDs not in generateStaticParams instead of attempting dynamic render
 export const dynamicParams = false
@@ -30,7 +34,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    keywords: `${product.name} coffee, Ethiopian ${product.name.toLowerCase()}, ${product.specifications.processingMethod} Ethiopian coffee, ${product.region} coffee, buy ${product.name.toLowerCase()} green coffee, ${product.flavorNotes.join(', ')}`,
     alternates: {
       canonical: `https://www.ethiocoffee.co/product/${product.id}`,
     },
@@ -208,13 +211,13 @@ export default async function ProductLayout({ params, children }: Props) {
   return (
     <>
       {productSchema && (
-        <Script
+        <script
           id={`product-schema-${productId}`}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
         />
       )}
-      <Script
+      <script
         id={`product-breadcrumb-${productId}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

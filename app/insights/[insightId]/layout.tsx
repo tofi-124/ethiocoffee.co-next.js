@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { posts } from '@/app/data/data'
-import Script from 'next/script'
 
 type Props = {
   params: Promise<{ insightId: string }>
@@ -25,7 +24,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    keywords: post.keywords?.join(', '),
     alternates: {
       canonical: `https://www.ethiocoffee.co/insights/${insightId}`,
     },
@@ -126,12 +124,12 @@ async function ArticleSchema({ params }: { params: Promise<{ insightId: string }
 
   return (
     <>
-      <Script
+      <script
         id="article-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
-      <Script
+      <script
         id="insight-breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

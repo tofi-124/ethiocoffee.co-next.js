@@ -33,11 +33,10 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://www.ethiocoffee.co'),
   title: 'Ethiopian Green Coffee Exporter | Ethio Coffee',
   description: 'Leading Ethiopian coffee exporter shipping green coffee worldwide. We export Grade 1-5 Yirgacheffe, Sidamo, Guji & more direct from Ethiopia.',
-  keywords: 'Ethiopian coffee exporter, Ethiopian coffee export, export coffee from Ethiopia, green coffee exporter Ethiopia, Ethiopian coffee supplier, Ethiopian green coffee beans, coffee export Ethiopia, Yirgacheffe exporter, Sidamo exporter, Guji exporter, specialty coffee Ethiopia, buy Ethiopian coffee wholesale',
   authors: [{ name: 'Ethio Coffee' }],
-  alternates: {
-    canonical: '/',
-  },
+  // No root-level canonical: each indexable page declares its own. A root
+  // canonical of '/' would be inherited by noindex pages (checkout, insta)
+  // and contradict their noindex directive.
   robots: 'index, follow',
   openGraph: {
     type: 'website',
@@ -104,10 +103,11 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={`${oswald.className} ${inconsolata.variable} bg-primary`}>
-        <Script
+        {/* JSON-LD must be a plain script tag so it renders in the initial
+            HTML; next/script injects client-side where crawlers may miss it */}
+        <script
           id="structured-data"
           type="application/ld+json"
-          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -181,10 +181,9 @@ export default function RootLayout({
           }}
         />
         {/* Website Schema for Sitelinks */}
-        <Script
+        <script
           id="website-schema"
           type="application/ld+json"
-          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",

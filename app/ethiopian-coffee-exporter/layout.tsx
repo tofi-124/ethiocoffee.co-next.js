@@ -3,7 +3,6 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Ethiopian Coffee Exporter | Ethio Coffee',
   description: 'Ethio Coffee: trusted Ethiopian coffee exporter shipping green coffee worldwide. Yirgacheffe, Sidamo, Guji, Harar, Jimma available. Order samples today.',
-  keywords: 'Ethiopian coffee exporter, ethiopian coffee exporter company, coffee exporter ethiopia, ethiopia coffee exporter, best ethiopian coffee exporter, ethiopian green coffee exporter, ethiopian specialty coffee exporter, ethiopian arabica exporter, ethiopian coffee export company, ethiopian coffee supplier, buy ethiopian coffee wholesale, import ethiopian coffee, ethiopian coffee beans exporter, coffee export from ethiopia, green coffee beans ethiopia export',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter',
   },

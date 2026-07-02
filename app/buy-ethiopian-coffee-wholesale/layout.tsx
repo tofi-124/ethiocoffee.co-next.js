@@ -1,10 +1,8 @@
 import { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Buy Ethiopian Coffee Wholesale | Direct Export | Ethio Coffee',
   description: 'Buy Ethiopian coffee wholesale direct from licensed exporter. Green coffee: Yirgacheffe, Sidamo, Guji, Harar, Jimma. Competitive FOB pricing.',
-  keywords: 'buy ethiopian coffee wholesale, ethiopian coffee wholesale, wholesale ethiopian coffee, buy ethiopian coffee in bulk, ethiopian coffee for roasters, wholesale green coffee beans ethiopia, bulk ethiopian coffee, ethiopian coffee wholesale price, buy green coffee ethiopia, wholesale coffee supplier ethiopia, import ethiopian coffee wholesale, ethiopian coffee bulk order, ethiopian coffee for businesses',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/buy-ethiopian-coffee-wholesale',
   },
@@ -112,12 +110,12 @@ export default function BuyWholesaleLayout({
 
   return (
     <>
-      <Script
+      <script
         id="wholesale-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageSchema) }}
       />
-      <Script
+      <script
         id="wholesale-faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

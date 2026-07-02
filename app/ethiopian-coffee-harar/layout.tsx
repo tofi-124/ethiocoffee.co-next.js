@@ -1,10 +1,8 @@
 import { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Ethiopian Harar Coffee | Wild & Exotic Export | Ethio Coffee',
   description: 'Buy Ethiopian Harar (Harrar) coffee beans direct from exporter. Grade 4 & 5 natural dry-processed Harar green coffee. SCA 82-86+. Wild berry, wine, mocha, dark chocolate. FOB Djibouti.',
-  keywords: 'harar coffee, harrar coffee, ethiopian harar coffee beans, harar green coffee, buy harar coffee, harar coffee exporter, harar longberry, harar shortberry, harar natural coffee, harar mocha, harar wild berry, ethiopian harrar export',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-harar',
   },
@@ -90,12 +88,12 @@ const breadcrumbSchema = {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Script
+      <script
         id='harar-faq-schema'
         type='application/ld+json'
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <Script
+      <script
         id='harar-breadcrumb-schema'
         type='application/ld+json'
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

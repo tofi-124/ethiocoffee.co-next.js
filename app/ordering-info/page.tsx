@@ -4,7 +4,6 @@ import { useState, ReactNode } from 'react'
 import Link from 'next/link'
 import AutoScrollTo from '../components/AutoScrollTo'
 import ResponsiveImage from '../components/ResponsiveImage'
-import Script from 'next/script'
 import { 
   HiOutlineCube, 
   HiOutlineGlobeAmericas, 
@@ -684,7 +683,7 @@ export default function OrderingInfoPage() {
 
   return (
     <main className='bg-primary'>
-      <Script
+      <script
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

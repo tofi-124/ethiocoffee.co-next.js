@@ -1,10 +1,8 @@
 import { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Ethiopian Limu Coffee Beans | Green Coffee Export | Ethio Coffee',
   description: 'Buy Ethiopian Limu coffee beans direct from exporter. Grade 2 & 3 washed Limu green coffee. SCA 82-85+. Wine, spice, balanced body. Versatile Ethiopian origin. FOB Djibouti.',
-  keywords: 'limu coffee, ethiopian limu coffee beans, limu green coffee, buy limu coffee, limu coffee exporter, limu washed coffee, limu grade 2, limu specialty coffee, ethiopian limu export, limu coffee flavor profile',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-limu',
   },
@@ -90,12 +88,12 @@ const breadcrumbSchema = {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Script
+      <script
         id='limu-faq-schema'
         type='application/ld+json'
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <Script
+      <script
         id='limu-breadcrumb-schema'
         type='application/ld+json'
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

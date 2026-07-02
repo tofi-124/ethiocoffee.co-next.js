@@ -1,12 +1,9 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'How To Buy Ethiopian Coffee | FAQ | Ethio Coffee',
   description:
     'Everything about ordering Ethiopian green coffee from Ethio Coffee. Learn about our process, shipping, payment terms, quality guarantees, and more.',
-  keywords:
-    'Ethiopian coffee ordering, green coffee FAQ, coffee shipping, wholesale coffee order, coffee payment terms, coffee samples, Ethiopian coffee export, coffee import guide, how to buy ethiopian coffee, order ethiopian green coffee',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ordering-info',
   },
@@ -131,12 +128,12 @@ export default function OrderingInfoLayout({
 
   return (
     <>
-      <Script
+      <script
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <Script
+      <script
         id="ordering-breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

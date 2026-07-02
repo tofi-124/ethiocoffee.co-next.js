@@ -1,10 +1,8 @@
 import { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Ethiopian Green Coffee Beans | Buy Direct | Ethio Coffee',
   description: 'Buy Ethiopian green coffee beans direct from exporter. Grade 1-5 Yirgacheffe, Sidamo, Guji, Harar, Limu green beans. SCA scored. FOB Djibouti.',
-  keywords: 'ethiopian green coffee beans, ethiopian green coffee, green coffee beans ethiopia, buy ethiopian green coffee beans, ethiopian unroasted coffee beans, ethiopian raw coffee beans, green coffee from ethiopia, ethiopian arabica green beans, specialty green coffee beans ethiopia, green coffee beans for roasters, ethiopian single origin green coffee, wholesale green coffee beans ethiopia',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopian-green-coffee-beans',
   },
@@ -112,12 +110,12 @@ export default function EthiopianGreenCoffeeBeansLayout({
 
   return (
     <>
-      <Script
+      <script
         id="green-coffee-beans-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
-      <Script
+      <script
         id="green-coffee-beans-faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
