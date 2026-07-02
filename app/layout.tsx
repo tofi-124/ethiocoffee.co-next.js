@@ -13,9 +13,9 @@ import dynamic from 'next/dynamic'
 const ScrollToTop = dynamic(() => import('./components/ScrollToTop'))
 const CartDrawer = dynamic(() => import('./components/CartDrawer'))
 
-const oswald = Oswald({ 
+const oswald = Oswald({
   subsets: ['latin'],
-  display: 'optional',
+  display: 'swap',
   variable: '--font-oswald',
   adjustFontFallback: true,
   fallback: ['Arial Narrow', 'sans-serif'],
@@ -23,7 +23,7 @@ const oswald = Oswald({
 
 const inconsolata = Inconsolata({
   subsets: ['latin'],
-  display: 'optional',
+  display: 'swap',
   variable: '--font-inconsolata',
   adjustFontFallback: true,
   fallback: ['Courier New', 'monospace'],

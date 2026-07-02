@@ -1,19 +1,14 @@
-'use client'
-
-import { useState } from 'react'
 import Link from 'next/link'
 import { PiCoffee, PiPlantFill } from 'react-icons/pi'
 import { GiCoffeeBeans } from 'react-icons/gi'
 import { HiOutlineClipboardDocumentCheck, HiOutlineMapPin, HiOutlineCube, HiOutlineShoppingCart, HiOutlineArrowRight } from 'react-icons/hi2'
 import { offerings } from '../data/offerings'
 import AddToCartButton from '../components/AddToCartButton'
-import QuoteRequestPopup from '../components/QuoteRequestPopup'
+import QuoteRequestButton from '../components/QuoteRequestButton'
 
 const regionOfferings = offerings.filter((o) => o.region === 'Yirgacheffe')
 
 export default function YirgacheffeCoffeePage() {
-  const [quoteOpen, setQuoteOpen] = useState(false)
-
   return (
     <main className='bg-primary text-dark'>
       {/* Hero */}
@@ -315,22 +310,18 @@ export default function YirgacheffeCoffeePage() {
             <Link href='/offerings' className='w-full sm:w-auto bg-white text-accent px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-white/90 transition-all duration-300 shadow-sm hover:shadow-md'>
               View Current Offerings
             </Link>
-            <button onClick={() => setQuoteOpen(true)} className='w-full sm:w-auto border-2 border-white/40 text-white px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-white/10 transition-all duration-300'>
-              Request a Wholesale Quote
-            </button>
+            <QuoteRequestButton
+              productName='Yirgacheffe Coffee'
+              productImage='product-img.png'
+              label='Request a Wholesale Quote'
+              className='w-full sm:w-auto border-2 border-white/40 text-white px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-white/10 transition-all duration-300'
+            />
             <Link href='/ordering-info' className='w-full sm:w-auto border-2 border-white/40 text-white px-6 py-3 sm:px-8 rounded-full font-bold hover:bg-white/10 transition-all duration-300'>
               How to Order
             </Link>
           </div>
         </div>
       </section>
-
-      <QuoteRequestPopup
-        isOpen={quoteOpen}
-        onClose={() => setQuoteOpen(false)}
-        productName='Yirgacheffe Coffee'
-        productImage='product-img.png'
-      />
     </main>
   )
 }

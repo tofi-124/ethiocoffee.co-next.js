@@ -1,11 +1,8 @@
-'use client'
-
-import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { offerings } from '../data/offerings'
 import AddToCartButton from '../components/AddToCartButton'
-import QuoteRequestPopup from '../components/QuoteRequestPopup'
+import QuoteRequestButton from '../components/QuoteRequestButton'
 import { PiCoffee } from 'react-icons/pi'
 import { GiCoffeeBeans } from 'react-icons/gi'
 import {
@@ -20,7 +17,6 @@ import {
 } from 'react-icons/hi2'
 
 export default function JimmaCoffeePage() {
-  const [quoteOpen, setQuoteOpen] = useState(false)
   const regionOfferings = offerings.filter((o) => o.region === 'Djimmah')
 
   return (
@@ -36,12 +32,12 @@ export default function JimmaCoffeePage() {
           Consistent. Full-Bodied. Blend-Friendly.
         </p>
         <div className='mt-6 flex flex-col sm:flex-row justify-center gap-4 relative z-10 px-6 w-full sm:w-auto'>
-          <button
-            onClick={() => setQuoteOpen(true)}
+          <QuoteRequestButton
+            productName='Jimma (Djimmah) Coffee'
+            productImage='/images/about-us.webp'
+            label='Request Pricing'
             className='w-full sm:w-auto bg-accent text-white px-8 py-3 rounded-full font-bold hover:bg-accent/90 transition-colors'
-          >
-            Request Pricing
-          </button>
+          />
           <Link href='/offerings' className='w-full sm:w-auto text-center border-2 border-primary/40 text-primary px-8 py-3 rounded-full font-bold hover:bg-white/10 transition-colors'>
             View Available Lots
           </Link>
@@ -346,12 +342,12 @@ export default function JimmaCoffeePage() {
             or discuss year-round supply contracts with our export team.
           </p>
           <div className='flex flex-col sm:flex-row justify-center gap-4'>
-            <button
-              onClick={() => setQuoteOpen(true)}
+            <QuoteRequestButton
+              productName='Jimma (Djimmah) Coffee'
+              productImage='/images/about-us.webp'
+              label='Request Wholesale Pricing'
               className='w-full sm:w-auto bg-dark text-primary px-8 py-3 rounded-full font-bold hover:bg-dark/90 transition-colors'
-            >
-              Request Wholesale Pricing
-            </button>
+            />
             <Link href='/offerings' className='w-full sm:w-auto text-center border-2 border-white/40 text-white px-8 py-3 rounded-full font-bold hover:bg-white/10 transition-colors'>
               View Current Offerings
             </Link>
@@ -361,13 +357,6 @@ export default function JimmaCoffeePage() {
           </div>
         </div>
       </section>
-
-      <QuoteRequestPopup
-        isOpen={quoteOpen}
-        onClose={() => setQuoteOpen(false)}
-        productName='Jimma (Djimmah) Coffee'
-        productImage='/images/about-us.webp'
-      />
     </main>
   )
 }
