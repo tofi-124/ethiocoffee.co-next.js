@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE VS RWANDAN COFFEE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-vs-rwandan-coffee.webp',
+      large_image_url: 'insights/ethiopian-coffee-vs-rwandan-coffee.webp',
+      date: 'Jul 3, 2026',
+      title: 'Ethiopian Coffee vs Rwandan Coffee: Buyer\'s Guide',
+      slug: 'ethiopian-coffee-vs-rwandan-coffee',
+      category: 'Origin Comparison / Sourcing Strategy / Green Coffee Buying / Importer Resources',
+      keywords: [
+        'Ethiopian coffee vs Rwandan coffee',
+        'Rwandan coffee vs Ethiopian coffee',
+        'Ethiopia vs Rwanda coffee comparison',
+        'East African coffee sourcing',
+        'Rwanda Red Bourbon coffee',
+        'potato taste defect coffee',
+        'Rwandan coffee flavor profile',
+        'Ethiopian heirloom vs Bourbon',
+        'best African coffee for roasters',
+        'Rwanda coffee harvest season',
+        'Rwanda coffee FOB price',
+        'Ethiopian vs Rwandan coffee for blends',
+        'counter-seasonal coffee sourcing',
+        'NAEB Rwanda coffee exports',
+        'washing station Rwanda coffee'
+      ],
+      desc: 'Ethiopian coffee vs Rwandan coffee for importers: heirloom vs Red Bourbon, the potato taste defect, harvest timing, pricing, and running both in one program.'
+    },
     // ===== ETHIOPIAN COFFEE VS SUMATRAN COFFEE =====
     {
       small_image_url: 'insights/ethiopian-coffee-vs-sumatran-coffee.webp',
@@ -1548,7 +1575,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-harvest-calendar-buying-guide.webp',
       large_image_url: 'insights/ethiopian-coffee-harvest-calendar-buying-guide.webp',
       date: 'Feb 22, 2026',
-      dateModified: 'Mar 12, 2026',
+      dateModified: 'Jul 3, 2026',
       title: 'Ethiopian Coffee Harvest Calendar for Buyers',
       slug: 'ethiopian-coffee-harvest-calendar-buying-guide',
       category: 'Sourcing Strategy / Harvest Timing / Seasonal Buying / Green Coffee Planning',

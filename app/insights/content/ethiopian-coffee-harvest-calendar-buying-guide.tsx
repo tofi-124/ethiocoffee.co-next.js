@@ -650,6 +650,10 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
         For specialty roasters, new crop is almost always the right choice. The cup quality difference is significant, particularly for single-origin offerings where brightness and complexity are selling points. For commercial blenders, well-stored past-crop Ethiopian coffee can fill supply gaps between harvest seasons at a meaningful cost savings. For more on how storage affects green coffee quality, see our <Link href='/insights/green-coffee-shelf-life-storage-guide' className='text-amber-700 underline font-semibold'>green coffee shelf life and storage guide</Link>.
       </p>
 
+      <p className='my-4'>
+        Roasters who want a fresh African coffee on the bar year-round can pair Ethiopia&apos;s October-to-February harvest with a counter-seasonal East African origin. Rwanda, for example, harvests March to July and lands fresh at destination roughly August to November, filling the exact months when Ethiopian new crop is aging. See our <Link href='/insights/ethiopian-coffee-vs-rwandan-coffee' className='text-amber-700 underline font-semibold'>Ethiopian coffee vs Rwandan coffee buyer&apos;s guide</Link> for how to build a rotating two-origin program.
+      </p>
+
       {/* FAQ SECTION */}
       <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
         <h3 className="text-2xl font-bold mb-6 text-gray-900 flex items-center gap-2">
