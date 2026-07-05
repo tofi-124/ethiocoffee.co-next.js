@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { posts } from '@/app/data/data'
+import { faqsBySlug } from '@/app/data/faqs'
 
 type Props = {
   params: Promise<{ insightId: string }>
@@ -122,6 +123,25 @@ async function ArticleSchema({ params }: { params: Promise<{ insightId: string }
     ],
   }
 
+  // FAQPage schema mirrors the article's visible FAQ section; the data is
+  // extracted from the page source by scripts/generate-faqs.mjs so it can't
+  // drift from what's on the page.
+  const faqs = faqsBySlug[insightId]
+  const faqSchema = faqs
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map((faq) => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: faq.answer,
+          },
+        })),
+      }
+    : null
+
   return (
     <>
       <script
@@ -134,6 +154,13 @@ async function ArticleSchema({ params }: { params: Promise<{ insightId: string }
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          id="insight-faq-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
     </>
   )
 }

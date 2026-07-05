@@ -75,6 +75,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="32x32" />
         <link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
         <link rel="apple-touch-icon" href="/apple-icon.png" sizes="180x180" />
+        <link rel="alternate" type="application/rss+xml" title="Ethio Coffee — Insights &amp; Export News" href="/feed.xml" />
         {/* Removed: preconnect to own domain is redundant (already connected) */}
         {/* Removed: manual preload fetched the ORIGINAL image; Next.js Image priority
             already preloads the correctly optimized /_next/image version */}
@@ -151,7 +152,8 @@ export default function RootLayout({
                 }
               ],
               "sameAs": [
-                "https://instagram.com/ethiocoffee.co"
+                "https://instagram.com/ethiocoffee.co",
+                "https://www.linkedin.com/company/ethio-coffee-imports-and-exports-plc/"
               ],
               "areaServed": [
                 {"@type": "Country", "name": "United States"},

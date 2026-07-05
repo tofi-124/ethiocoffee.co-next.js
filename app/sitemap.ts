@@ -9,87 +9,118 @@ export const revalidate = 86400
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.ethiocoffee.co'
 
+  // Honest lastModified for content-index pages, derived from the newest item
+  // they list. Static landing pages get none — a fabricated date is worse.
+  const newestDate = (dates: (string | undefined)[]) =>
+    new Date(Math.max(...dates.filter((d): d is string => Boolean(d)).map((d) => new Date(d).getTime())))
+  const newestInsight = newestDate(posts.map((p) => p.dateModified || p.date))
+  const newestNews = newestDate(newsArticles.map((a) => a.dateModified || a.date))
+  const newestOverall = newestInsight > newestNews ? newestInsight : newestNews
+
   const staticRoutes: MetadataRoute.Sitemap = [
     {
-      url: baseUrl,      changeFrequency: 'weekly',
+      url: baseUrl,
+      lastModified: newestOverall,
+      changeFrequency: 'weekly',
       priority: 1,
     },
     {
-      url: `${baseUrl}/ethiopian-coffee-exporter`,      changeFrequency: 'weekly',
+      url: `${baseUrl}/ethiopian-coffee-exporter`,
+      changeFrequency: 'weekly',
       priority: 0.95,
     },
     {
-      url: `${baseUrl}/about`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/about`,
+      changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/offerings`,      changeFrequency: 'weekly',
+      url: `${baseUrl}/offerings`,
+      changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/ordering-info`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/ordering-info`,
+      changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/insights`,      changeFrequency: 'weekly',
+      url: `${baseUrl}/insights`,
+      lastModified: newestInsight,
+      changeFrequency: 'weekly',
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/contact-us`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/contact-us`,
+      changeFrequency: 'monthly',
       priority: 0.6,
     },
     {
-      url: `${baseUrl}/ethiopia-coffee-export-news`,      changeFrequency: 'weekly',
+      url: `${baseUrl}/ethiopia-coffee-export-news`,
+      lastModified: newestNews,
+      changeFrequency: 'weekly',
       priority: 0.6,
     },
     {
-      url: `${baseUrl}/ethiopian-green-coffee-beans`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/ethiopian-green-coffee-beans`,
+      changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/buy-ethiopian-coffee-wholesale`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/buy-ethiopian-coffee-wholesale`,
+      changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/coffee-grading-ethiopia`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/coffee-grading-ethiopia`,
+      changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/ethiopian-coffee-yirgacheffe`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/ethiopian-coffee-yirgacheffe`,
+      changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/organic-ethiopian-coffee-export`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/organic-ethiopian-coffee-export`,
+      changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/ethiopian-coffee-sidamo`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/ethiopian-coffee-sidamo`,
+      changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/ethiopian-coffee-guji`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/ethiopian-coffee-guji`,
+      changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/ethiopian-coffee-harar`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/ethiopian-coffee-harar`,
+      changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/ethiopian-coffee-limu`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/ethiopian-coffee-limu`,
+      changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/ethiopian-coffee-jimma`,      changeFrequency: 'monthly',
+      url: `${baseUrl}/ethiopian-coffee-jimma`,
+      changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/terms`,      changeFrequency: 'yearly',
+      url: `${baseUrl}/terms`,
+      changeFrequency: 'yearly',
       priority: 0.3,
     },
   ]
 
   const productRoutes: MetadataRoute.Sitemap = offerings.map((o) => ({
-    url: `${baseUrl}/product/${o.id}`,    changeFrequency: 'monthly',
+    url: `${baseUrl}/product/${o.id}`,
+    changeFrequency: 'monthly',
     priority: 0.8,
   }))
 
