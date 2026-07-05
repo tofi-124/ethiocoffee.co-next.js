@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/_next/', '/insta/', '/checkout/'],
+        disallow: ['/api/', '/insta/', '/checkout/'],
       },
       {
         // Crawlers use the single most-specific matching group, so these bots

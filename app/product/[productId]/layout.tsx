@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { offerings } from '@/app/data/offerings'
+import { buildOfferingSchemaOffer } from '@/app/lib/offeringSchema'
 
 // Next.js only picks up generateStaticParams exported from page.tsx/layout.tsx,
 // so re-export it here — the standalone file alone is ignored and the route
@@ -106,53 +107,7 @@ export default async function ProductLayout({ params, children }: Props) {
         "value": product.specifications.cupScore
       }
     ],
-    "offers": {
-      "@type": "Offer",
-      "availability": product.isSoldOut 
-        ? "https://schema.org/OutOfStock" 
-        : "https://schema.org/InStock",
-      "price": product.pricing.fobPricePerKg,
-      "priceCurrency": "USD",
-      "url": `https://www.ethiocoffee.co/product/${product.id}`,
-      "seller": {
-        "@type": "Organization",
-        "name": "Ethio Coffee Import and Export PLC"
-      },
-      "priceValidUntil": "2026-12-31",
-      "hasMerchantReturnPolicy": {
-        "@type": "MerchantReturnPolicy",
-        "applicableCountry": "ET",
-        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
-        "merchantReturnDays": 0
-      },
-      "shippingDetails": {
-        "@type": "OfferShippingDetails",
-        "shippingDestination": {
-          "@type": "DefinedRegion",
-          "addressCountry": "US"
-        },
-        "shippingRate": {
-          "@type": "MonetaryAmount",
-          "value": 0,
-          "currency": "USD"
-        },
-        "deliveryTime": {
-          "@type": "ShippingDeliveryTime",
-          "handlingTime": {
-            "@type": "QuantitativeValue",
-            "minValue": 7,
-            "maxValue": 14,
-            "unitCode": "DAY"
-          },
-          "transitTime": {
-            "@type": "QuantitativeValue",
-            "minValue": 21,
-            "maxValue": 45,
-            "unitCode": "DAY"
-          }
-        }
-      }
-    },
+    "offers": buildOfferingSchemaOffer(product, `https://www.ethiocoffee.co/product/${product.id}`),
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": cupScoreToRating(product.specifications.cupScore),

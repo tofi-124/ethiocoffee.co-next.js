@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { offerings } from '../data/offerings'
+import { buildOfferingSchemaOffer } from '../lib/offeringSchema'
 
 export const metadata: Metadata = {
   title: 'Ethiopian Coffee for Export | Green Coffee Lots | Ethio Coffee',
@@ -54,49 +55,7 @@ export default function OfferingsLayout({
         "description": product.desc,
         "image": `https://www.ethiocoffee.co/images/${product.image_url}`,
         "url": `https://www.ethiocoffee.co/product/${product.id}`,
-        "offers": {
-          "@type": "Offer",
-          "availability": product.isSoldOut 
-            ? "https://schema.org/OutOfStock" 
-            : "https://schema.org/InStock",
-          "price": product.pricing.fobPricePerKg,
-          "priceCurrency": "USD",
-          "url": `https://www.ethiocoffee.co/product/${product.id}`,
-          "priceValidUntil": "2026-12-31",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "ET",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
-            "merchantReturnDays": 0
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "US"
-            },
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": 0,
-              "currency": "USD"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 7,
-                "maxValue": 14,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 21,
-                "maxValue": 45,
-                "unitCode": "DAY"
-              }
-            }
-          }
-        },
+        "offers": buildOfferingSchemaOffer(product, `https://www.ethiocoffee.co/product/${product.id}`),
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": cupScoreToRating(product.specifications.cupScore),
