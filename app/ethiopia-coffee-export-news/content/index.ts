@@ -82,6 +82,26 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./ecta-national-occupational-standard-coffee').then(mod => mod.default),
     'china-zero-tariff-ethiopian-coffee-exports': () =>
       import('./china-zero-tariff-ethiopian-coffee-exports').then(mod => mod.default),
+    'ethiopia-unesco-coffee-ceremony-heritage-bid': () =>
+      import('./ethiopia-unesco-coffee-ceremony-heritage-bid').then(mod => mod.default),
+    'coffee-association-alert-falling-prices-hoarding': () =>
+      import('./coffee-association-alert-falling-prices-hoarding').then(mod => mod.default),
+    'eu-proposes-instant-coffee-eudr': () =>
+      import('./eu-proposes-instant-coffee-eudr').then(mod => mod.default),
+    'ecta-urges-exporters-sell-early-price-drop': () =>
+      import('./ecta-urges-exporters-sell-early-price-drop').then(mod => mod.default),
+    'ethiopia-overtake-indonesia-fourth-largest-producer': () =>
+      import('./ethiopia-overtake-indonesia-fourth-largest-producer').then(mod => mod.default),
+    'usda-coffee-annual-2026-production-modernization': () =>
+      import('./usda-coffee-annual-2026-production-modernization').then(mod => mod.default),
+    'ethiopia-african-market-afcfta-coffee-trade': () =>
+      import('./ethiopia-african-market-afcfta-coffee-trade').then(mod => mod.default),
+    'five-year-coffee-development-package-6-billion': () =>
+      import('./five-year-coffee-development-package-6-billion').then(mod => mod.default),
+    'arabica-prices-largest-gains-since-2022': () =>
+      import('./arabica-prices-largest-gains-since-2022').then(mod => mod.default),
+    'ethiopia-record-3-billion-coffee-exports': () =>
+      import('./ethiopia-record-3-billion-coffee-exports').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 
