@@ -351,6 +351,7 @@ export default function EthiopianCoffeeClimateChangeImpact({ title, date, large_
         Buyers who invest in their supply chain, whether through premium pricing, farmer training programs, or shade-tree planting initiatives, are directly building the resilience of the very farms they depend on.
         This is the economic logic behind <Link href='/insights/direct-trade-ethiopian-farmers' className='underline font-bold'>direct trade</Link>:
         paying above-market prices today funds the agroforestry and water management systems that guarantee quality coffee tomorrow.
+        Those same shade systems also give Ethiopian coffee a low emissions profile, which buyers increasingly report; see our <Link href='/insights/ethiopian-coffee-carbon-footprint-scope-3-buyers-guide' className='underline font-bold'>Ethiopian coffee carbon footprint guide</Link>.
       </p>
 
       <h3 className='text-xl font-bold mt-6'>

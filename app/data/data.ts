@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE CARBON FOOTPRINT / SCOPE 3 =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-carbon-footprint-scope-3-buyers-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-carbon-footprint-scope-3-buyers-guide.webp',
+      date: 'Jul 5, 2026',
+      title: 'Ethiopian Coffee Carbon Footprint: Buyer\'s Data Guide',
+      slug: 'ethiopian-coffee-carbon-footprint-scope-3-buyers-guide',
+      category: 'Sustainability & Reporting / Green Coffee Buying / Scope 3 Data / Importer Resources',
+      keywords: [
+        'Ethiopian coffee carbon footprint',
+        'green coffee scope 3 emissions',
+        'coffee carbon footprint per kg',
+        'Ethiopian coffee sustainability data',
+        'CSRD coffee reporting',
+        'green coffee life cycle assessment',
+        'low carbon coffee sourcing',
+        'shade grown coffee carbon',
+        'Ethiopian coffee agroforestry carbon',
+        'scope 3 coffee roasters',
+        'organic coffee carbon reduction',
+        'coffee emission factors',
+        'sustainable green coffee buying',
+        'coffee carbon primary data',
+        'Ethiopia smallholder coffee emissions'
+      ],
+      desc: 'Ethiopian coffee carbon footprint for buyers: per-kg estimates, why low-input smallholder structure lowers it, and the Scope 3 data behind each lot.'
+    },
     // ===== ETHIOPIAN COFFEE VS RWANDAN COFFEE =====
     {
       small_image_url: 'insights/ethiopian-coffee-vs-rwandan-coffee.webp',
@@ -1919,6 +1946,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-climate-change.webp',
       large_image_url: 'insights/ethiopian-coffee-climate-change.webp',
       date: 'Feb 10, 2026',
+      dateModified: 'Jul 5, 2026',
       title: 'Ethiopian Coffee and Climate Change Impact',
       slug: 'ethiopian-coffee-climate-change-impact',
       category: 'Climate & Sustainability / Supply Chain Risk',
@@ -3241,7 +3269,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-certifications.webp',
       large_image_url: 'insights/ethiopian-coffee-certifications.webp',
       date: 'Jan 31, 2026',
-      dateModified: 'Mar 12, 2026',
+      dateModified: 'Jul 5, 2026',
       title: 'Ethiopian Coffee Certifications Guide',
       slug: 'ethiopian-coffee-certifications-organic-fairtrade-rainforest',
       category: 'Certifications & Sustainability / Sourcing Guide',
@@ -3381,7 +3409,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-specialty-exporters-2026.webp',
       large_image_url: 'insights/ethiopian-specialty-exporters-2026.webp',
       date: 'Feb 04, 2026',
-      dateModified: 'Mar 12, 2026',
+      dateModified: 'Jul 5, 2026',
       title: '2026 Ethiopian Specialty Coffee Exporters',
       slug: 'navigating-2026-ethiopian-specialty-coffee-exporters',
       category: 'Export / Specialty Coffee / Market Trends',

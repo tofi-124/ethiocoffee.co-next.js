@@ -337,7 +337,7 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
       <div className='space-y-3 my-6'>
         <div className='bg-blue-50 p-4 rounded-lg border border-blue-200'>
           <p className='font-semibold flex items-center gap-2'><HiOutlineShieldCheck className='text-blue-600' /> Expanding Environmental Regulations</p>
-          <p className='text-sm text-gray-700 mt-1'>The EUDR is a starting point. Forthcoming regulations in other markets will likely address water use, biodiversity, and carbon footprint. Exporters investing in compliance infrastructure today will be positioned for regulatory expansion.</p>
+          <p className='text-sm text-gray-700 mt-1'>The EUDR is a starting point. Forthcoming regulations in other markets will likely address water use, biodiversity, and carbon footprint. Buyers inside CSRD scope already request lot-level emissions data, so exporters who can document production system, drying method, and freight routing, as covered in our <Link href='/insights/ethiopian-coffee-carbon-footprint-scope-3-buyers-guide' className='underline font-bold'>Ethiopian coffee carbon footprint guide</Link>, will be positioned for regulatory expansion.</p>
         </div>
         <div className='bg-blue-50 p-4 rounded-lg border border-blue-200'>
           <p className='font-semibold flex items-center gap-2'><HiOutlineArrowTrendingUp className='text-blue-600' /> Premiums Widening for Documented Quality</p>

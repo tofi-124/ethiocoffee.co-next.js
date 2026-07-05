@@ -597,7 +597,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         </div>
         <div className='border-l-4 border-blue-500 pl-4'>
           <h5 className='font-bold'>Living Wage &amp; Carbon Certifications</h5>
-          <p className='text-sm'>Both Fair Trade and Rainforest Alliance are increasing emphasis on living income. New carbon-focused certifications are emerging, and Ethiopia's forest coffee systems have strong potential for carbon sequestration programs.</p>
+          <p className='text-sm'>Both Fair Trade and Rainforest Alliance are increasing emphasis on living income. New carbon-focused certifications are emerging, and Ethiopia's forest coffee systems have strong potential for carbon sequestration programs. For how low-input, shade-grown Ethiopian coffee feeds a buyer's emissions reporting, see our <Link href='/insights/ethiopian-coffee-carbon-footprint-scope-3-buyers-guide' className='underline font-bold'>Ethiopian coffee carbon footprint guide</Link>.</p>
         </div>
         <div className='border-l-4 border-purple-500 pl-4'>
           <h5 className='font-bold'>Technology-Enabled Traceability</h5>
