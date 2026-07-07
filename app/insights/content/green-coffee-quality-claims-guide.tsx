@@ -518,7 +518,7 @@ export default function GreenCoffeeQualityClaimsGuide({ title, date, large_image
         </div>
         <div className='flex items-start gap-3'>
           <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
-          <p className='text-sm text-gray-700'><strong>FOB risk transfer should not be misunderstood.</strong> Buyers often arrange freight under FOB Djibouti, but still expect the seller to help resolve claims when the evidence is clear. Commercial responsibility and legal risk transfer are related, but they are not always handled the same way in practice.</p>
+          <p className='text-sm text-gray-700'><strong>FOB risk transfer should not be misunderstood.</strong> Buyers often arrange freight under FOB Djibouti, but still expect the seller to help resolve claims when the evidence is clear. Commercial responsibility and legal risk transfer are related, but they are not always handled the same way in practice. When damage traces to the voyage rather than the coffee, the recovery path runs through your marine policy instead of the seller; our <Link href='/insights/green-coffee-cargo-insurance-guide' className='text-amber-700 hover:underline font-bold'>green coffee cargo insurance guide</Link> walks through that claim track step by step.</p>
         </div>
       </div>
 

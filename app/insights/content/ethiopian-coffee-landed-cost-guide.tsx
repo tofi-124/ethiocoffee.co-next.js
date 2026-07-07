@@ -315,7 +315,7 @@ export default function EthiopianCoffeeLandedCostGuide({ title, date, large_imag
       </ul>
 
       <p className='my-4'>
-        Insurance is not optional for any serious importer. A single lost or damaged container of specialty Ethiopian coffee represents $80,000 to $150,000 in value. Some banks require proof of marine insurance before releasing a Letter of Credit. If your exporter quotes CIF, insurance is included in the price, but verify the coverage scope and insured value.
+        Insurance is not optional for any serious importer. A single lost or damaged container of specialty Ethiopian coffee represents $80,000 to $150,000 in value. Some banks require proof of marine insurance before releasing a Letter of Credit. If your exporter quotes CIF, insurance is included in the price, but verify the coverage scope and insured value: the CIF default is minimum ICC (C) cover, which excludes theft and wet damage. For clause levels, war risk on Red Sea transits, general average, and how to file a transit damage claim, see our <Link href='/insights/green-coffee-cargo-insurance-guide' className='underline font-bold'>green coffee cargo insurance guide</Link>.
       </p>
 
       {/* SECTION 6: CUSTOMS DUTIES */}

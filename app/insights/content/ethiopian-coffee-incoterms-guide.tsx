@@ -380,7 +380,7 @@ export default function EthiopianCoffeeIncotermsGuide({ title, date, large_image
       </p>
 
       <p className='my-4'>
-        <span className='font-semibold'>Insurance obligation:</span> Under FOB and FCA, you are responsible for arranging marine cargo insurance. Failing to insure between the transfer point and your warehouse is a real financial risk on a specialty lot worth $50,000-100,000. Use a specialist marine insurer familiar with agricultural commodities and request ICC-A (all risks) cover rather than the minimum ICC-C.
+        <span className='font-semibold'>Insurance obligation:</span> Under FOB and FCA, you are responsible for arranging marine cargo insurance. Failing to insure between the transfer point and your warehouse is a real financial risk on a specialty lot worth $50,000-100,000. Use a specialist marine insurer familiar with agricultural commodities and request ICC-A (all risks) cover rather than the minimum ICC-C. Since Djibouti-loaded vessels transit the Red Sea and Gulf of Aden high-risk area, war and strikes endorsements also matter; our <Link href='/insights/green-coffee-cargo-insurance-guide' className='text-amber-700 hover:text-amber-900 underline'>green coffee cargo insurance guide</Link> covers clause levels, certificates, and claims in full.
       </p>
 
       <p className='my-4'>

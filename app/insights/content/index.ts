@@ -2,6 +2,8 @@
 // This allows us to maintain individual files for each insight while supporting dynamic routing
 
 export const insightContentMap: Record<string, () => Promise<any>> = {
+  'green-coffee-cargo-insurance-guide': () =>
+    import('./green-coffee-cargo-insurance-guide').then(mod => mod.default),
   'ethiopian-coffee-carbon-footprint-scope-3-buyers-guide': () =>
     import('./ethiopian-coffee-carbon-footprint-scope-3-buyers-guide').then(mod => mod.default),
   'ethiopian-coffee-vs-rwandan-coffee': () =>

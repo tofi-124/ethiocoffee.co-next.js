@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE CARGO INSURANCE =====
+    {
+      small_image_url: 'insights/green-coffee-cargo-insurance-guide.webp',
+      large_image_url: 'insights/green-coffee-cargo-insurance-guide.webp',
+      date: 'Jul 7, 2026',
+      title: 'Green Coffee Cargo Insurance: Importer\'s Guide',
+      slug: 'green-coffee-cargo-insurance-guide',
+      category: 'Importer Resources / Logistics & Risk / Green Coffee Buying',
+      keywords: [
+        'green coffee cargo insurance',
+        'marine cargo insurance coffee',
+        'coffee shipment insurance',
+        'Institute Cargo Clauses coffee',
+        'ICC A vs ICC C coffee',
+        'CIF insurance green coffee',
+        'war risk insurance Red Sea coffee',
+        'general average coffee shipment',
+        'coffee container condensation claim',
+        'inherent vice green coffee',
+        'open cargo policy coffee importer',
+        'insurance certificate green coffee',
+        'FOB Djibouti insurance',
+        'coffee transit damage claim',
+        'insuring Ethiopian coffee shipments'
+      ],
+      desc: 'Green coffee cargo insurance explained: ICC A, B, C cover, the CIF minimum-cover gap, Red Sea war risk, general average, and how to file transit claims.'
+    },
     // ===== ETHIOPIAN COFFEE CARBON FOOTPRINT / SCOPE 3 =====
     {
       small_image_url: 'insights/ethiopian-coffee-carbon-footprint-scope-3-buyers-guide.webp',
@@ -422,6 +449,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-incoterms-guide.webp',
       large_image_url: 'insights/ethiopian-coffee-incoterms-guide.webp',
       date: 'May 23, 2026',
+      dateModified: 'Jul 7, 2026',
       title: 'Ethiopian Coffee Incoterms: FOB, FCA, CIF & DAP Explained',
       slug: 'ethiopian-coffee-incoterms-guide',
       category: 'Trade Logistics / Import Contracts / Incoterms 2020 / Importer Resources',
@@ -611,6 +639,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/green-coffee-quality-claims-guide.webp',
       large_image_url: 'insights/green-coffee-quality-claims-guide.webp',
       date: 'May 5, 2026',
+      dateModified: 'Jul 7, 2026',
       title: 'Green Coffee Quality Claims Guide',
       slug: 'green-coffee-quality-claims-guide',
       category: 'Claims Management / Quality Control / Contract Execution / Importer Resources',
@@ -1418,6 +1447,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-landed-cost-guide.webp',
       large_image_url: 'insights/ethiopian-coffee-landed-cost-guide.webp',
       date: 'Feb 25, 2026',
+      dateModified: 'Jul 7, 2026',
       title: 'Ethiopian Coffee Landed Cost: Import Cost Guide',
       slug: 'ethiopian-coffee-landed-cost-guide',
       category: 'Trade Guidance / Pricing / Import Costs / Importer Resources',

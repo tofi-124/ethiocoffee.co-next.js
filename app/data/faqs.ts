@@ -960,6 +960,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "No. Ethiopian green coffee enters the EU at 0% import duty under the GSP+ preferential tariff scheme, provided a Form A Certificate of Origin accompanies the shipment. Kaffeesteuer (&euro;2.19/kg) applies after roasting, not at green bean import. VAT (19%) applies but is recoverable for registered businesses."
     }
   ],
+  "green-coffee-cargo-insurance-guide": [
+    {
+      "question": "Does a CIF contract include enough insurance for specialty green coffee?",
+      "answer": "Usually not. CIF only obliges the seller to provide minimum ICC (C) cover, which excludes theft, seawater entry, and wet damage, the losses coffee shipments most often suffer. Either amend the contract to require ICC (A) cover with war clauses, or buy CFR and place your own all-risks policy."
+    },
+    {
+      "question": "How much does green coffee cargo insurance cost in 2026?",
+      "answer": "Base ICC (A) cover typically runs 0.3% to 0.5% of insured value, so roughly $300 to $600 on a $110,000 insured container. War risk endorsements for Red Sea and Gulf of Aden transits add a variable surcharge that has moved with the Houthi threat level since 2023. Annual open policies price lower per shipment than single certificates."
+    },
+    {
+      "question": "Does cargo insurance cover condensation damage to green coffee?",
+      "answer": "Only ICC (A) all-risks cover responds to condensation, and insurers often contest these claims under the inherent vice exclusion, arguing the moisture came from the beans themselves. Pre-shipment moisture certificates, loading photos, and a prompt independent survey at destination are what turn a contested condensation claim into a paid one."
+    },
+    {
+      "question": "What is general average, and what happens if my coffee is uninsured?",
+      "answer": "General average makes every cargo owner on a voyage share the cost of sacrifices made to save the ship, such as jettisoned containers or salvage after a grounding. Insured buyers have their insurer post the release guarantee; uninsured buyers must post cash security to retrieve even undamaged containers, as happened after the Ever Given grounding in 2021."
+    },
+    {
+      "question": "Do Ethiopian coffee shipments need war risk cover in 2026?",
+      "answer": "Yes. Djibouti sits on the Bab el-Mandeb strait, so every vessel calling there transits the listed high-risk area whether it routes via Suez or the Cape of Good Hope. War and strikes clauses are excluded from standard ICC cover and must be attached separately; the endorsement is inexpensive relative to the exposure."
+    }
+  ],
   "green-coffee-moisture-content-water-activity-guide": [
     {
       "question": "What is the ideal moisture content for green coffee beans?",
