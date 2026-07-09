@@ -384,7 +384,7 @@ export default function GuideEthiopianCoffeeOrigins({ title, date, large_image_u
       </div>
 
       <p className='my-4'>
-        Kaffa lots are less common in specialty channels than Yirgacheffe or Guji, but they offer a unique story and flavor profile that appeals to roasters looking for differentiation. The &quot;forest coffee&quot; origin story resonates with consumers interested in biodiversity and sustainability.
+        Kaffa lots are less common in specialty channels than Yirgacheffe or Guji, but they offer a unique story and flavor profile that appeals to roasters looking for differentiation. The &quot;forest coffee&quot; origin story resonates with consumers interested in biodiversity and sustainability. For woredas, production systems, grades, EUDR traceability, and FOB pricing, see our <Link href='/insights/kaffa-coffee-sourcing-guide' className='text-amber-700 hover:underline font-bold'>Kaffa coffee sourcing guide</Link>.
       </p>
 
       <h3 id='jimma' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>

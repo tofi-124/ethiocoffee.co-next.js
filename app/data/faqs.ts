@@ -1774,6 +1774,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Standard minimum is one FCL (approximately 19.2 MT, 320 bags at 60 kg each). Jimma's volume availability makes multi-container orders easy to fulfill. Year-round supply contracts with tiered pricing are available for buyers committing to 5 or more containers per season. See our MOQ guide for details."
     }
   ],
+  "kaffa-coffee-sourcing-guide": [
+    {
+      "question": "What does Kaffa coffee taste like?",
+      "answer": "Kaffa coffee is earthy and spiced with dried fruit and cocoa depth. Naturals show wild berry, dried fig, and warm spice with a long sweet finish, while washed lots are cleaner and more floral with red berry, bergamot, and black tea notes. It reads as more savory and rustic than the bright citrus-floral profile of southern Ethiopian origins."
+    },
+    {
+      "question": "Is Kaffa forest coffee good for EUDR compliance?",
+      "answer": "Yes on land-use, with a caveat on paperwork. Forest and semi-forest Kaffa grows under standing native canopy, so it does not drive deforestation, which is the core EUDR concern. The challenge is geolocation: mapped estate lots supply plot polygons easily, while diffuse wild-harvest lots need collection-area documentation. Match the supply type to your traceability needs."
+    },
+    {
+      "question": "What is the difference between Kaffa and Bonga coffee?",
+      "answer": "They refer to the same origin. Kaffa is the zone; Bonga is its capital town and the aggregation and cupping hub. A lot labeled \"Bonga\" is Kaffa coffee channeled through that town, much as Lekempti coffee is named for Nekemte. For traceability, confirm the woreda and washing station rather than relying on the town name."
+    },
+    {
+      "question": "Can I buy specialty-grade Kaffa coffee?",
+      "answer": "Yes. Managed estates such as Bitta produce washed and natural micro-lots scoring 85 to 87, and semi-forest Grade 3 lots from the Gimbo area cup 82 to 85. Specialty Kaffa volumes are limited and usually require advance reservation, so contact exporters early in the crop year to secure allocation before it sells out."
+    },
+    {
+      "question": "Is Kaffa coffee available certified organic?",
+      "answer": "Frequently, and often at a modest premium. Because forest and semi-forest lots use no synthetic inputs, much of Kaffa's output is effectively organic before certification, and cooperative unions aggregate USDA and EU Organic volume. Always confirm the certificate covers the specific lot you are contracting, not just the union as a whole."
+    }
+  ],
   "limu-coffee-sourcing-guide": [
     {
       "question": "What does Limu coffee taste like?",

@@ -192,7 +192,7 @@ export default function EthiopianGeshaCoffeeSourcingGuide({ title, date, large_i
         <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
           <h4 className='font-bold mb-2'>Kaffa (Adjacent Origin)</h4>
           <p className='text-sm text-gray-700'>
-            The Kaffa zone borders Bench Maji and shares similar forest ecosystems. Wild Gesha genotypes grow throughout the Bonga Forest Biosphere Reserve. Kaffa Gesha lots tend to be more herbal and tea-like compared to Bench Maji&apos;s jasmine florals, with honey, chamomile, and light citrus notes. Production volumes remain small, but several cooperatives now separate Gesha lots for specialty export.
+            The Kaffa zone borders Bench Maji and shares similar forest ecosystems. Wild Gesha genotypes grow throughout the Bonga Forest Biosphere Reserve. Kaffa Gesha lots tend to be more herbal and tea-like compared to Bench Maji&apos;s jasmine florals, with honey, chamomile, and light citrus notes. Production volumes remain small, but several cooperatives now separate Gesha lots for specialty export. For the broader Kaffa origin, see our <Link href='/insights/kaffa-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Kaffa coffee sourcing guide</Link>.
           </p>
         </div>
         <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>

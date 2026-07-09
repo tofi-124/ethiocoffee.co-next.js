@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== KAFFA COFFEE SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/kaffa-coffee-sourcing-guide.webp',
+      large_image_url: 'insights/kaffa-coffee-sourcing-guide.webp',
+      date: 'Jul 9, 2026',
+      title: 'Kaffa Coffee Sourcing Guide: Forest Origin & Grades',
+      slug: 'kaffa-coffee-sourcing-guide',
+      category: 'Origin Guide / Kaffa Coffee / Forest Coffee / Sourcing Guide / Importer Resources',
+      keywords: [
+        'Kaffa coffee sourcing guide',
+        'Kaffa coffee',
+        'Kaffa forest coffee',
+        'Kafa Zone coffee',
+        'Bonga coffee Ethiopia',
+        'Gimbo washed coffee',
+        'Bitta farm coffee',
+        'wild forest coffee Ethiopia',
+        'semi-forest coffee lots',
+        'Kaffa coffee grades',
+        'Kaffa coffee FOB price',
+        'Kaffa coffee EUDR traceability',
+        'forest coffee deforestation-free sourcing',
+        'organic Kaffa coffee',
+        'Kaffa coffee flavor profile'
+      ],
+      desc: 'Kaffa coffee sourcing guide for importers: forest and semi-forest lots, Gimbo and Bitta supply, grades, EUDR traceability, and FOB pricing from southwest Ethiopia.'
+    },
     // ===== GREEN COFFEE CARGO INSURANCE =====
     {
       small_image_url: 'insights/green-coffee-cargo-insurance-guide.webp',
@@ -853,6 +880,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-gesha-coffee-sourcing-guide.webp',
       large_image_url: 'insights/ethiopian-gesha-coffee-sourcing-guide.webp',
       date: 'Apr 12, 2026',
+      dateModified: 'Jul 9, 2026',
       title: 'Ethiopian Gesha Coffee: Buyer\'s Sourcing Guide',
       slug: 'ethiopian-gesha-coffee-sourcing-guide',
       category: 'Origin Guide / Gesha Coffee / Sourcing Guide / Importer Resources',
@@ -2465,7 +2493,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/Ethiopia_Coffee_Map.png',
       large_image_url: 'insights/Ethiopia_Coffee_Map.png',
       date: 'Nov 15, 2025',
-      dateModified: 'Mar 12, 2026',
+      dateModified: 'Jul 9, 2026',
       title: 'Guide to Ethiopian Green Coffee Origins',
       slug: 'guide-ethiopian-coffee-origins',
       category: 'Sourcing Guide',
@@ -3299,7 +3327,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-certifications.webp',
       large_image_url: 'insights/ethiopian-coffee-certifications.webp',
       date: 'Jan 31, 2026',
-      dateModified: 'Jul 5, 2026',
+      dateModified: 'Jul 9, 2026',
       title: 'Ethiopian Coffee Certifications Guide',
       slug: 'ethiopian-coffee-certifications-organic-fairtrade-rainforest',
       category: 'Certifications & Sustainability / Sourcing Guide',

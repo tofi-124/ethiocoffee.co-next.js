@@ -448,7 +448,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       </p>
       <div className='bg-amber-50 text-gray-800 p-5 rounded-lg my-6 border border-amber-200'>
         <p className='text-sm'>
-          <span className='font-bold'>Sourcing tip:</span> If you seek Bird Friendly Ethiopian coffee, work with exporters sourcing from forest coffee regions like Kaffa, Bonga, or Sheka. These coffees may meet Bird Friendly standards even without formal certification, representing an opportunity to support certification expansion.
+          <span className='font-bold'>Sourcing tip:</span> If you seek Bird Friendly Ethiopian coffee, work with exporters sourcing from forest coffee regions like Kaffa, Bonga, or Sheka. These coffees may meet Bird Friendly standards even without formal certification, representing an opportunity to support certification expansion. Our <Link href='/insights/kaffa-coffee-sourcing-guide' className='text-amber-700 hover:underline font-bold'>Kaffa coffee sourcing guide</Link> explains why forest and semi-forest lots are often organic by default.
         </p>
       </div>
 
