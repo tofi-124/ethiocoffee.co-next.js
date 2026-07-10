@@ -144,6 +144,7 @@ const Footer = () => {
                 <li><Link href='/contact-us' className='hover:text-dark transition-colors'>Contact Us</Link></li>
                 <li><Link href='/ordering-info' className='hover:text-dark transition-colors'>How To Buy</Link></li>
                 <li><Link href='/terms' className='hover:text-dark transition-colors'>Terms of Service</Link></li>
+                <li><Link href='/privacy' className='hover:text-dark transition-colors'>Privacy Policy</Link></li>
               </ul>
             </div>
             <div>

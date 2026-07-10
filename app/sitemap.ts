@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next'
 import { offerings } from './data/offerings'
 import { posts } from './data/data'
 import { newsArticles } from './data/news'
+import { INSIGHTS_PAGE_SIZE, NEWS_PAGE_SIZE } from './lib/pagination'
 
 // Cache the sitemap for 24 hours to reduce ISR reads from frequent crawler requests
 export const revalidate = 86400
@@ -116,6 +117,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'yearly',
       priority: 0.3,
     },
+    {
+      url: `${baseUrl}/privacy`,
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
   ]
 
   const productRoutes: MetadataRoute.Sitemap = offerings.map((o) => ({
@@ -139,5 +145,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }))
 
-  return [...staticRoutes, ...productRoutes, ...insightsRoutes, ...newsRoutes]
+  const insightsPaginationRoutes: MetadataRoute.Sitemap = Array.from(
+    { length: Math.max(0, Math.ceil(posts.length / INSIGHTS_PAGE_SIZE) - 1) },
+    (_, index) => ({
+      url: `${baseUrl}/insights/page/${index + 2}`,
+      lastModified: newestInsight,
+      changeFrequency: 'weekly' as const,
+      priority: 0.4,
+    })
+  )
+
+  const newsPaginationRoutes: MetadataRoute.Sitemap = Array.from(
+    { length: Math.max(0, Math.ceil(newsArticles.length / NEWS_PAGE_SIZE) - 1) },
+    (_, index) => ({
+      url: `${baseUrl}/ethiopia-coffee-export-news/page/${index + 2}`,
+      lastModified: newestNews,
+      changeFrequency: 'weekly' as const,
+      priority: 0.4,
+    })
+  )
+
+  return [
+    ...staticRoutes,
+    ...productRoutes,
+    ...insightsRoutes,
+    ...insightsPaginationRoutes,
+    ...newsRoutes,
+    ...newsPaginationRoutes,
+  ]
 }

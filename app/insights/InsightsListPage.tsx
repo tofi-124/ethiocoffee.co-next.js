@@ -2,13 +2,14 @@ import Link from 'next/link'
 import { Post } from '../components/Posts'
 import { posts } from '../data/data'
 import AutoScrollTo from '../components/AutoScrollTo'
+import { INSIGHTS_PAGE_SIZE } from '../lib/pagination'
 
 const parsePostDate = (value: string) => {
   const t = Date.parse(value)
   return Number.isFinite(t) ? t : 0
 }
 
-export const PAGE_SIZE = 9
+export const PAGE_SIZE = INSIGHTS_PAGE_SIZE
 
 export const getTotalPages = () => Math.max(1, Math.ceil(posts.length / PAGE_SIZE))
 

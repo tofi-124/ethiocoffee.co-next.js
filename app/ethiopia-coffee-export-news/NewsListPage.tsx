@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { newsArticles } from '../data/news'
 import { ArrowRight } from '@/app/components/Arrow'
 import AutoScrollTo from '../components/AutoScrollTo'
+import { NEWS_PAGE_SIZE } from '../lib/pagination'
 
 const parseDateLocal = (value: string) => {
   const m = /^\s*(\d{4})-(\d{2})-(\d{2})\s*$/.exec(value)
@@ -21,7 +22,7 @@ const formatDate = (value: string) => {
   return new Date(t).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
 }
 
-export const PAGE_SIZE = 5
+export const PAGE_SIZE = NEWS_PAGE_SIZE
 
 export const getTotalPages = () => Math.max(1, Math.ceil(newsArticles.length / PAGE_SIZE))
 

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'How To Buy Ethiopian Coffee | FAQ | Ethio Coffee',
@@ -35,78 +35,6 @@ export default function OrderingInfoLayout({
 }: {
   children: React.ReactNode
 }) {
-  // FAQPage schema for rich snippets in Google
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How can I buy green coffee from Ethio Coffee?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Browse our Current Offerings, then request a quote for the coffees you're interested in. From there, we'll provide a formal quotation, finalize terms, and handle all export documentation and logistics coordination."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I request a sample before placing a larger order?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes! We offer 300g evaluation samples at a nominal cost for roast profiling and cupping. Shipping via DHL Express is calculated at checkout based on your destination."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the minimum order quantity (MOQ)?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Our minimum order quantity is one full container (approximately 19-21 metric tons, around 275-320 bags depending on bag size). You can mix and match different coffee types and grades to fill a container."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Where does Ethio Coffee ship to?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We export worldwide. Primary markets include the Middle East, North America, Europe, and Asia Pacific. We can ship to most countries with coffee import regulations."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What shipping terms do you offer?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We offer flexible Incoterms: FOB Djibouti (you arrange ocean freight) and FCA (Free Carrier, buyer arranges air freight)."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What payment methods do you accept?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We accept wire transfer (T/T) and letter of credit (L/C). Payment terms are typically negotiated based on order size and relationship."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What coffee regions does Ethio Coffee source from?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We source from Ethiopia's premier growing regions: Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa. Each region has distinct flavor characteristics."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Does Ethio Coffee offer certified coffees?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, depending on availability, we offer Organic (USDA/EU), Fair Trade, and Rainforest Alliance certified coffees. Certified lots have limited availability and may require advance booking."
-        }
-      }
-    ]
-  }
-
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -128,11 +56,6 @@ export default function OrderingInfoLayout({
 
   return (
     <>
-      <script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
       <script
         id="ordering-breadcrumb-schema"
         type="application/ld+json"

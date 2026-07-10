@@ -9,9 +9,7 @@
 
 import { readFileSync, existsSync } from 'fs'
 import { resolve } from 'path'
-import { offerings } from '../app/data/offerings'
-import { posts } from '../app/data/data'
-import { newsArticles } from '../app/data/news'
+import sitemap from '../app/sitemap'
 
 // Load .env.local if it exists (on Vercel, env vars are injected directly)
 const envPath = resolve(__dirname, '..', '.env.local')
@@ -37,34 +35,8 @@ const KEY_LOCATION = `https://${SITE_HOST}/${INDEXNOW_KEY}.txt`
 const BASE_URL = `https://${SITE_HOST}`
 
 function getAllUrls(): string[] {
-  const staticPaths = [
-    '',
-    '/ethiopian-coffee-exporter',
-    '/about',
-    '/offerings',
-    '/ordering-info',
-    '/insights',
-    '/contact-us',
-    '/ethiopia-coffee-export-news',
-    '/ethiopian-green-coffee-beans',
-    '/buy-ethiopian-coffee-wholesale',
-    '/coffee-grading-ethiopia',
-    '/ethiopian-coffee-yirgacheffe',
-    '/organic-ethiopian-coffee-export',
-    '/ethiopian-coffee-sidamo',
-    '/ethiopian-coffee-guji',
-    '/ethiopian-coffee-harar',
-    '/ethiopian-coffee-limu',
-    '/ethiopian-coffee-jimma',
-    '/terms',
-  ]
-
-  return [
-    ...staticPaths.map((p) => `${BASE_URL}${p}`),
-    ...offerings.map((o) => `${BASE_URL}/product/${o.id}`),
-    ...posts.map((p) => `${BASE_URL}/insights/${p.slug}`),
-    ...newsArticles.map((a) => `${BASE_URL}/ethiopia-coffee-export-news/${a.slug}`),
-  ]
+  // Keep IndexNow and sitemap coverage in lockstep from one source of truth.
+  return sitemap().map((entry) => entry.url)
 }
 
 /** Fetch currently live sitemap and extract all URLs */

@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "seo:check": "tsx scripts/validate-seo.ts",
     "postbuild": "npx tsx scripts/submit-indexnow.ts",
     "start": "next start",
     "lint": "next lint"

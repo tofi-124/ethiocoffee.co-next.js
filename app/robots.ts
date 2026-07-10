@@ -37,12 +37,12 @@ export default function robots(): MetadataRoute.Robots {
         // need their own disallow list — otherwise they'd crawl /checkout/, /api/, etc.
         userAgent: 'Googlebot',
         allow: '/',
-        disallow: ['/api/', '/_next/', '/insta/', '/checkout/'],
+        disallow: ['/api/', '/insta/', '/checkout/'],
       },
       {
         userAgent: 'Bingbot',
         allow: '/',
-        disallow: ['/api/', '/_next/', '/insta/', '/checkout/'],
+        disallow: ['/api/', '/insta/', '/checkout/'],
       },
     ],
     sitemap: 'https://www.ethiocoffee.co/sitemap.xml'

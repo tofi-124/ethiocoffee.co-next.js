@@ -19,9 +19,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { pageNum } = await params
   return {
     title: `Ethiopian Coffee Blog - Page ${pageNum} | Ethio Coffee`,
+    description: `Browse page ${pageNum} of Ethio Coffee's expert guides on Ethiopian coffee sourcing, processing, quality, pricing, and export logistics.`,
     // Paginated pages self-canonicalize so their content stays crawlable
     alternates: {
       canonical: `https://www.ethiocoffee.co/insights/page/${pageNum}`,
+    },
+    openGraph: {
+      title: `Ethiopian Coffee Blog - Page ${pageNum} | Ethio Coffee`,
+      description: `Ethiopian coffee sourcing and export guides, page ${pageNum}.`,
+      url: `https://www.ethiocoffee.co/insights/page/${pageNum}`,
+      type: 'website',
     },
   }
 }

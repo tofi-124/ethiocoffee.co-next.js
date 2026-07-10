@@ -3,12 +3,12 @@ import type { Metadata } from 'next'
 import { Oswald, Inconsolata } from 'next/font/google'
 import Navbar from './lib/Navbar'
 import Footer from './lib/Footer'
-import Script from 'next/script'
 import { Analytics } from '@vercel/analytics/next'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { CartProvider } from './components/CartContext'
 import ErrorBoundary from './components/ErrorBoundary'
 import dynamic from 'next/dynamic'
+import AnalyticsConsent from './components/AnalyticsConsent'
 
 const ScrollToTop = dynamic(() => import('./components/ScrollToTop'))
 const CartDrawer = dynamic(() => import('./components/CartDrawer'))
@@ -81,27 +81,6 @@ export default function RootLayout({
             already preloads the correctly optimized /_next/image version */}
         <link rel="preconnect" href="https://pub-a50856304cf24e0c890889f05812d10b.r2.dev" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://pub-a50856304cf24e0c890889f05812d10b.r2.dev" />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-7XP6DNBM6J"
-          strategy="lazyOnload"
-        />
-        <Script id="google-analytics" strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-7XP6DNBM6J');
-          `}
-        </Script>
-        <Script id="microsoft-clarity" strategy="lazyOnload">
-          {`
-            (function(c,l,a,r,i,t,y){
-              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
-              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "w6hpgb5sdh");
-          `}
-        </Script>
       </head>
       <body className={`${oswald.className} ${inconsolata.variable} bg-primary`}>
         {/* JSON-LD must be a plain script tag so it renders in the initial
@@ -221,8 +200,11 @@ export default function RootLayout({
         <Footer />
         </CartProvider>
         </ErrorBoundary>
+        {/* Cookieless performance/traffic measurement — no consent needed.
+            GA and Clarity are consent-gated inside AnalyticsConsent. */}
         <Analytics />
         <SpeedInsights />
+        <AnalyticsConsent />
       </body>
     </html>
   )

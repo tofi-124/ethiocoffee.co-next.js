@@ -60,4 +60,5 @@ CONTENT-CATALOG.md
 # generated files
 scripts/*
 !scripts/submit-indexnow.ts
+!scripts/validate-seo.ts
 *.xlsx
