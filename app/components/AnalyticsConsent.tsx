@@ -19,11 +19,29 @@ export default function AnalyticsConsent() {
     setReady(true)
   }, [])
 
-  // Slide the card in after mount so it doesn't pop into view mid-paint
+  // Desktop: slide the card in shortly after mount. Mobile: keep the hero
+  // clean and only show the sheet once the visitor scrolls into the page.
   useEffect(() => {
     if (!ready || consent !== null) return
-    const t = setTimeout(() => setVisible(true), 600)
-    return () => clearTimeout(t)
+
+    if (window.matchMedia('(min-width: 768px)').matches) {
+      const t = setTimeout(() => setVisible(true), 600)
+      return () => clearTimeout(t)
+    }
+
+    const threshold = Math.min(window.innerHeight * 0.5, 300)
+    if (window.scrollY > threshold) {
+      setVisible(true)
+      return
+    }
+    const onScroll = () => {
+      if (window.scrollY > threshold) {
+        setVisible(true)
+        window.removeEventListener('scroll', onScroll)
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
   }, [ready, consent])
 
   const choose = (value: Exclude<Consent, null>) => {

@@ -6,15 +6,9 @@ const R2_BASE = process.env.NEXT_PUBLIC_R2_BASE_URL || 'https://pub-a50856304cf2
 const DESKTOP_VIDEO = `${R2_BASE}/ethiopianbeans.mp4`
 const MOBILE_VIDEO = `${R2_BASE}/ethiopianbeans-mobile.mp4`
 
-function getInitialVideoSrc() {
-  if (typeof window === 'undefined') return DESKTOP_VIDEO
-  return window.innerWidth < 768 ? MOBILE_VIDEO : DESKTOP_VIDEO
-}
-
 const HeroVideo = () => {
   const videoRef = useRef<HTMLVideoElement>(null)
   const [isPlaying, setIsPlaying] = useState(false)
-  const [videoSrc] = useState(getInitialVideoSrc)
   const isPlayingRef = useRef(false)
   const retryCountRef = useRef(0)
   const maxRetries = 3
@@ -104,7 +98,8 @@ const HeroVideo = () => {
         preload="none"
         className={`hero-video absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isPlaying ? 'opacity-100' : 'opacity-0'}`}
       >
-        <source src={videoSrc} type="video/mp4" />
+        <source src={MOBILE_VIDEO} media="(max-width: 767px)" type="video/mp4" />
+        <source src={DESKTOP_VIDEO} type="video/mp4" />
         Background video of Ethiopian coffee beans
       </video>
     </>
