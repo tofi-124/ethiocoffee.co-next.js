@@ -33,7 +33,7 @@ export default function ImportingEthiopianCoffeeToSpain({ title, date, large_ima
         <figcaption className='font-inconsolata my-2'>
           Spain imported 306,000 tonnes of green coffee in 2023, making it Europe&apos;s fourth-largest market and a growing destination for specialty Ethiopian Arabica.
         </figcaption>
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Import Ethiopian coffee to Spain - Valencia port SOIVRE AEAT customs IVA specialty coffee guide'

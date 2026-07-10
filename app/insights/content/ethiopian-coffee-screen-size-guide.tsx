@@ -33,9 +33,7 @@ export default function EthiopianCoffeeScreenSizeGuide({
       {/* Hero image */}
       <figure>
         <figcaption className='font-inconsolata my-2'>{title}</figcaption>
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
-          {/* TODO: Replace placeholder with actual hero image */}
-          {/* Expected path: /images/insights/ethiopian-coffee-screen-size-guide.webp */}
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Ethiopian coffee screen size guide showing green coffee sorted by screens at an export dry mill'
@@ -450,23 +448,23 @@ export default function EthiopianCoffeeScreenSizeGuide({
         </h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What screen size is typical for Ethiopian coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What screen size is typical for Ethiopian coffee?</h4>
             <p className='text-sm text-gray-600'>Most Ethiopian specialty lots do not present as unusually large beans. Washed highland coffees often run heavily in Screen 14 to 16, while many naturals sit more comfortably in 15 to 17. The key issue is the dominant range and tolerance, not chasing oversized beans for their own sake.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Does smaller screen size mean lower quality?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Does smaller screen size mean lower quality?</h4>
             <p className='text-sm text-gray-600'>No. In Ethiopia, smaller beans can still be dense, clean, and high scoring. Quality should be judged through defects, moisture, cup profile, and preparation consistency. Smaller screen size becomes a problem only when the spread is too broad for the intended roast profile or when the lot is physically rough.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Are screen size and grade the same thing in Ethiopia?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Are screen size and grade the same thing in Ethiopia?</h4>
             <p className='text-sm text-gray-600'>No. Ethiopian grade is determined by physical defects and cup quality. Screen size is a preparation detail that helps buyers understand uniformity and roast behavior. A smaller-screen lot can still grade well, and a visually larger lot can still disappoint if defects, density, or cup quality are weak.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What screen-size spec should I put in a contract?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What screen-size spec should I put in a contract?</h4>
             <p className='text-sm text-gray-600'>Use a minimum floor plus a tolerance, not vague language. For example, Screen 14 up with a dominant 15 to 16 range and a capped below-screen percentage works far better than saying "large bean." Pair that clause with moisture, defects, and sample approval language.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>When should I insist on tighter screens?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>When should I insist on tighter screens?</h4>
             <p className='text-sm text-gray-600'>Ask for tighter screens when repeatability matters more than sourcing breadth, especially in espresso production, private-label contracts, or larger roasting systems. For distinctive single-origin filter programs, the better decision is often to accept a smaller dominant range if the cup is clean and the prep is disciplined.</p>
           </div>
         </div>

@@ -393,35 +393,35 @@ export default function EthiopianCoffeeWashingStationsBuyersGuide({ title, date,
 
         <div className='space-y-6'>
           <div className='bg-gray-50 p-5 rounded-lg'>
-            <h3 className='font-bold text-lg mb-2'>What is the difference between a washing station and a dry mill in Ethiopia?</h3>
+            <h4 className='font-bold text-lg mb-2'>What is the difference between a washing station and a dry mill in Ethiopia?</h4>
             <p className='text-sm'>
               A washing station (wet mill) processes fresh cherry into dried parchment through pulping, fermentation, washing, and drying. A dry mill converts dried parchment into export-ready green coffee through hulling, size grading, density sorting, color sorting, and hand sorting. They are separate facilities at different stages of the supply chain.
             </p>
           </div>
 
           <div className='bg-gray-50 p-5 rounded-lg'>
-            <h3 className='font-bold text-lg mb-2'>How many washing stations are there in Ethiopia?</h3>
+            <h4 className='font-bold text-lg mb-2'>How many washing stations are there in Ethiopia?</h4>
             <p className='text-sm'>
               Ethiopia has an estimated 2,500 to 3,000 active washing stations, concentrated in the southern (Yirgacheffe, Guji, Sidamo) and western (Limu, Jimma) growing regions. The number fluctuates as new private stations open and underperforming ones close between seasons.
             </p>
           </div>
 
           <div className='bg-gray-50 p-5 rounded-lg'>
-            <h3 className='font-bold text-lg mb-2'>Can importers visit Ethiopian washing stations?</h3>
+            <h4 className='font-bold text-lg mb-2'>Can importers visit Ethiopian washing stations?</h4>
             <p className='text-sm'>
               Yes. Origin trips during the October to January harvest season are the best way to evaluate stations firsthand. Your exporter can arrange visits to active washing stations in their sourcing network. Visits outside harvest season are possible but you will not see processing in action.
             </p>
           </div>
 
           <div className='bg-gray-50 p-5 rounded-lg'>
-            <h3 className='font-bold text-lg mb-2'>Does washing station selection affect certification eligibility?</h3>
+            <h4 className='font-bold text-lg mb-2'>Does washing station selection affect certification eligibility?</h4>
             <p className='text-sm'>
               Yes. Organic, Fairtrade, and Rainforest Alliance certifications are typically held at the cooperative or station level. If you need certified coffee, your exporter must source from stations that maintain active certification. Not all stations are certified, so confirm certification status before ordering.
             </p>
           </div>
 
           <div className='bg-gray-50 p-5 rounded-lg'>
-            <h3 className='font-bold text-lg mb-2'>What is the typical capacity of an Ethiopian washing station?</h3>
+            <h4 className='font-bold text-lg mb-2'>What is the typical capacity of an Ethiopian washing station?</h4>
             <p className='text-sm'>
               Capacity varies widely. A small station may process 50 to 100 tonnes of cherry per season (roughly 10 to 20 tonnes of green equivalent). Large stations process 500 to 1,000+ tonnes of cherry, producing 100 to 200 tonnes of green coffee. Capacity depends on tank volume, drying bed area, and water availability.
             </p>

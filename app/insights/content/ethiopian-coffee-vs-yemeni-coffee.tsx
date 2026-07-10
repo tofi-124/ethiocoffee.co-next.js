@@ -35,7 +35,6 @@ export default function EthiopianCoffeeVsYemeniCoffee({ title, date, large_image
           Ethiopia and Yemen sit on opposite shores of the Red Sea and share coffee&apos;s founding story, yet they reach a buyer&apos;s warehouse on completely different terms.
         </figcaption>
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
-          {/* Expected path: /images/insights/ethiopian-coffee-vs-yemeni-coffee.webp */}
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Ethiopian coffee vs Yemeni coffee comparison: natural-processed green beans from both Red Sea origins side by side'

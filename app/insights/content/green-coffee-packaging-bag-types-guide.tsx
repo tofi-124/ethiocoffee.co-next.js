@@ -458,31 +458,31 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
         </h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the best packaging for green coffee beans?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the best packaging for green coffee beans?</h4>
             <p className='text-sm text-gray-600'>
               For specialty lots (Grade 1 and Grade 2) shipped by sea, the best packaging is a 60 kg new jute bag with a GrainPro or Ecotact hermetic liner. The jute provides structural protection and breathability; the liner seals out oxygen and moisture. Combined cost is $2.50 to $5.00 per bag. For micro-lots and samples, vacuum-sealed bags of 10 to 30 kg provide superior protection.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How long does green coffee last in GrainPro bags?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How long does green coffee last in GrainPro bags?</h4>
             <p className='text-sm text-gray-600'>
               Green coffee sealed in GrainPro or Ecotact liners at the correct moisture content (10 to 12%) can hold its cup profile for 14 to 24 months. Without a hermetic liner, specialty coffee in plain jute typically degrades noticeably after 6 to 9 months. Storage temperature and humidity also matter: target 15 to 22°C and 50 to 60% relative humidity for maximum shelf life.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What size bags are used for Ethiopian green coffee export?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What size bags are used for Ethiopian green coffee export?</h4>
             <p className='text-sm text-gray-600'>
               The Ethiopian export standard is the 60 kg jute bag, which fits approximately 250 to 320 bags per 20ft container. A 25 kg format is increasingly used in the specialty segment for better lot segregation and handling. The 60 kg format is more container-efficient and remains the default for most orders. Importers needing 25 kg bags should specify this in the purchase order, as it may affect pricing slightly.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Should importers specify packaging in their coffee contract?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Should importers specify packaging in their coffee contract?</h4>
             <p className='text-sm text-gray-600'>
               Yes, always. Many disputes between importers and exporters stem from packaging assumptions that were never written down. At minimum, specify bag type and size, liner requirement (or absence), pre-seal moisture content, required bag markings, and pre-shipment sample packaging. A one-paragraph packaging clause in the purchase confirmation prevents the majority of these problems before they occur.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Can GrainPro bags be reused for green coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Can GrainPro bags be reused for green coffee?</h4>
             <p className='text-sm text-gray-600'>
               GrainPro offers reusable hermetic bags in some product lines, including zipper-closure formats designed for multiple uses. However, for export-grade green coffee, most exporters use single-use liners to eliminate contamination risk and simplify supply chain management. Importers who want to reuse liners for on-site storage after arrival should use a clean, food-safe hermetic bag rated for green coffee and verify it holds a proper seal before use.
             </p>

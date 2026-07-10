@@ -548,23 +548,23 @@ export default function YirgacheffeVsSidamoVsGujiComparison({ title, date, large
         </h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the difference between Yirgacheffe, Sidamo, and Guji coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the difference between Yirgacheffe, Sidamo, and Guji coffee?</h4>
             <p className='text-sm text-gray-600'>Yirgacheffe produces floral, tea-like cups with bright citrus acidity, best for pour-over. Sidamo delivers intense fruit character (blueberry, strawberry) with a rounder body, suited for both filter and espresso. Guji offers stone-fruit sweetness, jasmine florals, and a syrupy body that excels as single-origin espresso. Each has its own ECX trade designation and distinct growing conditions.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Which Ethiopian coffee origin is best for espresso?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Which Ethiopian coffee origin is best for espresso?</h4>
             <p className='text-sm text-gray-600'>Guji is the strongest choice for single-origin espresso. Its medium-full body, stone-fruit sweetness, and layered acidity hold up under espresso extraction pressure. Natural and honey-processed Guji lots are particularly effective. Sidamo naturals also perform well in espresso blends, adding fruit complexity. Yirgacheffe works for lighter espresso profiles emphasizing florals.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How do Yirgacheffe, Sidamo, and Guji compare in price?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How do Yirgacheffe, Sidamo, and Guji compare in price?</h4>
             <p className='text-sm text-gray-600'>At Grade 1 level, Yirgacheffe and Sidama are priced identically: $9.48/kg washed, $9.92/kg natural (FOB Djibouti, 2025/26 crop). Sidama Grade 2 washed at $9.04/kg offers the best value entry into Ethiopian specialty. Grade 4 naturals from both regions cost $7.17/kg for commercial blends. Guji pricing depends on sub-zone and lot quality.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Is Yirgacheffe technically part of Sidamo?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Is Yirgacheffe technically part of Sidamo?</h4>
             <p className='text-sm text-gray-600'>Geographically, Yirgacheffe (Gedeo Zone) sits within the broader Sidama territory. However, the ECX has traded Yirgacheffe as a separate designation since inception because its cup profile is distinctly different. Yirgacheffe coffees emphasize floral delicacy and tea-like body, while broader Sidamo lots lean toward berry fruit intensity and rounder body.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What grades are available from each origin?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What grades are available from each origin?</h4>
             <p className='text-sm text-gray-600'>Yirgacheffe and Sidama both offer Grade 1 (washed and natural), Grade 2 (washed), and Grade 4 (natural). Guji focuses on Grade 1 and Grade 2, reflecting its specialty orientation. Grade 1 scores SCA 85+, Grade 2 scores 80 to 84, and Grade 4 serves commercial applications. All grades ship in 60 kg jute bags, FOB Djibouti.</p>
           </div>
         </div>

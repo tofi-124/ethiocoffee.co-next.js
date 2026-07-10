@@ -36,7 +36,7 @@ export default function ImportingEthiopianCoffeeToSwitzerland({ title, date, lar
         <figcaption className='font-inconsolata my-2'>
           Switzerland imported 204,690 tonnes of green coffee in 2024, and Ethiopian coffee accounted for about 7,449 tonnes worth roughly US$54.1 million.
         </figcaption>
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           {/* Temporary hero image staged from existing logistics asset */}
           {/* Expected long-term path remains /images/insights/importing-ethiopian-coffee-to-switzerland.webp */}
           <ResponsiveImage

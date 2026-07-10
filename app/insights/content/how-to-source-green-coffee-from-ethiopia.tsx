@@ -478,23 +478,23 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
         <h2 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions About Sourcing Green Coffee from Ethiopia</h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What are the Ethiopian coffee grades used for export?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What are the Ethiopian coffee grades used for export?</h4>
             <p className='text-sm text-gray-600'>Ethiopian coffee is graded from Grade 1 (specialty, 0-3 defects per 300g) to Grade 5 (commercial, 46-100 defects). G1 and G2 serve specialty single-origin programs. G3 suits premium blends. G4 and G5 cover large-volume commercial needs including instant coffee production.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the minimum order quantity for Ethiopian green coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the minimum order quantity for Ethiopian green coffee?</h4>
             <p className='text-sm text-gray-600'>Most Ethiopian exporters work with full container orders: approximately 275 to 300 bags of 60kg each in a standard 20-foot container. Some exporters, including Ethio Coffee, can accommodate smaller trial orders to help new buyers evaluate quality before committing to container volumes.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How long does shipping take from Ethiopia?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How long does shipping take from Ethiopia?</h4>
             <p className='text-sm text-gray-600'>From order confirmation to arrival at your destination port, plan for 6 to 10 weeks depending on shipping route and destination. Most Ethiopian coffee ships FOB from Djibouti port or FCA from the Addis Ababa dry port. Transit to Europe averages 3 to 4 weeks; North America 5 to 7 weeks.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Should I source directly from an exporter or use an importer?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Should I source directly from an exporter or use an importer?</h4>
             <p className='text-sm text-gray-600'>Direct sourcing gives better traceability, relationship pricing, and access to specific lots. Importers simplify logistics for smaller volumes and offer domestic warehousing. Many roasters start with an importer to test Ethiopian coffees and transition to direct sourcing as volumes grow beyond a container per order.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>When is the best time to buy fresh-crop Ethiopian coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>When is the best time to buy fresh-crop Ethiopian coffee?</h4>
             <p className='text-sm text-gray-600'>Contract between January and March for the widest selection of fresh-crop lots from the current harvest. Export shipments run primarily February through August. Buyers who wait until the second half of the year will find top-tier specialty lots already committed to other buyers.</p>
           </div>
         </div>

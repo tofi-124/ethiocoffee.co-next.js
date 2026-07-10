@@ -4,6 +4,28 @@
 export type Faq = { question: string; answer: string }
 
 export const faqsBySlug: Record<string, Faq[]> = {
+  "afca-taste-of-harvest-ethiopian-coffee-competition": [
+    {
+      "question": "What is the AFCA Taste of Harvest competition?",
+      "answer": "AFCA's Taste of Harvest is Africa's premier coffee quality competition. National competitions run in member countries, with top coffees advancing to a continental final at AFCA's annual conference. Certified Q-graders score all samples blindly using the SCA cupping protocol. Winners receive one-year AFCA certification with serial numbers and sell through the online auction platform."
+    },
+    {
+      "question": "How many countries participated in the 2025/26 Taste of Harvest season?",
+      "answer": "Nine countries held national competitions: Burundi, Cameroon, DRC, Ethiopia, Kenya, Malawi, Tanzania, Uganda, and Zambia. Up to five top-scoring lots from each national competition advanced to the Regional finals held during the 22nd AFCC&E in Addis Ababa in February 2026."
+    },
+    {
+      "question": "How many samples did Ethiopia submit to the 2026 competition?",
+      "answer": "Ethiopia submitted 226 samples across four processing categories: 100 natural (44.2%), 46 experimental (20.4%), 43 washed (19.0%), and 37 honey (16.4%). Samples came from producers, cooperatives, and exporters across the country's major growing regions."
+    },
+    {
+      "question": "Can international buyers purchase AFCA award-winning Ethiopian coffee?",
+      "answer": "Yes. Winning lots are listed on AFCA's online auction platform (tasteofharvest.mcultivo.com) with cupping profiles, origin data, and certification serial numbers. International roasters and importers register on the platform and place competitive bids. Buyers can also work with Ethiopian exporters who source from competition-winning producers."
+    },
+    {
+      "question": "How does the AFCA M-Cultivo auction platform work?",
+      "answer": "Award-winning coffees are listed with lot details, weight, cupping scores, and origin information. Registered buyers place bids or set auto-bids. Competitive bidding drives prices above commodity levels. AFCA's partnership with ITC's EU-EAC MARKUP II Programme supports online auction expansion across multiple African countries."
+    }
+  ],
   "anaerobic-ethiopian-coffee-processing-buyers-guide": [
     {
       "question": "What is anaerobic coffee processing?",
@@ -92,6 +114,88 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "No certification is legally required. However, Q Grader or SCA credentials strengthen your ability to evaluate pre-shipment samples, communicate quality expectations with exporters, and reduce the risk of receiving coffee that does not match the approved sample. Most mid-to-large buyers invest in some level of formal training."
     }
   ],
+  "best-ethiopian-coffee-exporter-for-importers": [
+    {
+      "question": "What makes Ethio Coffee one of the best Ethiopian coffee exporters?",
+      "answer": "Three decades of heritage sourcing relationships across six Ethiopian coffee regions, an average SCA cup score of 84+, full lot traceability from washing station to destination port, and an experienced export team with 15+ years in international coffee trade. These capabilities are verifiable through samples, documentation, and references."
+    },
+    {
+      "question": "What is the minimum order quantity for Ethiopian green coffee?",
+      "answer": "Standard export orders start at one full container load (FCL), approximately 19.2 metric tons. Trial lots and smaller allocations may be available depending on seasonal inventory. See our MOQ guide for full details on flexible options."
+    },
+    {
+      "question": "How do I request green coffee samples from Ethiopia?",
+      "answer": "Contact Ethio Coffee with the origins, grades, and processing methods you want to evaluate. We ship 300g cupping samples via DHL, typically within 5-7 business days. Samples are purchased through PayPal, allowing you to cup and assess quality before committing to a full order."
+    },
+    {
+      "question": "What certifications does Ethio Coffee offer?",
+      "answer": "Certified lots are available for Organic (USDA/EU), Fair Trade, and Rainforest Alliance, sourced through cooperatives and washing stations with active certification programs. Availability varies by season and region. Contact us to confirm current certified lot inventory."
+    },
+    {
+      "question": "Which Ethiopian coffee regions are best for specialty importers?",
+      "answer": "Yirgacheffe, Guji, and Sidamo consistently produce the highest-scoring specialty lots. Yirgacheffe is prized for floral and citrus notes, Guji for complex fruit and heavy body, and Sidamo for balanced berry and wine profiles. The best choice depends on your roast profile and market preferences."
+    }
+  ],
+  "bombe-sidama-coffee-sourcing-guide": [
+    {
+      "question": "What does Bombe Sidama coffee taste like?",
+      "answer": "Natural Bombe coffees are known for ripe berry, honey sweetness, warm spice notes, and a long syrupy finish with lively, wine-like acidity. Washed Bombe lots shift toward clean citrus, floral, and stone fruit notes with a brighter, crisper acidity. Both styles reflect the high altitude and volcanic soils of the Bombe terroir."
+    },
+    {
+      "question": "What altitude does Bombe coffee grow at?",
+      "answer": "Bombe farms sit between 1,950 and 2,350 meters above sea level in the Bensa district of Sidama. This altitude range places Bombe among the highest coffee-growing areas in Sidama. The extreme elevation slows cherry maturation, concentrating sugars and organic acids that produce dense, complex green coffee."
+    },
+    {
+      "question": "Is Bombe coffee available as natural or washed?",
+      "answer": "Both. Natural processing is the dominant method in Bombe and accounts for the micro-region's best-known flavor profiles (berry, honey, spice). Washed Bombe lots are also produced, offering cleaner, brighter cups. Some producers have begun experimenting with anaerobic processing, though these lots remain limited in volume."
+    },
+    {
+      "question": "How do I order Bombe Sidama green coffee in bulk?",
+      "answer": "Start by requesting a 300g roast-trial sample ($20 USD) to evaluate the lot before committing to volume. Once you approve the cup profile, we can arrange FOB or CIF shipment in 60 kg jute bags, with container-load or partial-container options. Contact our team for current pricing, availability, and contract terms."
+    },
+    {
+      "question": "What grade is Bombe Sidama coffee?",
+      "answer": "Bombe coffee is exported as Grade 1 or Grade 2 under Ethiopia's national grading system. Grade 1 lots have 0 to 3 full defects per 300g sample and score 86+ on the SCA cupping scale. Our current Bombe offering is a Natural Grade 1 scoring 87+, sourced from a single family farm with full traceability."
+    }
+  ],
+  "certified-organic-coffee-bean-exporters-bulk-orders": [
+    {
+      "question": "What certifications should organic coffee exporters have?",
+      "answer": "At minimum, they need organic certification from an accredited body for the markets they serve: USDA NOP for the US, EU Organic for Europe, or JAS for Japan. The best exporters hold dual or triple certification. They should also have a valid scope certificate listing coffee as a covered product and the ability to issue transaction certificates for each shipment."
+    },
+    {
+      "question": "How much do organic coffee beans cost in bulk?",
+      "answer": "Organic green coffee from Ethiopia typically runs $0.30 to $0.60 per pound above conventional FOB pricing. Final landed cost depends on origin, grade, certifications, and shipping terms. A full container of organic Ethiopian specialty coffee currently ranges from approximately $4.00 to $7.00+ per pound FOB Djibouti, depending on region and season."
+    },
+    {
+      "question": "What is the minimum order for organic green coffee?",
+      "answer": "One full container load (FCL), approximately 19 to 21 metric tons or 275 to 320 bags of 60 kg each. Some exporters offer trial LCL shipments starting at 5 metric tons. Smaller sample quantities (1 to 5 kg) are typically available for quality evaluation before committing to bulk."
+    },
+    {
+      "question": "How do I verify if a coffee exporter is truly organic certified?",
+      "answer": "Request their organic scope certificate and check the certifying body's database. For USDA organic, use the USDA Organic Integrity Database . For EU organic, contact the certifying body (Control Union, Ecocert, etc.) directly. The scope certificate lists the exporter's name, location, products covered, standards, and validity dates."
+    },
+    {
+      "question": "What is the difference between USDA Organic and EU Organic for coffee?",
+      "answer": "Both require three years without synthetic inputs and annual audits. USDA NOP allows certain natural pest control substances that EU prohibits, while EU 2018/848 places more emphasis on biodiversity and soil health. Since 2022, EU organic imports must comply with EU production rules directly. Most Ethiopian exporters hold dual certification for both markets."
+    },
+    {
+      "question": "Which countries export the best organic coffee beans?",
+      "answer": "Ethiopia, Peru, Colombia, Mexico, Honduras, and Uganda are the largest organic coffee exporters by volume. Ethiopia stands out for its naturally organic production methods, indigenous heirloom Arabica varieties, and the highest genetic diversity of any coffee-producing country. For specialty-grade organic coffee, Ethiopian origins (Yirgacheffe, Guji, Sidamo) consistently rank among the top scorers at international competitions."
+    },
+    {
+      "question": "What documentation comes with a certified organic coffee shipment?",
+      "answer": "A complete documentation package includes: transaction certificate (organic proof), organic scope certificate (exporter's certification), phytosanitary certificate, certificate of origin, ICO certificate of origin, bill of lading, quality/cupping report, and weight certificate. The transaction certificate is the critical organic-specific document."
+    },
+    {
+      "question": "How do organic coffee premiums work for bulk buyers?",
+      "answer": "The organic premium is an additional per-pound cost above conventional prices, reflecting higher farmgate prices, certification costs, and segregated handling. For Ethiopian organic coffee, this premium typically runs $0.30 to $0.60/lb FOB. Organic specialty coffee commands 20 to 40% higher retail prices, making the premium commercially viable for most roasters."
+    },
+    {
+      "question": "Source Certified Organic Ethiopian Coffee Direct from Origin",
+      "answer": "Ethio Coffee Import and Export PLC is a licensed Ethiopian coffee exporter offering certified organic green coffee beans for bulk orders. We hold USDA and EU organic certification, maintain segregated organic processing, and provide full transaction certificate documentation with every shipment. Request samples from our organic Yirgacheffe, Sidamo, Guji, or Limu lots."
+    }
+  ],
   "coffee-c-market-explained-for-ethiopian-coffee-buyers": [
     {
       "question": "Is Ethiopian coffee priced directly off the Coffee C market?",
@@ -132,6 +236,116 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Rising temperatures and erratic rainfall could reduce suitable Arabica growing land by up to 50% by 2050. Pest pressure from Coffee Leaf Rust is increasing at higher altitudes. Ethiopia's polyculture shade systems and genetic diversity offer natural resilience, but sustained investment in climate adaptation is critical for long-term supply stability."
     }
   ],
+  "coffee-is-art-roasting-brewing": [
+    {
+      "question": "What temperature should I roast Ethiopian coffee at?",
+      "answer": "Charge between 170°C and 190°C for most Ethiopian lots. Target first crack around 8:30 to 9:30 minutes. For washed coffees, keep development short (60 to 90 seconds) to preserve floral acidity. Natural lots tolerate longer development for fruit caramelization."
+    },
+    {
+      "question": "How does grind size affect coffee extraction?",
+      "answer": "Finer grinds increase surface area and accelerate extraction, producing stronger cups. Coarser grinds slow extraction, yielding lighter and cleaner flavors. Match grind to method: fine for espresso (200-400 microns), medium for pour-over (400-800 microns), coarse for French press (800-1,200 microns)."
+    },
+    {
+      "question": "What is the ideal water temperature for brewing coffee?",
+      "answer": "The SCA recommends 92°C to 96°C for most methods. Temperatures below this range under-extract, producing sour and thin cups. Temperatures above it over-extract, pulling harsh and bitter compounds. Light roasts often perform better at the higher end of this range."
+    },
+    {
+      "question": "What is development time in coffee roasting?",
+      "answer": "Development time is the interval between first crack and the end of the roast. It typically ranges from 60 to 120 seconds for light to medium roasts. Shorter development preserves acidity and floral aromatics. Longer development builds body and sweetness but can mute delicate origin character."
+    },
+    {
+      "question": "How do I know if my coffee is over-extracted or under-extracted?",
+      "answer": "Under-extracted coffee tastes sour, thin, and lacks sweetness. Over-extracted coffee tastes bitter, astringent, and dry. A balanced cup has clear acidity, pleasant sweetness, and smooth body. Use a refractometer to target 18-22% extraction, or adjust by taste using grind size and brew time."
+    }
+  ],
+  "coffee-is-commerce-exporting-importing-buying": [
+    {
+      "question": "What is the C market in coffee?",
+      "answer": "The C market is the ICE Arabica coffee futures exchange in New York (ticker: KC). It sets benchmark prices for roughly 90 to 95% of globally traded Arabica. Prices reflect supply, demand, weather, and speculative activity. Most physical coffee is sold at the C price plus or minus a differential that reflects the specific lot's quality and origin."
+    },
+    {
+      "question": "How does specialty coffee pricing differ from commodity pricing?",
+      "answer": "Specialty coffee (SCA 80+) trades at a positive differential above the C market, reflecting cup quality, traceability, and relationship commitments. While commodity prices fluctuate daily, specialty differentials are more stable because they are negotiated directly between buyers and exporters. Higher-scoring lots (86+) show the greatest price stability even during market downturns."
+    },
+    {
+      "question": "What does FOB mean in coffee trade?",
+      "answer": "FOB (Free on Board) is the price point where the exporter delivers green coffee loaded onto a vessel at the origin port. It covers sourcing, milling, quality inspection, inland transport, and port loading. Everything after that point (ocean freight, insurance, destination duties) is the buyer's cost. Most Ethiopian coffee exports are priced FOB Djibouti."
+    },
+    {
+      "question": "What are Incoterms and why do they matter?",
+      "answer": "Incoterms (International Commercial Terms) define which party pays for transport, insurance, and customs at each stage of an international shipment. In coffee commerce, the three most common are FOB, CIF, and EXW. Choosing the right Incoterm affects your landed cost, risk exposure, and logistics responsibilities. The Incoterm must be specified in the purchase contract."
+    },
+    {
+      "question": "How long does the green coffee buying timeline take?",
+      "answer": "A typical cycle from first inquiry to delivery runs 3 to 6 months. Key stages include sample evaluation, contract negotiation, milling and CLU inspection, pre-ship sample approval, ocean freight (18 to 35 days depending on destination), and customs clearance. Forward contracts placed before harvest can extend the total timeline but secure the best lots and pricing."
+    }
+  ],
+  "coffee-is-processing-drying-milling": [
+    {
+      "question": "What is the difference between washed and natural coffee processing?",
+      "answer": "Washed processing removes all fruit from the seed before drying, producing clean, bright cups with clear acidity. Natural processing dries the whole cherry intact, fermenting the bean inside the fruit for 3 to 4 weeks. Naturals taste fruitier, sweeter, and heavier-bodied. The two methods create fundamentally different cup profiles from the same coffee variety."
+    },
+    {
+      "question": "How does coffee processing affect flavor?",
+      "answer": "Processing controls which sugars, acids, and aromatics from the fruit remain in contact with the seed during fermentation and drying. More fruit contact (natural, honey) adds sweetness, body, and fermentation-derived complexity. Less fruit contact (washed) lets the bean's inherent terroir express itself clearly. Processing also determines acidity type and intensity."
+    },
+    {
+      "question": "How long does it take to dry coffee beans?",
+      "answer": "Drying duration varies by method and climate. Washed parchment takes 10 to 15 days on raised beds. Honey-processed coffees need 14 to 28 days depending on mucilage level. Natural whole-cherry lots require 18 to 30 days. Target moisture is 10 to 12% for export. Altitude, humidity, and bed management all affect timing."
+    },
+    {
+      "question": "What is honey processed coffee?",
+      "answer": "Honey processing removes the cherry skin but leaves the sticky mucilage (fruit pulp) on the bean during drying. The retained sugars caramelize and infuse into the seed, producing a cup with more body and sweetness than washed but more consistency than natural. Variants range from white honey (minimal mucilage) to black honey (all mucilage retained)."
+    },
+    {
+      "question": "What happens during coffee milling before export?",
+      "answer": "Milling converts dried parchment coffee into export-ready green beans. The process includes hulling (removing parchment), screen sizing (sorting by bean size), density sorting (gravity tables separate by weight), optical color sorting (cameras eject defects), and hand sorting. These steps determine the final grade and defect count of the lot."
+    }
+  ],
+  "coffee-is-science-analysis-compounds-evaluation": [
+    {
+      "question": "What moisture content should green coffee have?",
+      "answer": "Specialty green coffee should maintain 9-12% moisture by weight. Below 9%, beans become brittle and lose flavor compound integrity. Above 12%, free water activity promotes mold growth and accelerates oxidation. For export-quality Ethiopian lots, the target range is typically 10-11.5%."
+    },
+    {
+      "question": "How do chlorogenic acids affect coffee flavor?",
+      "answer": "Chlorogenic acids (6-10% of green coffee) break down during roasting into quinic acid and caffeic acid. At light roast levels, they contribute perceived acidity and complexity. At darker levels, their degradation products increase bitterness and body. Higher-altitude Arabica typically contains more CGAs, correlating with brighter acidity."
+    },
+    {
+      "question": "Why does altitude affect green coffee chemistry?",
+      "answer": "Cooler temperatures at higher altitudes slow cherry maturation by weeks or months. This extended development period allows more complex sugars, organic acids, and volatile aroma precursors to accumulate. Ethiopian coffees grown above 1,800m consistently show higher density, brighter acidity, and greater aromatic complexity."
+    },
+    {
+      "question": "What is the minimum equipment needed for green coffee QC?",
+      "answer": "A calibrated moisture meter, a bulk density cylinder with precision scale, screen sieves, and a sample roaster cover the essentials. Pair these with a structured cupping protocol and you can make well-informed buying decisions without expensive laboratory equipment."
+    },
+    {
+      "question": "How does processing method change coffee compounds?",
+      "answer": "Natural processing retains mucilage sugars around the bean during drying, increasing perceived sweetness and fruit character. Washed processing removes mucilage early, producing cleaner acid profiles. The same variety from the same farm can taste markedly different depending on process. See our washed vs natural comparison for details."
+    }
+  ],
+  "coffee-plant-taxonomy-species-varieties": [
+    {
+      "question": "How many coffee species exist?",
+      "answer": "Current scientific consensus identifies approximately 130 species within the genus Coffea, according to the SCA. Only two are commercially significant: Coffea arabica (Arabica, 55-60% of production) and Coffea canephora (Robusta, 40-45%). Coffea liberica is a minor third, grown mainly in the Philippines and Malaysia."
+    },
+    {
+      "question": "What does \"heirloom\" mean on Ethiopian coffee?",
+      "answer": "\"Heirloom\" refers to landrace varieties that evolved naturally in Ethiopia's highland forests over millennia. The country has an estimated 10,000 to 15,000 genetically distinct varieties, most without formal names. They differ from cultivars bred for specific traits elsewhere, offering greater flavor complexity."
+    },
+    {
+      "question": "Why is Arabica's genetic diversity a concern?",
+      "answer": "All Arabica traces back to a single hybridization event between Coffea canephora and Coffea eugenioides. This genetic bottleneck means the species has limited natural tools to adapt to climate change, pests, and disease. Ethiopia's wild Arabica populations are the primary reservoir of genetic diversity for the species."
+    },
+    {
+      "question": "What is the difference between variety and varietal?",
+      "answer": "\"Variety\" is a noun describing a taxonomic rank of plants with reproducible genetic characteristics (e.g., Gesha variety). \"Varietal\" is an adjective. The confusion comes from wine terminology. In coffee, the correct usage is \"Gesha variety,\" not \"Gesha varietal.\""
+    },
+    {
+      "question": "Why does origin matter for coffee quality?",
+      "answer": "A plant's genetics and growing conditions (altitude, temperature, soil, shade) determine the chemical compounds available in the seed. Processing and roasting can only work within those parameters. Ethiopia's combination of high altitude, volcanic soils, shade growing, and unmatched genetic diversity produces coffees with complexity no other origin replicates."
+    }
+  ],
   "coffee-prices-falling-global-production-record": [
     {
       "question": "Why are coffee prices falling in 2026?",
@@ -152,6 +366,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
     {
       "question": "Is now a good time to buy Ethiopian green coffee?",
       "answer": "A surplus market creates favorable conditions for importers: better lot availability, more negotiating leverage on terms, and the opportunity to diversify origins or upgrade quality within existing budgets. Locking in supply during a surplus window, before a potential weather event re-tightens the market, is a sound procurement strategy."
+    }
+  ],
+  "complete-guide-to-understanding-coffee": [
+    {
+      "question": "What is the most important stage in the seed-to-cup chain for green coffee quality?",
+      "answer": "Processing is the single largest controllable variable. The same cherries processed as washed versus natural produce entirely different cup profiles. Variety and growing conditions set the ceiling, but processing determines the final character. Buyers who specify and evaluate processing method gain the most control over quality outcomes."
+    },
+    {
+      "question": "How does altitude affect green coffee price and cup profile?",
+      "answer": "Higher altitude slows cherry maturation, producing denser beans with more complex acidity and sweetness. Ethiopian coffees above 2,000 meters typically command $0.50&#x2013;1.50/kg premiums over lower-altitude lots from the same region. For buyers, altitude is a reliable predictor of acidity brightness and roast flexibility."
+    },
+    {
+      "question": "What should I ask my exporter about processing methods?",
+      "answer": "Ask for the processing method (washed, natural, honey, or experimental), the washing station name, fermentation duration and method (tank, raised-bed, or anaerobic), drying duration, and whether any post-harvest protocols (extended fermentation, thermal shock) were applied. These details predict cup character and help your roaster plan the first test batch."
+    },
+    {
+      "question": "How long does green coffee stay fresh after export?",
+      "answer": "Green coffee stored in GrainPro-lined bags at 15&#x2013;20°C and 50&#x2013;65% humidity maintains peak character for 8&#x2013;12 months post-harvest. Standard jute bags shorten this to 4&#x2013;6 months. Natural processed coffees age faster than washed due to higher residual sugar. Plan roasting schedules to use the freshest lots first."
+    },
+    {
+      "question": "What is the difference between Ethiopian Grade 1 and Grade 2 coffee?",
+      "answer": "Grade 1 allows 0&#x2013;3 defects per 300g sample and scores 85+ points on the cupping table. Grade 2 allows 4&#x2013;12 defects and scores 80&#x2013;84. Both qualify as specialty. Grade 1 involves more intensive hand sorting, which increases milling cost and FOB price. Grade 2 offers strong specialty quality at a lower entry point."
     }
   ],
   "decaf-green-coffee-processing-sourcing-guide": [
@@ -298,6 +534,32 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "An origin-connected exporter can document the lot-level facts that feed an emission calculation: production system (forest, semi-forest, garden, plantation), fertilizer use, processing and drying method, traceability to cooperative or washing station, and ocean-freight routing. It supplies the inputs to your model rather than a finished carbon number, which is what a credible inventory needs."
     }
   ],
+  "ethiopian-coffee-ceremony": [
+    {
+      "question": "What is the Ethiopian coffee ceremony?",
+      "answer": "The Ethiopian coffee ceremony, known locally as buna , is a traditional social ritual where green coffee beans are roasted over an open flame, ground by hand using a mortar and pestle (mukecha), and brewed in a clay pot called a jebena. Lasting one to two hours, it is a communal experience centered on hospitality, respect, and human connection, performed daily in millions of Ethiopian households."
+    },
+    {
+      "question": "How many rounds are served in a traditional Ethiopian coffee ceremony?",
+      "answer": "Three rounds are served: abol (the strongest, ice-breaking round), tona (a medium-strength continuation), and baraka (the lightest, considered a blessing). Each round uses the same grounds with fresh water, producing progressively lighter brews that mirror the deepening of conversation between participants."
+    },
+    {
+      "question": "Who traditionally leads the Ethiopian coffee ceremony?",
+      "answer": "The ceremony is traditionally led by women, who serve as cultural custodians of coffee in Ethiopian society. The host performs every step, from roasting to serving, often dressed in a habesha kemis. Women also perform an estimated 60 to 70 percent of the labor in Ethiopian coffee production overall."
+    },
+    {
+      "question": "What is a jebena and how does it work?",
+      "answer": "A jebena is a traditional Ethiopian clay coffee pot with a spherical base, narrow neck, pouring spout, handle, and straw lid. Water is heated inside the jebena, ground coffee is added directly, and the mixture brews over a charcoal stove. The porous clay is said to absorb flavors over time, making a well-seasoned jebena part of the taste profile."
+    },
+    {
+      "question": "How long does the Ethiopian coffee ceremony take?",
+      "answer": "A full ceremony typically lasts 60 to 90 minutes, though it can extend to two hours. The time includes preparing the space with grass and incense, roasting beans, grinding, brewing three successive rounds, and the conversation that accompanies each round."
+    },
+    {
+      "question": "Why does the coffee ceremony matter for international buyers?",
+      "answer": "Understanding the ceremony helps buyers treat Ethiopian coffee with greater respect, ask better sourcing questions, and appreciate the human effort behind every lot. It also provides authentic storytelling material for roasters and retailers marketing Ethiopian origins to quality-conscious consumers."
+    }
+  ],
   "ethiopian-coffee-certifications-organic-fairtrade-rainforest": [
     {
       "question": "What certifications are available for Ethiopian coffee?",
@@ -388,6 +650,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
     {
       "question": "How do differentials work for Ethiopian coffee?",
       "answer": "Ethiopian coffee differentials are premiums added to the ICE Coffee \"C\" futures benchmark. The differential reflects origin quality, demand, and availability. A contract might specify \"+$1.00/lb over the March C.\" The buyer then \"fixes\" the futures component at a time of their choosing before shipment. The final price equals the fixed futures price plus the differential."
+    }
+  ],
+  "ethiopian-coffee-dry-milling-export-guide": [
+    {
+      "question": "What is dry milling in coffee?",
+      "answer": "Dry milling is the post-drying mechanical stage that converts dried parchment or whole dried cherries into clean, sorted, graded green coffee ready for export. It includes hulling, size grading, density sorting, color sorting, hand sorting, and bagging. It is distinct from wet milling, which occurs at the washing station immediately after harvest."
+    },
+    {
+      "question": "How does dry milling affect cup quality?",
+      "answer": "Dry milling removes defects that directly harm cup quality: full blacks, full sours, insect-damaged beans, and quakers all degrade the cup when unknowingly roasted. Size and density grading also ensure roast uniformity, which is a prerequisite for consistent flavor development across a production batch."
+    },
+    {
+      "question": "How much parchment coffee does it take to produce one kilogram of export-ready green beans?",
+      "answer": "For washed specialty lots targeting Grade 1, typically 1.20 to 1.28 kg of dried parchment input is required per kilogram of final green output (78 to 82% yield). Natural lots targeting Grade 1 require approximately 1.28 to 1.39 kg of pre-hulled green input (72 to 78% yield). Whole dried cherry for commercial grades converts at only 40 to 48% due to the weight of the dried cherry hull."
+    },
+    {
+      "question": "What is the difference between ECX milling and direct (DSL) milling in Ethiopia?",
+      "answer": "ECX-route coffee is first hulled at regional ECX warehouses before auction and then receives final grading and sorting at the buyer's chosen dry mill in Addis Ababa. DSL-route coffee goes directly from the cooperative or washing station to the exporter's contracted dry mill, where the full milling sequence is performed. DSL offers more traceability and control over the complete milling process."
+    },
+    {
+      "question": "Why does screen size matter for roasters?",
+      "answer": "Beans of different sizes roast at different rates. A mixed-screen lot roasts unevenly: large beans are under-developed while small beans are over-developed in the same drum. A uniformly screen-graded lot allows the roaster to dial in one profile that performs consistently, which reduces batch variation and improves yield at the roaster's end."
     }
   ],
   "ethiopian-coffee-espresso-blend-sourcing-guide": [
@@ -622,6 +906,50 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "New crop is coffee from the most recent harvest season (October-February). It has the brightest acidity, most complex aromatics, and ideal moisture content (10.5-12%). Past crop is from the previous season and has faded cup characteristics, lower moisture, and typically sells at a 10-20% discount. Specialty buyers should prioritize new crop; commercial blenders may find value in well-stored past crop."
     }
   ],
+  "ethiopian-coffee-horeca-cafe-chain-buyers-guide": [
+    {
+      "question": "What is the minimum order quantity for a café chain sourcing Ethiopian coffee directly?",
+      "answer": "Most Ethiopian exporters require a minimum of one full container per order. For café chains sourcing below that threshold, purchasing through a specialty importer in your destination market provides access to Ethiopian lots in smaller pallet quantities. See our Ethiopian coffee MOQ guide for detailed quantity tiers and alternative structures by buyer type."
+    },
+    {
+      "question": "Can I get Ethiopian coffee with organic certification for a hotel sustainability program?",
+      "answer": "Yes. Certified organic Ethiopian coffee is available from cooperatives including the Yirgacheffe Coffee Farmers Cooperative Union (YCFCU) and the Oromia Coffee Farmers Cooperative Union (OCFCU). Both USDA and EU organic certification are available. Volume of certified organic lots tightened in the 2025/26 season, so buyers who need certified organic should pre-book at least six months before their planned delivery date."
+    },
+    {
+      "question": "How do I maintain consistent flavor across 50 or more café locations using Ethiopian coffee?",
+      "answer": "Consistency across locations depends on three factors: a written sensory specification with an acceptable range (not a single flavor note), pre-shipment sample approval for every container, and alignment between supplier and roasting partner on roast profile targets. For multi-roaster supply chains, the sensory specification serves as the shared reference that prevents divergence between locations."
+    },
+    {
+      "question": "What does an EU hotel group need from an Ethiopian exporter for EUDR compliance?",
+      "answer": "EU operators importing green coffee after December 30, 2026 require GPS polygon coordinates for each plot in the shipment, a Due Diligence Statement (DDS), and deforestation-free evidence for land used after December 2020. Ethiopian exporters with cooperative mapping programs can supply this documentation. Confirm EUDR readiness at the supplier qualification stage, before signing a supply contract."
+    },
+    {
+      "question": "Is Ethiopian green coffee suitable for automatic espresso machines commonly used in HoReCa?",
+      "answer": "Yes. Grade 2 and Grade 3 washed lots from Jimma and Limu perform reliably in commercial automatic espresso machines and bean-to-cup systems. Lower acidity and consistent body produce predictable extraction across varying water temperatures and machine calibrations. Grade 1 natural-processed lots from Guji and Sidamo are better reserved for barista-served specialty applications where the quality premium is justified."
+    }
+  ],
+  "ethiopian-coffee-incoterms-guide": [
+    {
+      "question": "Can I use EXW for Ethiopian coffee to take full control of the shipment?",
+      "answer": "EXW is not practical for Ethiopian green coffee because the buyer would need to manage Ethiopian export customs clearance, which legally requires a registered Ethiopian exporter. FCA Addis Ababa gives buyers equivalent origin-side control while keeping the exporter responsible for all regulatory steps they are required to perform."
+    },
+    {
+      "question": "Why do some Ethiopian exporters only quote FOB and refuse CIF?",
+      "answer": "Smaller exporters lack freight relationships to quote competitive CIF rates for every destination. Offering CIF exposes them to unpredictable freight swings between signing and booking. Larger exporters with active carrier partnerships (CMA CGM, MSC, Maersk) are more willing. During initial negotiation, ask whether the exporter can provide a firm CIF quote rather than FOB plus an estimate."
+    },
+    {
+      "question": "Does the Incoterm affect the Ethiopian coffee export permit or any regulatory step at origin?",
+      "answer": "No. Export clearance steps, the ECX or DSL channel, the Coffee and Tea Authority export permit, CLU quality inspection, and phytosanitary certification, are completed by the exporter regardless of the agreed Incoterm. The Incoterm only affects where cost and risk transfer between exporter and buyer. Ethiopian export regulations do not change based on delivery terms."
+    },
+    {
+      "question": "How does Djibouti port congestion affect FOB buyers and sellers differently?",
+      "answer": "Under FOB, the exporter bears congestion risk until the container loads onto the vessel; delays at the terminal are their cost. Once on board, all sea and destination delays shift to the buyer. FCA buyers absorb Djibouti risk through their forwarder. Build a 7-14 day buffer into arrival estimates during peak export season, roughly February through June."
+    },
+    {
+      "question": "If I negotiate CIF but find the embedded freight too high, can I switch to FOB mid-contract?",
+      "answer": "Switching Incoterms after signing requires written agreement from both parties and a price adjustment. It is not a unilateral right. Request both FOB and CIF quotes during initial negotiation, compare the exporter's implied freight against your own quote, then choose with full information before signing."
+    }
+  ],
   "ethiopian-coffee-landed-cost-guide": [
     {
       "question": "How much does it cost to import Ethiopian coffee?",
@@ -710,6 +1038,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Hold the lot, compare the arrival sample against the retained PSS under the same roast and cupping conditions, and document both physical and sensory differences immediately. If the gap is material, move into the contract claim workflow with lot IDs, sample records, and photos while the evidence is still fresh."
     }
   ],
+  "ethiopian-coffee-screen-size-guide": [
+    {
+      "question": "What screen size is typical for Ethiopian coffee?",
+      "answer": "Most Ethiopian specialty lots do not present as unusually large beans. Washed highland coffees often run heavily in Screen 14 to 16, while many naturals sit more comfortably in 15 to 17. The key issue is the dominant range and tolerance, not chasing oversized beans for their own sake."
+    },
+    {
+      "question": "Does smaller screen size mean lower quality?",
+      "answer": "No. In Ethiopia, smaller beans can still be dense, clean, and high scoring. Quality should be judged through defects, moisture, cup profile, and preparation consistency. Smaller screen size becomes a problem only when the spread is too broad for the intended roast profile or when the lot is physically rough."
+    },
+    {
+      "question": "Are screen size and grade the same thing in Ethiopia?",
+      "answer": "No. Ethiopian grade is determined by physical defects and cup quality. Screen size is a preparation detail that helps buyers understand uniformity and roast behavior. A smaller-screen lot can still grade well, and a visually larger lot can still disappoint if defects, density, or cup quality are weak."
+    },
+    {
+      "question": "What screen-size spec should I put in a contract?",
+      "answer": "Use a minimum floor plus a tolerance, not vague language. For example, Screen 14 up with a dominant 15 to 16 range and a capped below-screen percentage works far better than saying \"large bean.\" Pair that clause with moisture, defects, and sample approval language."
+    },
+    {
+      "question": "When should I insist on tighter screens?",
+      "answer": "Ask for tighter screens when repeatability matters more than sourcing breadth, especially in espresso production, private-label contracts, or larger roasting systems. For distinctive single-origin filter programs, the better decision is often to accept a smaller dominant range if the cup is clean and the prep is disciplined."
+    }
+  ],
   "ethiopian-coffee-traceability-guide": [
     {
       "question": "What is Ethiopian coffee traceability?",
@@ -730,6 +1080,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
     {
       "question": "What does traceable Ethiopian coffee cost compared to non-traceable?",
       "answer": "Traceable specialty lots typically command $0.15 to $0.50 per pound above comparable non-traceable coffee. Micro-lots with full farm-level documentation can achieve premiums of $1.00 or more. The traceability investment adds approximately $0.03 to $0.08 per pound in production costs, making it a positive-margin proposition for specialty-grade Ethiopian coffee."
+    }
+  ],
+  "ethiopian-coffee-vs-brazilian-coffee": [
+    {
+      "question": "Is Ethiopian coffee better than Brazilian coffee?",
+      "answer": "Neither is objectively better. Ethiopian coffee offers more aromatic complexity, floral and fruit character, and genetic diversity. Brazilian coffee offers more consistency, lower acidity, and a price-to-quality ratio that anchors espresso programs globally. The right choice depends on your product mix. Many professional buyers source both."
+    },
+    {
+      "question": "Can Ethiopian coffee work in espresso blends?",
+      "answer": "Yes. Ethiopian coffee at 15 to 30% of an espresso blend adds floral and fruit top notes that elevate the cup. Washed lots integrate more smoothly than naturals, which can introduce fermented fruit intensity. Many roasters pair Ethiopian components with a Brazilian base for balanced complexity."
+    },
+    {
+      "question": "Why is Ethiopian coffee more expensive than Brazilian?",
+      "answer": "Ethiopian coffee commands higher FOB prices due to limited exportable supply (50% consumed domestically), labor-intensive smallholder production, high cupping scores, and unique genetic diversity. Brazilian coffee is more cost-effective due to mechanized production, economies of scale, and mature logistics centered on the Port of Santos."
+    },
+    {
+      "question": "What is the difference between Ethiopian heirloom and Brazilian Bourbon?",
+      "answer": "Ethiopian heirloom is a collective term for thousands of wild Arabica landraces with enormous genetic variation. Brazilian Bourbon is a single well-documented cultivar descended from plants brought from Reunion Island in the 1800s. Heirloom produces wide-ranging floral and fruit complexity; Bourbon produces sweet, caramel-forward profiles with good acidity."
+    },
+    {
+      "question": "How do I source both Ethiopian and Brazilian coffee for my roastery?",
+      "answer": "Most specialty roasters work with separate green coffee importers for each origin. For Ethiopian coffee, source directly from origin exporters like Ethio Coffee Import and Export PLC, who supply traceable lots FOB Djibouti. For Brazilian coffee, major traders and cooperatives offer direct relationships. A dual-origin program enables year-round fresh-crop inventory."
     }
   ],
   "ethiopian-coffee-vs-colombian-coffee": [
@@ -848,6 +1220,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
     {
       "question": "Can either origin meet EUDR traceability requirements?",
       "answer": "Ethiopia is far better positioned. Its direct specialty and cooperative channels are building geolocated, farm-level records suited to EUDR, while Yemen's fragmented terrace smallholdings and conflict conditions make compliant data collection difficult. EU-facing buyers will generally find Ethiopian sourcing the practical path to compliance."
+    }
+  ],
+  "ethiopian-coffee-washing-stations-buyers-guide": [
+    {
+      "question": "What is the difference between a washing station and a dry mill in Ethiopia?",
+      "answer": "A washing station (wet mill) processes fresh cherry into dried parchment through pulping, fermentation, washing, and drying. A dry mill converts dried parchment into export-ready green coffee through hulling, size grading, density sorting, color sorting, and hand sorting. They are separate facilities at different stages of the supply chain."
+    },
+    {
+      "question": "How many washing stations are there in Ethiopia?",
+      "answer": "Ethiopia has an estimated 2,500 to 3,000 active washing stations, concentrated in the southern (Yirgacheffe, Guji, Sidamo) and western (Limu, Jimma) growing regions. The number fluctuates as new private stations open and underperforming ones close between seasons."
+    },
+    {
+      "question": "Can importers visit Ethiopian washing stations?",
+      "answer": "Yes. Origin trips during the October to January harvest season are the best way to evaluate stations firsthand. Your exporter can arrange visits to active washing stations in their sourcing network. Visits outside harvest season are possible but you will not see processing in action."
+    },
+    {
+      "question": "Does washing station selection affect certification eligibility?",
+      "answer": "Yes. Organic, Fairtrade, and Rainforest Alliance certifications are typically held at the cooperative or station level. If you need certified coffee, your exporter must source from stations that maintain active certification. Not all stations are certified, so confirm certification status before ordering."
+    },
+    {
+      "question": "What is the typical capacity of an Ethiopian washing station?",
+      "answer": "Capacity varies widely. A small station may process 50 to 100 tonnes of cherry per season (roughly 10 to 20 tonnes of green equivalent). Large stations process 500 to 1,000+ tonnes of cherry, producing 100 to 200 tonnes of green coffee. Capacity depends on tank volume, drying bed area, and water availability."
     }
   ],
   "ethiopian-cup-of-excellence-buyers-guide": [
@@ -1008,6 +1402,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Yes. Djibouti sits on the Bab el-Mandeb strait, so every vessel calling there transits the listed high-risk area whether it routes via Suez or the Cape of Good Hope. War and strikes clauses are excluded from standard ICC cover and must be attached separately; the endorsement is inexpensive relative to the exposure."
     }
   ],
+  "green-coffee-financing-hedging-importers-guide": [
+    {
+      "question": "Do I need a futures account to hedge green coffee prices?",
+      "answer": "No. A fixed-price forward contract with your exporter is the most practical hedge for most importers and requires no brokerage account. Coffee futures accounts are most useful for buyers using differential contracts or importing more than four to five containers per season, where the basis risk and volumes justify the complexity."
+    },
+    {
+      "question": "How does Ethiopian coffee hedging differ from other origins?",
+      "answer": "Ethiopian coffee is priced through the Ethiopia Commodity Exchange, not directly against the ICE Coffee C futures. Hedging via fixed-price forward contracts directly with your Ethiopian exporter is therefore more precise than an ICE futures hedge, which carries basis risk from the ECX-to-C-market price correlation being imperfect."
+    },
+    {
+      "question": "What is a call option and is it worth using for coffee imports?",
+      "answer": "A call option gives you the right to buy a coffee futures contract at a set price, protecting against price spikes while letting you benefit if prices fall. The cost is typically 1 to 2 percent of cargo value. It is most useful when you have forward sales commitments to customers but have not yet locked in your purchase price, and prefer to maintain downside optionality."
+    },
+    {
+      "question": "How long is capital typically tied up in a green coffee import cycle?",
+      "answer": "From payment to the exporter through to receiving payment from your roasting customers, the typical Ethiopian coffee cycle runs 90 to 125 days. This includes 20 to 35 days for pre-shipment, 25 to 35 days ocean transit, 10 to 15 days port clearance and QC, and 30 days customer payment terms. Warehouse receipt finance or reverse factoring can shorten this by 30 to 50 days."
+    },
+    {
+      "question": "Should I invoice my roaster customers in USD or local currency?",
+      "answer": "Invoicing in USD eliminates your FX exposure as an importer outside the US, since your purchase cost is also in USD. However, it transfers FX risk to your customers and may reduce competitiveness with domestic suppliers who quote local currency. A practical middle ground is to quote USD prices and offer a local-currency equivalent at the prevailing rate on invoice date, covered by a forward FX contract you book at purchase time."
+    }
+  ],
   "green-coffee-moisture-content-water-activity-guide": [
     {
       "question": "What is the ideal moisture content for green coffee beans?",
@@ -1046,6 +1462,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
     {
       "question": "What sample should be retained for a dispute?",
       "answer": "Retain a sealed duplicate from the same homogenised composite used for the lab submission, labeled with lot code, date, sampler, and bag-mark references. A retained sample from some other bag or from a later pull is weak evidence and often turns a solvable quality discussion into a procedural argument."
+    }
+  ],
+  "green-coffee-packaging-bag-types-guide": [
+    {
+      "question": "What is the best packaging for green coffee beans?",
+      "answer": "For specialty lots (Grade 1 and Grade 2) shipped by sea, the best packaging is a 60 kg new jute bag with a GrainPro or Ecotact hermetic liner. The jute provides structural protection and breathability; the liner seals out oxygen and moisture. Combined cost is $2.50 to $5.00 per bag. For micro-lots and samples, vacuum-sealed bags of 10 to 30 kg provide superior protection."
+    },
+    {
+      "question": "How long does green coffee last in GrainPro bags?",
+      "answer": "Green coffee sealed in GrainPro or Ecotact liners at the correct moisture content (10 to 12%) can hold its cup profile for 14 to 24 months. Without a hermetic liner, specialty coffee in plain jute typically degrades noticeably after 6 to 9 months. Storage temperature and humidity also matter: target 15 to 22°C and 50 to 60% relative humidity for maximum shelf life."
+    },
+    {
+      "question": "What size bags are used for Ethiopian green coffee export?",
+      "answer": "The Ethiopian export standard is the 60 kg jute bag, which fits approximately 250 to 320 bags per 20ft container. A 25 kg format is increasingly used in the specialty segment for better lot segregation and handling. The 60 kg format is more container-efficient and remains the default for most orders. Importers needing 25 kg bags should specify this in the purchase order, as it may affect pricing slightly."
+    },
+    {
+      "question": "Should importers specify packaging in their coffee contract?",
+      "answer": "Yes, always. Many disputes between importers and exporters stem from packaging assumptions that were never written down. At minimum, specify bag type and size, liner requirement (or absence), pre-seal moisture content, required bag markings, and pre-shipment sample packaging. A one-paragraph packaging clause in the purchase confirmation prevents the majority of these problems before they occur."
+    },
+    {
+      "question": "Can GrainPro bags be reused for green coffee?",
+      "answer": "GrainPro offers reusable hermetic bags in some product lines, including zipper-closure formats designed for multiple uses. However, for export-grade green coffee, most exporters use single-use liners to eliminate contamination risk and simplify supply chain management. Importers who want to reuse liners for on-site storage after arrival should use a clean, food-safe hermetic bag rated for green coffee and verify it holds a proper seal before use."
     }
   ],
   "green-coffee-quality-claims-guide": [
@@ -1364,6 +1802,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "It matters significantly. Single-origin specialty-grade beans (scoring 80 or above on the SCA scale) produce more complex, flavorful cups even with basic methods. Ethiopian coffees, with their natural fruit and floral notes, are particularly forgiving and rewarding when brewed simply."
     }
   ],
+  "how-to-source-green-coffee-from-ethiopia": [
+    {
+      "question": "What are the Ethiopian coffee grades used for export?",
+      "answer": "Ethiopian coffee is graded from Grade 1 (specialty, 0-3 defects per 300g) to Grade 5 (commercial, 46-100 defects). G1 and G2 serve specialty single-origin programs. G3 suits premium blends. G4 and G5 cover large-volume commercial needs including instant coffee production."
+    },
+    {
+      "question": "What is the minimum order quantity for Ethiopian green coffee?",
+      "answer": "Most Ethiopian exporters work with full container orders: approximately 275 to 300 bags of 60kg each in a standard 20-foot container. Some exporters, including Ethio Coffee, can accommodate smaller trial orders to help new buyers evaluate quality before committing to container volumes."
+    },
+    {
+      "question": "How long does shipping take from Ethiopia?",
+      "answer": "From order confirmation to arrival at your destination port, plan for 6 to 10 weeks depending on shipping route and destination. Most Ethiopian coffee ships FOB from Djibouti port or FCA from the Addis Ababa dry port. Transit to Europe averages 3 to 4 weeks; North America 5 to 7 weeks."
+    },
+    {
+      "question": "Should I source directly from an exporter or use an importer?",
+      "answer": "Direct sourcing gives better traceability, relationship pricing, and access to specific lots. Importers simplify logistics for smaller volumes and offer domestic warehousing. Many roasters start with an importer to test Ethiopian coffees and transition to direct sourcing as volumes grow beyond a container per order."
+    },
+    {
+      "question": "When is the best time to buy fresh-crop Ethiopian coffee?",
+      "answer": "Contract between January and March for the widest selection of fresh-crop lots from the current harvest. Export shipments run primarily February through August. Buyers who wait until the second half of the year will find top-tier specialty lots already committed to other buyers."
+    }
+  ],
   "importing-ethiopian-coffee-to-australia": [
     {
       "question": "Is there import duty on Ethiopian coffee in Australia?",
@@ -1408,6 +1868,32 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Increasingly, yes. Even before full application dates arrive for every operator size, serious importers are already mapping plot-level traceability, due diligence workflows, and re-sell document continuity. Belgium's re-export role makes that preparation even more important."
     }
   ],
+  "importing-ethiopian-coffee-to-canada-guide": [
+    {
+      "question": "What permits are needed to import Ethiopian coffee to Canada?",
+      "answer": "You need a Business Number (BN9) from CRA, an SFCR licence from CFIA, and CARM portal registration with CBSA. Your Ethiopian exporter provides the phytosanitary certificate and ICO certificate of origin. A customs broker files declarations on your behalf."
+    },
+    {
+      "question": "Is there import duty on Ethiopian coffee in Canada?",
+      "answer": "Green (unroasted) coffee enters duty-free under HS 0901.11.20 for most volumes. Over-quota imports face a minimal rate of $0.0075/kg. GST or HST applies at the border but is fully recoverable as an Input Tax Credit for registered businesses."
+    },
+    {
+      "question": "What is CARM and do I need it to import coffee to Canada?",
+      "answer": "CARM is CBSA's digital portal for assessing and paying import duties and taxes. It became mandatory for all commercial importers in October 2024. Without CARM registration, your customs broker cannot file declarations, and your shipment will be held at the border."
+    },
+    {
+      "question": "How long does shipping from Ethiopia to Canada take?",
+      "answer": "Ocean transit from Djibouti to Montreal is 28 to 35 days; to Vancouver, 35 to 45 days. Total lead time from first inquiry to warehouse delivery is 11 to 15 weeks, including sampling, contract, export preparation, transit, and customs clearance."
+    },
+    {
+      "question": "Do I need an SFCR licence to import green coffee to Canada?",
+      "answer": "Yes. Any business importing food for commercial purposes needs an SFCR licence from CFIA. Apply through the My CFIA portal; processing takes 4 to 8 weeks. If you also roast, your facility requires a Preventive Control Plan."
+    },
+    {
+      "question": "How much does it cost to import Ethiopian coffee to Canada?",
+      "answer": "A 20ft container of specialty Ethiopian coffee (275 to 300 bags) landed in Montreal costs approximately CAD $209,000, or about CAD $5.27 per pound before GST recovery. After reclaiming GST via Input Tax Credits, the effective cost drops to roughly CAD $5.02 per pound."
+    }
+  ],
   "importing-ethiopian-coffee-to-china": [
     {
       "question": "Is Ethiopian coffee eligible for zero tariff when imported to China?",
@@ -1428,6 +1914,66 @@ export const faqsBySlug: Record<string, Faq[]> = {
     {
       "question": "What Chinese food safety standards apply to green coffee imports?",
       "answer": "Green coffee must comply with GB 2761-2017 (mycotoxin limits, including ochratoxin A), GB 2762-2017 (contaminant limits for lead and heavy metals), and GB 2763-2021 (pesticide residue limits with default MRL of 0.01 mg/kg). CIQ may test any incoming shipment. Pre-shipment testing matching these standards reduces clearance delays."
+    }
+  ],
+  "importing-ethiopian-coffee-to-france": [
+    {
+      "question": "Does France have a coffee tax like Germany's Kaffeesteuer?",
+      "answer": "No. France does not impose a coffee-specific excise tax. The only taxes on imported green coffee are 0% import duty (under EBA for Ethiopia) and 5.5% TVA (French VAT), which is fully recoverable for registered businesses. This makes France one of the most cost-effective EU entry points for coffee."
+    },
+    {
+      "question": "Is Ethiopian coffee duty-free when imported to France?",
+      "answer": "Yes. Ethiopian green coffee enters the EU at 0% import duty under the Everything But Arms (EBA) initiative for least developed countries. Importers must present valid proof of origin (EUR.1 certificate or origin declaration). Without it, the standard EU duty of 0% for green coffee still applies (green coffee HS 0901.11 has a 0% MFN rate), but roasted coffee faces 7.5% duty."
+    },
+    {
+      "question": "What food safety regulations apply to coffee imports into France?",
+      "answer": "Coffee must comply with EU maximum residue limits (MRLs) for pesticides (EC 396/2005), ochratoxin A limits (EC 1881/2006), the General Food Law (EC 178/2002), and HACCP principles. French enforcement is handled by the DGCCRF and the Douanes at border inspection posts."
+    },
+    {
+      "question": "How long does shipping from Ethiopia to Le Havre take?",
+      "answer": "Ocean freight from Djibouti to Le Havre takes 20-28 days via the Suez Canal route. If Red Sea disruptions force rerouting via the Cape of Good Hope, transit extends to 32-43 days. For Marseille (Mediterranean), transit is shorter at 14-20 days via Suez. Including customs clearance, total Le Havre delivery time is typically 22-32 days."
+    },
+    {
+      "question": "Does the EUDR affect coffee imports to France?",
+      "answer": "Yes. Since December 30, 2025, all coffee imported into the EU (including France) must include geolocation data proving it was not grown on deforested land (post-2020 cutoff). Importers must file a due diligence statement before each shipment. Non-compliance can result in fines up to 4% of annual EU turnover."
+    },
+    {
+      "question": "How much does it cost to import a container of Ethiopian coffee to France?",
+      "answer": "A 20ft container (18,000 kg) of Ethiopian specialty coffee at $4.80/lb FOB lands in Le Havre at approximately $5.22/lb ($4.95/lb after TVA recovery). This is roughly $1.00/lb cheaper than Germany due to the absence of Kaffeesteuer. Costs fluctuate with FOB prices, freight rates, and exchange rates."
+    },
+    {
+      "question": "What documents are needed to import Ethiopian coffee to France?",
+      "answer": "Key documents include: commercial invoice, packing list, bill of lading, EUR.1 Movement Certificate or origin declaration (for duty-free EBA), phytosanitary certificate, health certificate, quality/grading report, pesticide/OTA lab analysis, ICO identification code, and EUDR traceability data with geolocation coordinates. On the French side, you need an EORI number, TVA registration, food business registration with your local DDPP, and a HACCP plan."
+    }
+  ],
+  "importing-ethiopian-coffee-to-germany": [
+    {
+      "question": "What is the German coffee tax (Kaffeesteuer) on green coffee?",
+      "answer": "Germany's Kaffeesteuer is &euro;2.19 per kilogram on roasted coffee and &euro;4.78/kg on instant coffee. Green (unroasted) beans are not taxed at import, but the tax becomes due when coffee is roasted or removed from a bonded warehouse in Germany. The effective rate on green coffee, adjusted for roasting weight loss, is approximately &euro;1.83/kg."
+    },
+    {
+      "question": "Is Ethiopian coffee duty-free when imported to Germany?",
+      "answer": "Yes. Ethiopian green coffee enters the EU at 0% import duty under the GSP+ (Everything But Arms) preferential tariff scheme. Importers must present a valid Form A Certificate of Origin issued by the Ethiopian Chamber of Commerce. Without it, the standard EU duty rate of 7.5% applies."
+    },
+    {
+      "question": "What food safety regulations apply to coffee imports into Germany?",
+      "answer": "Coffee must comply with EU maximum residue limits (MRLs) for pesticides (EC 396/2005), ochratoxin A limits (EC 1881/2006), the General Food Law (EC 178/2002), and HACCP principles. German enforcement is handled by the BVL (Federal Office of Consumer Protection) and EU border inspection posts."
+    },
+    {
+      "question": "How long does shipping from Ethiopia to Hamburg take?",
+      "answer": "Ocean freight from Djibouti to Hamburg takes 22-30 days via the Suez Canal route. If Red Sea disruptions force rerouting via the Cape of Good Hope, transit extends to 35-45 days. Including customs clearance, total delivery time is typically 25-35 days (Suez) or 38-50 days (Cape route)."
+    },
+    {
+      "question": "Does the EU Deforestation Regulation (EUDR) affect coffee imports to Germany?",
+      "answer": "Yes. Since December 30, 2025, all coffee imported into the EU must include geolocation data proving it was not grown on deforested land (post-2020 cutoff). Importers must file a due diligence statement before each shipment. Non-compliance can result in fines up to 4% of annual EU turnover."
+    },
+    {
+      "question": "How much does it cost to import a container of Ethiopian coffee to Germany?",
+      "answer": "A 20ft container (18,000 kg) of Ethiopian specialty coffee at $4.80/lb FOB lands in Hamburg at approximately $6.26/lb ($5.85/lb after VAT recovery). Major cost components include FOB price, ocean freight ($3,500-5,000), Kaffeesteuer (~&euro;32,940), and port/customs fees. Costs fluctuate with FOB prices, freight rates, and exchange rates."
+    },
+    {
+      "question": "What documents are needed to import Ethiopian coffee to Germany?",
+      "answer": "Key documents include: commercial invoice, packing list, bill of lading, Form A Certificate of Origin (for duty-free GSP+), phytosanitary certificate, health certificate, quality/grading report, pesticide/OTA lab analysis, and EUDR traceability data with geolocation coordinates. On the German side, you need an EORI number, VAT registration, and food business registration."
     }
   ],
   "importing-ethiopian-coffee-to-holland": [
@@ -1472,6 +2018,36 @@ export const faqsBySlug: Record<string, Faq[]> = {
     {
       "question": "Is it economically viable given the 100% customs duty?",
       "answer": "Yes, for specialty grades. Ethiopian Grade 1 Yirgacheffe or Guji with cupping scores above 85 commands ₹600-1,500+ per 250g at retail in India. At landed costs of approximately ₹1,000/kg after duty, the roaster margin is healthy for premium single-origin offerings. The duty makes commercial-grade imports unviable, but specialty Ethiopian coffee earns the premium to absorb it."
+    }
+  ],
+  "importing-ethiopian-coffee-to-italy": [
+    {
+      "question": "Is Ethiopian green coffee duty-free when imported to Italy?",
+      "answer": "Yes. Green coffee (HS 0901.11) enters the EU at 0% import duty under the MFN (Most Favored Nation) tariff. This applies to all origins, so Ethiopian green coffee is automatically duty-free without requiring an EBA certificate. For roasted coffee (HS 0901.21/22), the standard EU duty is 7.5%, but Ethiopian roasted coffee qualifies for 0% under the Everything But Arms (EBA) initiative with a valid EUR.1 certificate."
+    },
+    {
+      "question": "Does Italy have a coffee excise tax like Germany?",
+      "answer": "No. Italy does not levy a coffee-specific excise tax. Germany's Kaffeesteuer adds &euro;2.19/kg to green coffee imports. Italy's only import-related charge is 22% IVA (VAT), which is fully recoverable for registered businesses. This makes Italy's effective landed cost lower than Germany's for the same FOB price."
+    },
+    {
+      "question": "What is the IVA rate on coffee imports in Italy?",
+      "answer": "Italy applies the standard 22% IVA rate to coffee imports. While this rate is higher than France's 5.5% TVA, it is fully recoverable for IVA-registered businesses through periodic declarations. The IVA creates a short-term cash flow requirement but does not increase the final cost. Trieste's Free Trade Zone can defer IVA payment until goods enter Italian customs territory."
+    },
+    {
+      "question": "How long does ocean freight from Ethiopia to Trieste take?",
+      "answer": "Ocean freight from Djibouti to Trieste takes 12-18 days via the Suez Canal, which is 5-10 days shorter than routes to northern European ports like Hamburg or Rotterdam. If Red Sea disruptions force rerouting via the Cape of Good Hope, transit extends to 28-38 days. Total delivery time including customs clearance is typically 14-22 days via the Suez route."
+    },
+    {
+      "question": "Does the EUDR apply to coffee imports into Italy?",
+      "answer": "Yes. Since December 30, 2025, all coffee imported into any EU member state (including Italy) must include geolocation data proving it was not grown on land deforested after December 31, 2020. Importers must file a due diligence statement via the EU EUDR information system before each shipment. Non-compliance can result in fines up to 4% of annual EU turnover."
+    },
+    {
+      "question": "Which Italian port is best for Ethiopian coffee imports?",
+      "answer": "Trieste is Italy's primary coffee port, handling over 2.5 million bags annually with specialized coffee warehousing, a Free Trade Zone, and proximity to major industry players (illy, Hausbrandt). Genoa is best for shipments destined to Milan and northwest Italy. Naples serves southern Italian buyers (Kimbo, Caff&egrave; Borbone). Choose based on your buyer's location and whether you need Free Zone storage."
+    },
+    {
+      "question": "What documents are needed to import Ethiopian coffee to Italy?",
+      "answer": "Key documents include commercial invoice, packing list, bill of lading, phytosanitary certificate, quality/grading report, pesticide/OTA lab analysis, ICO identification code, and EUDR traceability data with geolocation coordinates. On the Italian side, you need an EORI number (via ADM), IVA registration (Partita IVA), food business operator registration with your local ASL, and a HACCP plan."
     }
   ],
   "importing-ethiopian-coffee-to-japan": [
@@ -1896,6 +2472,36 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "High C-market prices (above $4.00/lb in early 2026) have pushed Ethiopian FOB prices up 40-60%. This means the capital required for any given order is significantly higher. Some exporters have tightened MOQs to prioritize committed buyers, while others have become more open to smaller orders at premium pricing to diversify risk. Budget 30-50% more than pre-2024 estimates for the same physical volume."
     }
   ],
+  "most-expensive-coffee-in-the-world": [
+    {
+      "question": "What is the most expensive coffee in the world?",
+      "answer": "By retail price per kilogram, Black Ivory Coffee from Thailand holds the top position at approximately $2,000/kg. It is produced from Arabica beans consumed and excreted by elephants, with total annual production of roughly 215 kg."
+    },
+    {
+      "question": "Why is Kopi Luwak so expensive?",
+      "answer": "Kopi Luwak's price reflects limited wild-collected supply and novelty demand, not superior cup quality. The Specialty Coffee Association has publicly noted that Kopi Luwak scores below standard coffees in professional cupping. Most of the retail price reflects story and scarcity rather than flavor."
+    },
+    {
+      "question": "How much does Gesha coffee cost?",
+      "answer": "Gesha (also spelled Geisha) varies widely. Commercial-grade Gesha from several origins can sell for $50 to $100/kg green. Competition-winning Gesha lots from Panama have reached over $6,000/kg at auction. Ethiopian-origin Gesha typically trades at $40 to $200/kg green, offering what many consider the best value given the variety's ancestral terroir."
+    },
+    {
+      "question": "Is expensive coffee worth it?",
+      "answer": "It depends on what \"worth it\" means. For professional buyers, price should correlate with cupped quality (SCA score), traceability, and supply reliability. Coffees like competition-scored Ethiopian micro-lots, where high scores justify higher prices, represent genuine value. Novelty coffees priced on narrative rather than cup quality are worth it only for marketing novelty."
+    },
+    {
+      "question": "Why is Ethiopian coffee expensive?",
+      "answer": "Ethiopian coffee commands premiums for objective reasons: unmatched genetic diversity (6,000+ heirloom varieties), high-altitude growing conditions (1,500-2,300m), sophisticated processing traditions, and consistently high cup scores. These factors create genuine quality differences. For a detailed breakdown, see our analysis of Ethiopian coffee pricing ."
+    },
+    {
+      "question": "What makes specialty coffee beans so expensive?",
+      "answer": "Specialty coffee (scoring 80+ on SCA protocols) costs more because it requires selective harvesting (hand-picking only ripe cherries), careful processing, smaller lot sizes, more intensive quality control, and full traceability. Each of these steps adds labor and cost but directly improves cup quality. The pricing guide breaks down each cost layer."
+    },
+    {
+      "question": "Where can I buy the most expensive coffee beans?",
+      "answer": "Novelty coffees (Black Ivory, Kopi Luwak) are sold through limited retail channels and luxury hotels. Premium specialty coffees (Gesha, Ethiopian micro-lots) are accessible through specialty green coffee importers and directly from origin exporters. For Ethiopian specialty green coffee, contact us for current availability, samples, and pricing."
+    }
+  ],
   "navigating-2026-ethiopian-specialty-coffee-exporters": [
     {
       "question": "What are the biggest challenges for Ethiopian specialty coffee exporters in 2026?",
@@ -2086,6 +2692,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
     {
       "question": "How can buyers verify that their coffee was selectively harvested?",
       "answer": "Request washing station intake records showing cherry acceptance and rejection rates. Ask for intake photos documenting cherry color. Evaluate pre-shipment samples for astringency or grassiness (indicators of unripe cherry). Set defect count thresholds aligned with SCA standards. Partner with exporters who provide traceability documentation from station to port."
+    }
+  ],
+  "sidama-coffee-production-productivity-export": [
+    {
+      "question": "What makes Sidama coffee production different from other Ethiopian origins?",
+      "answer": "Sidama averages 10+ quintals per hectare, more than double the national average. This productivity comes from organized farmer clusters, systematic tree pruning programs, organic soil management, and optimal volcanic soils across 1,500 to 2,200 meters of altitude. The region also benefits from a well-defined wet and dry season cycle."
+    },
+    {
+      "question": "How much coffee does the Sidama region produce annually?",
+      "answer": "Sidama targets 239,000 tons for the 2025/26 season from 146,000 productive hectares. The region accounts for roughly 35 to 40% of Ethiopia's total coffee export volume, making it the country's largest single producing region by output."
+    },
+    {
+      "question": "What SCA cupping scores do Sidama coffees achieve?",
+      "answer": "Specialty-grade Sidama lots typically score 84 to 88+ on the SCA scale. Competition lots from sub-regions like Bensa, Dale, and Chire have scored above 88. Washed lots tend toward bright floral and citrus profiles; naturals show berry and stone fruit with fuller body."
+    },
+    {
+      "question": "Can importers source single-farm Sidama coffee?",
+      "answer": "Yes. The Sidama Regional Authority has issued 495 direct export licenses to farmers with two or more hectares. These licensed growers can export under their own identity, enabling single-farm traceability. Work with an experienced Ethiopian exporter to access these lots with verified documentation and quality control."
+    },
+    {
+      "question": "When is the best time to order Sidama coffee?",
+      "answer": "New-crop Sidama coffee is available from November through June. Early-harvest lower-altitude lots arrive first (November to December). Highland and Weina Dega lots peak from January through March. Contact exporters by January for the widest selection of specialty lots."
     }
   ],
   "sidamo-coffee-sourcing-guide": [
@@ -2306,6 +2934,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
     {
       "question": "Which Yirgacheffe sub-region is best for espresso?",
       "answer": "Natural lots from Aricha/Idido and Gedeb produce the most intense fruit and body, making them excellent choices for espresso single origins . Washed Kochere also performs well in espresso when developed slightly past first crack, offering bright floral acidity and citrus sweetness that cut through milk-based drinks."
+    }
+  ],
+  "yirgacheffe-vs-sidamo-vs-guji-comparison": [
+    {
+      "question": "What is the difference between Yirgacheffe, Sidamo, and Guji coffee?",
+      "answer": "Yirgacheffe produces floral, tea-like cups with bright citrus acidity, best for pour-over. Sidamo delivers intense fruit character (blueberry, strawberry) with a rounder body, suited for both filter and espresso. Guji offers stone-fruit sweetness, jasmine florals, and a syrupy body that excels as single-origin espresso. Each has its own ECX trade designation and distinct growing conditions."
+    },
+    {
+      "question": "Which Ethiopian coffee origin is best for espresso?",
+      "answer": "Guji is the strongest choice for single-origin espresso. Its medium-full body, stone-fruit sweetness, and layered acidity hold up under espresso extraction pressure. Natural and honey-processed Guji lots are particularly effective. Sidamo naturals also perform well in espresso blends, adding fruit complexity. Yirgacheffe works for lighter espresso profiles emphasizing florals."
+    },
+    {
+      "question": "How do Yirgacheffe, Sidamo, and Guji compare in price?",
+      "answer": "At Grade 1 level, Yirgacheffe and Sidama are priced identically: $9.48/kg washed, $9.92/kg natural (FOB Djibouti, 2025/26 crop). Sidama Grade 2 washed at $9.04/kg offers the best value entry into Ethiopian specialty. Grade 4 naturals from both regions cost $7.17/kg for commercial blends. Guji pricing depends on sub-zone and lot quality."
+    },
+    {
+      "question": "Is Yirgacheffe technically part of Sidamo?",
+      "answer": "Geographically, Yirgacheffe (Gedeo Zone) sits within the broader Sidama territory. However, the ECX has traded Yirgacheffe as a separate designation since inception because its cup profile is distinctly different. Yirgacheffe coffees emphasize floral delicacy and tea-like body, while broader Sidamo lots lean toward berry fruit intensity and rounder body."
+    },
+    {
+      "question": "What grades are available from each origin?",
+      "answer": "Yirgacheffe and Sidama both offer Grade 1 (washed and natural), Grade 2 (washed), and Grade 4 (natural). Guji focuses on Grade 1 and Grade 2, reflecting its specialty orientation. Grade 1 scores SCA 85+, Grade 2 scores 80 to 84, and Grade 4 serves commercial applications. All grades ship in 60 kg jute bags, FOB Djibouti."
     }
   ]
 }

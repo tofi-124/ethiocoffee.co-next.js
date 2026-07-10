@@ -503,7 +503,7 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing Guide</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-vs-colombian-coffee' className='text-amber-700 hover:underline'>Ethiopian vs Colombian Coffee</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-vs-colombian-coffee' className='text-amber-700 hover:underline'>Ethiopian vs Colombian Coffee</Link></li>
             </ul>
           </div>
         </div>

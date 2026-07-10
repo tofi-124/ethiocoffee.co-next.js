@@ -411,23 +411,23 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
       </div>
 
       <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Frequently Asked Questions</h2>
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>What temperature should I roast Ethiopian coffee at?</h3>
+      <h4 className='text-2xl font-semibold text-dark mt-6 mb-3'>What temperature should I roast Ethiopian coffee at?</h4>
       <p className='my-4'>
         Charge between 170°C and 190°C for most Ethiopian lots. Target first crack around 8:30 to 9:30 minutes. For washed coffees, keep development short (60 to 90 seconds) to preserve floral acidity. Natural lots tolerate longer development for fruit caramelization.
       </p>
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>How does grind size affect coffee extraction?</h3>
+      <h4 className='text-2xl font-semibold text-dark mt-6 mb-3'>How does grind size affect coffee extraction?</h4>
       <p className='my-4'>
         Finer grinds increase surface area and accelerate extraction, producing stronger cups. Coarser grinds slow extraction, yielding lighter and cleaner flavors. Match grind to method: fine for espresso (200-400 microns), medium for pour-over (400-800 microns), coarse for French press (800-1,200 microns).
       </p>
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>What is the ideal water temperature for brewing coffee?</h3>
+      <h4 className='text-2xl font-semibold text-dark mt-6 mb-3'>What is the ideal water temperature for brewing coffee?</h4>
       <p className='my-4'>
         The SCA recommends 92°C to 96°C for most methods. Temperatures below this range under-extract, producing sour and thin cups. Temperatures above it over-extract, pulling harsh and bitter compounds. Light roasts often perform better at the higher end of this range.
       </p>
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>What is development time in coffee roasting?</h3>
+      <h4 className='text-2xl font-semibold text-dark mt-6 mb-3'>What is development time in coffee roasting?</h4>
       <p className='my-4'>
         Development time is the interval between first crack and the end of the roast. It typically ranges from 60 to 120 seconds for light to medium roasts. Shorter development preserves acidity and floral aromatics. Longer development builds body and sweetness but can mute delicate origin character.
       </p>
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>How do I know if my coffee is over-extracted or under-extracted?</h3>
+      <h4 className='text-2xl font-semibold text-dark mt-6 mb-3'>How do I know if my coffee is over-extracted or under-extracted?</h4>
       <p className='my-4'>
         Under-extracted coffee tastes sour, thin, and lacks sweetness. Over-extracted coffee tastes bitter, astringent, and dry. A balanced cup has clear acidity, pleasant sweetness, and smooth body. Use a refractometer to target 18-22% extraction, or adjust by taste using grind size and brew time.
       </p>

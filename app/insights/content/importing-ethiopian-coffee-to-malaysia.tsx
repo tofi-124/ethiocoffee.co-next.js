@@ -33,9 +33,7 @@ export default function ImportingEthiopianCoffeeToMalaysia({ title, date, large_
 
       <figure>
         <figcaption className='font-inconsolata my-2'>{title}</figcaption>
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
-          {/* TODO: Replace placeholder with actual hero image */}
-          {/* Expected path: /images/insights/importing-ethiopian-coffee-to-malaysia.webp */}
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Import Ethiopian coffee to Malaysia through Port Klang with MAQIS permit workflow and green coffee sourcing strategy'

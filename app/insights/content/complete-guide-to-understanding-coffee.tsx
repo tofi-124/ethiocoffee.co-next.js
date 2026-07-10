@@ -670,23 +670,23 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         </h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the most important stage in the seed-to-cup chain for green coffee quality?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the most important stage in the seed-to-cup chain for green coffee quality?</h4>
             <p className='text-sm text-gray-600'>Processing is the single largest controllable variable. The same cherries processed as washed versus natural produce entirely different cup profiles. Variety and growing conditions set the ceiling, but processing determines the final character. Buyers who specify and evaluate processing method gain the most control over quality outcomes.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How does altitude affect green coffee price and cup profile?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How does altitude affect green coffee price and cup profile?</h4>
             <p className='text-sm text-gray-600'>Higher altitude slows cherry maturation, producing denser beans with more complex acidity and sweetness. Ethiopian coffees above 2,000 meters typically command $0.50&#x2013;1.50/kg premiums over lower-altitude lots from the same region. For buyers, altitude is a reliable predictor of acidity brightness and roast flexibility.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What should I ask my exporter about processing methods?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What should I ask my exporter about processing methods?</h4>
             <p className='text-sm text-gray-600'>Ask for the processing method (washed, natural, honey, or experimental), the washing station name, fermentation duration and method (tank, raised-bed, or anaerobic), drying duration, and whether any post-harvest protocols (extended fermentation, thermal shock) were applied. These details predict cup character and help your roaster plan the first test batch.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How long does green coffee stay fresh after export?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How long does green coffee stay fresh after export?</h4>
             <p className='text-sm text-gray-600'>Green coffee stored in GrainPro-lined bags at 15&#x2013;20°C and 50&#x2013;65% humidity maintains peak character for 8&#x2013;12 months post-harvest. Standard jute bags shorten this to 4&#x2013;6 months. Natural processed coffees age faster than washed due to higher residual sugar. Plan roasting schedules to use the freshest lots first.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the difference between Ethiopian Grade 1 and Grade 2 coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the difference between Ethiopian Grade 1 and Grade 2 coffee?</h4>
             <p className='text-sm text-gray-600'>Grade 1 allows 0&#x2013;3 defects per 300g sample and scores 85+ points on the cupping table. Grade 2 allows 4&#x2013;12 defects and scores 80&#x2013;84. Both qualify as specialty. Grade 1 involves more intensive hand sorting, which increases milling cost and FOB price. Grade 2 offers strong specialty quality at a lower entry point.</p>
           </div>
         </div>

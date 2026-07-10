@@ -620,33 +620,33 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
           <div>
             <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Trade &amp; Contracts</h4>
             <ul className='space-y-1 text-sm'>
-              <li>â€¢ <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts &amp; Payment Terms Guide</Link></li>
-              <li>â€¢ <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export Guide</Link></li>
-              <li>â€¢ <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing for Importers</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts &amp; Payment Terms Guide</Link></li>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing for Importers</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Quality &amp; Processing</h4>
             <ul className='space-y-1 text-sm'>
-              <li>â€¢ <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Dry Milling: Export Guide</Link></li>
-              <li>â€¢ <Link href='/insights/green-coffee-packaging-bag-types-guide' className='text-amber-700 hover:underline'>Green Coffee Packaging: Bag Types Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Dry Milling: Export Guide</Link></li>
+              <li>• <Link href='/insights/green-coffee-packaging-bag-types-guide' className='text-amber-700 hover:underline'>Green Coffee Packaging: Bag Types Guide</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Sourcing &amp; Compliance</h4>
             <ul className='space-y-1 text-sm'>
-              <li>â€¢ <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Exporter</Link></li>
-              <li>â€¢ <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability: Buyer's Guide</Link></li>
+              <li>• <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Exporter</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability: Buyer's Guide</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Costs &amp; Logistics</h4>
             <ul className='space-y-1 text-sm'>
-              <li>â€¢ <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
-              <li>â€¢ <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide</Link></li>
-              <li>â€¢ <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage in Sea Freight</Link></li>        <li>â€¢ <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>              <li>â€¢ <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Netherlands</Link></li>
-              <li>â€¢ <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the USA</Link></li>
-              <li>â€¢ <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to UAE</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide</Link></li>
+              <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage in Sea Freight</Link></li>        <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>              <li>• <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Netherlands</Link></li>
+              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the USA</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to UAE</Link></li>
             </ul>
           </div>
         </div>
@@ -658,9 +658,9 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
           <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an Ethiopian coffee exporter with 30+ years of sourcing relationships across Ethiopia's coffee regions. This article is for educational purposes. Export timelines, documentation requirements, and costs change with government regulations and market conditions; contact us for current information before making purchasing decisions.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> {' Â· '}
-          <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> {' Â· '}
-          <Link href='/about' className='underline'>About Ethio Coffee</Link> {' Â· '}
+          <Link href='/insights' className='underline'>All Insights</Link> {' · '}
+          <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> {' · '}
+          <Link href='/about' className='underline'>About Ethio Coffee</Link> {' · '}
           <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>

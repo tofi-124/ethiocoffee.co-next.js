@@ -32,7 +32,7 @@ export default function NekemteWellegaCoffeeSourcingGuide({ title, date, large_i
       {/* HERO IMAGE */}
       <figure>
         <figcaption className='font-inconsolata my-2'>{title}</figcaption>
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Green coffee beans drying on raised beds in the Nekemte Wellega region of western Ethiopia'

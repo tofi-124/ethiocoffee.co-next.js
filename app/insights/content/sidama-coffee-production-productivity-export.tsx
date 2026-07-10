@@ -438,31 +438,31 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
         </h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What makes Sidama coffee production different from other Ethiopian origins?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What makes Sidama coffee production different from other Ethiopian origins?</h4>
             <p className='text-sm text-gray-600'>
               Sidama averages 10+ quintals per hectare, more than double the national average. This productivity comes from organized farmer clusters, systematic tree pruning programs, organic soil management, and optimal volcanic soils across 1,500 to 2,200 meters of altitude. The region also benefits from a well-defined wet and dry season cycle.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How much coffee does the Sidama region produce annually?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How much coffee does the Sidama region produce annually?</h4>
             <p className='text-sm text-gray-600'>
               Sidama targets 239,000 tons for the 2025/26 season from 146,000 productive hectares. The region accounts for roughly 35 to 40% of Ethiopia&apos;s total coffee export volume, making it the country&apos;s largest single producing region by output.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What SCA cupping scores do Sidama coffees achieve?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What SCA cupping scores do Sidama coffees achieve?</h4>
             <p className='text-sm text-gray-600'>
               Specialty-grade Sidama lots typically score 84 to 88+ on the SCA scale. Competition lots from sub-regions like Bensa, Dale, and Chire have scored above 88. Washed lots tend toward bright floral and citrus profiles; naturals show berry and stone fruit with fuller body.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Can importers source single-farm Sidama coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Can importers source single-farm Sidama coffee?</h4>
             <p className='text-sm text-gray-600'>
               Yes. The Sidama Regional Authority has issued 495 direct export licenses to farmers with two or more hectares. These licensed growers can export under their own identity, enabling single-farm traceability. Work with an experienced Ethiopian exporter to access these lots with verified documentation and quality control.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>When is the best time to order Sidama coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>When is the best time to order Sidama coffee?</h4>
             <p className='text-sm text-gray-600'>
               New-crop Sidama coffee is available from November through June. Early-harvest lower-altitude lots arrive first (November to December). Highland and Weina Dega lots peak from January through March. Contact exporters by January for the widest selection of specialty lots.
             </p>

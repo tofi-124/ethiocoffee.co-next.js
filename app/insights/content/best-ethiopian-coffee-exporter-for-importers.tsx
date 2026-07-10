@@ -457,31 +457,31 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
         <h2 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions</h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What makes Ethio Coffee one of the best Ethiopian coffee exporters?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What makes Ethio Coffee one of the best Ethiopian coffee exporters?</h4>
             <p className='text-sm text-gray-600'>
               Three decades of heritage sourcing relationships across six Ethiopian coffee regions, an average SCA cup score of 84+, full lot traceability from washing station to destination port, and an experienced export team with 15+ years in international coffee trade. These capabilities are verifiable through samples, documentation, and references.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the minimum order quantity for Ethiopian green coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the minimum order quantity for Ethiopian green coffee?</h4>
             <p className='text-sm text-gray-600'>
               Standard export orders start at one full container load (FCL), approximately 19.2 metric tons. Trial lots and smaller allocations may be available depending on seasonal inventory. See our <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>MOQ guide</Link> for full details on flexible options.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How do I request green coffee samples from Ethiopia?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How do I request green coffee samples from Ethiopia?</h4>
             <p className='text-sm text-gray-600'>
               Contact Ethio Coffee with the origins, grades, and processing methods you want to evaluate. We ship 300g cupping samples via DHL, typically within 5-7 business days. Samples are purchased through PayPal, allowing you to cup and assess quality before committing to a full order.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What certifications does Ethio Coffee offer?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What certifications does Ethio Coffee offer?</h4>
             <p className='text-sm text-gray-600'>
               Certified lots are available for Organic (USDA/EU), Fair Trade, and Rainforest Alliance, sourced through cooperatives and washing stations with active certification programs. Availability varies by season and region. Contact us to confirm current certified lot inventory.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Which Ethiopian coffee regions are best for specialty importers?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Which Ethiopian coffee regions are best for specialty importers?</h4>
             <p className='text-sm text-gray-600'>
               Yirgacheffe, Guji, and Sidamo consistently produce the highest-scoring specialty lots. Yirgacheffe is prized for floral and citrus notes, Guji for complex fruit and heavy body, and Sidamo for balanced berry and wine profiles. The best choice depends on your roast profile and market preferences.
             </p>

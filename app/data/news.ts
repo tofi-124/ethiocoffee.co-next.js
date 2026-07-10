@@ -147,7 +147,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'ecta-mou-vocational-training-institute',
     date: '2026-02-19',
-    title: 'Ethiopian Coffee and Tea Authority Signs MoU with Federal Technical and Vocational Training Institute',
+    title: 'ECTA Signs MoU with Federal Vocational Training Institute',
     desc: 'The Ethiopian Coffee and Tea Authority signed a MoU with the Federal Technical and Vocational Training Institute to collaborate on coffee, tea and spices development through curriculum standardization, expert training, research and technology.',
     source: 'Ibushaba',
     keywords: 'Ethiopian Coffee and Tea Authority, ECTA MoU, Federal Technical and Vocational Training Institute, coffee training Ethiopia, Ethiopian coffee development, tea and spices Ethiopia, Ethiopian coffee exporter, coffee curriculum Ethiopia',
@@ -155,7 +155,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'italy-ambassador-coffee-tea-authority-visit',
     date: '2026-02-23',
-    title: 'Italian Ambassador Underscores Economic Cooperation During Visit to Coffee and Tea Authority',
+    title: 'Italian Ambassador Highlights Cooperation in Visit to ECTA',
     desc: 'Italian Ambassador H.E. Sem Fabrizi visited the Ethiopian Coffee and Tea Authority, reaffirming Italy\'s commitment to supporting Ethiopia\'s coffee industry through technical and financial cooperation, and toured the Coffee Training Center.',
     source: 'ECTA',
     keywords: 'Italian Ambassador Ethiopia, Italy Ethiopia coffee cooperation, Ethiopian Coffee and Tea Authority, ECTA visit, Coffee Training Center, Ethiopian coffee exporter, Italy coffee support Ethiopia, Ethiopian coffee development',
@@ -172,7 +172,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'ecta-yayu-coffee-biosphere-training',
     date: '2026-02-24',
-    title: 'ECTA Launches Intensive Training to Secure the Future of the Yayu Coffee Biosphere',
+    title: 'ECTA Launches Training to Secure the Yayu Coffee Biosphere',
     desc: 'ECTA launched a three-day intensive training (Feb 24–26, 2026) in Mettu and Yayu to strengthen forest coffee management, improve quality and marketability, and support sustainable production in the Yayu Coffee Forest Biosphere Reserve.',
     source: 'ECTA',
     keywords: 'Yayu Coffee Forest Biosphere Reserve, ECTA training, forest coffee management Ethiopia, EU-Yayu-DeSIRA, Mettu Coffee Laboratory, integrated landscape management, Ethiopian coffee quality, sustainable coffee Ethiopia',
@@ -188,7 +188,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'ethiopian-tea-development-30000-hectares',
     date: '2026-02-26',
-    title: 'A New Chapter in Ethiopian Tea Development: From 6,400 to 30,000 Hectares',
+    title: 'Ethiopian Tea Development: From 6,400 to 30,000 Hectares',
     desc: "A strategic field survey in Jimma Zone, led by senior officials including ECTA Director General Dr. Adugna Debela, maps Ethiopia's ambitious plan to expand tea cultivation from 13,000 to 30,000 hectares across Oromia and Southwestern regions.",
     source: 'Sahlemariam Gebremedhin',
     keywords: 'Ethiopian tea development, Ethiopian tea cultivation, Jimma tea, Oromia tea expansion, ECTA tea initiative, Ethiopian Coffee and Tea Authority, tea hectares Ethiopia, Ethiopian agricultural export, PM Abiy Ahmed tea initiative',
@@ -252,7 +252,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'co2-fermentation-boosts-natural-coffee-scores',
     date: '2026-03-20',
-    title: 'CO2 Fermentation Boosts Natural-Process Coffee Scores in Colombian Trial',
+    title: 'CO2 Fermentation Boosts Natural Coffee Scores in Colombian Trial',
     desc: 'A new Colombian study shows that sealed-container fermentation with carbon dioxide gas can significantly elevate natural-process coffee quality, with CO2-fermented beans scoring 86.90 vs. 82.15 for unprocessed controls on the SCA 100-point scale.',
     source: 'Daily Coffee News',
     keywords: 'CO2 coffee fermentation, natural process coffee, coffee fermentation science, specialty coffee quality, coffee processing innovation, SCA coffee score, Colombian coffee research, carbon dioxide coffee, Ethiopian coffee processing, Ethiopian coffee exporter',
@@ -276,7 +276,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'ectms-handover-ecta-giz-traceability',
     date: '2026-03-28',
-    title: 'Ethiopia Completes ECTMS Handover - A Digital Shield for Coffee Traceability',
+    title: 'Ethiopia Completes ECTMS Handover for Coffee Traceability',
     desc: 'ECTA officially concluded the technical handover of the Ethiopian Coffee Traceability and Management System (ECTMS), developed with GIZ, delivering farm-level geodata, real-time logistics tracking, and deforestation risk analysis to meet EUDR requirements and protect smallholder farmer livelihoods.',
     source: 'Ethiopian Coffee and Tea Authority',
     keywords: 'Ethiopian coffee traceability, ECTMS Ethiopia, ECTA GIZ digital system, Ethiopian coffee EUDR compliance, Ethiopian coffee traceability technology, EUDR Ethiopian coffee, Ethiopian coffee exporter, Ethiopian green coffee beans, coffee geodata Ethiopia, coffee deforestation regulation',
@@ -284,7 +284,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'disability-inclusion-coffee-value-chain-strategy',
     date: '2026-03-29',
-    title: 'Strategy Document for Disability Inclusion in Ethiopia Coffee Value Chain Handed Over',
+    title: 'Disability Inclusion Strategy for Ethiopia\'s Coffee Value Chain',
     desc: 'GIZ Fund prepared a Strategy Document for the Inclusion of Persons with Disabilities in the Coffee Value Chain. The handover was accompanied by a progress report from Shisheir Action for Inclusion Association on coffee cultivation, value-added processing, and job training activities in Jimma Zone and Seka Chekorsa Woreda.',
     source: 'Ibushaba',
     keywords: 'disability inclusion Ethiopian coffee, Ethiopian coffee value chain, persons with disabilities coffee Ethiopia, GIZ Ethiopia coffee, Shisheir inclusion association coffee, Ethiopian Coffee and Tea Authority, Seka Chekorsa coffee, Ethiopian coffee training, Ethiopian coffee exporter, Jimma Zone coffee',
@@ -292,7 +292,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'starbucks-50-million-coffee-seedlings-ethiopia',
     date: '2026-03-30',
-    title: 'Starbucks to Distribute 50 Million Climate-Resilient Coffee Seedlings in Ethiopia',
+    title: 'Starbucks to Distribute 50 Million Coffee Seedlings in Ethiopia',
     desc: 'Starbucks will distribute 50 million climate-resilient coffee seedlings to smallholder farmers in Ethiopia and other key origins including Tanzania, Indonesia, Colombia, Costa Rica, and Honduras. The seedlings, developed at the company\'s Costa Rica research center with Conservation International, target rising temperatures, erratic rainfall, and pests threatening Ethiopian coffee production.',
     source: 'EBR',
     keywords: 'Starbucks coffee seedlings Ethiopia, climate resilient coffee Ethiopia, Ethiopian coffee climate change, Ethiopian coffee smallholder farmers, Ethiopian Arabica coffee varieties, coffee seedlings distribution Ethiopia, Ethiopian coffee export sustainability, coffee leaf rust Ethiopia, coffee borer Ethiopia, Ethiopian coffee future, Conservation International coffee Ethiopia',
@@ -308,7 +308,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'ecta-mou-addis-ababa-science-technology-university',
     date: '2026-04-01',
-    title: 'MoU Signed to Modernize Ethiopian Coffee Through Science and Technology',
+    title: 'ECTA and AASTU Sign MoU to Modernize Ethiopian Coffee',
     desc: 'The Ethiopian Coffee and Tea Authority and Addis Ababa Science and Technology University signed a major MoU to modernize coffee production through biotechnology, waste-to-value research, EUDR compliance, domestic equipment design, and quality traceability.',
     source: 'Ethiopian Coffee and Tea Authority',
     keywords: 'Ethiopian coffee modernization, ECTA MoU Addis Ababa Science Technology University, Ethiopian coffee biotechnology, coffee waste to value Ethiopia, Ethiopian coffee EUDR compliance, Ethiopian coffee traceability, Ethiopian coffee technology transfer, Ethiopian coffee exporter, Dr Adugna Debela, Ethiopian coffee quality',
@@ -340,7 +340,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'five-year-coffee-development-package-6-billion',
     date: '2026-06-27',
-    title: 'Ethiopia Unveils Five-Year Coffee Package Targeting $6 Billion in Exports by 2031',
+    title: 'Ethiopia Unveils Five-Year Coffee Package Targeting $6B by 2031',
     desc: 'Stakeholders convened at the Ministry of Agriculture to discuss a new five-year national coffee development package aiming to raise productivity from 900 kg to 2,100 kg per hectare and double annual coffee export earnings from $3 billion to $6 billion by 2031.',
     source: 'Xinhua',
     keywords: 'Ethiopia coffee development package, Ethiopian coffee 6 billion target, Ethiopian coffee productivity plan, coffee yield per hectare Ethiopia, ECTA five year plan, Dr Adugna Debela, Ethiopian coffee export strategy 2031, Ethiopian coffee exporter, Ministry of Agriculture Ethiopia coffee',
@@ -356,7 +356,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'usda-coffee-annual-2026-production-modernization',
     date: '2026-06-12',
-    title: 'USDA Report: Ethiopian Coffee Production Up as Government Pushes Modernization',
+    title: 'USDA Report: Ethiopian Coffee Production Up, Modernization Push',
     desc: 'The USDA Coffee Annual forecasts Ethiopian production rising 4.7% to 12.1 million bags in 2026/27, with 100,000 hectares allocated for private commercial coffee farms, 110 investors granted land, and a national stumping campaign rejuvenating aging trees.',
     source: 'Daily Coffee News / USDA FAS',
     keywords: 'USDA Ethiopia coffee annual 2026, Ethiopian coffee production forecast, Ethiopia commercial coffee farms, coffee modernization Ethiopia, coffee stumping rejuvenation Ethiopia, Ethiopian coffee investors farmland, Ethiopian coffee exporter, Ethiopian coffee exports forecast, mechanized coffee farming Ethiopia',
@@ -364,7 +364,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'ethiopia-overtake-indonesia-fourth-largest-producer',
     date: '2026-05-22',
-    title: 'Ethiopia Set to Overtake Indonesia as World\'s Fourth Largest Coffee Producer',
+    title: 'Ethiopia Set to Overtake Indonesia as Fourth Largest Producer',
     desc: 'USDA forecasts put Ethiopia\'s 2026/27 coffee production at 12.1 million 60-kg bags, ahead of Indonesia\'s 11.38 million, marking four consecutive years of production growth and a near-tripling of output over two decades.',
     source: '2merkato / USDA FAS',
     keywords: 'Ethiopia fourth largest coffee producer, Ethiopian coffee production 2026, USDA Ethiopia coffee forecast, Ethiopia Indonesia coffee, Ethiopian coffee production growth, Ethiopian Arabica production, Ethiopian coffee exporter, Ethiopian green coffee beans, coffee production ranking',

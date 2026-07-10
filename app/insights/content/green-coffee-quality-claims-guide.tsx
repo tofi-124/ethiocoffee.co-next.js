@@ -37,7 +37,6 @@ export default function GreenCoffeeQualityClaimsGuide({ title, date, large_image
           Arrival inspection of Ethiopian green coffee at destination. A defensible claim begins with representative sampling, fast documentation, and a clear comparison against the approved pre-shipment lot.
         </figcaption>
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-100'>
-          {/* Expected path: /images/insights/green-coffee-quality-claims-guide.webp */}
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Inspector reviewing Ethiopian green coffee arrival samples, moisture data, and bag condition for a quality claim'

@@ -705,37 +705,37 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
         <h2 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions About Importing Ethiopian Coffee to Canada</h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What permits are needed to import Ethiopian coffee to Canada?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What permits are needed to import Ethiopian coffee to Canada?</h4>
             <p className='text-sm text-gray-600'>
               You need a Business Number (BN9) from CRA, an SFCR licence from CFIA, and CARM portal registration with CBSA. Your Ethiopian exporter provides the phytosanitary certificate and ICO certificate of origin. A customs broker files declarations on your behalf.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Is there import duty on Ethiopian coffee in Canada?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Is there import duty on Ethiopian coffee in Canada?</h4>
             <p className='text-sm text-gray-600'>
               Green (unroasted) coffee enters duty-free under HS 0901.11.20 for most volumes. Over-quota imports face a minimal rate of $0.0075/kg. GST or HST applies at the border but is fully recoverable as an Input Tax Credit for registered businesses.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is CARM and do I need it to import coffee to Canada?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is CARM and do I need it to import coffee to Canada?</h4>
             <p className='text-sm text-gray-600'>
               CARM is CBSA&apos;s digital portal for assessing and paying import duties and taxes. It became mandatory for all commercial importers in October 2024. Without CARM registration, your customs broker cannot file declarations, and your shipment will be held at the border.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How long does shipping from Ethiopia to Canada take?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How long does shipping from Ethiopia to Canada take?</h4>
             <p className='text-sm text-gray-600'>
               Ocean transit from Djibouti to Montreal is 28 to 35 days; to Vancouver, 35 to 45 days. Total lead time from first inquiry to warehouse delivery is 11 to 15 weeks, including sampling, contract, export preparation, transit, and customs clearance.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Do I need an SFCR licence to import green coffee to Canada?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Do I need an SFCR licence to import green coffee to Canada?</h4>
             <p className='text-sm text-gray-600'>
               Yes. Any business importing food for commercial purposes needs an SFCR licence from CFIA. Apply through the My CFIA portal; processing takes 4 to 8 weeks. If you also roast, your facility requires a Preventive Control Plan.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How much does it cost to import Ethiopian coffee to Canada?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How much does it cost to import Ethiopian coffee to Canada?</h4>
             <p className='text-sm text-gray-600'>
               A 20ft container of specialty Ethiopian coffee (275 to 300 bags) landed in Montreal costs approximately CAD $209,000, or about CAD $5.27 per pound before GST recovery. After reclaiming GST via Input Tax Credits, the effective cost drops to roughly CAD $5.02 per pound.
             </p>

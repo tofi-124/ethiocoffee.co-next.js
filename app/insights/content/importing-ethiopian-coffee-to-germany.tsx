@@ -761,31 +761,31 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         <h2 className='text-2xl font-bold mb-6 text-gray-900'>14. Frequently Asked Questions About Importing Ethiopian Coffee to Germany</h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the German coffee tax (Kaffeesteuer) on green coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the German coffee tax (Kaffeesteuer) on green coffee?</h4>
             <p className='text-sm text-gray-600'>Germany&apos;s Kaffeesteuer is &euro;2.19 per kilogram on roasted coffee and &euro;4.78/kg on instant coffee. Green (unroasted) beans are not taxed at import, but the tax becomes due when coffee is roasted or removed from a bonded warehouse in Germany. The effective rate on green coffee, adjusted for roasting weight loss, is approximately &euro;1.83/kg.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Is Ethiopian coffee duty-free when imported to Germany?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Is Ethiopian coffee duty-free when imported to Germany?</h4>
             <p className='text-sm text-gray-600'>Yes. Ethiopian green coffee enters the EU at 0% import duty under the GSP+ (Everything But Arms) preferential tariff scheme. Importers must present a valid Form A Certificate of Origin issued by the Ethiopian Chamber of Commerce. Without it, the standard EU duty rate of 7.5% applies.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What food safety regulations apply to coffee imports into Germany?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What food safety regulations apply to coffee imports into Germany?</h4>
             <p className='text-sm text-gray-600'>Coffee must comply with EU maximum residue limits (MRLs) for pesticides (EC 396/2005), ochratoxin A limits (EC 1881/2006), the General Food Law (EC 178/2002), and HACCP principles. German enforcement is handled by the BVL (Federal Office of Consumer Protection) and EU border inspection posts.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How long does shipping from Ethiopia to Hamburg take?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How long does shipping from Ethiopia to Hamburg take?</h4>
             <p className='text-sm text-gray-600'>Ocean freight from Djibouti to Hamburg takes 22&ndash;30 days via the Suez Canal route. If Red Sea disruptions force rerouting via the Cape of Good Hope, transit extends to 35&ndash;45 days. Including customs clearance, total delivery time is typically 25&ndash;35 days (Suez) or 38&ndash;50 days (Cape route).</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Does the EU Deforestation Regulation (EUDR) affect coffee imports to Germany?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Does the EU Deforestation Regulation (EUDR) affect coffee imports to Germany?</h4>
             <p className='text-sm text-gray-600'>Yes. Since December 30, 2025, all coffee imported into the EU must include geolocation data proving it was not grown on deforested land (post-2020 cutoff). Importers must file a due diligence statement before each shipment. Non-compliance can result in fines up to 4% of annual EU turnover.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How much does it cost to import a container of Ethiopian coffee to Germany?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How much does it cost to import a container of Ethiopian coffee to Germany?</h4>
             <p className='text-sm text-gray-600'>A 20ft container (18,000 kg) of Ethiopian specialty coffee at $4.80/lb FOB lands in Hamburg at approximately $6.26/lb ($5.85/lb after VAT recovery). Major cost components include FOB price, ocean freight ($3,500&ndash;5,000), Kaffeesteuer (~&euro;32,940), and port/customs fees. Costs fluctuate with FOB prices, freight rates, and exchange rates.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What documents are needed to import Ethiopian coffee to Germany?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What documents are needed to import Ethiopian coffee to Germany?</h4>
             <p className='text-sm text-gray-600'>Key documents include: commercial invoice, packing list, bill of lading, Form A Certificate of Origin (for duty-free GSP+), phytosanitary certificate, health certificate, quality/grading report, pesticide/OTA lab analysis, and EUDR traceability data with geolocation coordinates. On the German side, you need an EORI number, VAT registration, and food business registration.</p>
           </div>
         </div>

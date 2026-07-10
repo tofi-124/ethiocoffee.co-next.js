@@ -34,7 +34,7 @@ export default function ImportingEthiopianCoffeeToThailand({ title, date, large_
 
       <figure>
         <figcaption className='font-inconsolata my-2'>{title}</figcaption>
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Laem Chabang deep-water container port in Thailand with cargo vessels, relevant to importing Ethiopian coffee to Thailand'
@@ -247,13 +247,13 @@ export default function ImportingEthiopianCoffeeToThailand({ title, date, large_
           <tbody>
             <tr className='border-b border-gray-200'>
               <td className='p-3 font-semibold'>MFN Customs Duty (HS 0901.11.00)</td>
-              <td className='p-3'>Verify with Thai Customs [NEEDS VERIFICATION]</td>
-              <td className='p-3'>Applied rate for non-ASEAN, non-GSP origins. Check TCD tariff schedule for current baht/kg or ad valorem rate.</td>
+              <td className='p-3'>90% out-of-quota; 30% in-quota (WTO tariff-rate quota)</td>
+              <td className='p-3'>Thailand maintains a WTO tariff-rate quota on coffee; the in-quota volume is minimal, so most non-ASEAN, non-preference imports face the out-of-quota rate. Confirm the current schedule with Thai Customs before shipment.</td>
             </tr>
             <tr className='border-b border-gray-200 bg-gray-50'>
               <td className='p-3 font-semibold'>Thailand GSP Rate for LDCs</td>
-              <td className='p-3'>Potentially 0% [NEEDS VERIFICATION]</td>
-              <td className='p-3'>Ethiopia qualifies as LDC. Requires Form A certificate of origin. Confirm with Department of Foreign Trade.</td>
+              <td className='p-3'>Potentially 0% under Thailand&apos;s DFQF scheme for LDCs</td>
+              <td className='p-3'>Ethiopia qualifies as an LDC and Thailand operates a duty-free quota-free scheme for LDC-origin goods (Form DFQF certificate of origin). Coffee-line eligibility must be confirmed with the Department of Foreign Trade before relying on it.</td>
             </tr>
             <tr className='border-b border-gray-200'>
               <td className='p-3 font-semibold'>Value Added Tax (VAT)</td>

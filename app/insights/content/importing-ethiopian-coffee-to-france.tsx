@@ -749,31 +749,31 @@ export default function ImportingEthiopianCoffeeToFrance({ title, date, large_im
         <h2 className='text-2xl font-bold mb-6 text-gray-900'>14. Frequently Asked Questions About Importing Ethiopian Coffee to France</h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Does France have a coffee tax like Germany&apos;s Kaffeesteuer?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Does France have a coffee tax like Germany&apos;s Kaffeesteuer?</h4>
             <p className='text-sm text-gray-600'>No. France does not impose a coffee-specific excise tax. The only taxes on imported green coffee are 0% import duty (under EBA for Ethiopia) and 5.5% TVA (French VAT), which is fully recoverable for registered businesses. This makes France one of the most cost-effective EU entry points for coffee.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Is Ethiopian coffee duty-free when imported to France?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Is Ethiopian coffee duty-free when imported to France?</h4>
             <p className='text-sm text-gray-600'>Yes. Ethiopian green coffee enters the EU at 0% import duty under the Everything But Arms (EBA) initiative for least developed countries. Importers must present valid proof of origin (EUR.1 certificate or origin declaration). Without it, the standard EU duty of 0% for green coffee still applies (green coffee HS 0901.11 has a 0% MFN rate), but roasted coffee faces 7.5% duty.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What food safety regulations apply to coffee imports into France?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What food safety regulations apply to coffee imports into France?</h4>
             <p className='text-sm text-gray-600'>Coffee must comply with EU maximum residue limits (MRLs) for pesticides (EC 396/2005), ochratoxin A limits (EC 1881/2006), the General Food Law (EC 178/2002), and HACCP principles. French enforcement is handled by the DGCCRF and the Douanes at border inspection posts.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How long does shipping from Ethiopia to Le Havre take?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How long does shipping from Ethiopia to Le Havre take?</h4>
             <p className='text-sm text-gray-600'>Ocean freight from Djibouti to Le Havre takes 20&ndash;28 days via the Suez Canal route. If Red Sea disruptions force rerouting via the Cape of Good Hope, transit extends to 32&ndash;43 days. For Marseille (Mediterranean), transit is shorter at 14&ndash;20 days via Suez. Including customs clearance, total Le Havre delivery time is typically 22&ndash;32 days.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Does the EUDR affect coffee imports to France?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Does the EUDR affect coffee imports to France?</h4>
             <p className='text-sm text-gray-600'>Yes. Since December 30, 2025, all coffee imported into the EU (including France) must include geolocation data proving it was not grown on deforested land (post-2020 cutoff). Importers must file a due diligence statement before each shipment. Non-compliance can result in fines up to 4% of annual EU turnover.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How much does it cost to import a container of Ethiopian coffee to France?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How much does it cost to import a container of Ethiopian coffee to France?</h4>
             <p className='text-sm text-gray-600'>A 20ft container (18,000 kg) of Ethiopian specialty coffee at $4.80/lb FOB lands in Le Havre at approximately $5.22/lb ($4.95/lb after TVA recovery). This is roughly $1.00/lb cheaper than Germany due to the absence of Kaffeesteuer. Costs fluctuate with FOB prices, freight rates, and exchange rates.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What documents are needed to import Ethiopian coffee to France?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What documents are needed to import Ethiopian coffee to France?</h4>
             <p className='text-sm text-gray-600'>Key documents include: commercial invoice, packing list, bill of lading, EUR.1 Movement Certificate or origin declaration (for duty-free EBA), phytosanitary certificate, health certificate, quality/grading report, pesticide/OTA lab analysis, ICO identification code, and EUDR traceability data with geolocation coordinates. On the French side, you need an EORI number, TVA registration, food business registration with your local DDPP, and a HACCP plan.</p>
           </div>
         </div>

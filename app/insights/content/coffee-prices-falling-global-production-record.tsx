@@ -31,9 +31,7 @@ export default function CoffeePricesFallingGlobalProductionRecord({ title, date,
       {/* HERO IMAGE */}
       <figure>
         <figcaption className='font-inconsolata my-2'>{title}</figcaption>
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
-          {/* TODO: Replace placeholder with actual hero image */}
-          {/* Expected path: /images/insights/coffee-prices-falling-global-production-record.webp */}
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Global coffee production chart showing rising output and falling prices for green coffee importers'

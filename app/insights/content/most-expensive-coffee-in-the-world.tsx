@@ -490,49 +490,49 @@ export default function MostExpensiveCoffeeInTheWorld({ title, date, large_image
 
       <div className='space-y-6 my-6'>
         <div className='border-l-4 border-amber-400 pl-4'>
-          <h3 className='font-bold text-lg'>What is the most expensive coffee in the world?</h3>
+          <h4 className='font-bold text-lg'>What is the most expensive coffee in the world?</h4>
           <p className='my-2 text-sm'>
             By retail price per kilogram, Black Ivory Coffee from Thailand holds the top position at approximately $2,000/kg. It is produced from Arabica beans consumed and excreted by elephants, with total annual production of roughly 215 kg.
           </p>
         </div>
 
         <div className='border-l-4 border-amber-400 pl-4'>
-          <h3 className='font-bold text-lg'>Why is Kopi Luwak so expensive?</h3>
+          <h4 className='font-bold text-lg'>Why is Kopi Luwak so expensive?</h4>
           <p className='my-2 text-sm'>
             Kopi Luwak&apos;s price reflects limited wild-collected supply and novelty demand, not superior cup quality. The Specialty Coffee Association has publicly noted that Kopi Luwak scores below standard coffees in professional cupping. Most of the retail price reflects story and scarcity rather than flavor.
           </p>
         </div>
 
         <div className='border-l-4 border-amber-400 pl-4'>
-          <h3 className='font-bold text-lg'>How much does Gesha coffee cost?</h3>
+          <h4 className='font-bold text-lg'>How much does Gesha coffee cost?</h4>
           <p className='my-2 text-sm'>
             Gesha (also spelled Geisha) varies widely. Commercial-grade Gesha from several origins can sell for $50 to $100/kg green. Competition-winning Gesha lots from Panama have reached over $6,000/kg at auction. Ethiopian-origin Gesha typically trades at $40 to $200/kg green, offering what many consider the best value given the variety&apos;s ancestral terroir.
           </p>
         </div>
 
         <div className='border-l-4 border-amber-400 pl-4'>
-          <h3 className='font-bold text-lg'>Is expensive coffee worth it?</h3>
+          <h4 className='font-bold text-lg'>Is expensive coffee worth it?</h4>
           <p className='my-2 text-sm'>
             It depends on what "worth it" means. For professional buyers, price should correlate with cupped quality (SCA score), traceability, and supply reliability. Coffees like competition-scored Ethiopian micro-lots, where high scores justify higher prices, represent genuine value. Novelty coffees priced on narrative rather than cup quality are worth it only for marketing novelty.
           </p>
         </div>
 
         <div className='border-l-4 border-amber-400 pl-4'>
-          <h3 className='font-bold text-lg'>Why is Ethiopian coffee expensive?</h3>
+          <h4 className='font-bold text-lg'>Why is Ethiopian coffee expensive?</h4>
           <p className='my-2 text-sm'>
             Ethiopian coffee commands premiums for objective reasons: unmatched genetic diversity (6,000+ heirloom varieties), high-altitude growing conditions (1,500-2,300m), sophisticated processing traditions, and consistently high cup scores. These factors create genuine quality differences. For a detailed breakdown, see our <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='underline font-semibold'>analysis of Ethiopian coffee pricing</Link>.
           </p>
         </div>
 
         <div className='border-l-4 border-amber-400 pl-4'>
-          <h3 className='font-bold text-lg'>What makes specialty coffee beans so expensive?</h3>
+          <h4 className='font-bold text-lg'>What makes specialty coffee beans so expensive?</h4>
           <p className='my-2 text-sm'>
             Specialty coffee (scoring 80+ on SCA protocols) costs more because it requires <Link href='/insights/selective-coffee-harvesting' className='underline font-semibold'>selective harvesting</Link> (hand-picking only ripe cherries), careful processing, smaller lot sizes, more intensive quality control, and full traceability. Each of these steps adds labor and cost but directly improves cup quality. The <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline font-semibold'>pricing guide</Link> breaks down each cost layer.
           </p>
         </div>
 
         <div className='border-l-4 border-amber-400 pl-4'>
-          <h3 className='font-bold text-lg'>Where can I buy the most expensive coffee beans?</h3>
+          <h4 className='font-bold text-lg'>Where can I buy the most expensive coffee beans?</h4>
           <p className='my-2 text-sm'>
             Novelty coffees (Black Ivory, Kopi Luwak) are sold through limited retail channels and luxury hotels. Premium specialty coffees (Gesha, Ethiopian micro-lots) are accessible through specialty green coffee importers and directly from origin exporters. For Ethiopian specialty green coffee, <Link href='/contact-us' className='underline font-semibold'>contact us</Link> for current availability, samples, and pricing.
           </p>
@@ -555,7 +555,7 @@ export default function MostExpensiveCoffeeInTheWorld({ title, date, large_image
 
       {/* CTA */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
+        <h3 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h3>
         <p className='my-2'>
           <span className='font-bold'>Ethio Coffee Import and Export PLC</span> ships Grade 1 and Grade 2 lots from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. Every lot includes verified cupping scores, full traceability to washing station level, and pre-shipment samples before you commit. Whether you need a trial container or a seasonal contract, our team is ready to help.
         </p>

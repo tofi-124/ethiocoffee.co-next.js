@@ -449,33 +449,26 @@ export default function EthiopianCoffeeHorecaCafeChainBuyersGuide({
         Frequently Asked Questions
       </h3>
       <div className='bg-gray-50 rounded-xl p-8 border border-gray-200 space-y-6'>
-        {[
-          {
-            q: 'What is the minimum order quantity for a café chain sourcing Ethiopian coffee directly?',
-            a: 'Most Ethiopian exporters require a minimum of one full container per order. For café chains sourcing below that threshold, purchasing through a specialty importer in your destination market provides access to Ethiopian lots in smaller pallet quantities. See our Ethiopian coffee MOQ guide for detailed quantity tiers and alternative structures by buyer type.'
-          },
-          {
-            q: 'Can I get Ethiopian coffee with organic certification for a hotel sustainability program?',
-            a: 'Yes. Certified organic Ethiopian coffee is available from cooperatives including the Yirgacheffe Coffee Farmers Cooperative Union (YCFCU) and the Oromia Coffee Farmers Cooperative Union (OCFCU). Both USDA and EU organic certification are available. Volume of certified organic lots tightened in the 2025/26 season, so buyers who need certified organic should pre-book at least six months before their planned delivery date.'
-          },
-          {
-            q: 'How do I maintain consistent flavor across 50 or more café locations using Ethiopian coffee?',
-            a: 'Consistency across locations depends on three factors: a written sensory specification with an acceptable range (not a single flavor note), pre-shipment sample approval for every container, and alignment between supplier and roasting partner on roast profile targets. For multi-roaster supply chains, the sensory specification serves as the shared reference that prevents divergence between locations.'
-          },
-          {
-            q: 'What does an EU hotel group need from an Ethiopian exporter for EUDR compliance?',
-            a: 'EU operators importing green coffee after December 30, 2026 require GPS polygon coordinates for each plot in the shipment, a Due Diligence Statement (DDS), and deforestation-free evidence for land used after December 2020. Ethiopian exporters with cooperative mapping programs can supply this documentation. Confirm EUDR readiness at the supplier qualification stage, before signing a supply contract.'
-          },
-          {
-            q: 'Is Ethiopian green coffee suitable for automatic espresso machines commonly used in HoReCa?',
-            a: 'Yes. Grade 2 and Grade 3 washed lots from Jimma and Limu perform reliably in commercial automatic espresso machines and bean-to-cup systems. Lower acidity and consistent body produce predictable extraction across varying water temperatures and machine calibrations. Grade 1 natural-processed lots from Guji and Sidamo are better reserved for barista-served specialty applications where the quality premium is justified.'
-          },
-        ].map((item, idx) => (
-          <div key={idx}>
-            <p className='font-bold mb-2 text-gray-900'>{item.q}</p>
-            <p className='text-sm text-gray-700 leading-relaxed'>{item.a}</p>
-          </div>
-        ))}
+        <div>
+          <h4 className='font-bold mb-2 text-gray-900'>What is the minimum order quantity for a café chain sourcing Ethiopian coffee directly?</h4>
+          <p className='text-sm text-gray-700 leading-relaxed'>Most Ethiopian exporters require a minimum of one full container per order. For café chains sourcing below that threshold, purchasing through a specialty importer in your destination market provides access to Ethiopian lots in smaller pallet quantities. See our Ethiopian coffee MOQ guide for detailed quantity tiers and alternative structures by buyer type.</p>
+        </div>
+        <div>
+          <h4 className='font-bold mb-2 text-gray-900'>Can I get Ethiopian coffee with organic certification for a hotel sustainability program?</h4>
+          <p className='text-sm text-gray-700 leading-relaxed'>Yes. Certified organic Ethiopian coffee is available from cooperatives including the Yirgacheffe Coffee Farmers Cooperative Union (YCFCU) and the Oromia Coffee Farmers Cooperative Union (OCFCU). Both USDA and EU organic certification are available. Volume of certified organic lots tightened in the 2025/26 season, so buyers who need certified organic should pre-book at least six months before their planned delivery date.</p>
+        </div>
+        <div>
+          <h4 className='font-bold mb-2 text-gray-900'>How do I maintain consistent flavor across 50 or more café locations using Ethiopian coffee?</h4>
+          <p className='text-sm text-gray-700 leading-relaxed'>Consistency across locations depends on three factors: a written sensory specification with an acceptable range (not a single flavor note), pre-shipment sample approval for every container, and alignment between supplier and roasting partner on roast profile targets. For multi-roaster supply chains, the sensory specification serves as the shared reference that prevents divergence between locations.</p>
+        </div>
+        <div>
+          <h4 className='font-bold mb-2 text-gray-900'>What does an EU hotel group need from an Ethiopian exporter for EUDR compliance?</h4>
+          <p className='text-sm text-gray-700 leading-relaxed'>EU operators importing green coffee after December 30, 2026 require GPS polygon coordinates for each plot in the shipment, a Due Diligence Statement (DDS), and deforestation-free evidence for land used after December 2020. Ethiopian exporters with cooperative mapping programs can supply this documentation. Confirm EUDR readiness at the supplier qualification stage, before signing a supply contract.</p>
+        </div>
+        <div>
+          <h4 className='font-bold mb-2 text-gray-900'>Is Ethiopian green coffee suitable for automatic espresso machines commonly used in HoReCa?</h4>
+          <p className='text-sm text-gray-700 leading-relaxed'>Yes. Grade 2 and Grade 3 washed lots from Jimma and Limu perform reliably in commercial automatic espresso machines and bean-to-cup systems. Lower acidity and consistent body produce predictable extraction across varying water temperatures and machine calibrations. Grade 1 natural-processed lots from Guji and Sidamo are better reserved for barista-served specialty applications where the quality premium is justified.</p>
+        </div>
       </div>
 
       {/* Related Articles */}

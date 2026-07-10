@@ -23,9 +23,7 @@ export default function ImportingEthiopianCoffeeToItaly({ title, date, large_ima
           Italy imported $2.47 billion of coffee in 2023, ranking as the world&apos;s fourth-largest coffee importer and a priority market for Ethiopian specialty exporters.
         </figcaption>
 
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
-          {/* TODO: Replace placeholder with actual hero image */}
-          {/* Expected path: /images/insights/importing-ethiopian-coffee-to-italy.webp */}
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Import Ethiopian coffee to Italy - Trieste port EU regulations Italian customs guide'
@@ -735,31 +733,31 @@ export default function ImportingEthiopianCoffeeToItaly({ title, date, large_ima
         <h2 className='text-2xl font-bold mb-6 text-gray-900'>14. Frequently Asked Questions About Importing Ethiopian Coffee to Italy</h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Is Ethiopian green coffee duty-free when imported to Italy?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Is Ethiopian green coffee duty-free when imported to Italy?</h4>
             <p className='text-sm text-gray-600'>Yes. Green coffee (HS 0901.11) enters the EU at 0% import duty under the MFN (Most Favored Nation) tariff. This applies to all origins, so Ethiopian green coffee is automatically duty-free without requiring an EBA certificate. For roasted coffee (HS 0901.21/22), the standard EU duty is 7.5%, but Ethiopian roasted coffee qualifies for 0% under the Everything But Arms (EBA) initiative with a valid EUR.1 certificate.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Does Italy have a coffee excise tax like Germany?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Does Italy have a coffee excise tax like Germany?</h4>
             <p className='text-sm text-gray-600'>No. Italy does not levy a coffee-specific excise tax. Germany&apos;s Kaffeesteuer adds &euro;2.19/kg to green coffee imports. Italy&apos;s only import-related charge is 22% IVA (VAT), which is fully recoverable for registered businesses. This makes Italy&apos;s effective landed cost lower than Germany&apos;s for the same FOB price.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the IVA rate on coffee imports in Italy?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the IVA rate on coffee imports in Italy?</h4>
             <p className='text-sm text-gray-600'>Italy applies the standard 22% IVA rate to coffee imports. While this rate is higher than France&apos;s 5.5% TVA, it is fully recoverable for IVA-registered businesses through periodic declarations. The IVA creates a short-term cash flow requirement but does not increase the final cost. Trieste&apos;s Free Trade Zone can defer IVA payment until goods enter Italian customs territory.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How long does ocean freight from Ethiopia to Trieste take?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How long does ocean freight from Ethiopia to Trieste take?</h4>
             <p className='text-sm text-gray-600'>Ocean freight from Djibouti to Trieste takes 12&ndash;18 days via the Suez Canal, which is 5&ndash;10 days shorter than routes to northern European ports like Hamburg or Rotterdam. If Red Sea disruptions force rerouting via the Cape of Good Hope, transit extends to 28&ndash;38 days. Total delivery time including customs clearance is typically 14&ndash;22 days via the Suez route.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Does the EUDR apply to coffee imports into Italy?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Does the EUDR apply to coffee imports into Italy?</h4>
             <p className='text-sm text-gray-600'>Yes. Since December 30, 2025, all coffee imported into any EU member state (including Italy) must include geolocation data proving it was not grown on land deforested after December 31, 2020. Importers must file a due diligence statement via the EU EUDR information system before each shipment. Non-compliance can result in fines up to 4% of annual EU turnover.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Which Italian port is best for Ethiopian coffee imports?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Which Italian port is best for Ethiopian coffee imports?</h4>
             <p className='text-sm text-gray-600'>Trieste is Italy&apos;s primary coffee port, handling over 2.5 million bags annually with specialized coffee warehousing, a Free Trade Zone, and proximity to major industry players (illy, Hausbrandt). Genoa is best for shipments destined to Milan and northwest Italy. Naples serves southern Italian buyers (Kimbo, Caff&egrave; Borbone). Choose based on your buyer&apos;s location and whether you need Free Zone storage.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What documents are needed to import Ethiopian coffee to Italy?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What documents are needed to import Ethiopian coffee to Italy?</h4>
             <p className='text-sm text-gray-600'>Key documents include commercial invoice, packing list, bill of lading, phytosanitary certificate, quality/grading report, pesticide/OTA lab analysis, ICO identification code, and EUDR traceability data with geolocation coordinates. On the Italian side, you need an EORI number (via ADM), IVA registration (Partita IVA), food business operator registration with your local ASL, and a HACCP plan.</p>
           </div>
         </div>

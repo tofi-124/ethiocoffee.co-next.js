@@ -503,35 +503,35 @@ export default function CoffeeIsProcessingDryingMilling({ title, date, large_ima
 
         <div className='space-y-6'>
           <div className='bg-gray-50 p-5 rounded-lg'>
-            <h3 className='font-bold text-lg mb-2'>What is the difference between washed and natural coffee processing?</h3>
+            <h4 className='font-bold text-lg mb-2'>What is the difference between washed and natural coffee processing?</h4>
             <p className='text-sm'>
               Washed processing removes all fruit from the seed before drying, producing clean, bright cups with clear acidity. Natural processing dries the whole cherry intact, fermenting the bean inside the fruit for 3 to 4 weeks. Naturals taste fruitier, sweeter, and heavier-bodied. The two methods create fundamentally different cup profiles from the same coffee variety.
             </p>
           </div>
 
           <div className='bg-gray-50 p-5 rounded-lg'>
-            <h3 className='font-bold text-lg mb-2'>How does coffee processing affect flavor?</h3>
+            <h4 className='font-bold text-lg mb-2'>How does coffee processing affect flavor?</h4>
             <p className='text-sm'>
               Processing controls which sugars, acids, and aromatics from the fruit remain in contact with the seed during fermentation and drying. More fruit contact (natural, honey) adds sweetness, body, and fermentation-derived complexity. Less fruit contact (washed) lets the bean&apos;s inherent terroir express itself clearly. Processing also determines acidity type and intensity.
             </p>
           </div>
 
           <div className='bg-gray-50 p-5 rounded-lg'>
-            <h3 className='font-bold text-lg mb-2'>How long does it take to dry coffee beans?</h3>
+            <h4 className='font-bold text-lg mb-2'>How long does it take to dry coffee beans?</h4>
             <p className='text-sm'>
               Drying duration varies by method and climate. Washed parchment takes 10 to 15 days on raised beds. Honey-processed coffees need 14 to 28 days depending on mucilage level. Natural whole-cherry lots require 18 to 30 days. Target moisture is 10 to 12% for export. Altitude, humidity, and bed management all affect timing.
             </p>
           </div>
 
           <div className='bg-gray-50 p-5 rounded-lg'>
-            <h3 className='font-bold text-lg mb-2'>What is honey processed coffee?</h3>
+            <h4 className='font-bold text-lg mb-2'>What is honey processed coffee?</h4>
             <p className='text-sm'>
               Honey processing removes the cherry skin but leaves the sticky mucilage (fruit pulp) on the bean during drying. The retained sugars caramelize and infuse into the seed, producing a cup with more body and sweetness than washed but more consistency than natural. Variants range from white honey (minimal mucilage) to black honey (all mucilage retained).
             </p>
           </div>
 
           <div className='bg-gray-50 p-5 rounded-lg'>
-            <h3 className='font-bold text-lg mb-2'>What happens during coffee milling before export?</h3>
+            <h4 className='font-bold text-lg mb-2'>What happens during coffee milling before export?</h4>
             <p className='text-sm'>
               Milling converts dried parchment coffee into export-ready green beans. The process includes hulling (removing parchment), screen sizing (sorting by bean size), density sorting (gravity tables separate by weight), optical color sorting (cameras eject defects), and hand sorting. These steps determine the final grade and defect count of the lot.
             </p>

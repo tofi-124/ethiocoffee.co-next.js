@@ -395,31 +395,31 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
         <h2 className='text-2xl font-bold mb-6 text-gray-900'>7. Frequently Asked Questions About Bombe Sidama Coffee</h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What does Bombe Sidama coffee taste like?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What does Bombe Sidama coffee taste like?</h4>
             <p className='text-sm text-gray-600'>
               Natural Bombe coffees are known for ripe berry, honey sweetness, warm spice notes, and a long syrupy finish with lively, wine-like acidity. Washed Bombe lots shift toward clean citrus, floral, and stone fruit notes with a brighter, crisper acidity. Both styles reflect the high altitude and volcanic soils of the Bombe terroir.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What altitude does Bombe coffee grow at?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What altitude does Bombe coffee grow at?</h4>
             <p className='text-sm text-gray-600'>
               Bombe farms sit between 1,950 and 2,350 meters above sea level in the Bensa district of Sidama. This altitude range places Bombe among the highest coffee-growing areas in Sidama. The extreme elevation slows cherry maturation, concentrating sugars and organic acids that produce dense, complex green coffee.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Is Bombe coffee available as natural or washed?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Is Bombe coffee available as natural or washed?</h4>
             <p className='text-sm text-gray-600'>
               Both. Natural processing is the dominant method in Bombe and accounts for the micro-region&apos;s best-known flavor profiles (berry, honey, spice). Washed Bombe lots are also produced, offering cleaner, brighter cups. Some producers have begun experimenting with anaerobic processing, though these lots remain limited in volume.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How do I order Bombe Sidama green coffee in bulk?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How do I order Bombe Sidama green coffee in bulk?</h4>
             <p className='text-sm text-gray-600'>
               Start by requesting a 300g roast-trial sample ($20 USD) to evaluate the lot before committing to volume. Once you approve the cup profile, we can arrange FOB or CIF shipment in 60 kg jute bags, with container-load or partial-container options. Contact our team for current pricing, availability, and contract terms.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What grade is Bombe Sidama coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What grade is Bombe Sidama coffee?</h4>
             <p className='text-sm text-gray-600'>
               Bombe coffee is exported as Grade 1 or Grade 2 under Ethiopia&apos;s national grading system. Grade 1 lots have 0 to 3 full defects per 300g sample and score 86+ on the SCA cupping scale. Our current Bombe offering is a Natural Grade 1 scoring 87+, sourced from a single family farm with full traceability.
             </p>

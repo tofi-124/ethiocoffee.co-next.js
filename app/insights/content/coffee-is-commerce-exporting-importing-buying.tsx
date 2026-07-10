@@ -482,34 +482,34 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
       {/* FAQ */}
       <h2 id='faq' className='text-3xl font-extrabold mt-10 mb-4'>Frequently Asked Questions</h2>
 
-      <h3 className='text-xl font-bold mt-6 mb-2'>What is the C market in coffee?</h3>
+      <h4 className='text-xl font-bold mt-6 mb-2'>What is the C market in coffee?</h4>
       <p className='my-4'>
         The C market is the ICE Arabica coffee futures exchange in New York (ticker: KC). It sets benchmark prices for roughly 90 to 95% of globally traded Arabica. Prices reflect supply, demand, weather, and speculative activity. Most physical coffee is sold at the C price plus or minus a differential that reflects the specific lot&apos;s quality and origin.
       </p>
 
-      <h3 className='text-xl font-bold mt-6 mb-2'>How does specialty coffee pricing differ from commodity pricing?</h3>
+      <h4 className='text-xl font-bold mt-6 mb-2'>How does specialty coffee pricing differ from commodity pricing?</h4>
       <p className='my-4'>
         Specialty coffee (SCA 80+) trades at a positive differential above the C market, reflecting cup quality, traceability, and relationship commitments. While commodity prices fluctuate daily, specialty differentials are more stable because they are negotiated directly between buyers and exporters. Higher-scoring lots (86+) show the greatest price stability even during market downturns.
       </p>
 
-      <h3 className='text-xl font-bold mt-6 mb-2'>What does FOB mean in coffee trade?</h3>
+      <h4 className='text-xl font-bold mt-6 mb-2'>What does FOB mean in coffee trade?</h4>
       <p className='my-4'>
         FOB (Free on Board) is the price point where the exporter delivers green coffee loaded onto a vessel at the origin port. It covers sourcing, milling, quality inspection, inland transport, and port loading. Everything after that point (ocean freight, insurance, destination duties) is the buyer&apos;s cost. Most Ethiopian coffee exports are priced FOB Djibouti.
       </p>
 
-      <h3 className='text-xl font-bold mt-6 mb-2'>What are Incoterms and why do they matter?</h3>
+      <h4 className='text-xl font-bold mt-6 mb-2'>What are Incoterms and why do they matter?</h4>
       <p className='my-4'>
         Incoterms (International Commercial Terms) define which party pays for transport, insurance, and customs at each stage of an international shipment. In coffee commerce, the three most common are FOB, CIF, and EXW. Choosing the right Incoterm affects your landed cost, risk exposure, and logistics responsibilities. The Incoterm must be specified in the purchase contract.
       </p>
 
-      <h3 className='text-xl font-bold mt-6 mb-2'>How long does the green coffee buying timeline take?</h3>
+      <h4 className='text-xl font-bold mt-6 mb-2'>How long does the green coffee buying timeline take?</h4>
       <p className='my-4'>
         A typical cycle from first inquiry to delivery runs 3 to 6 months. Key stages include sample evaluation, contract negotiation, milling and CLU inspection, pre-ship sample approval, ocean freight (18 to 35 days depending on destination), and customs clearance. Forward contracts placed before harvest can extend the total timeline but secure the best lots and pricing.
       </p>
 
       {/* CTA BLOCK */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
+        <h3 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h3>
         <p className='my-2'>
           <span className='font-bold'>Ethio Coffee Import and Export PLC</span> offers Ethiopian green coffee with transparent FOB pricing, pre-ship samples, and flexible contract terms. Request samples or a current offer sheet to get started.
         </p>

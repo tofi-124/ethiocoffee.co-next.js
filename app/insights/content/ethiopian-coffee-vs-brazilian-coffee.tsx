@@ -505,23 +505,23 @@ export default function EthiopianCoffeeVsBrazilianCoffee({ title, date, large_im
         <h2 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions</h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Is Ethiopian coffee better than Brazilian coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Is Ethiopian coffee better than Brazilian coffee?</h4>
             <p className='text-sm text-gray-600'>Neither is objectively better. Ethiopian coffee offers more aromatic complexity, floral and fruit character, and genetic diversity. Brazilian coffee offers more consistency, lower acidity, and a price-to-quality ratio that anchors espresso programs globally. The right choice depends on your product mix. Many professional buyers source both.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Can Ethiopian coffee work in espresso blends?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Can Ethiopian coffee work in espresso blends?</h4>
             <p className='text-sm text-gray-600'>Yes. Ethiopian coffee at 15 to 30% of an espresso blend adds floral and fruit top notes that elevate the cup. Washed lots integrate more smoothly than naturals, which can introduce fermented fruit intensity. Many roasters pair Ethiopian components with a Brazilian base for balanced complexity.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Why is Ethiopian coffee more expensive than Brazilian?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Why is Ethiopian coffee more expensive than Brazilian?</h4>
             <p className='text-sm text-gray-600'>Ethiopian coffee commands higher FOB prices due to limited exportable supply (50% consumed domestically), labor-intensive smallholder production, high cupping scores, and unique genetic diversity. Brazilian coffee is more cost-effective due to mechanized production, economies of scale, and mature logistics centered on the Port of Santos.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the difference between Ethiopian heirloom and Brazilian Bourbon?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the difference between Ethiopian heirloom and Brazilian Bourbon?</h4>
             <p className='text-sm text-gray-600'>Ethiopian heirloom is a collective term for thousands of wild Arabica landraces with enormous genetic variation. Brazilian Bourbon is a single well-documented cultivar descended from plants brought from Reunion Island in the 1800s. Heirloom produces wide-ranging floral and fruit complexity; Bourbon produces sweet, caramel-forward profiles with good acidity.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How do I source both Ethiopian and Brazilian coffee for my roastery?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How do I source both Ethiopian and Brazilian coffee for my roastery?</h4>
             <p className='text-sm text-gray-600'>Most specialty roasters work with separate green coffee importers for each origin. For Ethiopian coffee, source directly from origin exporters like Ethio Coffee Import and Export PLC, who supply traceable lots FOB Djibouti. For Brazilian coffee, major traders and cooperatives offer direct relationships. A dual-origin program enables year-round fresh-crop inventory.</p>
           </div>
         </div>

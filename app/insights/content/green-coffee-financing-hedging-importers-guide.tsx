@@ -469,31 +469,31 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
         <h2 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions About Green Coffee Price Hedging</h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Do I need a futures account to hedge green coffee prices?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Do I need a futures account to hedge green coffee prices?</h4>
             <p className='text-sm text-gray-600'>
               No. A fixed-price forward contract with your exporter is the most practical hedge for most importers and requires no brokerage account. Coffee futures accounts are most useful for buyers using differential contracts or importing more than four to five containers per season, where the basis risk and volumes justify the complexity.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How does Ethiopian coffee hedging differ from other origins?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How does Ethiopian coffee hedging differ from other origins?</h4>
             <p className='text-sm text-gray-600'>
               Ethiopian coffee is priced through the Ethiopia Commodity Exchange, not directly against the ICE Coffee C futures. Hedging via fixed-price forward contracts directly with your Ethiopian exporter is therefore more precise than an ICE futures hedge, which carries basis risk from the ECX-to-C-market price correlation being imperfect.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is a call option and is it worth using for coffee imports?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is a call option and is it worth using for coffee imports?</h4>
             <p className='text-sm text-gray-600'>
               A call option gives you the right to buy a coffee futures contract at a set price, protecting against price spikes while letting you benefit if prices fall. The cost is typically 1 to 2 percent of cargo value. It is most useful when you have forward sales commitments to customers but have not yet locked in your purchase price, and prefer to maintain downside optionality.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How long is capital typically tied up in a green coffee import cycle?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How long is capital typically tied up in a green coffee import cycle?</h4>
             <p className='text-sm text-gray-600'>
               From payment to the exporter through to receiving payment from your roasting customers, the typical Ethiopian coffee cycle runs 90 to 125 days. This includes 20 to 35 days for pre-shipment, 25 to 35 days ocean transit, 10 to 15 days port clearance and QC, and 30 days customer payment terms. Warehouse receipt finance or reverse factoring can shorten this by 30 to 50 days.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Should I invoice my roaster customers in USD or local currency?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Should I invoice my roaster customers in USD or local currency?</h4>
             <p className='text-sm text-gray-600'>
               Invoicing in USD eliminates your FX exposure as an importer outside the US, since your purchase cost is also in USD. However, it transfers FX risk to your customers and may reduce competitiveness with domestic suppliers who quote local currency. A practical middle ground is to quote USD prices and offer a local-currency equivalent at the prevailing rate on invoice date, covered by a forward FX contract you book at purchase time.
             </p>

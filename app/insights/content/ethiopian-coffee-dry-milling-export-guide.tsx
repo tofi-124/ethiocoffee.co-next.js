@@ -521,31 +521,31 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
         </h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is dry milling in coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is dry milling in coffee?</h4>
             <p className='text-sm text-gray-600'>
               Dry milling is the post-drying mechanical stage that converts dried parchment or whole dried cherries into clean, sorted, graded green coffee ready for export. It includes hulling, size grading, density sorting, color sorting, hand sorting, and bagging. It is distinct from wet milling, which occurs at the washing station immediately after harvest.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How does dry milling affect cup quality?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How does dry milling affect cup quality?</h4>
             <p className='text-sm text-gray-600'>
               Dry milling removes defects that directly harm cup quality: full blacks, full sours, insect-damaged beans, and quakers all degrade the cup when unknowingly roasted. Size and density grading also ensure roast uniformity, which is a prerequisite for consistent flavor development across a production batch.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How much parchment coffee does it take to produce one kilogram of export-ready green beans?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How much parchment coffee does it take to produce one kilogram of export-ready green beans?</h4>
             <p className='text-sm text-gray-600'>
               For washed specialty lots targeting Grade 1, typically 1.20 to 1.28 kg of dried parchment input is required per kilogram of final green output (78 to 82% yield). Natural lots targeting Grade 1 require approximately 1.28 to 1.39 kg of pre-hulled green input (72 to 78% yield). Whole dried cherry for commercial grades converts at only 40 to 48% due to the weight of the dried cherry hull.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the difference between ECX milling and direct (DSL) milling in Ethiopia?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the difference between ECX milling and direct (DSL) milling in Ethiopia?</h4>
             <p className='text-sm text-gray-600'>
               ECX-route coffee is first hulled at regional ECX warehouses before auction and then receives final grading and sorting at the buyer's chosen dry mill in Addis Ababa. DSL-route coffee goes directly from the cooperative or washing station to the exporter's contracted dry mill, where the full milling sequence is performed. DSL offers more traceability and control over the complete milling process.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Why does screen size matter for roasters?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Why does screen size matter for roasters?</h4>
             <p className='text-sm text-gray-600'>
               Beans of different sizes roast at different rates. A mixed-screen lot roasts unevenly: large beans are under-developed while small beans are over-developed in the same drum. A uniformly screen-graded lot allows the roaster to dial in one profile that performs consistently, which reduces batch variation and improves yield at the roaster's end.
             </p>

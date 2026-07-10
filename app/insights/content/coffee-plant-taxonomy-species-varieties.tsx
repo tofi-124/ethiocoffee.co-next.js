@@ -533,23 +533,23 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
         </h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How many coffee species exist?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How many coffee species exist?</h4>
             <p className='text-sm text-gray-600'>Current scientific consensus identifies approximately 130 species within the genus Coffea, according to the SCA. Only two are commercially significant: Coffea arabica (Arabica, 55-60% of production) and Coffea canephora (Robusta, 40-45%). Coffea liberica is a minor third, grown mainly in the Philippines and Malaysia.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What does &quot;heirloom&quot; mean on Ethiopian coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What does &quot;heirloom&quot; mean on Ethiopian coffee?</h4>
             <p className='text-sm text-gray-600'>&quot;Heirloom&quot; refers to landrace varieties that evolved naturally in Ethiopia&apos;s highland forests over millennia. The country has an estimated 10,000 to 15,000 genetically distinct varieties, most without formal names. They differ from cultivars bred for specific traits elsewhere, offering greater flavor complexity.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Why is Arabica&apos;s genetic diversity a concern?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Why is Arabica&apos;s genetic diversity a concern?</h4>
             <p className='text-sm text-gray-600'>All Arabica traces back to a single hybridization event between Coffea canephora and Coffea eugenioides. This genetic bottleneck means the species has limited natural tools to adapt to climate change, pests, and disease. Ethiopia&apos;s wild Arabica populations are the primary reservoir of genetic diversity for the species.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the difference between variety and varietal?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the difference between variety and varietal?</h4>
             <p className='text-sm text-gray-600'>&quot;Variety&quot; is a noun describing a taxonomic rank of plants with reproducible genetic characteristics (e.g., Gesha variety). &quot;Varietal&quot; is an adjective. The confusion comes from wine terminology. In coffee, the correct usage is &quot;Gesha variety,&quot; not &quot;Gesha varietal.&quot;</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>Why does origin matter for coffee quality?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Why does origin matter for coffee quality?</h4>
             <p className='text-sm text-gray-600'>A plant&apos;s genetics and growing conditions (altitude, temperature, soil, shade) determine the chemical compounds available in the seed. Processing and roasting can only work within those parameters. Ethiopia&apos;s combination of high altitude, volcanic soils, shade growing, and unmatched genetic diversity produces coffees with complexity no other origin replicates.</p>
           </div>
         </div>

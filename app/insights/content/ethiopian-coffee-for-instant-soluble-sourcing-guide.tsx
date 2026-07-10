@@ -36,9 +36,7 @@ export default function EthiopianCoffeeForInstantSolubleSourcingGuide({
       {/* Hero image */}
       <figure>
         <figcaption className='font-inconsolata my-2'>{title}</figcaption>
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
-          {/* TODO: Replace placeholder with actual hero image */}
-          {/* Expected path: /images/insights/ethiopian-coffee-for-instant-soluble-sourcing-guide.webp */}
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Ethiopian green coffee feeding a freeze-dried instant coffee manufacturing line'

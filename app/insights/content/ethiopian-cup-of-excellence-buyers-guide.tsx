@@ -34,9 +34,7 @@ export default function EthiopianCupOfExcellenceBuyersGuide({ title, date, large
       {/* HERO IMAGE */}
       <figure>
         <figcaption className='font-inconsolata my-2'>{title}</figcaption>
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
-          {/* TODO: Replace placeholder with actual hero image */}
-          {/* Expected path: /images/insights/ethiopian-cup-of-excellence-buyers-guide.webp */}
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Ethiopian Cup of Excellence winning coffee lot drying on raised beds, high-altitude smallholder farm in Sidama'
@@ -205,7 +203,7 @@ export default function EthiopianCupOfExcellenceBuyersGuide({ title, date, large
         4. Five Years of Ethiopia CoE Data: Scores, Prices, and Regional Trends
       </h3>
       <p className='my-4'>
-        The following analysis draws on the 2020 inaugural auction results and 2024 competition data from the ACE website. Prices for intervening years (2021–2023) are not included because verified public auction data was not available at time of writing and is flagged below as [NEEDS VERIFICATION].
+        The following analysis draws on the 2020 inaugural auction results and 2024 competition data from the ACE website. Prices for the intervening years (2021 to 2023) are not included because verified public auction results were not available at the time of writing.
       </p>
 
       <h4 className='text-xl font-bold mt-8 mb-4'>2020: The Inaugural Auction</h4>

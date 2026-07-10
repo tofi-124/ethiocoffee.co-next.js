@@ -470,42 +470,42 @@ export default function CertifiedOrganicCoffeeBeanExportersBulkOrders({ title, d
       </h2>
 
       <div className='my-6 space-y-6'>
-        <h3 className='font-bold mt-4'>What certifications should organic coffee exporters have?</h3>
+        <h4 className='font-bold mt-4'>What certifications should organic coffee exporters have?</h4>
         <p className='my-2'>
           At minimum, they need organic certification from an accredited body for the markets they serve: USDA NOP for the US, EU Organic for Europe, or JAS for Japan. The best exporters hold dual or triple certification. They should also have a valid scope certificate listing coffee as a covered product and the ability to issue transaction certificates for each shipment.
         </p>
 
-        <h3 className='font-bold mt-4'>How much do organic coffee beans cost in bulk?</h3>
+        <h4 className='font-bold mt-4'>How much do organic coffee beans cost in bulk?</h4>
         <p className='my-2'>
           Organic green coffee from Ethiopia typically runs $0.30 to $0.60 per pound above conventional FOB pricing. Final landed cost depends on origin, grade, certifications, and shipping terms. A full container of organic Ethiopian specialty coffee currently ranges from approximately $4.00 to $7.00+ per pound FOB Djibouti, depending on region and season.
         </p>
 
-        <h3 className='font-bold mt-4'>What is the minimum order for organic green coffee?</h3>
+        <h4 className='font-bold mt-4'>What is the minimum order for organic green coffee?</h4>
         <p className='my-2'>
           One full container load (FCL), approximately 19 to 21 metric tons or 275 to 320 bags of 60 kg each. Some exporters offer trial LCL shipments starting at 5 metric tons. Smaller sample quantities (1 to 5 kg) are typically available for quality evaluation before committing to bulk.
         </p>
 
-        <h3 className='font-bold mt-4'>How do I verify if a coffee exporter is truly organic certified?</h3>
+        <h4 className='font-bold mt-4'>How do I verify if a coffee exporter is truly organic certified?</h4>
         <p className='my-2'>
           Request their organic scope certificate and check the certifying body&apos;s database. For USDA organic, use the <a href='https://organic.ams.usda.gov/integrity/' target='_blank' rel='noopener noreferrer' className='underline'>USDA Organic Integrity Database</a>. For EU organic, contact the certifying body (Control Union, Ecocert, etc.) directly. The scope certificate lists the exporter&apos;s name, location, products covered, standards, and validity dates.
         </p>
 
-        <h3 className='font-bold mt-4'>What is the difference between USDA Organic and EU Organic for coffee?</h3>
+        <h4 className='font-bold mt-4'>What is the difference between USDA Organic and EU Organic for coffee?</h4>
         <p className='my-2'>
           Both require three years without synthetic inputs and annual audits. USDA NOP allows certain natural pest control substances that EU prohibits, while EU 2018/848 places more emphasis on biodiversity and soil health. Since 2022, EU organic imports must comply with EU production rules directly. Most Ethiopian exporters hold dual certification for both markets.
         </p>
 
-        <h3 className='font-bold mt-4'>Which countries export the best organic coffee beans?</h3>
+        <h4 className='font-bold mt-4'>Which countries export the best organic coffee beans?</h4>
         <p className='my-2'>
           Ethiopia, Peru, Colombia, Mexico, Honduras, and Uganda are the largest organic coffee exporters by volume. Ethiopia stands out for its naturally organic production methods, indigenous heirloom Arabica varieties, and the highest genetic diversity of any coffee-producing country. For specialty-grade organic coffee, Ethiopian origins (Yirgacheffe, Guji, Sidamo) consistently rank among the top scorers at international competitions.
         </p>
 
-        <h3 className='font-bold mt-4'>What documentation comes with a certified organic coffee shipment?</h3>
+        <h4 className='font-bold mt-4'>What documentation comes with a certified organic coffee shipment?</h4>
         <p className='my-2'>
           A complete documentation package includes: transaction certificate (organic proof), organic scope certificate (exporter&apos;s certification), phytosanitary certificate, certificate of origin, ICO certificate of origin, bill of lading, quality/cupping report, and weight certificate. The transaction certificate is the critical organic-specific document.
         </p>
 
-        <h3 className='font-bold mt-4'>How do organic coffee premiums work for bulk buyers?</h3>
+        <h4 className='font-bold mt-4'>How do organic coffee premiums work for bulk buyers?</h4>
         <p className='my-2'>
           The organic premium is an additional per-pound cost above conventional prices, reflecting higher farmgate prices, certification costs, and segregated handling. For Ethiopian organic coffee, this premium typically runs $0.30 to $0.60/lb FOB. Organic specialty coffee commands 20 to 40% higher retail prices, making the premium commercially viable for most roasters.
         </p>
@@ -518,7 +518,7 @@ export default function CertifiedOrganicCoffeeBeanExportersBulkOrders({ title, d
 
       {/* CTA BLOCK */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h3 className='font-bold text-xl mb-3'>Source Certified Organic Ethiopian Coffee Direct from Origin</h3>
+        <h4 className='font-bold text-xl mb-3'>Source Certified Organic Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
           <span className='font-bold'>Ethio Coffee Import and Export PLC</span> is a licensed Ethiopian coffee exporter offering certified organic green coffee beans for bulk orders. We hold USDA and EU organic certification, maintain segregated organic processing, and provide full transaction certificate documentation with every shipment. Request samples from our organic Yirgacheffe, Sidamo, Guji, or Limu lots.
         </p>

@@ -641,23 +641,23 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         <h2 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About AFCA Taste of Harvest</h2>
         <div className="space-y-6">
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">What is the AFCA Taste of Harvest competition?</h3>
+            <h4 className="font-bold text-gray-800 mb-2">What is the AFCA Taste of Harvest competition?</h4>
             <p className="text-sm text-gray-600">AFCA&apos;s Taste of Harvest is Africa&apos;s premier coffee quality competition. National competitions run in member countries, with top coffees advancing to a continental final at AFCA&apos;s annual conference. Certified Q-graders score all samples blindly using the SCA cupping protocol. Winners receive one-year AFCA certification with serial numbers and sell through the online auction platform.</p>
           </div>
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">How many countries participated in the 2025/26 Taste of Harvest season?</h3>
+            <h4 className="font-bold text-gray-800 mb-2">How many countries participated in the 2025/26 Taste of Harvest season?</h4>
             <p className="text-sm text-gray-600">Nine countries held national competitions: Burundi, Cameroon, DRC, Ethiopia, Kenya, Malawi, Tanzania, Uganda, and Zambia. Up to five top-scoring lots from each national competition advanced to the Regional finals held during the 22nd AFCC&E in Addis Ababa in February 2026.</p>
           </div>
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">How many samples did Ethiopia submit to the 2026 competition?</h3>
+            <h4 className="font-bold text-gray-800 mb-2">How many samples did Ethiopia submit to the 2026 competition?</h4>
             <p className="text-sm text-gray-600">Ethiopia submitted 226 samples across four processing categories: 100 natural (44.2%), 46 experimental (20.4%), 43 washed (19.0%), and 37 honey (16.4%). Samples came from producers, cooperatives, and exporters across the country&apos;s major growing regions.</p>
           </div>
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">Can international buyers purchase AFCA award-winning Ethiopian coffee?</h3>
+            <h4 className="font-bold text-gray-800 mb-2">Can international buyers purchase AFCA award-winning Ethiopian coffee?</h4>
             <p className="text-sm text-gray-600">Yes. Winning lots are listed on AFCA&apos;s online auction platform (tasteofharvest.mcultivo.com) with cupping profiles, origin data, and certification serial numbers. International roasters and importers register on the platform and place competitive bids. Buyers can also work with Ethiopian exporters who source from competition-winning producers.</p>
           </div>
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">How does the AFCA M-Cultivo auction platform work?</h3>
+            <h4 className="font-bold text-gray-800 mb-2">How does the AFCA M-Cultivo auction platform work?</h4>
             <p className="text-sm text-gray-600">Award-winning coffees are listed with lot details, weight, cupping scores, and origin information. Registered buyers place bids or set auto-bids. Competitive bidding drives prices above commodity levels. AFCA&apos;s partnership with ITC&apos;s EU-EAC MARKUP II Programme supports online auction expansion across multiple African countries.</p>
           </div>
         </div>

@@ -273,27 +273,27 @@ export default function EthiopianCoffeeCeremony({ title, date, large_image_url }
         <h2 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About the Ethiopian Coffee Ceremony</h2>
         <div className="space-y-6">
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">What is the Ethiopian coffee ceremony?</h3>
+            <h4 className="font-bold text-gray-800 mb-2">What is the Ethiopian coffee ceremony?</h4>
             <p className="text-sm text-gray-600">The Ethiopian coffee ceremony, known locally as <em>buna</em>, is a traditional social ritual where green coffee beans are roasted over an open flame, ground by hand using a mortar and pestle (mukecha), and brewed in a clay pot called a jebena. Lasting one to two hours, it is a communal experience centered on hospitality, respect, and human connection, performed daily in millions of Ethiopian households.</p>
           </div>
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">How many rounds are served in a traditional Ethiopian coffee ceremony?</h3>
+            <h4 className="font-bold text-gray-800 mb-2">How many rounds are served in a traditional Ethiopian coffee ceremony?</h4>
             <p className="text-sm text-gray-600">Three rounds are served: abol (the strongest, ice-breaking round), tona (a medium-strength continuation), and baraka (the lightest, considered a blessing). Each round uses the same grounds with fresh water, producing progressively lighter brews that mirror the deepening of conversation between participants.</p>
           </div>
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">Who traditionally leads the Ethiopian coffee ceremony?</h3>
+            <h4 className="font-bold text-gray-800 mb-2">Who traditionally leads the Ethiopian coffee ceremony?</h4>
             <p className="text-sm text-gray-600">The ceremony is traditionally led by women, who serve as cultural custodians of coffee in Ethiopian society. The host performs every step, from roasting to serving, often dressed in a habesha kemis. Women also perform an estimated 60 to 70 percent of the labor in Ethiopian coffee production overall.</p>
           </div>
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">What is a jebena and how does it work?</h3>
+            <h4 className="font-bold text-gray-800 mb-2">What is a jebena and how does it work?</h4>
             <p className="text-sm text-gray-600">A jebena is a traditional Ethiopian clay coffee pot with a spherical base, narrow neck, pouring spout, handle, and straw lid. Water is heated inside the jebena, ground coffee is added directly, and the mixture brews over a charcoal stove. The porous clay is said to absorb flavors over time, making a well-seasoned jebena part of the taste profile.</p>
           </div>
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">How long does the Ethiopian coffee ceremony take?</h3>
+            <h4 className="font-bold text-gray-800 mb-2">How long does the Ethiopian coffee ceremony take?</h4>
             <p className="text-sm text-gray-600">A full ceremony typically lasts 60 to 90 minutes, though it can extend to two hours. The time includes preparing the space with grass and incense, roasting beans, grinding, brewing three successive rounds, and the conversation that accompanies each round.</p>
           </div>
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">Why does the coffee ceremony matter for international buyers?</h3>
+            <h4 className="font-bold text-gray-800 mb-2">Why does the coffee ceremony matter for international buyers?</h4>
             <p className="text-sm text-gray-600">Understanding the ceremony helps buyers treat Ethiopian coffee with greater respect, ask better sourcing questions, and appreciate the human effort behind every lot. It also provides authentic storytelling material for roasters and retailers marketing Ethiopian origins to quality-conscious consumers.</p>
           </div>
         </div>

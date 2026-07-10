@@ -531,31 +531,31 @@ export default function CoffeeIsScienceAnalysisCompoundsEvaluation({ title, date
 
           <div className='bg-gray-50 rounded-xl p-8 border border-gray-200 space-y-6'>
             <div>
-              <h3 className='text-lg font-bold text-dark mb-2'>What moisture content should green coffee have?</h3>
+              <h4 className='text-lg font-bold text-dark mb-2'>What moisture content should green coffee have?</h4>
               <p className='text-gray-700'>
                 Specialty green coffee should maintain 9-12% moisture by weight. Below 9%, beans become brittle and lose flavor compound integrity. Above 12%, free water activity promotes mold growth and accelerates oxidation. For export-quality Ethiopian lots, the target range is typically 10-11.5%.
               </p>
             </div>
             <div>
-              <h3 className='text-lg font-bold text-dark mb-2'>How do chlorogenic acids affect coffee flavor?</h3>
+              <h4 className='text-lg font-bold text-dark mb-2'>How do chlorogenic acids affect coffee flavor?</h4>
               <p className='text-gray-700'>
                 Chlorogenic acids (6-10% of green coffee) break down during roasting into quinic acid and caffeic acid. At light roast levels, they contribute perceived acidity and complexity. At darker levels, their degradation products increase bitterness and body. Higher-altitude Arabica typically contains more CGAs, correlating with brighter acidity.
               </p>
             </div>
             <div>
-              <h3 className='text-lg font-bold text-dark mb-2'>Why does altitude affect green coffee chemistry?</h3>
+              <h4 className='text-lg font-bold text-dark mb-2'>Why does altitude affect green coffee chemistry?</h4>
               <p className='text-gray-700'>
                 Cooler temperatures at higher altitudes slow cherry maturation by weeks or months. This extended development period allows more complex sugars, organic acids, and volatile aroma precursors to accumulate. Ethiopian coffees grown above 1,800m consistently show higher density, brighter acidity, and greater aromatic complexity.
               </p>
             </div>
             <div>
-              <h3 className='text-lg font-bold text-dark mb-2'>What is the minimum equipment needed for green coffee QC?</h3>
+              <h4 className='text-lg font-bold text-dark mb-2'>What is the minimum equipment needed for green coffee QC?</h4>
               <p className='text-gray-700'>
                 A calibrated moisture meter, a bulk density cylinder with precision scale, screen sieves, and a sample roaster cover the essentials. Pair these with a structured cupping protocol and you can make well-informed buying decisions without expensive laboratory equipment.
               </p>
             </div>
             <div>
-              <h3 className='text-lg font-bold text-dark mb-2'>How does processing method change coffee compounds?</h3>
+              <h4 className='text-lg font-bold text-dark mb-2'>How does processing method change coffee compounds?</h4>
               <p className='text-gray-700'>
                 Natural processing retains mucilage sugars around the bean during drying, increasing perceived sweetness and fruit character. Washed processing removes mucilage early, producing cleaner acid profiles. The same variety from the same farm can taste markedly different depending on process. See our{' '}
                 <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline font-bold'>washed vs natural comparison</Link> for details.
@@ -568,7 +568,7 @@ export default function CoffeeIsScienceAnalysisCompoundsEvaluation({ title, date
           {/* ═══════════════════════════════════════════ */}
 
           <div className='bg-gradient-to-r from-amber-50 to-orange-50 p-8 rounded-lg my-8 border-2 border-amber-300 shadow-lg'>
-            <h4 className='text-2xl font-bold mb-4 text-center'>Source Verified Ethiopian Coffee Direct from Origin</h4>
+            <h3 className='text-2xl font-bold mb-4 text-center'>Source Verified Ethiopian Coffee Direct from Origin</h3>
             <p className='text-center mb-6'>
               Ethio Coffee Import and Export PLC provides pre-ship samples, full cupping reports, and complete quality documentation with every lot. Request samples to evaluate our Ethiopian coffees against your own quality benchmarks.
             </p>

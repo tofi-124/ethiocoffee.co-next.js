@@ -31,9 +31,7 @@ export default function EthiopianCoffeeIncotermsGuide({ title, date, large_image
 
       <figure>
         <figcaption className='font-inconsolata my-2'>{title}</figcaption>
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
-          {/* TODO: Replace placeholder with actual hero image */}
-          {/* Expected path: /images/insights/ethiopian-coffee-incoterms-guide.webp */}
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Ethiopian coffee Incoterms guide showing FOB Djibouti and FCA Addis Ababa shipping routes for green coffee importers'
@@ -197,7 +195,7 @@ export default function EthiopianCoffeeIncotermsGuide({ title, date, large_image
         <li>Coffee procurement, processing, and export preparation</li>
         <li>ECX clearance, export permit, phytosanitary certificate, ICO certificate of origin</li>
         <li>Bagging, weighing, and warehouse handling in Addis Ababa</li>
-        <li>Inland haulage: truck or rail from Addis Ababa to Djibouti (approximately $300-600 per 20ft container [NEEDS VERIFICATION])</li>
+        <li>Inland haulage: truck or rail from Addis Ababa to Djibouti (approximately $1,500 to $2,200 per 20ft container; see our <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='underline font-bold'>export process guide</Link> for the full cost breakdown)</li>
         <li>Djibouti port loading charges (terminal handling, container weighing, ISPS surcharge)</li>
         <li>The cost and risk until the container is physically on board the named vessel</li>
       </ul>
@@ -436,35 +434,35 @@ export default function EthiopianCoffeeIncotermsGuide({ title, date, large_image
       <div className='space-y-6 my-6'>
 
         <div className='border-b border-gray-200 pb-5'>
-          <p className='font-bold mb-2'>Can I use EXW for Ethiopian coffee to take full control of the shipment?</p>
+          <h4 className='font-bold mb-2'>Can I use EXW for Ethiopian coffee to take full control of the shipment?</h4>
           <p className='text-sm text-gray-700'>
             EXW is not practical for Ethiopian green coffee because the buyer would need to manage Ethiopian export customs clearance, which legally requires a registered Ethiopian exporter. FCA Addis Ababa gives buyers equivalent origin-side control while keeping the exporter responsible for all regulatory steps they are required to perform.
           </p>
         </div>
 
         <div className='border-b border-gray-200 pb-5'>
-          <p className='font-bold mb-2'>Why do some Ethiopian exporters only quote FOB and refuse CIF?</p>
+          <h4 className='font-bold mb-2'>Why do some Ethiopian exporters only quote FOB and refuse CIF?</h4>
           <p className='text-sm text-gray-700'>
             Smaller exporters lack freight relationships to quote competitive CIF rates for every destination. Offering CIF exposes them to unpredictable freight swings between signing and booking. Larger exporters with active carrier partnerships (CMA CGM, MSC, Maersk) are more willing. During initial negotiation, ask whether the exporter can provide a firm CIF quote rather than FOB plus an estimate.
           </p>
         </div>
 
         <div className='border-b border-gray-200 pb-5'>
-          <p className='font-bold mb-2'>Does the Incoterm affect the Ethiopian coffee export permit or any regulatory step at origin?</p>
+          <h4 className='font-bold mb-2'>Does the Incoterm affect the Ethiopian coffee export permit or any regulatory step at origin?</h4>
           <p className='text-sm text-gray-700'>
             No. Export clearance steps, the ECX or DSL channel, the Coffee and Tea Authority export permit, CLU quality inspection, and phytosanitary certification, are completed by the exporter regardless of the agreed Incoterm. The Incoterm only affects where cost and risk transfer between exporter and buyer. Ethiopian export regulations do not change based on delivery terms.
           </p>
         </div>
 
         <div className='border-b border-gray-200 pb-5'>
-          <p className='font-bold mb-2'>How does Djibouti port congestion affect FOB buyers and sellers differently?</p>
+          <h4 className='font-bold mb-2'>How does Djibouti port congestion affect FOB buyers and sellers differently?</h4>
           <p className='text-sm text-gray-700'>
             Under FOB, the exporter bears congestion risk until the container loads onto the vessel; delays at the terminal are their cost. Once on board, all sea and destination delays shift to the buyer. FCA buyers absorb Djibouti risk through their forwarder. Build a 7-14 day buffer into arrival estimates during peak export season, roughly February through June.
           </p>
         </div>
 
         <div className='border-b border-gray-200 pb-5'>
-          <p className='font-bold mb-2'>If I negotiate CIF but find the embedded freight too high, can I switch to FOB mid-contract?</p>
+          <h4 className='font-bold mb-2'>If I negotiate CIF but find the embedded freight too high, can I switch to FOB mid-contract?</h4>
           <p className='text-sm text-gray-700'>
             Switching Incoterms after signing requires written agreement from both parties and a price adjustment. It is not a unilateral right. Request both FOB and CIF quotes during initial negotiation, compare the exporter&apos;s implied freight against your own quote, then choose with full information before signing.
           </p>

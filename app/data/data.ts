@@ -287,6 +287,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/importing-ethiopian-coffee-to-thailand.webp',
       large_image_url: 'insights/importing-ethiopian-coffee-to-thailand.webp',
       date: 'Jun 14, 2026',
+      dateModified: 'Jul 10, 2026',
       title: 'Import Ethiopian Coffee to Thailand',
       slug: 'importing-ethiopian-coffee-to-thailand',
       category: 'Import Guide / Thailand Market / Ethiopian Coffee Export / ASEAN Buyer Strategy',
@@ -307,13 +308,14 @@ export const posts: Post[] = [
         'Ethiopian coffee Bangkok roasters',
         'phytosanitary certificate Thailand coffee import'
       ],
-      desc: 'Import Ethiopian coffee to Thailand: Department of Agriculture plant quarantine permit, e-Customs workflow, 7% VAT, Laem Chabang routing, and buyer strategy for specialty roasters and distributors.'
+      desc: 'Import Ethiopian coffee to Thailand: plant quarantine permits, e-Customs workflow, 7% VAT, tariff options, and Laem Chabang routing for specialty roasters.'
     },
     // ===== IMPORTING ETHIOPIAN COFFEE TO TAIWAN =====
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-taiwan.webp',
       large_image_url: 'insights/importing-ethiopian-coffee-to-taiwan.webp',
       date: 'Jun 9, 2026',
+      dateModified: 'Jul 10, 2026',
       title: 'Import Ethiopian Coffee to Taiwan',
       slug: 'importing-ethiopian-coffee-to-taiwan',
       category: 'Import Guide / Taiwan Market / Ethiopian Coffee Export / Asia-Pacific Buyer Strategy',
@@ -395,6 +397,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-cup-of-excellence-buyers-guide.webp',
       large_image_url: 'insights/ethiopian-cup-of-excellence-buyers-guide.webp',
       date: 'Jun 1, 2026',
+      dateModified: 'Jul 10, 2026',
       title: 'Ethiopian Cup of Excellence: A Buyer\'s Guide',
       slug: 'ethiopian-cup-of-excellence-buyers-guide',
       category: 'Competition Coffee / Premium Lot Sourcing / Green Coffee Buying / Importer Resources',
@@ -449,7 +452,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-exporter-vs-broker-vs-trader.webp',
       large_image_url: 'insights/ethiopian-coffee-exporter-vs-broker-vs-trader.webp',
       date: 'May 27, 2026',
-      title: 'Ethiopian Coffee Exporter vs Broker vs Trader: What Buyers Need to Know',
+      title: 'Ethiopian Coffee Exporter vs Broker vs Trader',
       slug: 'ethiopian-coffee-exporter-vs-broker-vs-trader',
       category: 'Sourcing Strategy / Ethiopian Coffee Exporter / Supply Chain / Importer Resources',
       keywords: [
@@ -476,7 +479,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-incoterms-guide.webp',
       large_image_url: 'insights/ethiopian-coffee-incoterms-guide.webp',
       date: 'May 23, 2026',
-      dateModified: 'Jul 7, 2026',
+      dateModified: 'Jul 10, 2026',
       title: 'Ethiopian Coffee Incoterms: FOB, FCA, CIF & DAP Explained',
       slug: 'ethiopian-coffee-incoterms-guide',
       category: 'Trade Logistics / Import Contracts / Incoterms 2020 / Importer Resources',
@@ -826,7 +829,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/nekemte-wellega-coffee-sourcing-guide.webp',
       large_image_url: 'insights/nekemte-wellega-coffee-sourcing-guide.webp',
       date: 'Apr 17, 2026',
-      title: 'Nekemte Coffee Sourcing Guide: Lekempti Trade Name, Wollega Sub-Zones, Grades & FOB Pricing',
+      title: 'Nekemte (Lekempti) Coffee: Buyer\'s Sourcing Guide',
       slug: 'nekemte-wellega-coffee-sourcing-guide',
       category: 'Origin Guide / Nekemte Coffee / Lekempti Coffee / Sourcing Guide / Importer Resources',
       keywords: [
@@ -853,7 +856,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/importing-ethiopian-coffee-to-china.webp',
       large_image_url: 'insights/importing-ethiopian-coffee-to-china.webp',
       date: 'Apr 14, 2026',
-      title: 'Import Ethiopian Coffee to China: GACC Registration, Customs, Duties & Logistics Guide',
+      title: 'Import Ethiopian Coffee to China: GACC & Customs',
       slug: 'importing-ethiopian-coffee-to-china',
       category: 'Import Guide / China Market / Ethiopian Coffee Export / B2B Intelligence',
       keywords: [
@@ -873,7 +876,7 @@ export const posts: Post[] = [
         'Certificate of Origin China coffee',
         'Chinese specialty coffee market'
       ],
-      desc: 'Step-by-step guide to importing Ethiopian green coffee to China: GACC registration, CIQ inspection, GB food safety standards, zero-tariff access, shipping routes, landed cost, and market entry strategy for Chinese importers.'
+      desc: 'Import Ethiopian green coffee to China: GACC registration, CIQ inspection, zero-tariff access, shipping routes, and landed cost for Chinese importers.'
     },
     // ===== ETHIOPIAN GESHA COFFEE SOURCING GUIDE =====
     {
@@ -955,7 +958,7 @@ export const posts: Post[] = [
         'Jimma origin guide',
         'Jimma commercial grade coffee'
       ],
-      desc: 'Jimma coffee sourcing guide for importers: sub-regions (Gomma, Agaro, Mana, Seka Chekorsa, Kersa, Shebe Sombo), flavor profiles by process, grades, FOB pricing benchmarks, and how to source direct from Ethiopia.'
+      desc: 'Jimma coffee sourcing guide for importers: Gomma, Agaro, and Mana sub-regions, flavor by process, grades, FOB pricing, and how to source direct.'
     },
     // ===== LIMU COFFEE BUYER'S SOURCING GUIDE =====
     {
@@ -982,7 +985,7 @@ export const posts: Post[] = [
         'Limu origin guide',
         'Limu coffee cupping score'
       ],
-      desc: 'Limu coffee sourcing guide for importers: sub-regions (Limmu Kossa, Limmu Seka, Gomma, Gera), flavor profiles by process, grades, FOB pricing benchmarks, and how to source direct from Ethiopia.'
+      desc: 'Limu coffee sourcing guide for importers: Limmu Kossa, Limmu Seka, and Gera sub-regions, flavor by process, grades, FOB pricing, and direct sourcing.'
     },
     // ===== HARAR COFFEE BUYER'S SOURCING GUIDE =====
     {
@@ -1009,7 +1012,7 @@ export const posts: Post[] = [
         'Harar coffee bean classifications',
         'Harar coffee cupping score'
       ],
-      desc: 'Harar coffee sourcing guide for importers: bean classifications (Longberry, Shortberry, Mocha), flavor profiles by type, grades, FOB pricing benchmarks, and how to source direct from Ethiopia.'
+      desc: 'Harar coffee sourcing guide for importers: Longberry, Shortberry, and Mocha classifications, flavor by type, grades, FOB pricing, and direct sourcing.'
     },
     // ===== SIDAMO COFFEE BUYER'S SOURCING GUIDE =====
     {
@@ -1036,7 +1039,7 @@ export const posts: Post[] = [
         'Sidamo coffee cupping score',
         'Ethiopian specialty coffee Sidamo'
       ],
-      desc: 'Sidamo coffee sourcing guide for importers: sub-regions (Bensa, Dale, Aleta Wendo, Arbegona, Chire, Wondo Genet), flavor profiles by process, grades, FOB pricing benchmarks, and how to source direct from Ethiopia.'
+      desc: 'Sidamo coffee sourcing guide for importers: Bensa, Dale, and Aleta Wendo sub-regions, flavor by process, grades, FOB pricing, and direct sourcing.'
     },
     // ===== YIRGACHEFFE COFFEE BUYER'S SOURCING GUIDE =====
     {
@@ -1063,7 +1066,7 @@ export const posts: Post[] = [
         'Yirgacheffe coffee cupping score',
         'Ethiopian specialty coffee Yirgacheffe'
       ],
-      desc: 'Yirgacheffe coffee sourcing guide for importers: sub-regions (Kochere, Gedeb, Gelana Abaya, Chelelectu, Aricha/Idido, Worka), flavor profiles by process, grades, FOB pricing benchmarks, and how to source direct from Ethiopia.'
+      desc: 'Yirgacheffe coffee sourcing guide for importers: Kochere, Gedeb, and Aricha sub-regions, flavor by process, grades, FOB pricing, and direct sourcing.'
     },
     // ===== GUJI COFFEE BUYER'S SOURCING GUIDE =====
     {
@@ -1090,7 +1093,7 @@ export const posts: Post[] = [
         'Guji coffee cupping score',
         'Ethiopian specialty coffee Guji'
       ],
-      desc: 'Guji coffee sourcing guide for importers: sub-regions (Hambella, Shakiso, Uraga, Kercha), flavor profiles by process, grades, FOB pricing benchmarks, and how to source direct from Ethiopia.'
+      desc: 'Guji coffee sourcing guide for importers: Hambella, Shakiso, and Uraga sub-regions, flavor by process, grades, FOB pricing, and direct sourcing.'
     },
     // ===== COFFEE PRICES FALLING AS GLOBAL PRODUCTION HITS RECORD =====
     {
@@ -1205,7 +1208,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/bombe-sidama-coffee-sourcing-guide.webp',
       large_image_url: 'insights/bombe-sidama-coffee-sourcing-guide.webp',
       date: 'Mar 14, 2026',
-      title: 'Bombe Sidama Coffee: Buyer\'s Guide to Ethiopia\'s Specialty Micro-Region',
+      title: 'Bombe Sidama Coffee: Micro-Region Buyer\'s Guide',
       slug: 'bombe-sidama-coffee-sourcing-guide',
       category: 'Origin Guide / Sidama Coffee / Bombe Bensa / Sourcing Guide',
       keywords: [
@@ -1294,7 +1297,7 @@ export const posts: Post[] = [
         'loi de vigilance coffee',
         'paris coffee festival'
       ],
-      desc: 'Complete guide to importing Ethiopian specialty coffee to France and the EU: EU food safety regulations, DGCCRF compliance, French customs (Douanes), DELTA system, 5.5% TVA, duty-free EBA treatment, EUDR deforestation regulation, shipping to Le Havre and Bordeaux, landed cost breakdown, organic AB certification, Fairtrade positioning, and partnering with Ethio Coffee Export for French/EU market entry.'
+      desc: 'Import Ethiopian coffee to France: EU food safety, French customs, 5.5% TVA, duty-free EBA access, EUDR, Le Havre shipping, and landed cost breakdown.'
     },
     // ===== GERMAN SPECIALTY COFFEE MARKET GUIDE =====
     {
@@ -1321,7 +1324,7 @@ export const posts: Post[] = [
         'Ethiopian coffee competitive advantage Germany',
         'German specialty coffee trends'
       ],
-      desc: 'Germany imports over 1 million tonnes of green coffee annually, making it Europe\'s largest coffee market and a priority destination for Ethiopian exporters. This market guide covers buyer segments, origin-market fit, competitive positioning, certifications, pricing strategy, and business development for the German specialty coffee market.'
+      desc: 'German specialty coffee market guide for Ethiopian exporters: buyer segments, origin fit, certifications, pricing strategy, and business development.'
     },
     // ===== ETHIOPIAN COFFEE EXPORT PROCESS: BUYER'S GUIDE =====
     {
@@ -1349,7 +1352,7 @@ export const posts: Post[] = [
         'CLU quality certificate Ethiopian coffee',
         'Ethiopian coffee export logistics'
       ],
-      desc: 'Step-by-step Ethiopian coffee export process from contract to container. Covers the seven stages, CLU inspection, complete documentation checklist, realistic timelines, cost breakdown per step, common delays, and what your exporter handles at each stage.'
+      desc: 'Step-by-step Ethiopian coffee export process from contract to container: seven stages, CLU inspection, documentation checklist, timelines, and costs.'
     },
     // ===== ETHIOPIAN COFFEE WASHING STATIONS BUYER'S GUIDE =====
     {
@@ -1376,7 +1379,7 @@ export const posts: Post[] = [
         'Yirgacheffe washing station coffee',
         'Guji washing station coffee'
       ],
-      desc: 'How Ethiopian coffee washing stations transform cherry into parchment through pulping, fermentation, and channel washing. Covers station types, regional profiles, infrastructure evaluation checklists, processing economics, and what importers should ask before sourcing washed Ethiopian coffee.'
+      desc: 'How Ethiopian coffee washing stations turn cherry into parchment: station types, regional profiles, evaluation checklists, and processing economics.'
     },
     // ===== GREEN COFFEE PACKAGING & BAG TYPES GUIDE =====
     {
@@ -1403,7 +1406,7 @@ export const posts: Post[] = [
         'Ethiopian coffee bag labeling requirements',
         'green coffee bag types exporter'
       ],
-      desc: 'Compare jute, GrainPro, hermetic, and vacuum-sealed bags for Ethiopian green coffee export. Includes cost data, a packaging decision matrix, contract specification language, and Ethiopian-specific shipping context for importers and roasters.'
+      desc: 'Compare jute, GrainPro, hermetic, and vacuum bags for Ethiopian green coffee export: cost data, decision matrix, and contract specification language.'
     },
     // ===== ETHIOPIAN COFFEE DRY MILLING EXPORT GUIDE =====
     {
@@ -1436,7 +1439,7 @@ export const posts: Post[] = [
         'ECX milling vs DSL milling Ethiopia',
         'Ethiopian coffee milling yield'
       ],
-      desc: 'Step-by-step guide to Ethiopian coffee dry milling: how parchment becomes export-ready green beans through hulling, size grading, density sorting, color sorting, hand sorting, and bagging. Includes yield tables, importer checklists, and pre-shipment sample guidance for B2B buyers.'
+      desc: 'Ethiopian coffee dry milling explained: hulling, size grading, density and color sorting, hand sorting, bagging, yield tables, and buyer checklists.'
     },
     // ===== ANAEROBIC ETHIOPIAN COFFEE PROCESSING BUYER'S GUIDE =====
     {
@@ -1501,7 +1504,7 @@ export const posts: Post[] = [
         'green coffee warehousing cost',
         'Djibouti port coffee shipping rates'
       ],
-      desc: 'How to calculate the true landed cost of Ethiopian green coffee. Step-by-step breakdown of FOB, freight, insurance, customs duties, port handling, warehousing, and hidden costs. Includes worked examples, FCL vs LCL comparison, and cost-reduction strategies for importers and roasters.'
+      desc: 'How to calculate the landed cost of Ethiopian green coffee: FOB, freight, insurance, duties, port handling, hidden costs, and worked FCL examples.'
     },
     // ===== MICRO-LOT ETHIOPIAN COFFEE SOURCING GUIDE =====
     {
@@ -1533,7 +1536,7 @@ export const posts: Post[] = [
         'direct trade micro lot buying',
         'micro lot cupping score requirements'
       ],
-      desc: 'What micro-lot Ethiopian coffee is, how it differs from standard specialty, which origins produce the best lots, FOB pricing benchmarks ($9â€“$13+/kg), step-by-step sourcing from an exporter perspective, quality evaluation, logistics, and FAQs for importers and roasters.'
+      desc: 'Micro-lot Ethiopian coffee explained: how it differs from standard specialty, top origins, FOB pricing of $9 to $13+/kg, sourcing steps, and logistics.'
     },
     // ===== ETHIOPIAN COFFEE TRACEABILITY GUIDE =====
     {
@@ -1566,7 +1569,7 @@ export const posts: Post[] = [
         'coffee chain of custody',
         'coffee traceability for roasters'
       ],
-      desc: 'How Ethiopian coffee traceability works from farm to port: five traceability levels, ECX vs. direct specialty channels, required documentation, digital tools, EUDR compliance, cost-benefit analysis, and a practical verification framework for importers and roasters.'
+      desc: 'How Ethiopian coffee traceability works from farm to port: five levels, ECX vs direct channels, documentation, EUDR compliance, and verification steps.'
     },
     // ===== ETHIOPIAN COFFEE VS KENYAN COFFEE =====
     {
@@ -1598,7 +1601,7 @@ export const posts: Post[] = [
         'kenya AA coffee price',
         'green coffee african origins'
       ],
-      desc: 'Ethiopian coffee vs Kenyan coffee compared for importers and roasters: flavor profiles, SL-28 vs heirloom varieties, ECX vs Nairobi auction, grading systems, FOB pricing, seasonal availability, and sourcing guidance for both East African specialty origins.'
+      desc: 'Ethiopian coffee vs Kenyan coffee for importers: flavor profiles, varieties, auction systems, grading, FOB pricing, and seasonal availability.'
     },
     // ===== ETHIOPIAN COFFEE VS BRAZILIAN COFFEE =====
     {
@@ -1682,7 +1685,7 @@ export const posts: Post[] = [
         'quarterly coffee buying plan',
         'green coffee seasonal sourcing'
       ],
-      desc: 'Ethiopian coffee harvest calendar with region-by-region timing, shipping windows, and a quarterly buying plan for importers and roasters sourcing Yirgacheffe, Sidamo, Guji, Harar, Limu, and Jimma.'
+      desc: 'Ethiopian coffee harvest calendar with region-by-region timing, shipping windows, and a quarterly buying plan for importers and roasters.'
     },
     // ===== ETHIOPIAN COFFEE VS COLOMBIAN COFFEE =====
     {
@@ -1709,7 +1712,7 @@ export const posts: Post[] = [
         'african vs south american coffee',
         'FOB coffee pricing ethiopia colombia'
       ],
-      desc: 'Ethiopian coffee vs Colombian coffee compared for importers and roasters: flavor profiles, grading systems, FOB pricing, seasonal availability, production data, and sourcing guidance for both specialty origins.'
+      desc: 'Ethiopian coffee vs Colombian coffee for importers: flavor profiles, grading systems, FOB pricing, seasonal availability, and sourcing guidance.'
     },
     // ===== DECAF GREEN COFFEE PROCESSING & SOURCING =====
     {
@@ -1773,7 +1776,7 @@ export const posts: Post[] = [
         'coffee differential pricing',
         'ethiopian export permit coffee'
       ],
-      desc: 'Complete guide to Ethiopian coffee contracts and payment terms. Learn spot, forward, and fixed-price structures plus LC, CAD, and TT payment methods. Covers ECX vs direct export, Incoterms, quality clauses, and practical steps from sample to signed contract.'
+      desc: 'Ethiopian coffee contracts and payment terms: spot, forward, and fixed-price structures plus LC, CAD, and TT methods, Incoterms, and quality clauses.'
     },
     // ===== GREEN COFFEE STORAGE & SHELF LIFE =====
     {
@@ -1805,7 +1808,7 @@ export const posts: Post[] = [
         'coffee lipid oxidation',
         'green coffee quality over time'
       ],
-      desc: 'How long does green coffee last? Practical storage guide covering moisture content, water activity science, packaging options (jute vs GrainPro vs vacuum), warehouse protocols, sensory aging timeline, and Ethiopian origin-specific storage notes for importers and roasters.'
+      desc: 'How long green coffee lasts: moisture and water activity science, jute vs GrainPro vs vacuum packaging, warehouse protocols, and aging timelines.'
     },
     // ===== COFFEE ROASTING & QUALITY =====
     {
@@ -1833,7 +1836,7 @@ export const posts: Post[] = [
         'sample roast Ethiopian green coffee',
         'Ethiopian coffee rest time after roasting'
       ],
-      desc: 'Master roasting Ethiopian coffee with region-specific profiles for Yirgacheffe, Sidamo, Guji, and Harrar. Covers washed vs natural strategies, charge temperatures, development time ratios, common defect fixes, and sample roasting protocols for specialty roasters.'
+      desc: 'How to roast Ethiopian coffee: region-specific profiles for Yirgacheffe, Sidamo, Guji, and Harrar, charge temps, development ratios, and defect fixes.'
     },
     // ===== ORGANIC SOURCING & BULK BUYING =====
     {
@@ -1863,7 +1866,7 @@ export const posts: Post[] = [
         'organic coffee transaction certificate',
         'organic coffee chain of custody'
       ],
-      desc: 'How to find, vet, and buy from certified organic coffee bean exporters for bulk orders. Covers USDA, EU, and JAS certification, pricing and organic premiums, MOQs, transaction certificates, chain of custody verification, and Ethiopian organic origin profiles.'
+      desc: 'How to find and vet certified organic coffee bean exporters for bulk orders: USDA, EU, and JAS certification, organic premiums, MOQs, and verification.'
     },
     // ===== BREWING METHODS & EDUCATION =====
     {
@@ -1890,7 +1893,7 @@ export const posts: Post[] = [
         'coffee brewing methods no equipment',
         'campfire coffee recipe'
       ],
-      desc: '7 proven ways to make coffee without a coffeemaker, with step-by-step instructions, grind size tables, water temperature guidance, and a comparison chart for every method.'
+      desc: '7 proven ways to make coffee without a coffeemaker, with step-by-step instructions, grind size tables, and water temperature guidance.'
     },
     // ===== COFFEE MARKET & PREMIUM PRICING =====
     {
@@ -1926,7 +1929,7 @@ export const posts: Post[] = [
         'best value specialty coffee',
         'coffee price drivers'
       ],
-      desc: 'The most expensive coffee in the world ranked by price, with expert analysis of what drives premium value from Gesha auctions to Ethiopian micro-lots. A buyer-focused guide for importers and roasters.'
+      desc: 'The most expensive coffee in the world ranked by price, with analysis of what drives premium value from Gesha auctions to Ethiopian micro-lots.'
     },
     // ===== SOURCING & TRADE / EXPORT GUIDE =====
     {
@@ -1957,7 +1960,7 @@ export const posts: Post[] = [
         'Ethiopian coffee exporter vs broker',
         'first time importing Ethiopian coffee'
       ],
-      desc: 'A practical framework for evaluating Ethiopian coffee export companies. Covers ECTA licensing, a 10-point exporter scorecard, red flags to watch for, due diligence steps for first-time buyers, and pricing structure.'
+      desc: 'How to evaluate an Ethiopian coffee export company: ECTA licensing, a 10-point exporter scorecard, red flags, and due diligence for first-time buyers.'
     },
     // ===== GENDER & SOCIAL IMPACT =====
     {
@@ -1997,7 +2000,7 @@ export const posts: Post[] = [
         'women empowerment coffee',
         'coffee supply chain gender'
       ],
-      desc: 'Women in Ethiopian coffee perform 60 to 70 percent of the labor from selective harvesting to sorting and export preparation. Learn about their role in quality, the barriers they face, cooperative reforms, training programs, and what importers can do to source with gender equity in mind.'
+      desc: 'Women perform 60 to 70 percent of the labor in Ethiopian coffee. Their role in quality, the barriers they face, and how importers can source equitably.'
     },
     // ===== CLIMATE & SUSTAINABILITY =====
     {
@@ -2032,7 +2035,7 @@ export const posts: Post[] = [
         'ethiopian coffee sustainability',
         'coffee deforestation ethiopia'
       ],
-      desc: 'How climate change is reshaping Ethiopian coffee: region-by-region impact analysis, genetic diversity advantages, adaptation strategies, pricing implications, and actionable sourcing guidance for importers building climate-resilient portfolios.'
+      desc: 'How climate change is reshaping Ethiopian coffee: region-by-region impacts, genetic diversity, adaptation strategies, and resilient sourcing guidance.'
     },
     // ===== PRICING & TRADE GUIDANCE =====
     {
@@ -2068,7 +2071,7 @@ export const posts: Post[] = [
         'coffee fixed price contract',
         'ethiopian coffee seasonal pricing'
       ],
-      desc: 'Practical guide to Ethiopian green coffee pricing for importers: FOB Djibouti costs, C-market differentials, ECX auction dynamics, indicative price ranges by region and grade, shipping terms, contract types, payment methods, and seasonal buying strategies.'
+      desc: 'Ethiopian green coffee pricing for importers: FOB Djibouti costs, C-market differentials, price ranges by region and grade, and buying strategies.'
     },
     // ===== MARKET INTELLIGENCE & TRADE DATA =====
     {
@@ -2107,7 +2110,7 @@ export const posts: Post[] = [
         'coffee import trends 2024',
         'coffee import trends 2025'
       ],
-      desc: 'Comprehensive analysis of the top Ethiopian coffee importers and buyers for 2024/2025, featuring detailed import values, volumes, and profiles of the largest traders including Volcafe, Trabocca, InterAmerican, and specialized regional buyers across Europe, Middle East, and Asia.'
+      desc: 'The top Ethiopian coffee importers and buyers for 2024/2025: import values, volumes, and profiles of Volcafe, Trabocca, InterAmerican, and more.'
     },
     // ===== COMPANY NEWS (Oldest - Foundational) =====
     {
@@ -2133,7 +2136,7 @@ export const posts: Post[] = [
         'Ethio Coffee Export',
         'Guji Hambella drying station'
       ],
-      desc: 'Ethio Coffee Import and Export PLC is an origin-connected Ethiopian coffee exporter with a drying station in Guji Hambella and heritage sourcing across all major regions. See our step-by-step buyer journey, available origins, export documentation, and 2026/27 season availability.'
+      desc: 'Ethio Coffee Import and Export PLC is an origin-connected Ethiopian coffee exporter. See our buyer journey, origins, documentation, and availability.'
     },
     {
       small_image_url: 'insights/ethiopian-coffee-exporter-2025.webp',
@@ -2165,7 +2168,7 @@ export const posts: Post[] = [
         'sidamo coffee exporter',
         'guji coffee exporter'
       ],
-      desc: 'Ethio Coffee Import and Export PLC evaluated against six core criteria international buyers use to choose an Ethiopian coffee exporter: sourcing depth across 6 regions, 84+ SCA cup scores, full lot traceability, complete export documentation, FOB/FCA logistics, and experienced export team communication serving 40+ countries.'
+      desc: 'What makes the best Ethiopian coffee exporter: six criteria buyers use, from sourcing depth and 84+ SCA scores to traceability and documentation.'
     },
     // ===== COFFEE CULTURE & HERITAGE (Foundation) =====
     {
@@ -2200,7 +2203,7 @@ export const posts: Post[] = [
       slug: 'ethiopian-coffee-ceremony',
       category: 'Coffee Culture & Heritage',
       keywords: ['Ethiopian coffee ceremony', 'jebena', 'buna tetu', 'coffee culture', 'traditional Ethiopian coffee', 'abol tona baraka', 'Ethiopian coffee tradition', 'coffee hospitality'],
-      desc: 'Learn the Ethiopian coffee ceremony\'s step-by-step process, its three rounds (abol, tona, baraka), and why this centuries-old tradition matters for coffee importers, roasters, and specialty buyers.'
+      desc: 'The Ethiopian coffee ceremony step by step: its three rounds (abol, tona, baraka) and why the tradition matters for importers and specialty buyers.'
     },
     {
       small_image_url: 'insights/cofee-blog-7-1.png',
@@ -2211,7 +2214,7 @@ export const posts: Post[] = [
       slug: 'direct-trade-ethiopian-farmers',
       category: 'Trade & Sourcing',
       keywords: ['direct trade Ethiopian coffee', 'direct trade coffee Ethiopia', 'Ethiopian coffee direct trade', 'direct trade green coffee', 'Ethiopia coffee sourcing', 'buy direct trade Ethiopian coffee', 'direct trade vs fair trade Ethiopian coffee', 'how does direct trade work in Ethiopia', 'verify direct trade coffee claims', 'ECX vertical integration Ethiopian coffee', 'Ethiopian coffee exporter direct trade', 'direct sourcing Ethiopian specialty coffee'],
-      desc: 'How direct trade works in Ethiopia\'s export system. A guide for importers and roasters on sourcing, pricing, verification, and the ECX reforms that enable traceable, direct Ethiopian coffee exports.'
+      desc: 'How direct trade works in Ethiopia\'s export system: sourcing, pricing, verification, and the ECX reforms that enable traceable Ethiopian coffee.'
     },
     {
       small_image_url: 'insights/coffee-logistics-freight.webp',
@@ -2272,14 +2275,14 @@ export const posts: Post[] = [
         'Catimor Sarchimor introgressed',
         'coffee plant science'
       ],
-      desc: 'A buyer\'s guide to coffee botany: from genus Coffea to the varieties on your offer sheet. Covers coffee taxonomy, cherry anatomy, Arabica vs Robusta vs Liberica species, the genetic bottleneck, four major variety groups, and why taxonomy matters for green coffee sourcing decisions.'
+      desc: 'Coffee botany for buyers: taxonomy, cherry anatomy, Arabica vs Robusta vs Liberica, the genetic bottleneck, and why varieties matter for sourcing.'
     },
     {
       small_image_url: 'insights/coffee-agriculture.webp',
       large_image_url: 'insights/coffee-agriculture.webp',
       date: 'Aug 01, 2025',
       dateModified: 'Mar 12, 2026',
-      title: 'Ethiopian Coffee Agriculture: How Farming Shapes Green Coffee Quality',
+      title: 'How Farming Shapes Ethiopian Green Coffee Quality',
       slug: 'coffee-is-agriculture-production-farming',
       category: 'Coffee Education',
       keywords: [
@@ -2297,7 +2300,7 @@ export const posts: Post[] = [
         'Ethiopian green coffee quality',
         'coffee plant lifecycle'
       ],
-      desc: 'How Ethiopia\'s four farming systems, volcanic soils, shade canopy, and altitude bands shape green coffee quality. A buyer\'s guide to Ethiopian coffee agriculture with production data, terroir analysis, and sourcing strategy.'
+      desc: 'How Ethiopia\'s four farming systems, volcanic soils, shade canopy, and altitude bands shape green coffee quality, with production data and strategy.'
     },
     {
       small_image_url: 'insights/coffee-processing.webp',
@@ -2325,7 +2328,7 @@ export const posts: Post[] = [
         'washed vs natural coffee',
         'anaerobic coffee processing'
       ],
-      desc: 'How washed, honey, and natural processing shape Ethiopian green coffee quality. A buyer\u2019s guide to fermentation, drying methods, milling, and what processing data means for importers and roasters.'
+      desc: 'How washed, honey, and natural processing shape Ethiopian green coffee quality: fermentation, drying methods, milling, and what the data means.'
     },
     {
       small_image_url: 'insights/coffee-commerce.webp',
@@ -2351,7 +2354,7 @@ export const posts: Post[] = [
         'FOB coffee pricing',
         'coffee futures'
       ],
-      desc: 'How coffee is priced, traded, exported, and imported globally. Covers the C market, specialty differentials, Incoterms, the pricing waterfall from cherry to cup, risk management, EUDR compliance, and the green coffee buying process for importers and roasters.'
+      desc: 'How coffee is priced, traded, exported, and imported: the C market, specialty differentials, Incoterms, risk management, and the buying process.'
     },
     {
       small_image_url: 'insights/coffee-science.webp',
@@ -2396,7 +2399,7 @@ export const posts: Post[] = [
         'coffee cupping extraction',
         'origin quality roasting'
       ],
-      desc: 'Learn how roasting and brewing decisions reveal or conceal origin quality. Covers roast science, Ethiopian profiles, extraction fundamentals, and practical brewing recipes for specialty importers.'
+      desc: 'How roasting and brewing decisions reveal or conceal origin quality: roast science, Ethiopian profiles, extraction fundamentals, and brew recipes.'
     },
     {
       small_image_url: 'insights/coffee-education-guide.webp',
@@ -2486,7 +2489,7 @@ export const posts: Post[] = [
         'Ethiopian coffee grades explained',
         'Ethiopian coffee sourcing guide for roasters'
       ],
-      desc: 'A complete sourcing playbook for importers and roasters covering Ethiopian coffee export channels, grades (G1-G5), documentation, pricing, seasonal timing, and how to evaluate exporters.'
+      desc: 'A sourcing playbook for importers: Ethiopian coffee export channels, grades G1 to G5, documentation, pricing, timing, and evaluating exporters.'
     },
     {
       id: 1,
@@ -2522,7 +2525,7 @@ export const posts: Post[] = [
         'Ethiopian green coffee origins',
         'multi-origin Ethiopian coffee program'
       ],
-      desc: 'Side-by-side comparison of Yirgacheffe, Sidamo, and Guji Ethiopian green coffee covering cup profiles, sub-zones, pricing, roast compatibility, and multi-origin buying strategy for importers and roasters.'
+      desc: 'Yirgacheffe vs Sidamo vs Guji compared: cup profiles, sub-zones, pricing, roast compatibility, and multi-origin buying strategy for importers.'
     },
     {
       small_image_url: 'insights/washed-vs-natural.webp',
@@ -2577,7 +2580,7 @@ export const posts: Post[] = [
         'pre-shipment coffee sample',
         'buyer quality control coffee'
       ],
-      desc: 'A buyer-focused guide to green coffee defects, SCA specialty requirements, physical quality measurements, and a step-by-step inspection protocol for importers and roasters evaluating Ethiopian coffee samples.'
+      desc: 'Green coffee defects and quality control for buyers: SCA specialty requirements, physical measurements, and a step-by-step inspection protocol.'
     },
     {
       small_image_url: 'insights/dry-coffee-processing-ethiopia.webp',
@@ -2609,14 +2612,14 @@ export const posts: Post[] = [
         'Sidamo natural coffee processing',
         'Harar dry processed coffee'
       ],
-      desc: 'Practical QC guide for Ethiopian natural (dry processed) coffee. Stage-by-stage quality checks from cherry selection through drying and storage, with a buyer\'s evaluation checklist, regional quality profiles, and defect-to-cause mapping for importers and roasters.'
+      desc: 'QC guide for Ethiopian natural coffee: stage-by-stage checks from cherry selection through drying and storage, with a buyer evaluation checklist.'
     },
     {
       small_image_url: 'insights/coffee-cupping-quality.webp',
       large_image_url: 'insights/coffee-cupping-quality.webp',
       date: 'Dec 08, 2025',
       dateModified: 'Mar 12, 2026',
-      title: 'SCA Coffee Value Assessment: Complete Guide for Green Coffee Buyers',
+      title: 'SCA Coffee Value Assessment: Buyer\'s Guide',
       slug: 'new-sca-coffee-value-assessment',
       category: 'Quality & Grading / Industry Standards',
       keywords: [
@@ -2645,7 +2648,7 @@ export const posts: Post[] = [
         'CVA for cuppers training',
         'green coffee contract CVA'
       ],
-      desc: 'Complete guide to the SCA Coffee Value Assessment (CVA) for green coffee buyers, roasters, and Ethiopian exporters. Covers all four pillars (CVA 102-105), comparison with traditional cupping scores, Ethiopian origin examples, and practical steps to adopt the new framework in your sourcing workflow.'
+      desc: 'The SCA Coffee Value Assessment (CVA) explained for green coffee buyers: all four pillars, comparison with traditional cupping, and adoption steps.'
     },
     {
       small_image_url: 'insights/ecx-coffee-export.webp',
@@ -2674,7 +2677,7 @@ export const posts: Post[] = [
         'how to choose Ethiopian coffee exporter',
         'Ethiopian coffee trade 2025'
       ],
-      desc: 'Complete guide to the Ethiopia Commodity Exchange (ECX): grading system for washed and natural coffees (G1â€“G5), ECTA methodology (40% raw + 60% cup), ECX vs DSL vs cooperative export channels, Directive 1106/2025 reforms, EUDR traceability, pricing dynamics, and how to evaluate ECX-registered exporters. Updated with 2024/25 record $2.65B export data.'
+      desc: 'The Ethiopia Commodity Exchange (ECX) explained: G1 to G5 grading, ECTA methodology, ECX vs DSL channels, Directive 1106/2025, and EUDR traceability.'
     },
     {
       id: 11,
@@ -2707,7 +2710,7 @@ export const posts: Post[] = [
         'Ethiopian coffee pricing volume',
         'coffee importer guide MOQ'
       ],
-      desc: 'Complete guide to Ethiopian coffee minimum order quantities: 2025-2026 pricing, container math, payment terms (LC, TT), supply chain timing, strategies for small roasters, LCL consolidation options, negotiation tactics with email templates, and sample vs. commercial order programs.'
+      desc: 'Ethiopian coffee minimum order quantities: container math, payment terms, strategies for small roasters, LCL consolidation, and negotiation tactics.'
     },
     // ===== IMPORT GUIDES BY COUNTRY (Grouped by Region) =====
     // North America
@@ -2740,7 +2743,7 @@ export const posts: Post[] = [
         'ethiopian coffee for us roasters',
         'brazilian coffee tariff usa'
       ],
-      desc: 'Complete 2026 guide to importing Ethiopian specialty coffee to the United States covering FDA regulations, customs documentation, AGOA suspension update, HTS 0901.11 duty-free entry, shipping logistics from Djibouti, landed cost breakdown, and working with Ethio Coffee Export.'
+      desc: '2026 guide to importing Ethiopian coffee to the USA: FDA rules, customs documentation, duty-free HTS 0901.11 entry, shipping from Djibouti, and costs.'
     },
     {
       small_image_url: 'insights/canada-coffee-import.webp',
@@ -2771,7 +2774,7 @@ export const posts: Post[] = [
         'carm coffee import 2026',
         'cbsa carm portal'
       ],
-      desc: 'Step-by-step guide to importing Ethiopian coffee to Canada: CFIA, CBSA, CARM portal, duties, GST/HST, shipping routes, landed costs, and customs clearance for Canadian roasters.'
+      desc: 'Import Ethiopian coffee to Canada: CFIA, CBSA, CARM portal, duties, GST/HST, shipping routes, and customs clearance for Canadian roasters.'
     },
     // Europe
     {
@@ -2807,7 +2810,7 @@ export const posts: Post[] = [
         'bio siegel organic coffee',
         'ochratoxin a coffee eu'
       ],
-      desc: 'Complete guide to importing Ethiopian specialty coffee to Germany and the EU: EU food safety regulations, BVL compliance, German customs (Zoll), Kaffeesteuer (â‚¬2.19/kg coffee tax), Form A GSP+ duty-free treatment, EUDR deforestation regulation, Lieferkettengesetz (Supply Chain Act), shipping to Hamburg, bonded warehouse strategies, landed cost breakdown, and partnering with Ethio Coffee Export for German/EU market entry.'
+      desc: 'Import Ethiopian coffee to Germany: customs, the €2.19/kg Kaffeesteuer, duty-free GSP+ entry, EUDR, Hamburg shipping, and landed cost breakdown.'
     },
     {
       small_image_url: 'insights/rotterdam-coffee-import.webp',
@@ -2834,7 +2837,7 @@ export const posts: Post[] = [
         'benelux coffee distribution',
         'specialty coffee netherlands'
       ],
-      desc: 'Updated 2026 guide to importing Ethiopian green coffee via Rotterdam. Covers Dutch coffee market data (222,400 tonnes imported in 2024), GSP+ duty-free access, Article 23 VAT deferral, EUDR compliance timelines, NVWA regulations, customs clearance, bonded storage, certification trends, and landed cost breakdown for a 20ft container.'
+      desc: '2026 guide to importing Ethiopian coffee via Rotterdam: GSP+ duty-free access, Article 23 VAT deferral, EUDR timelines, NVWA rules, and landed cost.'
     },
     {
         small_image_url: 'insights/importing-ethiopian-coffee-to-belgium.webp',
@@ -2864,7 +2867,7 @@ export const posts: Post[] = [
         'eu distribution coffee',
         'ethiopian coffee logistics europe'
       ],
-      desc: 'Guide to importing Ethiopian green coffee into Belgium through Antwerp, covering Belgium\'s role as a re-export hub, warehouse-first logistics, buyer fit, EUDR readiness, duty-free green coffee entry, and documentation strategy for Benelux and nearby EU distribution.'
+      desc: 'Import Ethiopian green coffee through Antwerp: Belgium\'s re-export hub role, warehouse-first logistics, EUDR readiness, and documentation strategy.'
     },
     // Middle East
     {
@@ -2893,7 +2896,7 @@ export const posts: Post[] = [
         'red sea coffee shipping',
         'saudi specialty coffee'
       ],
-      desc: 'Complete guide to importing Ethiopian specialty coffee to Saudi Arabia covering SFDA product registration, Zatca customs clearance, SABER conformity, VAT structure, Red Sea shipping from Djibouti to Jeddah, cost analysis, and working with Ethio Coffee Export for successful Saudi market entry.'
+      desc: 'Import Ethiopian coffee to Saudi Arabia: SFDA registration, SABER conformity, Zatca clearance, VAT, Jeddah shipping from Djibouti, and cost analysis.'
     },
     {
       small_image_url: 'insights/uae-coffee-import.webp',
@@ -2960,7 +2963,7 @@ export const posts: Post[] = [
         'organic coffee import uk',
         'btom coffee import'
       ],
-      desc: 'Post-Brexit guide to importing Ethiopian specialty coffee to the UK: DCTS duty-free access, HMRC customs via CDS, FSA food safety, EORI registration, shipping to Felixstowe, Tilbury, London Gateway and Liverpool, organic import procedures, UK specialty market channels, landed cost breakdown, and sourcing from Ethiopian exporters.'
+      desc: 'Post-Brexit guide to importing Ethiopian coffee to the UK: DCTS duty-free access, HMRC customs, FSA rules, EORI, Felixstowe shipping, and landed cost.'
     },
     // Asia Pacific
     {
@@ -2993,7 +2996,7 @@ export const posts: Post[] = [
         'gst coffee import',
         'australian specialty coffee'
       ],
-      desc: 'Complete guide to importing Ethiopian specialty coffee to Australia covering DAFF biosecurity requirements, Australian Border Force customs procedures, phytosanitary certificates, zero duty and GST structure, shipping to Melbourne and Sydney ports, Australian coffee market insights (world\'s most quality-focused), cost breakdown, and partnering with Ethio Coffee Export for successful Australian market entry.'
+      desc: 'Import Ethiopian coffee to Australia: DAFF biosecurity, customs procedures, zero duty and GST, Melbourne and Sydney shipping, and cost breakdown.'
     },
     // Asia
     {
@@ -3054,7 +3057,7 @@ export const posts: Post[] = [
         'japanese coffee culture',
         'asia coffee import'
       ],
-      desc: 'Comprehensive guide to importing Ethiopian specialty coffee to Japan covering MHLW food safety compliance, FAINS notification system, Japan Customs procedures, consumption tax structure, shipping to Tokyo/Yokohama/Kobe ports, Japanese business culture, cost analysis, and partnering with Ethio Coffee Export for successful Japanese market entry.'
+      desc: 'Import Ethiopian coffee to Japan: MHLW food safety, FAINS notification, customs procedures, consumption tax, and shipping to Tokyo and Yokohama.'
     },
     // ===== MARKET INSIGHTS & TRENDS (Timely Content) =====
     {
@@ -3085,7 +3088,7 @@ export const posts: Post[] = [
         'China coffee market size 2025',
         'source Ethiopian coffee for China'
       ],
-      desc: 'Ethiopia exported over 11,000 tonnes of coffee to China in 2023/24 â€” a tenfold increase in a decade. This market analysis covers verified trade data, zero-tariff access, the birr-yuan currency swap, China\'s $51.8 billion coffee market, and what the growth means for international buyers sourcing Ethiopian green coffee.'
+      desc: 'Ethiopia exported over 11,000 tonnes of coffee to China in 2023/24, a tenfold rise in a decade: trade data, zero-tariff access, and buyer implications.'
     },
     {
       small_image_url: 'insights/ethiopian-harvest-2025.webp',
@@ -3171,7 +3174,7 @@ export const posts: Post[] = [
         'why are specialty coffee prices rising',
         'Ethiopian specialty coffee sourcing 2026'
       ],
-      desc: 'Five data-backed specialty coffee trends for 2026 that importers and roasters need in their sourcing strategy: regulatory traceability, experimental processing growth, climate-resilient genetics, price restructuring, and story-driven premiumization.'
+      desc: 'Five data-backed specialty coffee trends for 2026: regulatory traceability, experimental processing, climate-resilient genetics, and premiumization.'
     },
     {
       small_image_url: 'insights/rising-coffee-prices.webp',
@@ -3219,7 +3222,7 @@ export const posts: Post[] = [
         'coffee price strategy',
         'Ethiopian coffee investment'
       ],
-      desc: 'Comprehensive analysis of why Ethiopian coffee prices are rising in 2026. Explore global market dynamics, Brazilian production crisis, climate change impacts, currency devaluation, cost inflation, specialty premiums, and strategic sourcing recommendations for importers and roasters navigating high coffee prices.'
+      desc: 'Why Ethiopian coffee prices are rising in 2026: global market dynamics, climate impacts, currency shifts, specialty premiums, and sourcing strategy.'
     },
     // ===== REGULATIONS & COMPLIANCE (Most Recent/Timely) =====
     {
@@ -3272,7 +3275,7 @@ export const posts: Post[] = [
         'EUDR enforcement 2026 coffee',
         'EUDR information system coffee'
       ],
-      desc: 'Complete guide to EUDR compliance for Ethiopian coffee exporters — now that enforcement is active. Covers Ethiopia\u2019s standard-risk classification, the national traceability platform, country benchmarking, geolocation requirements, due diligence steps, and what exporters must do to retain EU market access in 2026.'
+      desc: 'EUDR compliance for Ethiopian coffee: risk classification, the national traceability platform, geolocation requirements, and due diligence steps.'
     },
     {
       small_image_url: 'insights/afca-competition-coffee.webp',
@@ -3523,7 +3526,7 @@ export const posts: Post[] = [
         'Ethiopian coffee export regulations',
         'buy Ethiopian specialty coffee'
       ],
-      desc: 'Ethiopia exported 469,000 metric tons of coffee in 2024/25, generating a record $2.65 billion in revenue. This guide covers 2025/26 harvest dynamics (cherry prices surging to 250 ETB/kg, washed lots tightening, EU organic certification declining), EUDR compliance requirements, quality grading standards, and exporter evaluation criteria for international roasters and wholesale buyers sourcing from Ethiopian specialty coffee exporters.'
+      desc: '2026 guide to Ethiopian specialty coffee exporters: harvest dynamics, cherry prices, EUDR compliance, grading standards, and evaluation criteria.'
     },
     {
       small_image_url: 'insights/private-cooperative-exporters.webp',
@@ -3585,7 +3588,7 @@ export const posts: Post[] = [
         'Ethiopian coffee export models',
         'Ethiopian coffee 7.8 million bags'
       ],
-      desc: 'Compare private and cooperative Ethiopian coffee exporters: pricing, logistics, EUDR compliance, certifications, and which channel fits your sourcing needs. Covers Directive 1106/2025 capital requirements, FOB price ranges by channel, DSL specialty line, contract and payment differences, and a practical exporter evaluation checklist for importers and roasters.'
+      desc: 'Private vs cooperative Ethiopian coffee exporters: pricing, logistics, EUDR compliance, Directive 1106/2025, and which channel fits your sourcing.'
     },
     {
       id: 13,
@@ -3743,7 +3746,7 @@ export const posts: Post[] = [
         'forward FX contract coffee importer',
         'Ethiopian coffee fixed price forward contract'
       ],
-      desc: 'A practical framework for green coffee price hedging: how to use fixed-price forward contracts, call options, ICE coffee futures, trade finance instruments, and forward FX contracts to protect import margins and manage working capital when sourcing Ethiopian green coffee.'
+      desc: 'Green coffee price hedging for importers: fixed-price forwards, call options, ICE futures, trade finance, and forward FX to protect import margins.'
     },
     // ===== IMPORTING ETHIOPIAN COFFEE TO TURKEY =====
     {
@@ -3821,7 +3824,7 @@ export const posts: Post[] = [
         'green coffee customs clearance India',
         'Ethiopia India coffee trade'
       ],
-      desc: 'How to import Ethiopian coffee to India: FSSAI regulations, customs duties, Arabian Sea shipping, market insights, and sourcing guidance for Indian roasters and importers.'
+      desc: 'How to import Ethiopian coffee to India: FSSAI regulations, customs duties, Arabian Sea shipping, and sourcing guidance for Indian roasters.'
     },
     // ===== HORECA & CAFE CHAIN PROCUREMENT GUIDE =====
     {
@@ -3863,6 +3866,6 @@ export const posts: Post[] = [
         'scope 3 coffee procurement',
         'ethiopian coffee b2b procurement'
       ],
-      desc: 'How café chains, hotel groups, and restaurant franchises source Ethiopian coffee at scale: origin selection by application, supply reliability strategies, certification requirements, and a supplier evaluation checklist for procurement managers and F&B directors.'
+      desc: 'How café chains, hotel groups, and franchises source Ethiopian coffee at scale: origin selection, supply reliability, and a supplier checklist.'
     },
 ]

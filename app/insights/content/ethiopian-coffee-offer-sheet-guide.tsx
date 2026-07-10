@@ -35,9 +35,7 @@ export default function EthiopianCoffeeOfferSheetGuide({
 
       <figure>
         <figcaption className='font-inconsolata my-2'>{title}</figcaption>
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
-          {/* TODO: Replace placeholder with final hero image asset */}
-          {/* Expected path: /images/insights/ethiopian-coffee-offer-sheet-guide.webp */}
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Ethiopian coffee offer sheet guide showing a buyer comparing green coffee lot specs and cupping data'
