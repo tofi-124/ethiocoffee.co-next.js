@@ -412,6 +412,32 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Ethiopian green coffee stores well for 10 to 12 months in GrainPro-lined bags at 18 to 22 degrees Celsius and below 60% relative humidity. Natural lots are more sensitive to aging than washed lots. Plan your blend program to use natural components within 8 months of arrival."
     }
   ],
+  "ethiopian-coffee-export-process-buyers-guide": [
+    {
+      "question": "What documents are needed to export coffee from Ethiopia?",
+      "answer": "Ethiopian coffee exports require a CLU quality certificate, phytosanitary certificate, ICO certificate of origin, Chamber of Commerce certificate of origin, commercial invoice, packing list, Bill of Lading, customs declaration, and bank permit. EU-bound shipments also require a EUDR due diligence statement with geolocation data, mandatory for large operators from December 30, 2026."
+    },
+    {
+      "question": "How long does it take to export coffee from Ethiopia?",
+      "answer": "From signed contract to vessel departure at Djibouti, the typical timeline is 30 to 55 days. Peak season (January to April) can extend this to 40 to 70 days. Add ocean transit time (4 to 35 days depending on destination) for total supply chain lead time."
+    },
+    {
+      "question": "What is the CLU inspection for Ethiopian coffee?",
+      "answer": "The Coffee Liquoring Unit (CLU), operated by the Ethiopian Coffee and Tea Authority (ECTA), inspects every lot of coffee before export. Inspectors evaluate physical attributes (moisture, screen size, defect count) and sensory quality (cupping), then assign an official grade (G1 through G5 for exportable coffee). No coffee can leave Ethiopia without a CLU certificate."
+    },
+    {
+      "question": "What happens if a lot fails the CLU inspection?",
+      "answer": "If a lot grades below the contracted specification, the exporter must re-sort, re-mill, or resubmit a new sample. This can add 5 to 14 days to the timeline. Good exporters mitigate this by running internal quality checks at their own cupping lab before submitting to the CLU. Grade rejections are one of the most common causes of shipment delay."
+    },
+    {
+      "question": "How does coffee get from Addis Ababa to the port of Djibouti?",
+      "answer": "Sealed containers travel approximately 900 km from Addis Ababa to Djibouti by road transport (2 to 4 days) or the Addis Ababa-Djibouti railway (24 to 36 hours). Ethiopia is landlocked, so all ocean-bound coffee exports transit through Djibouti port, making this corridor a critical link in the supply chain."
+    },
+    {
+      "question": "How has the Red Sea situation affected Ethiopian coffee shipping in 2026?",
+      "answer": "Djibouti port remains fully operational, but many Europe-bound carriers still route via the Cape of Good Hope in mid-2026, extending Djibouti-to-Europe transit from 18 to 25 days to 35 to 45 days. Global vessel rerouting also causes container shortages and blank sailings, so buyers should confirm routing at booking."
+    }
+  ],
   "ethiopian-coffee-exporter-vs-broker-vs-trader": [
     {
       "question": "What markup does a typical Ethiopian coffee broker add over the FOB price?",

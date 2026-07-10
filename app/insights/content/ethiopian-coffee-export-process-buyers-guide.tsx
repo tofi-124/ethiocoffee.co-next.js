@@ -63,6 +63,18 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
         </p>
       </div>
 
+      {/* 2026 UPDATE BOX */}
+      <div className='bg-gray-50 text-gray-800 p-6 rounded-lg my-6 border border-gray-200'>
+        <p className='font-bold mb-2'>Updated July 10, 2026. What changed in the Ethiopian coffee export process this year:</p>
+        <ul className='list-disc ml-5 space-y-1 text-sm'>
+          <li>Ethiopia earned a record $3.0 billion from coffee exports in the 2025/26 fiscal year that ended in July 2026 (Ethiopian Coffee and Tea Authority).</li>
+          <li>EUDR compliance dates moved again: large operators must comply from December 30, 2026; micro and small enterprises from June 30, 2027 (Regulation (EU) 2025/2650, adopted December 2025).</li>
+          <li>ECTA continues decentralizing quality inspection: regional certification centers now operate in Jimma, Hawassa, Dire Dawa, and Dilla (inaugurated September 2025) alongside the Addis Ababa CLU.</li>
+          <li>NBE Directive FXD/04/2026 (effective February 12, 2026) authorized forward foreign exchange contracts for exporters; the 50% foreign currency surrender requirement for goods exporters remains.</li>
+          <li>Red Sea security still shapes ocean routing in mid-2026: many Europe-bound sailings continue to divert via the Cape of Good Hope, extending transit times.</li>
+        </ul>
+      </div>
+
       {/* TABLE OF CONTENTS */}
       <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4 flex items-center gap-2'>
@@ -88,7 +100,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
         Most B2B buyers interact with their Ethiopian coffee exporter at two points: when signing the contract and when receiving shipping documents. Everything between those moments is a black box. This guide opens that box. Each section walks through what your exporter does, what documents are generated, how long each step takes, and where bottlenecks occur. The goal is to give you the visibility to plan your roasting calendar, cash flow, and customer commitments with confidence.
       </p>
       <p className='my-4'>
-        Ethiopia exported approximately 469,000 metric tons of coffee in 2024/2025 and earned a record $2.65 billion in revenue, according to the <a href='https://www.ecx.com.et' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Ethiopia Commodity Exchange</a> and the Ethiopian Coffee and Tea Authority. That volume moves through a defined national export pipeline. This article maps that pipeline, step by step. For a broader view of every stage from variety selection to roasting, see our <Link href='/insights/complete-guide-to-understanding-coffee' className='underline font-bold'>coffee from seed to cup buyer&apos;s guide</Link>.
+        Ethiopia earned a record $3.0 billion from coffee exports in the 2025/26 fiscal year that ended in July 2026, roughly 28 percent of the country&apos;s total export earnings, according to the Ethiopian Coffee and Tea Authority. That follows $2.65 billion on approximately 470,000 metric tons in 2024/25, and the USDA FAS forecasts exports of 7.13 million 60 kg bags (about 428,000 metric tons) for 2026/27. All of that volume moves through a defined national export pipeline. This article maps that pipeline, step by step. For a broader view of every stage from variety selection to roasting, see our <Link href='/insights/complete-guide-to-understanding-coffee' className='underline font-bold'>coffee from seed to cup buyer&apos;s guide</Link>.
       </p>
 
       <p className='my-4'>
@@ -142,6 +154,9 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       <p className='my-4'>
         The exporter submits a copy of the signed contract to their commercial bank (typically the Commercial Bank of Ethiopia) along with a freight cost estimate. If the payment method is a Letter of Credit, the importer's bank issues the LC and the exporter's bank confirms receipt. For CAD (Cash Against Documents), the exporter typically requires a deposit or proof of bank relationship. This step typically takes 3 to 5 business days, though LC confirmation can extend to 7 to 10 days for first-time buyers.
       </p>
+      <p className='my-4'>
+        A 2026 development worth knowing: National Bank of Ethiopia Directive FXD/04/2026, effective February 12, 2026, authorized forward foreign exchange contracts, giving exporters a hedging tool against birr volatility for the first time. Goods exporters, including coffee exporters, must still surrender 50 percent of their foreign currency earnings to the banking system. This surrender requirement is part of why FOB prices track the exchange rate closely; an exporter quoting you today is pricing in what the birr will be worth when your payment lands.
+      </p>
 
       {/* Step 2 */}
       <h3 className='text-xl font-bold mt-8 mb-2'>Step 2: Milling and Preparation (Days 3 to 20)</h3>
@@ -156,6 +171,9 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       <h3 className='text-xl font-bold mt-8 mb-2'>Step 3: Quality Inspection at the CLU (Days 15 to 25)</h3>
       <p className='my-4'>
         Every lot of Ethiopian coffee destined for export must pass inspection at the Coffee Liquoring Unit (CLU), operated by the Ethiopian Coffee and Tea Authority (ECTA). The CLU is the government's quality gate. No coffee leaves Ethiopia without a CLU grade certificate.
+      </p>
+      <p className='my-4'>
+        Inspection capacity has expanded meaningfully since 2023. ECTA now operates regional coffee quality inspection and certification centers in Jimma and Hawassa (opened 2023), Dire Dawa, and Dilla (inaugurated September 2025) in addition to the Addis Ababa CLU. Lots milled near origin can be inspected and certified regionally, which shortens the supply chain and has eased, though not eliminated, the peak-season backlog in Addis Ababa. Separately, ECTA Directive 1106/2025 now requires exporters (other than farmer-exporters) to operate an ECTA-certified cupping laboratory with a certified taster on staff; see our <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='underline font-bold'>2026 exporter requirements guide</Link> for the full directive. In practice this formalizes what good exporters already did: catch grade problems internally before the lot ever reaches a government cupping table.
       </p>
       <p className='my-4'>
         The exporter submits a representative sample of each lot to the CLU along with an inspection request. CLU inspectors evaluate:
@@ -189,7 +207,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
         <li><span className='font-semibold'>EUDR due diligence statement</span> (for EU-destined shipments; includes geolocation data for farm plots)</li>
       </ul>
       <p className='my-4'>
-        For EU-bound coffee, EUDR compliance adds a traceability layer from 2025 onward. The exporter must provide polygon coordinates for the farm plots where the coffee was grown, plus evidence that no deforestation occurred after December 31, 2020. For the full EUDR framework, see the <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='underline font-bold'>EUDR compliance guide</Link>.
+        For EU-bound coffee, EUDR compliance adds a traceability layer. After the December 2025 amendment (Regulation (EU) 2025/2650), large operators must comply from December 30, 2026, and micro and small enterprises from June 30, 2027. The exporter must provide geolocation coordinates for the farm plots where the coffee was grown, plus evidence that no deforestation occurred after December 31, 2020. Coffee contracted in the second half of 2026 for EU delivery will arrive under the mandatory regime, so buyers should confirm their exporter is already collecting plot data now. For the full EUDR framework, see the <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='underline font-bold'>EUDR compliance guide</Link>.
       </p>
       <p className='my-4'>
         Buyers should also review how these documents line up with the invoice draft, packing list, and bill of lading draft before anything becomes final. Our <Link href='/insights/green-coffee-shipping-documents-checklist' className='underline font-bold'>green coffee shipping documents checklist</Link> breaks down that buyer-side review order field by field.
@@ -222,12 +240,15 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
         Once loaded, the shipping line issues the Bill of Lading (B/L), which is the critical document transferring ownership of the cargo. The exporter sends the B/L (along with the full document set) to the bank for negotiation under the LC, or directly to the importer under CAD terms. Ocean transit times from Djibouti vary by destination:
       </p>
       <ul className='list-disc ml-6 space-y-2 text-sm my-4'>
-        <li>Europe (Hamburg, <Link href='/insights/importing-ethiopian-coffee-to-holland' className='underline font-bold'>Rotterdam</Link>, Felixstowe): 18 to 25 days</li>
+        <li>Europe (Hamburg, <Link href='/insights/importing-ethiopian-coffee-to-holland' className='underline font-bold'>Rotterdam</Link>, Felixstowe): 18 to 25 days via Suez; 35 to 45 days when carriers route via the Cape of Good Hope</li>
         <li>North America (New York, Montreal): 28 to 35 days</li>
         <li>Middle East (Jeddah, Jebel Ali): 4 to 7 days. For market intelligence on the fastest-growing GCC destination, see the <Link href='/insights/saudi-arabia-specialty-coffee-market-guide' className='underline font-bold'>Saudi Arabia coffee market guide</Link> and the <Link href='/insights/importing-ethiopian-coffee-to-uae' className='underline font-bold'>UAE import guide</Link></li>
         <li>East Asia (Yokohama, Busan, Shanghai): 22 to 30 days. For GACC registration and Chinese customs requirements, see the <Link href='/insights/importing-ethiopian-coffee-to-china' className='underline font-bold'>China import guide</Link></li>
         <li>Australia (Melbourne): 25 to 32 days</li>
       </ul>
+      <p className='my-4'>
+        The Red Sea security situation that began in late 2023 still shapes routing in mid-2026. Most Asia-Europe services continue to divert around the Cape of Good Hope, Suez Canal throughput remains 50 to 60 percent below pre-2023 levels, and carriers decide Red Sea transits sailing by sailing. Djibouti port itself has stayed operational throughout, but the rerouting ties up vessels and containers globally, so equipment shortages and blank sailings at Djibouti add booking lead time. Ask your exporter which routing the carrier has confirmed for your shipment before you commit arrival dates to customers; the Suez-versus-Cape difference for European buyers is two to three weeks.
+      </p>
       <p className='my-4'>
         For a detailed breakdown of how ocean freight and other costs build up to the total landed price, see the <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='underline font-bold'>landed cost guide</Link>.
       </p>
@@ -306,7 +327,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
 
       <div className='bg-amber-50 p-4 rounded-lg border border-amber-100 my-4 text-sm'>
         <p className='font-semibold mb-1'>Planning tip:</p>
-        <p>Add ocean transit time (4 to 35 days depending on destination) plus port clearance at your end (7 to 14 days) to get a total supply chain lead time. For European buyers, plan roughly 70 to 100 days from order to warehouse. For Middle East buyers, plan 45 to 70 days.</p>
+        <p>Add ocean transit time (4 to 45 days depending on destination and routing) plus port clearance at your end (7 to 14 days) to get a total supply chain lead time. For European buyers in 2026, plan roughly 75 to 110 days from order to warehouse while Cape of Good Hope routing remains common. For Middle East buyers, plan 45 to 70 days.</p>
       </div>
 
       {/* SECTION 5 - DOCUMENTATION */}
@@ -381,7 +402,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
             <tr>
               <td className='border border-gray-200 px-4 py-2'>EUDR due diligence statement</td>
               <td className='border border-gray-200 px-4 py-2'>Exporter (data) + EU importer (submission)</td>
-              <td className='border border-gray-200 px-4 py-2'>Geolocation, deforestation-free proof; EU-bound only</td>
+              <td className='border border-gray-200 px-4 py-2'>Geolocation, deforestation-free proof; EU-bound, mandatory from Dec 30, 2026</td>
             </tr>
             <tr className='bg-gray-50'>
               <td className='border border-gray-200 px-4 py-2'>Weight/fumigation certificate</td>
@@ -480,7 +501,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       <div className='space-y-4 my-6'>
         <div className='bg-gray-50 p-4 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-1'>1. CLU backlog during peak season (January to April)</h4>
-          <p className='text-sm'>During the main export window, the CLU processes thousands of lots. Wait times can double. <span className='font-semibold'>Mitigation:</span> Place orders early in the season (November/December) so your exporter can queue samples before the rush. Pre-shipment approval samples sent to you can be submitted to CLU simultaneously.</p>
+          <p className='text-sm'>During the main export window, the CLU processes thousands of lots. Wait times can double. <span className='font-semibold'>Mitigation:</span> Place orders early in the season (November/December) so your exporter can queue samples before the rush. Pre-shipment approval samples sent to you can be submitted to CLU simultaneously. Since 2025, lots milled near origin can also be certified at ECTA&apos;s regional centers (Jimma, Hawassa, Dilla) instead of queueing in Addis Ababa.</p>
         </div>
         <div className='bg-gray-50 p-4 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-1'>2. Grade rejection or downgrade at CLU</h4>
@@ -515,12 +536,12 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
             </a>
           </li>
           <li>
-            <a href='https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Coffee%20Annual_Addis%20Ababa_Ethiopia_ET2025-0014.pdf' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
-              USDA Foreign Agricultural Service: Ethiopia Coffee Annual Report 2025
+            <a href='https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Coffee%20Annual_Addis%20Ababa_Ethiopia_ET2026-0005.pdf' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
+              USDA Foreign Agricultural Service: Ethiopia Coffee Annual Report 2026 (May 2026)
             </a>
           </li>
           <li>
-            <a href='https://environment.ec.europa.eu/topics/forests/deforestation/regulation_en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
+            <a href='https://green-business.ec.europa.eu/deforestation-regulation_en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
               European Commission: EU Deforestation Regulation (EUDR) Official Page
             </a>
           </li>
@@ -532,33 +553,39 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
         <h2 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions About the Ethiopian Coffee Export Process</h2>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What documents are needed to export coffee from Ethiopia?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What documents are needed to export coffee from Ethiopia?</h4>
             <p className='text-sm text-gray-600'>
-              Ethiopian coffee exports require a CLU quality certificate, phytosanitary certificate, ICO certificate of origin, Chamber of Commerce certificate of origin, commercial invoice, packing list, Bill of Lading, customs declaration, and bank permit. EU-bound shipments also require a EUDR due diligence statement with geolocation data.
+              Ethiopian coffee exports require a CLU quality certificate, phytosanitary certificate, ICO certificate of origin, Chamber of Commerce certificate of origin, commercial invoice, packing list, Bill of Lading, customs declaration, and bank permit. EU-bound shipments also require a EUDR due diligence statement with geolocation data, mandatory for large operators from December 30, 2026.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How long does it take to export coffee from Ethiopia?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How long does it take to export coffee from Ethiopia?</h4>
             <p className='text-sm text-gray-600'>
               From signed contract to vessel departure at Djibouti, the typical timeline is 30 to 55 days. Peak season (January to April) can extend this to 40 to 70 days. Add ocean transit time (4 to 35 days depending on destination) for total supply chain lead time.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the CLU inspection for Ethiopian coffee?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the CLU inspection for Ethiopian coffee?</h4>
             <p className='text-sm text-gray-600'>
               The Coffee Liquoring Unit (CLU), operated by the Ethiopian Coffee and Tea Authority (ECTA), inspects every lot of coffee before export. Inspectors evaluate physical attributes (moisture, screen size, defect count) and sensory quality (cupping), then assign an official grade (G1 through G5 for exportable coffee). No coffee can leave Ethiopia without a CLU certificate.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What happens if a lot fails the CLU inspection?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What happens if a lot fails the CLU inspection?</h4>
             <p className='text-sm text-gray-600'>
               If a lot grades below the contracted specification, the exporter must re-sort, re-mill, or resubmit a new sample. This can add 5 to 14 days to the timeline. Good exporters mitigate this by running internal quality checks at their own cupping lab before submitting to the CLU. Grade rejections are one of the most common causes of shipment delay.
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>How does coffee get from Addis Ababa to the port of Djibouti?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How does coffee get from Addis Ababa to the port of Djibouti?</h4>
             <p className='text-sm text-gray-600'>
               Sealed containers travel approximately 900 km from Addis Ababa to Djibouti by road transport (2 to 4 days) or the Addis Ababa-Djibouti railway (24 to 36 hours). Ethiopia is landlocked, so all ocean-bound coffee exports transit through Djibouti port, making this corridor a critical link in the supply chain.
+            </p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>How has the Red Sea situation affected Ethiopian coffee shipping in 2026?</h4>
+            <p className='text-sm text-gray-600'>
+              Djibouti port remains fully operational, but many Europe-bound carriers still route via the Cape of Good Hope in mid-2026, extending Djibouti-to-Europe transit from 18 to 25 days to 35 to 45 days. Global vessel rerouting also causes container shortages and blank sailings, so buyers should confirm routing at booking.
             </p>
           </div>
         </div>
@@ -593,33 +620,33 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
           <div>
             <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Trade &amp; Contracts</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts &amp; Payment Terms Guide</Link></li>
-              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export Guide</Link></li>
-              <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing for Importers</Link></li>
+              <li>â€¢ <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts &amp; Payment Terms Guide</Link></li>
+              <li>â€¢ <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export Guide</Link></li>
+              <li>â€¢ <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing for Importers</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Quality &amp; Processing</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Dry Milling: Export Guide</Link></li>
-              <li>• <Link href='/insights/green-coffee-packaging-bag-types-guide' className='text-amber-700 hover:underline'>Green Coffee Packaging: Bag Types Guide</Link></li>
+              <li>â€¢ <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Dry Milling: Export Guide</Link></li>
+              <li>â€¢ <Link href='/insights/green-coffee-packaging-bag-types-guide' className='text-amber-700 hover:underline'>Green Coffee Packaging: Bag Types Guide</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Sourcing &amp; Compliance</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Exporter</Link></li>
-              <li>• <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability: Buyer's Guide</Link></li>
+              <li>â€¢ <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Exporter</Link></li>
+              <li>â€¢ <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability: Buyer's Guide</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Costs &amp; Logistics</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
-              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide</Link></li>
-              <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage in Sea Freight</Link></li>        <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>              <li>• <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Netherlands</Link></li>
-              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the USA</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to UAE</Link></li>
+              <li>â€¢ <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
+              <li>â€¢ <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide</Link></li>
+              <li>â€¢ <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage in Sea Freight</Link></li>        <li>â€¢ <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>              <li>â€¢ <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Netherlands</Link></li>
+              <li>â€¢ <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the USA</Link></li>
+              <li>â€¢ <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to UAE</Link></li>
             </ul>
           </div>
         </div>
@@ -631,9 +658,9 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
           <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an Ethiopian coffee exporter with 30+ years of sourcing relationships across Ethiopia's coffee regions. This article is for educational purposes. Export timelines, documentation requirements, and costs change with government regulations and market conditions; contact us for current information before making purchasing decisions.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> {' · '}
-          <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> {' · '}
-          <Link href='/about' className='underline'>About Ethio Coffee</Link> {' · '}
+          <Link href='/insights' className='underline'>All Insights</Link> {' Â· '}
+          <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> {' Â· '}
+          <Link href='/about' className='underline'>About Ethio Coffee</Link> {' Â· '}
           <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>

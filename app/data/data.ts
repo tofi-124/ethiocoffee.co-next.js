@@ -1328,7 +1328,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-export-process-buyers-guide.webp',
       large_image_url: 'insights/ethiopian-coffee-export-process-buyers-guide.webp',
       date: 'Mar 9, 2026',
-      dateModified: 'Mar 12, 2026',
+      dateModified: 'Jul 10, 2026',
       title: 'Ethiopian Coffee Export Process: A Buyer\'s Guide',
       slug: 'ethiopian-coffee-export-process-buyers-guide',
       category: 'Export Process / Sourcing Guide / Trade Logistics / Importer Resources',

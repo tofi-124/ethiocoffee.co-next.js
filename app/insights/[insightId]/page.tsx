@@ -106,7 +106,7 @@ const readingTimeMap: Record<string, number> = {
   'green-coffee-financing-hedging-importers-guide': 14,
   'green-coffee-packaging-bag-types-guide': 11,
   'ethiopian-coffee-washing-stations-buyers-guide': 13,
-  'ethiopian-coffee-export-process-buyers-guide': 14,
+  'ethiopian-coffee-export-process-buyers-guide': 16,
   'importing-ethiopian-coffee-to-turkey': 13,
   'saudi-arabia-specialty-coffee-market-guide': 14,
   'germany-specialty-coffee-market-guide': 14,
