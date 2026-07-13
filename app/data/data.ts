@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE INVENTORY MANAGEMENT =====
+    {
+      small_image_url: 'insights/green-coffee-inventory-management-roasters.webp',
+      large_image_url: 'insights/green-coffee-inventory-management-roasters.webp',
+      date: 'Jul 13, 2026',
+      title: 'Green Coffee Inventory Management for Roasters',
+      slug: 'green-coffee-inventory-management-roasters',
+      category: 'Roaster Operations / Inventory Planning / Green Coffee Buying / Procurement Resources',
+      keywords: [
+        'green coffee inventory management',
+        'green coffee inventory planning',
+        'coffee roaster inventory management',
+        'green coffee reorder point',
+        'green coffee safety stock',
+        'green coffee demand forecast',
+        'green coffee procurement planning',
+        'green coffee weeks of cover',
+        'coffee roastery inventory calculator',
+        'how much green coffee should a roaster buy',
+        'green coffee buying plan',
+        'roast loss inventory calculation',
+        'Ethiopian coffee replenishment lead time',
+        'green coffee stock management',
+        'green coffee inventory spreadsheet'
+      ],
+      desc: 'Green coffee inventory management for roasters: forecast demand, set safety stock, calculate reorder points, and time Ethiopian coffee orders.'
+    },
     // ===== KAFFA COFFEE SOURCING GUIDE =====
     {
       small_image_url: 'insights/kaffa-coffee-sourcing-guide.webp',
@@ -1663,7 +1690,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-harvest-calendar-buying-guide.webp',
       large_image_url: 'insights/ethiopian-coffee-harvest-calendar-buying-guide.webp',
       date: 'Feb 22, 2026',
-      dateModified: 'Jul 3, 2026',
+      dateModified: 'Jul 13, 2026',
       title: 'Ethiopian Coffee Harvest Calendar for Buyers',
       slug: 'ethiopian-coffee-harvest-calendar-buying-guide',
       category: 'Sourcing Strategy / Harvest Timing / Seasonal Buying / Green Coffee Planning',
@@ -1783,6 +1810,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/green-coffee-shelf-life-storage.webp',
       large_image_url: 'insights/green-coffee-shelf-life-storage.webp',
       date: 'Feb 17, 2026',
+      dateModified: 'Jul 13, 2026',
       title: 'Green Coffee Shelf Life: Storage Guide for Buyers',
       slug: 'green-coffee-shelf-life-storage-guide',
       category: 'Quality Control / Storage & Logistics / Green Coffee / Importer Resources',
@@ -2684,7 +2712,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/moq-ethiopian-coffee.webp',
       large_image_url: 'insights/moq-ethiopian-coffee.webp',
       date: 'Jan 06, 2026',
-      dateModified: 'Mar 12, 2026',
+      dateModified: 'Jul 13, 2026',
       title: 'Ethiopian Coffee MOQ Guide for Importers',
       slug: 'minimum-order-quantities-ethiopian-coffee-moq',
       category: 'Coffee Trade & Import Guide',

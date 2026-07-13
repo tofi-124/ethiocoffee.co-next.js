@@ -414,6 +414,10 @@ export default function GreenCoffeeShelfLifeStorageGuide({ title, date, large_im
         Hermetic packaging shifts this timeline outward by 6 to 12 months, but it does not stop aging entirely. No packaging technology can reverse the thermodynamic reality that green coffee is a perishable product.
       </p>
 
+      <p className='my-4'>
+        Preventive control starts before coffee enters the warehouse. A <Link href='/insights/green-coffee-inventory-management-roasters' className='underline font-bold'>green coffee inventory management plan</Link> shows weeks of cover and projected age at final roast, allowing the buyer to reduce an order or stage a shipment before excess stock reaches a vulnerable age band.
+      </p>
+
       {/* SECTION 6 */}
       <h3 id="ethiopian-storage" className='text-2xl font-extrabold mt-10 flex items-center gap-2'>
         <HiOutlineCheckCircle className='text-amber-600' />

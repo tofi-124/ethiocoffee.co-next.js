@@ -1424,6 +1424,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Invoicing in USD eliminates your FX exposure as an importer outside the US, since your purchase cost is also in USD. However, it transfers FX risk to your customers and may reduce competitiveness with domestic suppliers who quote local currency. A practical middle ground is to quote USD prices and offer a local-currency equivalent at the prevailing rate on invoice date, covered by a forward FX contract you book at purchase time."
     }
   ],
+  "green-coffee-inventory-management-roasters": [
+    {
+      "question": "How much green coffee inventory should a roaster hold?",
+      "answer": "Set the target from lead-time demand plus safety stock, not a universal number of months. A roaster using 380 kg of one component each week, facing 12 replenishment weeks, and carrying four buffer weeks reaches a 6,080 kg reorder point. Then cap stock by cash, storage, and acceptable age."
+    },
+    {
+      "question": "How do you calculate a green coffee reorder point?",
+      "answer": "Multiply average green coffee use per week by the full replenishment lead time, then add safety stock. Compare that result with inventory position, defined as usable on-hand coffee plus confirmed inbound supply minus committed or blocked stock. Trigger the buying action when inventory position reaches or falls below the calculated point."
+    },
+    {
+      "question": "Does contracted coffee in transit count as inventory?",
+      "answer": "Count a contracted shipment in inventory position only as confirmed inbound supply, never as usable on-hand stock. Record its quantity, quality approval, current milestone, and confidence separately. If the pre-shipment sample, export release, or vessel booking is unresolved, discount it or exclude it until the blocking gate has cleared."
+    },
+    {
+      "question": "How should a roaster prevent a core blend component from running out?",
+      "answer": "Control each critical blend component with its own forecast, reorder point, and approved bridge profile. Start replacement cupping while the current component still has adequate cover. Define the sensory function that must remain stable, then approve an alternate lot before urgency forces the production team to accept an untested substitution."
+    },
+    {
+      "question": "How often should a green coffee inventory plan be updated?",
+      "answer": "Update inventory transactions as they occur, review critical coverage weekly, and rebuild the rolling forecast at least monthly. Recalculate sooner after a major wholesale win, promotion, shipment delay, quality hold, or demand miss. Keep the prior forecast so the buyer can measure error instead of continually replacing the evidence."
+    }
+  ],
   "green-coffee-moisture-content-water-activity-guide": [
     {
       "question": "What is the ideal moisture content for green coffee beans?",

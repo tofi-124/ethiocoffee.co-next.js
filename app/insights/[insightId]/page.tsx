@@ -11,6 +11,7 @@ export const dynamicParams = false
 // Estimated reading times (words per post, divided by 238 wpm average reading speed)
 // These are pre-calculated from actual content word counts
 const readingTimeMap: Record<string, number> = {
+  'green-coffee-inventory-management-roasters': 12,
   'kaffa-coffee-sourcing-guide': 12,
   'green-coffee-cargo-insurance-guide': 15,
   'ethiopian-coffee-carbon-footprint-scope-3-buyers-guide': 11,

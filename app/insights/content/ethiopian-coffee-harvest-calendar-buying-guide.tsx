@@ -613,6 +613,10 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
 
       </div>
 
+      <p className='my-4'>
+        This calendar identifies when to sample and contract, while the required volume should come from demand and stock coverage. Apply the <Link href='/insights/green-coffee-inventory-management-roasters' className='text-amber-700 underline font-semibold'>green coffee inventory management model</Link> to translate forecast roasted sales, roast yield, lead time, and safety stock into a component-level reorder date and quantity.
+      </p>
+
       {/* SECTION 8: NEW CROP VS PAST CROP */}
       <h3 id="new-vs-past-crop" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineArrowPath className='text-amber-600 flex-shrink-0' />

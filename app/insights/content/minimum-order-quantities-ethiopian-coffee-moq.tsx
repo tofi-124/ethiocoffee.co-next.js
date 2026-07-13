@@ -576,6 +576,10 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
         </div>
       </div>
 
+      <p className='my-4'>
+        MOQ answers the shipment-size question, but a roaster still needs to decide when that volume is required and how much can be consumed before quality or cash becomes constrained. Use the <Link href='/insights/green-coffee-inventory-management-roasters' className='text-amber-700 hover:underline font-bold'>green coffee inventory management framework for roasters</Link> to convert roasted demand into green kilograms, set safety stock, and calculate the reorder point before selecting an order format.
+      </p>
+
       <div className='space-y-6 my-8'>
         <div className='bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-lg border-l-4 border-blue-500'>
           <h4 className='font-bold text-lg mb-3'>Strategy 1: Find Small-Volume Friendly Exporters</h4>
