@@ -1552,6 +1552,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Minor secondary defects like small chips or isolated quakers may not ruin a cup, but they reduce consistency. Primary defects like full blacks or sour beans produce clearly unpleasant flavors even in small quantities. Always cup alongside physical evaluation rather than relying on defect counts alone to make purchasing decisions."
     }
   ],
+  "green-coffee-quality-control-lab-setup-guide": [
+    {
+      "question": "How much does it cost to set up a green coffee quality control lab?",
+      "answer": "A functional starter lab costs roughly USD 2,500 to 4,500 at 2026 list prices: precision scale, capacitance moisture meter, grading sieves, cupping kit, and daylight-balanced lighting. A dedicated lab with its own sample roaster adds USD 8,000 to 15,000, and importer-grade instruments such as water activity meters add USD 15,000 to 40,000 more."
+    },
+    {
+      "question": "What equipment should a coffee QC lab buy first?",
+      "answer": "Buy the instruments that gate arrival acceptance first: a 0.1 g precision scale, a moisture meter, grading sieves, and a repeatable cupping setup. These catch the moisture, screen size, and defect discrepancies behind most quality claims. A dedicated sample roaster comes next, once offer-sample volume justifies removing production from the loop."
+    },
+    {
+      "question": "Can a roaster evaluate green coffee without a sample roaster?",
+      "answer": "Yes, at low volume. Physical intake checks need no roaster at all, and cupping roasts can run on a logged, repeated profile on the production machine or a small home-scale roaster. The compromise is turnaround and consistency, so buy a dedicated sample roaster when offer samples start waiting on the production schedule."
+    },
+    {
+      "question": "How much space does a green coffee quality control lab need?",
+      "answer": "Plan 10 to 15 square meters for a grading bench, cupping table, and sealed sample storage. The binding constraints are environmental rather than spatial: neutral light near 4000 K, air free of roast exhaust and odors, stable temperature of 20 to 25 degrees Celsius, and moderate humidity around 50 to 65 percent."
+    },
+    {
+      "question": "How do you calibrate a buyer's lab against an exporter's origin lab?",
+      "answer": "Cup the same lots in the same season and exchange scores, roast logs, and physical measurements. Expect a stable offset of one to two points from water chemistry, altitude, roaster type, and sample age rather than identical numbers. Once that offset is known, larger gaps on future samples become genuine quality signals."
+    }
+  ],
   "green-coffee-shelf-life-storage-guide": [
     {
       "question": "Does green coffee expire?",

@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE QUALITY CONTROL LAB SETUP =====
+    {
+      small_image_url: 'insights/green-coffee-quality-control-lab-setup-guide.webp',
+      large_image_url: 'insights/green-coffee-quality-control-lab-setup-guide.webp',
+      date: 'Jul 15, 2026',
+      title: 'Green Coffee Quality Control Lab: Setup Guide for Buyers',
+      slug: 'green-coffee-quality-control-lab-setup-guide',
+      category: 'Quality Control / Lab Setup / Green Coffee Buying / Procurement Resources',
+      keywords: [
+        'green coffee quality control lab',
+        'coffee quality control lab setup',
+        'green coffee lab equipment',
+        'coffee cupping lab setup',
+        'coffee QC lab equipment list',
+        'green coffee grading equipment',
+        'coffee sample roaster lab',
+        'coffee moisture meter lab',
+        'how much does a coffee QC lab cost',
+        'coffee lab calibration',
+        'green coffee sample evaluation setup',
+        'coffee cupping room requirements',
+        'coffee lab water activity meter',
+        'roastery quality control lab',
+        'importer green coffee lab'
+      ],
+      desc: 'Set up a green coffee quality control lab: room specs, 2026 equipment budget tiers, test-to-buying-stage workflow, and supplier calibration for buyers.'
+    },
     // ===== GREEN COFFEE INVENTORY MANAGEMENT =====
     {
       small_image_url: 'insights/green-coffee-inventory-management-roasters.webp',
@@ -669,6 +696,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-sample-approval-guide.webp',
       large_image_url: 'insights/ethiopian-coffee-sample-approval-guide.webp',
       date: 'May 7, 2026',
+      dateModified: 'Jul 15, 2026',
       title: 'Ethiopian Coffee Sample Approval Guide',
       slug: 'ethiopian-coffee-sample-approval-guide',
       category: 'Sample Approval / Green Coffee Buying / Contract Execution / Importer Resources',
@@ -2586,7 +2614,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-quality-defects.webp',
       large_image_url: 'insights/coffee-quality-defects.webp',
       date: 'Dec 01, 2025',
-      dateModified: 'Mar 12, 2026',
+      dateModified: 'Jul 15, 2026',
       title: 'Green Coffee Defects: Buyer\'s Guide to Quality Control',
       slug: 'green-coffee-quality-control-defects-grading',
       category: 'Quality Control / Green Coffee Evaluation / Importer Resources',
@@ -3623,7 +3651,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-cupping-evaluation.webp',
       large_image_url: 'insights/coffee-cupping-evaluation.webp',
       date: 'Feb 06, 2026',
-      dateModified: 'Mar 12, 2026',
+      dateModified: 'Jul 15, 2026',
       title: 'Cup & Evaluate Ethiopian Coffee Samples',
       slug: 'how-to-cup-evaluate-ethiopian-coffee-samples',
       category: 'Quality Control / Cupping Guide / Importer Resources',

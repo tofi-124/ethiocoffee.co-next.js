@@ -422,7 +422,7 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
         Practical Inspection Protocol for Buyers
       </h2>
       <p className='my-4'>
-        Whether you are evaluating an offer sample from a new supplier or conducting an arrival inspection at your warehouse, follow this five-step protocol. Consistent process produces comparable results across samples and seasons.
+        Whether you are evaluating an offer sample from a new supplier or conducting an arrival inspection at your warehouse, follow this five-step protocol. Consistent process produces comparable results across samples and seasons. The protocol assumes a controlled bench with neutral light, an accurate scale, and a calibrated moisture meter; our <Link href='/insights/green-coffee-quality-control-lab-setup-guide' className='text-amber-700 hover:underline'>green coffee quality control lab setup guide</Link> details the room and equipment behind it.
       </p>
 
       <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Step 1: Visual Inspection</h3>

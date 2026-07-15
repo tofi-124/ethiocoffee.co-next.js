@@ -186,7 +186,7 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
       </h3>
 
       <p className='my-4 text-lg leading-relaxed'>
-        Professional cupping requires specific equipment to ensure consistency and accuracy. While elaborate lab setups exist, a functional cupping station for evaluating Ethiopian samples can be established with these core tools and proper technique.
+        Professional cupping requires specific equipment to ensure consistency and accuracy. While elaborate lab setups exist, a functional cupping station for evaluating Ethiopian samples can be established with these core tools and proper technique. If you are outfitting a permanent evaluation space rather than a single cupping table, our <Link href='/insights/green-coffee-quality-control-lab-setup-guide' className='text-amber-700 hover:underline'>green coffee quality control lab setup guide</Link> covers room specifications, equipment budget tiers, and instrument calibration.
       </p>
 
       <div className='grid md:grid-cols-2 gap-6 my-6'>
