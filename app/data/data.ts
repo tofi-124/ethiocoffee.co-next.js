@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE RECEIVING INSPECTION =====
+    {
+      small_image_url: 'insights/green-coffee-receiving-inspection-checklist.webp',
+      large_image_url: 'insights/green-coffee-receiving-inspection-checklist.webp',
+      date: 'Jul 24, 2026',
+      title: 'Green Coffee Receiving Inspection Checklist',
+      slug: 'green-coffee-receiving-inspection-checklist',
+      category: 'Warehouse Operations / Receiving Inspection / Green Coffee Quality Control / Roaster Resources',
+      keywords: [
+        'green coffee receiving inspection',
+        'green coffee receiving inspection checklist',
+        'green coffee receiving checklist',
+        'green coffee warehouse receiving',
+        'green coffee intake inspection',
+        'green coffee arrival inspection',
+        'green coffee container inspection',
+        'green coffee bag inspection',
+        'green coffee arrival sample',
+        'green coffee quality hold',
+        'green coffee inventory release',
+        'coffee warehouse receiving SOP',
+        'how to inspect green coffee delivery',
+        'green coffee receiving quality control',
+        'roastery receiving checklist'
+      ],
+      desc: 'Use this green coffee receiving inspection checklist to verify seals, bags, samples, quality, and release decisions before stock enters production.'
+    },
     // ===== GREEN COFFEE QUALITY CONTROL LAB SETUP =====
     {
       small_image_url: 'insights/green-coffee-quality-control-lab-setup-guide.webp',

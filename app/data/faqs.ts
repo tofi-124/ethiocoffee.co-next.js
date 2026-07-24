@@ -1574,6 +1574,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Cup the same lots in the same season and exchange scores, roast logs, and physical measurements. Expect a stable offset of one to two points from water chemistry, altitude, roaster type, and sample age rather than identical numbers. Once that offset is known, larger gaps on future samples become genuine quality signals."
     }
   ],
+  "green-coffee-receiving-inspection-checklist": [
+    {
+      "question": "What should be checked when green coffee arrives?",
+      "answer": "Check the container and seal, first-open condition, bag count, markings, packaging, visible water or contamination, lot identity, and the sample chain of custody. Keep the lot on QC hold until moisture, physical grade, and sensory results are reviewed against the contract and retained pre-shipment sample."
+    },
+    {
+      "question": "Should green coffee be released before arrival cupping?",
+      "answer": "Production release should wait for the buyer's defined arrival controls. Physical receipt can be posted immediately, but available inventory should exclude the lot until the authorized QC reviewer approves it. A documented emergency release needs named authority, limited quantity, and preserved samples so the remaining lot stays protected."
+    },
+    {
+      "question": "How much green coffee should be sampled at receiving?",
+      "answer": "Use the contract, applicable standard, warehouse agreement, or written buyer sampling plan. The plan should distribute increments across the lot and produce enough material for physical grading, roasting, cupping, supplier review, and a sealed reserve. Do not substitute a convenient door sample for a representative lot sample."
+    },
+    {
+      "question": "What happens if the container seal does not match?",
+      "answer": "Pause opening when safe to do so, verify the number again, photograph the seal and doors, and notify the receiving manager, carrier, and buyer under the company escalation rule. Record who authorized opening. A mismatch requires investigation, but the condition and quantity evidence still need to be preserved."
+    },
+    {
+      "question": "How long should receiving records and samples be retained?",
+      "answer": "Keep them through the applicable claim period and, for retained quality samples, until the lot is consumed or the company's longer retention rule expires. The correct period depends on the contract, law, insurer, and customer requirements. Link photographs, test results, notices, and sample IDs to one receipt record."
+    }
+  ],
   "green-coffee-shelf-life-storage-guide": [
     {
       "question": "Does green coffee expire?",

@@ -202,6 +202,9 @@ export default function GreenCoffeeQualityControlLabSetupGuide({ title, date, la
       <p className='my-4'>
         A lab earns its cost only when each test runs at the stage where its result can still change an outcome. The three-gate structure of offer sample, pre-shipment sample, and arrival sample is described in the <Link href='/insights/ethiopian-coffee-sample-approval-guide' className='text-amber-700 hover:underline'>sample approval guide</Link>; the table below shows what the lab runs at each gate and why.
       </p>
+      <p className='my-4'>
+        At arrival, the laboratory is one part of a wider control. The <Link href='/insights/green-coffee-receiving-inspection-checklist' className='text-amber-700 hover:underline'>green coffee receiving inspection checklist</Link> connects these tests to container condition, bag reconciliation, quarantine, exception handling, and the final inventory-release decision.
+      </p>
 
       <div className='overflow-x-auto my-6'>
         <table className='w-full border-collapse text-sm'>

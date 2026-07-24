@@ -322,6 +322,9 @@ export default function EthiopianCoffeeSampleApprovalGuide({ title, large_image_
       <p className='my-4'>
         Arrival verification is not a second chance to choose a coffee you already bought. It is a check that the landed lot stayed within reasonable physical and sensory tolerance of the PSS you approved. The fastest way to weaken this step is to compare the arrival sample against memory rather than against a retained reference split.
       </p>
+      <p className='my-4'>
+        The lab comparison starts only after the warehouse preserves the shipment evidence. Use the <Link href='/insights/green-coffee-receiving-inspection-checklist' className='text-amber-700 hover:underline font-bold'>green coffee receiving inspection checklist</Link> to verify the seal, container condition, bag count, lot markings, quarantine status, and arrival-sample chain of custody before quality release.
+      </p>
 
       <div className='grid md:grid-cols-3 gap-4 my-6'>
         <div className='bg-green-50 p-5 rounded-lg border border-green-300'>

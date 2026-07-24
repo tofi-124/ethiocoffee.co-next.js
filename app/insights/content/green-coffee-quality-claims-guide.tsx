@@ -220,6 +220,9 @@ export default function GreenCoffeeQualityClaimsGuide({ title, date, large_image
       <p className='my-4'>
         Strong claims are usually won or lost in the first two days. Commercial rulebooks differ, but they share the same reality: claim windows are short, evidence degrades quickly, and warehouse handling can blur the line between arrival condition and buyer-side storage exposure. If you suspect a problem, the clock should start when the lot becomes available for inspection, not when you finally get around to cupping it.
       </p>
+      <p className='my-4'>
+        For the full dock-to-release sequence, follow the <Link href='/insights/green-coffee-receiving-inspection-checklist' className='text-amber-700 hover:underline font-bold'>green coffee receiving inspection SOP</Link>. It separates routine receipt from quality release and shows where to preserve seal, bag, quantity, sample, and inventory evidence before an exception becomes a claim.
+      </p>
 
       <div className='space-y-4 my-6'>
         <div className='flex items-start gap-4 bg-gray-50 p-4 rounded-lg border-l-4 border-amber-500'>
