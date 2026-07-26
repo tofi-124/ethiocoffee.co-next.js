@@ -129,6 +129,9 @@ export default function GreenCoffeeReceivingInspectionChecklist({ title, date, l
       <p className='my-4'>
         Reserve a clean hold location before unloading. Prepare numbered quarantine labels, a camera, a receiving form, a calibrated scale, sample containers, and the correct sampling tool. ISO 6666 specifies triers for sampling green or parchment coffee through the sides of closed bags and notes that those tools are not suitable for bulk liners or large bags. Match the tool to the packaging rather than improvising with a device that damages the barrier.
       </p>
+      <p className='my-4'>
+        Request the exporter&apos;s signed <Link href='/insights/green-coffee-container-loading-checklist' className='text-amber-700 hover:underline font-bold'>green coffee container loading report</Link> before arrival. Its empty-unit photographs, bag map, moisture controls, VGM record, and seal image give the receiving team a clean origin reference for the checks that follow.
+      </p>
 
       <h3 id='container-check' className='text-2xl font-extrabold mt-12 mb-4 flex items-center gap-3'>
         <HiOutlineTruck className='w-8 h-8 text-amber-600' />

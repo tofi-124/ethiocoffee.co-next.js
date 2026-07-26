@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE CONTAINER LOADING =====
+    {
+      small_image_url: 'insights/green-coffee-container-loading-checklist.webp',
+      large_image_url: 'insights/green-coffee-container-loading-checklist.webp',
+      date: 'Jul 26, 2026',
+      title: 'Green Coffee Container Loading Checklist',
+      slug: 'green-coffee-container-loading-checklist',
+      category: 'Export Operations / Container Loading / Green Coffee Logistics / Quality Assurance',
+      keywords: [
+        'green coffee container loading checklist',
+        'green coffee container loading',
+        'coffee container stuffing checklist',
+        'green coffee container inspection',
+        'coffee export loading supervision',
+        'green coffee shipping container',
+        'coffee container loading report',
+        'coffee bag loading plan',
+        'green coffee container moisture control',
+        'green coffee container seal',
+        'green coffee verified gross mass',
+        'coffee container VGM',
+        'how to load green coffee bags into a shipping container',
+        'what to inspect before loading a coffee container',
+        'green coffee export quality assurance'
+      ],
+      desc: 'Use this green coffee container loading checklist to inspect the unit, reconcile bags, control moisture, verify VGM, seal, and release each shipment.'
+    },
     // ===== GREEN COFFEE RECEIVING INSPECTION =====
     {
       small_image_url: 'insights/green-coffee-receiving-inspection-checklist.webp',

@@ -187,6 +187,9 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
       <p className='my-4'>
         Standard 20-foot dry containers are the workhorse of the coffee trade. A single 20-foot container holds 250 to 320 bags of 60 kg green coffee (15 to 19.2 metric tons). The choice between container types, and how the container is loaded, directly affects temperature stability and condensation risk.
       </p>
+      <p className='my-4'>
+        Put the physical controls into a signed <Link href='/insights/green-coffee-container-loading-checklist' className='underline font-bold'>green coffee container loading checklist</Link>. It should connect the empty-unit inspection, lot and bag reconciliation, moisture materials, loading photographs, verified gross mass, and seal to one release record before the container leaves origin.
+      </p>
 
       <div className='grid md:grid-cols-2 gap-6 my-6'>
         <div className='border border-gray-200 p-5 rounded-lg'>

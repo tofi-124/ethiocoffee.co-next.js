@@ -220,6 +220,9 @@ export default function GreenCoffeeShippingDocumentsChecklist({ title, date, lar
       <p className='my-4'>
         The best document workflow does not start with originals. It starts with sequencing. Buyers who wait until the final pack arrives usually discover discrepancies too late, when the carrier, chamber, or plant-health authority has already issued final papers. Three review gates solve that problem.
       </p>
+      <p className='my-4'>
+        The second gate depends on accurate facts from the loading floor. Use a <Link href='/insights/green-coffee-container-loading-checklist' className='text-amber-700 hover:underline font-semibold'>green coffee container loading checklist</Link> to capture the final bag count, net mass, container, seal, VGM evidence, and lot map before those fields are copied into the packing list and shipping instruction.
+      </p>
 
       <div className='overflow-x-auto my-6'>
         <table className='w-full border-collapse text-sm'>

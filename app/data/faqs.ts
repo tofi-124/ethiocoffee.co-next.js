@@ -1402,6 +1402,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Yes. Djibouti sits on the Bab el-Mandeb strait, so every vessel calling there transits the listed high-risk area whether it routes via Suez or the Cape of Good Hope. War and strikes clauses are excluded from standard ICC cover and must be attached separately; the endorsement is inexpensive relative to the exposure."
     }
   ],
+  "green-coffee-container-loading-checklist": [
+    {
+      "question": "What should a green coffee container loading checklist include?",
+      "answer": "It should connect the booking and contract to the released coffee, empty-container inspection, moisture protection, bag count, stow and securing, photo milestones, verified gross mass, shipping documents, seal, deviations, and final authorization. Each control needs an owner, evidence field, and stop rule so completion can be audited later."
+    },
+    {
+      "question": "How many 60 kg coffee bags fit in a 20-foot container?",
+      "answer": "There is no universal count. A common planning example is 320 bags, equal to 19,200 kg net coffee, but the approved quantity depends on the container's rated payload, carrier booking, road and terminal limits, packaging, securing materials, stow plan, and certified verified gross mass procedure."
+    },
+    {
+      "question": "How should an empty container be inspected before loading coffee?",
+      "answer": "Verify the container identity, type, tare, and approval markings; then inspect the roof, walls, floor, corner posts, doors, gaskets, locks, and interior. Reject holes, leaks, wet surfaces, chemical residue, pests, unsafe damage, persistent odor, or compromised sealing points. Photograph the empty unit and any correction."
+    },
+    {
+      "question": "Are container desiccants enough to protect green coffee?",
+      "answer": "No. Protection begins with uniformly dried coffee, sound barrier packaging, a clean and dry weather-tight container, dry dunnage, stable stowage, and suitable carrier instructions. Desiccant type and capacity should follow a route-specific plan. It cannot repair a leaking unit, wet bags, or punctured liners."
+    },
+    {
+      "question": "Which photographs belong in a coffee container loading report?",
+      "answer": "Include container identity and approval markings, every empty interior surface, installed moisture controls, representative bag marks, staged lots, loading milestones, lot transitions, full stow, door-end restraint, closed doors, and a legible seal. Caption each photograph with the shipment reference, time, location, and control it proves."
+    }
+  ],
   "green-coffee-financing-hedging-importers-guide": [
     {
       "question": "Do I need a futures account to hedge green coffee prices?",
