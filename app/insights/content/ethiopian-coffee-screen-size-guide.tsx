@@ -213,6 +213,9 @@ export default function EthiopianCoffeeScreenSizeGuide({
           First ask whether the lot fits the flavor target. Second ask whether the prep is clean enough for the program. Third ask whether the screen spread is tight enough for your production system. Buyers who reverse this order often eliminate good Ethiopian offers for the wrong reason.
         </p>
       </div>
+      <p className='my-4'>
+        If density is part of that decision, record the actual free-flow measurement rather than describing the lot as simply “hard” or “dense.” Our <Link href='/insights/green-coffee-density-quality-control-protocol' className='text-amber-700 hover:underline font-semibold'>green coffee density protocol</Link> shows how to collect three repeatable g/L readings and keep screen distribution from being confused with bulk density.
+      </p>
 
       {/* Section 4 */}
       <h2 id='origin-expectations' className='text-2xl font-extrabold mt-12 mb-4 flex items-center gap-3'>

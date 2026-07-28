@@ -408,5 +408,21 @@ export const newsArticles: NewsArticle[] = [
     desc: 'China\'s zero-tariff policy for 53 African countries took effect on May 1, giving Ethiopian coffee exporters a new pricing advantage in one of the world\'s fastest-growing coffee markets and strengthening the sector\'s export outlook.',
     source: 'CGTN Africa',
     keywords: 'China zero tariff Ethiopian coffee, Ethiopian coffee exports to China, China duty free African coffee, Ethiopian coffee market access China, Ethiopian coffee exporter, Chinese coffee market Ethiopia, Ethiopian green coffee beans China, Africa China trade coffee',
+  },
+  {
+    slug: 'ico-ethiopian-coffee-export-slowdown-may-2026',
+    date: '2026-07-13',
+    title: 'ICO Reports Ethiopian Coffee Export Slowdown After Record Expansion',
+    desc: 'The ICO\'s June 2026 market report shows Ethiopian coffee shipments slowed from February through May as lower prices reduced stock-release incentives, even as tight Arabica inventories and weather risks kept the global market volatile.',
+    source: 'International Coffee Organization',
+    keywords: 'ICO coffee market report June 2026, Ethiopian coffee exports May 2026, Ethiopian coffee shipment slowdown, Other Milds coffee exports, Arabica inventory 2026, Ethiopian coffee prices, coffee stock releases Ethiopia, Ethiopian coffee exporter, global coffee market volatility',
+  },
+  {
+    slug: 'china-third-largest-ethiopian-coffee-buyer-2026',
+    date: '2026-07-16',
+    title: 'China Becomes Ethiopia\'s Third-Largest Coffee Buyer',
+    desc: 'ECTA data show Ethiopia shipped 47,836 tonnes of coffee worth $347 million to China in the 2025/26 fiscal year, moving China ahead of the United States and into third place behind Saudi Arabia and Germany.',
+    source: 'Xinhua / Ethiopian Coffee and Tea Authority',
+    keywords: 'China Ethiopian coffee imports 2026, China third largest Ethiopian coffee buyer, Ethiopia coffee exports to China, ECTA coffee export data, Ethiopian coffee China market, Ethiopian organic coffee exports, Saudi Arabia Germany China coffee, Ethiopian coffee exporter, Ethiopian green coffee beans China',
   }
 ]

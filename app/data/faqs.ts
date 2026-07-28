@@ -1424,6 +1424,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Include container identity and approval markings, every empty interior surface, installed moisture controls, representative bag marks, staged lots, loading milestones, lot transitions, full stow, door-end restraint, closed doors, and a legible seal. Caption each photograph with the shipment reference, time, location, and control it proves."
     }
   ],
+  "green-coffee-density-quality-control-protocol": [
+    {
+      "question": "What is green coffee density?",
+      "answer": "Green coffee bulk density is the mass of whole green beans occupying a known volume, including air spaces between beans. Quality-control teams usually report it in grams per litre. The result describes both the sample and its filling method, so a density number should always include vessel size and procedure."
+    },
+    {
+      "question": "How do you measure green coffee density?",
+      "answer": "Tare a known-volume vessel, free-pour coffee from a fixed height, level the rim without compacting the beans, and weigh the contents. Divide grams by vessel volume in litres. Empty, remix, and repeat twice, then report all three readings and the median with moisture, lot code, and test date."
+    },
+    {
+      "question": "What is a good density for green coffee?",
+      "answer": "No single density proves quality across every origin, process, screen distribution, and measurement method. A good result is repeatable, plausible for the named lot, and aligned with physical grading and cup performance. Buyers should build method-controlled baselines for their programs rather than enforce an unsupported universal g/L cutoff."
+    },
+    {
+      "question": "Does higher green coffee density guarantee better cup quality?",
+      "answer": "No. Density can reflect bean development and help explain roast behavior, but it cannot reveal cleanliness, sweetness, defects, or flavor on its own. A dense lot can cup poorly, while a lower reading may be normal for a sound lot. Use density with representative cupping and physical evaluation."
+    },
+    {
+      "question": "Should green coffee density appear in a purchase contract?",
+      "answer": "Include density when it changes acceptance, consistency control, or roast planning. State the free-flow method, vessel volume, three-reading rule, sample stage, and review process. The approved pre-shipment sample should be the reference, while a destination deviation should trigger controlled retesting before rejection or a quality claim."
+    }
+  ],
   "green-coffee-financing-hedging-importers-guide": [
     {
       "question": "Do I need a futures account to hedge green coffee prices?",

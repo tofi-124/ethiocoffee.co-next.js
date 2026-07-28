@@ -154,6 +154,9 @@ export default function GreenCoffeeMoistureContentWaterActivityGuide({ title, da
         Two lots can have identical moisture content yet different water activity readings. This happens because the proportion of bound vs. free water varies depending on cellular structure, processing method, and drying uniformity. A natural (dry-processed) coffee with 11% moisture may have lower water activity than a washed coffee at the same moisture percentage, because the longer drying time in natural processing redistributes water more evenly throughout the bean.
       </p>
       <p className='my-4'>
+        Moisture also changes the mass behind a bulk-density result, so the two readings should share a timestamp and sample identity. Follow the <Link href='/insights/green-coffee-density-quality-control-protocol' className='text-amber-700 hover:underline font-semibold'>green coffee density quality-control protocol</Link> when you need a repeatable g/L baseline beside the moisture and water activity record.
+      </p>
+      <p className='my-4'>
         The SCA recommends specialty green coffee maintain water activity below 0.60 aw for stable storage. Most industry professionals consider the safe storage zone to be between 0.45 and 0.60 aw. Below 0.45, beans become brittle and lose volatile aromatic precursors. Above 0.65, the risk of mold colonization increases significantly.
       </p>
 

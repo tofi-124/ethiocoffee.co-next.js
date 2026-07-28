@@ -102,6 +102,10 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./arabica-prices-largest-gains-since-2022').then(mod => mod.default),
     'ethiopia-record-3-billion-coffee-exports': () =>
       import('./ethiopia-record-3-billion-coffee-exports').then(mod => mod.default),
+    'ico-ethiopian-coffee-export-slowdown-may-2026': () =>
+      import('./ico-ethiopian-coffee-export-slowdown-may-2026').then(mod => mod.default),
+    'china-third-largest-ethiopian-coffee-buyer-2026': () =>
+      import('./china-third-largest-ethiopian-coffee-buyer-2026').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 

@@ -183,6 +183,9 @@ export default function GreenCoffeeQualityControlLabSetupGuide({ title, date, la
       <p className='my-4'>
         Tier 2 exists to remove the production floor from the evaluation loop. Its core purchase is a dedicated electric sample roaster, typically USD 3,000 to 9,000 at 2026 list prices depending on barrel count, so offer samples no longer wait for a gap in the production schedule. Add a lab-only grinder (USD 800 to 1,500), a roast color analyzer (around USD 1,400 to 2,500) to standardize sample roast development, a bulk density measure, filtered water plumbed to the cupping bench, and sealed cabinets for a retention sample library. A roaster at this tier can turn an offer sample around in 48 hours, which matters when fresh-crop Ethiopian lots sell on allocation.
       </p>
+      <p className='my-4'>
+        A density measure earns its bench space only when every operator fills it the same way. Use our <Link href='/insights/green-coffee-density-quality-control-protocol' className='text-amber-700 hover:underline font-semibold'>green coffee density quality-control protocol</Link> to define the vessel, three-reading method, lot record, and retest trigger before origin and destination numbers enter the same file.
+      </p>
 
       <h4 className='text-xl font-bold mt-8 mb-4'>Tier 3: The Importer Grade Lab (adds USD 15,000 to 40,000)</h4>
       <p className='my-4'>

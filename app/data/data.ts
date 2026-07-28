@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE DENSITY QC PROTOCOL =====
+    {
+      small_image_url: 'insights/green-coffee-density-quality-control-protocol.webp',
+      large_image_url: 'insights/green-coffee-density-quality-control-protocol.webp',
+      date: 'Jul 28, 2026',
+      title: 'Green Coffee Density: Buyer and Roaster QC Protocol',
+      slug: 'green-coffee-density-quality-control-protocol',
+      category: 'Quality Control / Green Coffee Density / Lot Specifications / Roaster Resources',
+      keywords: [
+        'green coffee density',
+        'green coffee bulk density',
+        'coffee bean density',
+        'measure green coffee density',
+        'green coffee density g/L',
+        'green coffee density quality control',
+        'coffee density for roasting',
+        'green coffee physical analysis',
+        'green coffee density specification',
+        'green coffee density test',
+        'bulk density coffee beans',
+        'how to measure green coffee density',
+        'what is a good density for green coffee',
+        'does green coffee density affect roasting',
+        'Ethiopian green coffee density'
+      ],
+      desc: 'Green coffee density protocol for buyers and roasters: measure g/L, set tolerances, verify Ethiopian lots, and brief production teams.'
+    },
     // ===== GREEN COFFEE CONTAINER LOADING =====
     {
       small_image_url: 'insights/green-coffee-container-loading-checklist.webp',
@@ -71,6 +98,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/green-coffee-quality-control-lab-setup-guide.webp',
       large_image_url: 'insights/green-coffee-quality-control-lab-setup-guide.webp',
       date: 'Jul 15, 2026',
+      dateModified: 'Jul 28, 2026',
       title: 'Green Coffee Quality Control Lab: Setup Guide for Buyers',
       slug: 'green-coffee-quality-control-lab-setup-guide',
       category: 'Quality Control / Lab Setup / Green Coffee Buying / Procurement Resources',
@@ -805,6 +833,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-screen-size-guide.webp',
       large_image_url: 'insights/ethiopian-coffee-screen-size-guide.webp',
       date: 'May 3, 2026',
+      dateModified: 'Jul 28, 2026',
       title: 'Ethiopian Coffee Screen Size Guide',
       slug: 'ethiopian-coffee-screen-size-guide',
       category: 'Quality Specs / Dry Milling / Green Coffee Buying / Importer Resources',
@@ -1290,6 +1319,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/green-coffee-moisture-content-water-activity-guide.webp',
       large_image_url: 'insights/green-coffee-moisture-content-water-activity-guide.webp',
       date: 'Mar 15, 2026',
+      dateModified: 'Jul 28, 2026',
       title: 'Green Coffee Moisture Content and Water Activity Guide',
       slug: 'green-coffee-moisture-content-water-activity-guide',
       category: 'Quality Control / Green Coffee Science / Buyer\'s Guide',
