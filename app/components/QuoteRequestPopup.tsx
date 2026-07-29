@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react'
 import ResponsiveImage from './ResponsiveImage'
+import Turnstile from './Turnstile'
 
 type QuoteRequestPopupProps = {
   isOpen: boolean
@@ -25,12 +26,16 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitSuccess, setSubmitSuccess] = useState(false)
   const [submitError, setSubmitError] = useState('')
+  const [turnstileToken, setTurnstileToken] = useState('')
+  const [turnstileResetKey, setTurnstileResetKey] = useState(0)
 
   // Reset state when popup opens
   useEffect(() => {
     if (isOpen) {
       setSubmitSuccess(false)
       setSubmitError('')
+      setTurnstileToken('')
+      setTurnstileResetKey(key => key + 1)
     }
   }, [isOpen])
 
@@ -91,6 +96,12 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+
+    if (!turnstileToken) {
+      setSubmitError('Please complete the security verification.')
+      return
+    }
+
     setIsSubmitting(true)
     setSubmitError('')
     setSubmitSuccess(false)
@@ -105,6 +116,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
           ...formData,
           productName,
           orderDate: new Date().toISOString(),
+          'cf-turnstile-response': turnstileToken,
           _subject: `New Quote Request: ${productName}`,
         }),
       })
@@ -132,10 +144,14 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
         })
       } else {
         setSubmitError(result.error || 'Failed to submit. Please try again.')
+        setTurnstileToken('')
+        setTurnstileResetKey(key => key + 1)
       }
     } catch (error) {
       console.error('Error submitting quote request:', error)
       setSubmitError('There was an error submitting your request. Please try again later.')
+      setTurnstileToken('')
+      setTurnstileResetKey(key => key + 1)
     } finally {
       setIsSubmitting(false)
     }
@@ -258,6 +274,12 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
             />
           </div>
 
+          <Turnstile
+            onVerify={setTurnstileToken}
+            onError={() => setSubmitError('Security verification could not load. Please try again.')}
+            resetKey={turnstileResetKey}
+          />
+
           {submitError && (
             <div className='p-4 bg-red-50 border border-red-200 rounded-lg text-red-700'>
               {submitError}
@@ -274,7 +296,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
               </button>
               <button
                 type='submit'
-                disabled={isSubmitting}
+                disabled={isSubmitting || !turnstileToken}
                 className='p-10 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-full font-bold disabled:opacity-70 disabled:cursor-not-allowed'
               >
                 {isSubmitting ? 'SENDING...' : 'SEND REQUEST'}

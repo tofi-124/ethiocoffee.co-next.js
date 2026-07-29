@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 import { escapeHtml, isValidEmail, truncate } from '../../lib/sanitize'
 import { rateLimit, getClientIp } from '../../lib/rate-limit'
+import { verifyTurnstile } from '../../lib/turnstile'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 
@@ -39,7 +40,8 @@ export async function POST(request: NextRequest) {
       message,
       productName,
       orderDate,
-      _subject
+      _subject,
+      'cf-turnstile-response': turnstileToken,
     } = body
 
     // Validate required fields
@@ -55,6 +57,19 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         { error: 'Invalid email address format' },
         { status: 400 }
+      )
+    }
+
+    // Gate the existing email handler on Cloudflare's server-side verification.
+    const verified = await verifyTurnstile({
+      token: turnstileToken,
+      remoteIp: ip,
+    })
+
+    if (!verified) {
+      return NextResponse.json(
+        { error: 'Security verification failed. Please try again.' },
+        { status: 403 }
       )
     }
 

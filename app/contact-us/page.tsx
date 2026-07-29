@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react'
 import ResponsiveImage from '../components/ResponsiveImage'
+import Turnstile from '../components/Turnstile'
 
 const WholesaleInquiryPage = () => {
   const formRef = useRef<HTMLDivElement>(null);
@@ -19,6 +20,8 @@ const WholesaleInquiryPage = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submitError, setSubmitError] = useState('');
+  const [turnstileToken, setTurnstileToken] = useState('');
+  const [turnstileResetKey, setTurnstileResetKey] = useState(0);
 
   // Scroll to form section on mount
   useEffect(() => {
@@ -59,6 +62,12 @@ const WholesaleInquiryPage = () => {
   
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (!turnstileToken) {
+      setSubmitError('Please complete the security verification.');
+      return;
+    }
+
     setIsSubmitting(true);
     setSubmitError('');
     
@@ -72,6 +81,7 @@ const WholesaleInquiryPage = () => {
         body: JSON.stringify({
           ...formData,
           formType: 'contact',
+          'cf-turnstile-response': turnstileToken,
           _subject: `New Contact Inquiry from ${formData.businessName || 'Business'}`
         }),
       });
@@ -101,10 +111,14 @@ const WholesaleInquiryPage = () => {
         });
       } else {
         setSubmitError(result.error || 'Failed to submit. Please try again.');
+        setTurnstileToken('');
+        setTurnstileResetKey(key => key + 1);
       }
     } catch (error) {
       console.error('Error submitting form:', error);
       setSubmitError('There was an error submitting your inquiry. Please try again later.');
+      setTurnstileToken('');
+      setTurnstileResetKey(key => key + 1);
     } finally {
       setIsSubmitting(false);
     }
@@ -332,6 +346,12 @@ const WholesaleInquiryPage = () => {
                     placeholder='Tell us about your business needs, volumes required, etc.'
                   ></textarea>
                 </div>
+
+                <Turnstile
+                  onVerify={setTurnstileToken}
+                  onError={() => setSubmitError('Security verification could not load. Please try again.')}
+                  resetKey={turnstileResetKey}
+                />
               
                 {submitError && (
                   <div className='p-4 bg-red-50 border border-red-200 rounded-lg text-red-700'>
@@ -342,7 +362,7 @@ const WholesaleInquiryPage = () => {
                 <div className='text-center pt-4'>
                   <button 
                     type='submit'
-                    disabled={isSubmitting}
+                    disabled={isSubmitting || !turnstileToken}
                     className='
                       px-8 py-4 mt-2 w-full md:w-auto
                       bg-accent hover:bg-accent/90 text-white
