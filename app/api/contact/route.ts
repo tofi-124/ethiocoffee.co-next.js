@@ -12,28 +12,14 @@ const FROM_EMAIL = process.env.FROM_EMAIL || 'noreply@ethiocoffee.co'
 // Max lengths for input fields
 const MAX_FIELD_LENGTH = 500
 const MAX_MESSAGE_LENGTH = 5000
-const MAX_REQUEST_BYTES = 20_000
-const MIN_FORM_COMPLETION_MS = 3_000
 
 export async function POST(request: NextRequest) {
-  // A genuine browser submission is same-origin. This blocks basic cross-site
-  // form posts before they consume email quota.
-  const origin = request.headers.get('origin')
-  if (!origin || origin !== request.nextUrl.origin) {
-    return NextResponse.json({ error: 'Invalid request origin' }, { status: 403 })
-  }
-
-  const contentLength = Number(request.headers.get('content-length') || 0)
-  if (contentLength > MAX_REQUEST_BYTES) {
-    return NextResponse.json({ error: 'Request is too large' }, { status: 413 })
-  }
-
-  // Contact forms are low-volume, so keep this deliberately strict.
+  // Rate limit: 5 contact submissions per IP per minute
   const ip = getClientIp(request)
-  const { allowed } = rateLimit(`contact:${ip}`, 3, 10 * 60_000)
+  const { allowed } = rateLimit(`contact:${ip}`, 5, 60_000)
   if (!allowed) {
     return NextResponse.json(
-      { error: 'Too many requests. Please try again later.' },
+      { error: 'Too many requests. Please try again in a minute.' },
       { status: 429 }
     )
   }
@@ -53,48 +39,13 @@ export async function POST(request: NextRequest) {
       message,
       productName,
       orderDate,
-      _subject,
-      website,
-      _formStartedAt,
+      _subject
     } = body
 
-    // Honeypot: normal visitors never see or fill this field. Return a generic
-    // success so automated form fillers are not told how they were detected.
-    if (typeof website === 'string' && website.trim()) {
-      return NextResponse.json(
-        { success: true, message: 'Email sent successfully' },
-        { status: 200 }
-      )
-    }
-
-    // Bots often submit immediately or call the endpoint without loading a form.
-    const formStartedAt = Number(_formStartedAt)
-    if (
-      !Number.isFinite(formStartedAt) ||
-      formStartedAt <= 0 ||
-      Date.now() - formStartedAt < MIN_FORM_COMPLETION_MS
-    ) {
-      return NextResponse.json(
-        { error: 'Unable to verify the form submission. Please refresh and try again.' },
-        { status: 400 }
-      )
-    }
-
-    if (formType !== 'contact' && formType !== 'quote') {
-      return NextResponse.json({ error: 'Invalid form type' }, { status: 400 })
-    }
-
     // Validate required fields
-    if (!email || !contactName || !businessName || !phone) {
+    if (!email || !contactName) {
       return NextResponse.json(
-        { error: 'Business name, contact name, email, and phone are required' },
-        { status: 400 }
-      )
-    }
-
-    if (formType === 'contact' && (!country || !businessType)) {
-      return NextResponse.json(
-        { error: 'Country and business type are required' },
+        { error: 'Email and contact name are required' },
         { status: 400 }
       )
     }

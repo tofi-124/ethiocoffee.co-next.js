@@ -13,7 +13,6 @@ type QuoteRequestPopupProps = {
 
 const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAllocationList = false }: QuoteRequestPopupProps) => {
   const dialogRef = useRef<HTMLDivElement>(null)
-  const formStartedAt = useRef(Date.now())
   const [formData, setFormData] = useState({
     businessName: '',
     contactName: '',
@@ -21,7 +20,6 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
     phone: '',
     message: '',
     formType: 'quote',
-    website: '',
   })
 
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -31,7 +29,6 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
   // Reset state when popup opens
   useEffect(() => {
     if (isOpen) {
-      formStartedAt.current = Date.now()
       setSubmitSuccess(false)
       setSubmitError('')
     }
@@ -108,7 +105,6 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
           ...formData,
           productName,
           orderDate: new Date().toISOString(),
-          _formStartedAt: formStartedAt.current,
           _subject: `New Quote Request: ${productName}`,
         }),
       })
@@ -133,7 +129,6 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
           phone: '',
           message: '',
           formType: 'quote',
-          website: '',
         })
       } else {
         setSubmitError(result.error || 'Failed to submit. Please try again.')
@@ -182,21 +177,6 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
           </div>
         ) : (
           <form onSubmit={handleSubmit} className='space-y-4'>
-            <div
-              className='absolute -left-[10000px] top-auto h-px w-px overflow-hidden'
-              aria-hidden='true'
-            >
-              <label htmlFor='quote-website'>Website</label>
-              <input
-                type='text'
-                id='quote-website'
-                name='website'
-                value={formData.website}
-                onChange={handleChange}
-                autoComplete='off'
-                tabIndex={-1}
-              />
-            </div>
             <div className='flex flex-col md:flex-row gap-6 mb-6'>
               <div className='md:w-1/3'>
                 <ResponsiveImage

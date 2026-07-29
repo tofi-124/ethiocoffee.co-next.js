@@ -6,7 +6,6 @@ import ResponsiveImage from '../components/ResponsiveImage'
 const WholesaleInquiryPage = () => {
   const formRef = useRef<HTMLDivElement>(null);
   const successRef = useRef<HTMLDivElement>(null);
-  const formStartedAt = useRef(Date.now());
   const [formData, setFormData] = useState({
     businessName: '',
     contactName: '',
@@ -15,8 +14,7 @@ const WholesaleInquiryPage = () => {
     country: '',
     businessType: '',
     referralSource: '',
-    message: '',
-    website: ''
+    message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
@@ -74,7 +72,6 @@ const WholesaleInquiryPage = () => {
         body: JSON.stringify({
           ...formData,
           formType: 'contact',
-          _formStartedAt: formStartedAt.current,
           _subject: `New Contact Inquiry from ${formData.businessName || 'Business'}`
         }),
       });
@@ -100,8 +97,7 @@ const WholesaleInquiryPage = () => {
           country: '',
           businessType: '',
           referralSource: '',
-          message: '',
-          website: ''
+          message: ''
         });
       } else {
         setSubmitError(result.error || 'Failed to submit. Please try again.');
@@ -216,21 +212,6 @@ const WholesaleInquiryPage = () => {
               </div>
             ) : (
               <form className='space-y-6 bg-primary rounded-lg p-8 border border-dark/30 shadow-sm' onSubmit={handleSubmit}>
-                <div
-                  className='absolute -left-[10000px] top-auto h-px w-px overflow-hidden'
-                  aria-hidden='true'
-                >
-                  <label htmlFor='website'>Website</label>
-                  <input
-                    type='text'
-                    id='website'
-                    name='website'
-                    value={formData.website}
-                    onChange={handleChange}
-                    autoComplete='off'
-                    tabIndex={-1}
-                  />
-                </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                   <div>
                     <label htmlFor='businessName' className='block mb-2 font-bold text-dark'>Business Name*</label>
