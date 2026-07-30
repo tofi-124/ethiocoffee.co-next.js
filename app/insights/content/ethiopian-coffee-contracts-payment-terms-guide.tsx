@@ -722,6 +722,9 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
       <p className='my-4'>
         If you want the operational workflow behind these clauses, see our <Link href='/insights/ethiopian-coffee-sample-approval-guide' className='text-amber-700 underline font-semibold'>Ethiopian coffee sample approval guide</Link>. It breaks down how buyers should evaluate offer samples, approve the final PSS, and verify arrival lots without blurring the stages.
       </p>
+      <p className='my-4'>
+        Attach a version-controlled <Link href='/insights/green-coffee-specification-sheet-template' className='text-amber-700 underline font-semibold'>green coffee specification sheet</Link> to the contract when physical limits, sensory targets, packaging, and sampling methods need more detail than the sales contract can carry cleanly. Reference the exact document version and approved PSS code so later revisions cannot replace the agreed quality basis silently.
+      </p>
 
       <h4 className='text-2xl font-bold mt-8 mb-4'>Claims, Arbitration, and Industry Rules</h4>
 

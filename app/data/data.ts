@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE SPECIFICATION SHEET =====
+    {
+      small_image_url: 'insights/green-coffee-specification-sheet-template.webp',
+      large_image_url: 'insights/green-coffee-specification-sheet-template.webp',
+      date: 'Jul 30, 2026',
+      title: 'Green Coffee Specification Sheet: Buyer Template',
+      slug: 'green-coffee-specification-sheet-template',
+      category: 'Green Coffee Buying / Lot Specifications / Quality Assurance / Procurement Resources',
+      keywords: [
+        'green coffee specification sheet',
+        'green coffee spec sheet',
+        'green coffee specification template',
+        'green coffee quality specifications',
+        'coffee purchase specification',
+        'green coffee buyer template',
+        'green coffee quality parameters',
+        'green coffee acceptance criteria',
+        'green coffee physical specifications',
+        'green coffee sensory specification',
+        'green coffee contract specifications',
+        'green coffee lot specification',
+        'what should a green coffee spec sheet include',
+        'how to write a green coffee specification',
+        'Ethiopian green coffee specifications'
+      ],
+      desc: 'Build a green coffee specification sheet that turns cup goals, physical limits, packaging, sampling, and acceptance rules into buying terms.'
+    },
     // ===== GREEN COFFEE DENSITY QC PROTOCOL =====
     {
       small_image_url: 'insights/green-coffee-density-quality-control-protocol.webp',

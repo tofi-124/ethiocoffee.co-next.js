@@ -258,6 +258,7 @@ export default function GreenCoffeeSupplierEvaluationChecklist({
           <h4 className='font-bold mb-2'>Before contract signature</h4>
           <ul className='space-y-2 text-sm text-gray-700'>
             <li>Contract draft with quality tolerances and sample approval milestones.</li>
+            <li>Version-controlled <Link href='/insights/green-coffee-specification-sheet-template' className='text-amber-700 hover:underline font-semibold'>green coffee specification sheet</Link> with lot identity, methods, limits, and acceptance rules.</li>
             <li>Packaging specification and liner format.</li>
             <li>Shipment responsibility by Incoterm.</li>
             <li>Document list covering invoice, packing list, bill of lading path, and origin support records.</li>

@@ -406,6 +406,9 @@ export default function EthiopianCoffeeOfferSheetGuide({
       <p className='my-4'>
         After sample approval and contract alignment, the next control point is document review. Our <Link href='/insights/green-coffee-shipping-documents-checklist' className='text-amber-700 hover:underline font-semibold'>green coffee shipping documents checklist</Link> shows how to verify invoices, packing lists, bill of lading drafts, and origin papers before the shipment pack is finalized.
       </p>
+      <p className='my-4'>
+        Before contract alignment, transfer the fields that matter into a controlled <Link href='/insights/green-coffee-specification-sheet-template' className='text-amber-700 hover:underline font-semibold'>green coffee specification sheet</Link>. The offer tells you what is available; the specification records the lot identity, test methods, tolerances, packaging, approved sample, and acceptance rules the purchase will use.
+      </p>
 
       <div className='overflow-x-auto my-6'>
         <table className='w-full border-collapse text-sm'>
