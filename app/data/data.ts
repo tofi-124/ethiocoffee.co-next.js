@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE PESTICIDE RESIDUE TESTING =====
+    {
+      small_image_url: 'insights/green-coffee-pesticide-residue-testing-guide.webp',
+      large_image_url: 'insights/green-coffee-pesticide-residue-testing-guide.webp',
+      date: 'Aug 1, 2026',
+      title: 'Green Coffee Pesticide Residue Testing Guide',
+      slug: 'green-coffee-pesticide-residue-testing-guide',
+      category: 'Food Safety / Pesticide Residues / Green Coffee Buying / Quality Assurance',
+      keywords: [
+        'green coffee pesticide residue testing',
+        'coffee pesticide testing',
+        'green coffee MRL',
+        'coffee maximum residue limits',
+        'pesticide residues in coffee beans',
+        'green coffee laboratory testing',
+        'coffee multiresidue analysis',
+        'coffee pesticide compliance',
+        'green coffee residue certificate',
+        'coffee MRL testing laboratory',
+        'LC-MS/MS coffee pesticide testing',
+        'green coffee sample pesticide analysis',
+        'how to test green coffee for pesticide residues',
+        'what are pesticide MRLs for coffee',
+        'Ethiopian coffee pesticide residue testing'
+      ],
+      desc: 'Green coffee pesticide residue testing guide for MRL mapping, representative samples, lab briefs, result review, and shipment release.'
+    },
     // ===== GREEN COFFEE SPECIFICATION SHEET =====
     {
       small_image_url: 'insights/green-coffee-specification-sheet-template.webp',

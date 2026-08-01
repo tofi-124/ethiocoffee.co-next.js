@@ -83,6 +83,9 @@ export default function GreenCoffeeSpecificationSheetTemplate({
       <p className='my-4'>
         The green coffee specification sheet closes that gap. It is the controlled technical brief for the coffee you intend to buy. It should help the exporter prepare the correct lot, the buyer approve the correct sample, the laboratory repeat the measurements, and the warehouse decide whether the delivered coffee matches the agreement.
       </p>
+      <p className='my-4'>
+        When the specification includes chemical safety, define the destination rule, analyte scope, reporting limit, sample stage, and release action. Our <Link href='/insights/green-coffee-pesticide-residue-testing-guide' className='text-amber-700 hover:underline font-semibold'>green coffee pesticide residue testing guide</Link> shows how to turn those fields into an MRL matrix and fit-for-purpose laboratory brief.
+      </p>
 
       <h3 id='purpose' className='text-2xl font-extrabold mt-12 mb-4 flex items-center gap-3'>
         <HiOutlineDocumentText className='w-8 h-8 text-amber-600' />
