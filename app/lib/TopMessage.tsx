@@ -3,10 +3,9 @@
 import React, { useState, useEffect, useCallback } from 'react'
 
 const messages = [
-  'Curated Ethiopian Specialty Coffee',
-  'Single-Origin, Fully Traceable',
-  'Sourced Directly from Origin',
-  'Professional Export Partners',
+  'All Current Coffee Lots Are Fully Contracted',
+  'Now Taking Enquiries for the Next Harvest',
+  'Tell Us the Profiles, Grades & Volumes You Need',
 ]
 
 const INTERVAL = 4000
