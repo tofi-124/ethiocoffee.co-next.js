@@ -176,7 +176,7 @@ export default function GreenCoffeeQualityControlLabSetupGuide({ title, date, la
         </table>
       </div>
       <p className='my-4'>
-        At Tier 1 the sample roast still happens on the production machine or a small home-scale roaster, which is workable if the roast is logged and repeated. The SCA and CQI green grading protocols call for at least 350 g of green coffee per graded sample (Cropster, 2024), so ask exporters for sample sizes that allow a full physical workup plus a roast.
+        At Tier 1 the sample roast still happens on the production machine or a small home-scale roaster, which is workable if the roast is logged and repeated. Use a written <Link href='/insights/green-coffee-sample-roasting-protocol' className='text-amber-700 hover:underline font-semibold'>green coffee sample roasting protocol</Link> to define the machine state, batch, endpoint, cooling, roast-acceptance gate, and repeat rule. The SCA and CQI green grading protocols call for at least 350 g of green coffee per graded sample (Cropster, 2024), so ask exporters for sample sizes that allow a full physical workup plus a roast.
       </p>
 
       <h4 className='text-xl font-bold mt-8 mb-4'>Tier 2: The Dedicated Lab (adds USD 8,000 to 15,000)</h4>

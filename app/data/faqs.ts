@@ -4,6 +4,28 @@
 export type Faq = { question: string; answer: string }
 
 export const faqsBySlug: Record<string, Faq[]> = {
+  "green-coffee-sample-roasting-protocol": [
+    {
+      "question": "What is the purpose of a green coffee sample roast?",
+      "answer": "A green coffee sample roast prepares a small, representative batch for consistent sensory evaluation. Its purpose is to reveal inherent quality, uniformity, and defects without letting roast character dominate. Buyers use accepted sample roasts to evaluate offers, approve pre-shipment samples, verify arrivals, and monitor stored lots."
+    },
+    {
+      "question": "What roast color should a cupping sample reach?",
+      "answer": "SCA preparation materials identify a target ground reading of 63 on the Agtron Gourmet scale for the standard cupping roast. Record the meter, scale, sample preparation, measurement timing, and house tolerance. Readings from different instruments are not automatically interchangeable, so validate the corresponding target before use."
+    },
+    {
+      "question": "Does every sample roast have to take 8 to 12 minutes?",
+      "answer": "No universal time fits every machine. Eight to twelve minutes is a familiar heritage-protocol range and a useful starting diagnostic for many drum roasters. Current SCA guidance emphasizes the intended roast level, absence of roasting problems, and consistent conditions. Validate a machine-specific time band instead of copying temperatures or times."
+    },
+    {
+      "question": "Can a production roaster be used for green coffee samples?",
+      "answer": "Yes, if the machine can roast the available sample mass repeatably and the lab validates a stable profile and endpoint. Production schedules and low batch-to-capacity ratios often reduce consistency. When sample volume grows, a dedicated sample roaster usually improves turnaround, repeatability, and separation from production contamination."
+    },
+    {
+      "question": "When should a buyer repeat a sample roast?",
+      "answer": "Repeat when the roast misses its endpoint, shows scorching, tipping, stalling, uneven development beyond the sample's condition, machine interruption, failed cooling, or uncertain identity. Preserve the failed record and state why a repeat was authorized. Do not keep roasting until a preferred cup score appears."
+    }
+  ],
   "afca-taste-of-harvest-ethiopian-coffee-competition": [
     {
       "question": "What is the AFCA Taste of Harvest competition?",

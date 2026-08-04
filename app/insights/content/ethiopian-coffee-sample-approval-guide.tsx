@@ -152,7 +152,7 @@ export default function EthiopianCoffeeSampleApprovalGuide({ title, large_image_
       </h3>
 
       <p className='my-4'>
-        Good buyers separate selection, shipment authorization, and landed verification. Each stage has a different question, a different response time, and a different standard of evidence. Each stage also assumes you can measure and cup under repeatable conditions; the <Link href='/insights/green-coffee-quality-control-lab-setup-guide' className='text-amber-700 hover:underline'>green coffee quality control lab setup guide</Link> shows how to build that capability at three budget levels.
+        Good buyers separate selection, shipment authorization, and landed verification. Each stage has a different question, a different response time, and a different standard of evidence. Each stage also assumes you can measure, roast, and cup under repeatable conditions. Use the <Link href='/insights/green-coffee-sample-roasting-protocol' className='text-amber-700 hover:underline font-semibold'>green coffee sample roasting protocol</Link> to keep preparation comparable across all three checkpoints; the <Link href='/insights/green-coffee-quality-control-lab-setup-guide' className='text-amber-700 hover:underline'>green coffee quality control lab setup guide</Link> shows how to build that capability at three budget levels.
       </p>
 
       <div className='space-y-4 my-6'>

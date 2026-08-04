@@ -236,7 +236,7 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
       </h3>
 
       <p className='my-4 text-lg leading-relaxed'>
-        When evaluating green Ethiopian coffee, proper sample roasting is essential. The objective is to develop the coffee enough to reveal its intrinsic characteristics without introducing roast-derived flavors that mask origin qualities or hide defects. For more on how roast development affects Ethiopian cup profiles, see our <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='text-amber-700 hover:underline font-bold'>roasting Ethiopian coffee guide</Link>.
+        When evaluating green Ethiopian coffee, proper sample roasting is essential. The objective is to develop the coffee enough to reveal its intrinsic characteristics without introducing roast-derived flavors that mask origin qualities or hide defects. Our <Link href='/insights/green-coffee-sample-roasting-protocol' className='text-amber-700 hover:underline font-bold'>green coffee sample roasting protocol for buyers</Link> covers the current SCA-102 endpoint, roast acceptance gate, retained references, and reproducible lot records. For production-roast development, see our <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='text-amber-700 hover:underline font-bold'>roasting Ethiopian coffee guide</Link>.
       </p>
 
       <div className='bg-blue-50 border border-blue-200 rounded-lg p-6 my-6'>

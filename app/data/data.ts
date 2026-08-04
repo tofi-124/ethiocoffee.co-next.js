@@ -12,6 +12,32 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE SAMPLE ROASTING PROTOCOL =====
+    {
+      small_image_url: 'insights/green-coffee-sample-roasting-protocol.webp',
+      large_image_url: 'insights/green-coffee-sample-roasting-protocol.webp',
+      date: 'Aug 4, 2026',
+      title: 'Green Coffee Sample Roasting Protocol for Buyers',
+      slug: 'green-coffee-sample-roasting-protocol',
+      category: 'Quality Control / Sample Roasting / Green Coffee Buying / Roaster Resources',
+      keywords: [
+        'green coffee sample roasting protocol',
+        'coffee sample roasting protocol',
+        'sample roast green coffee',
+        'green coffee evaluation roast',
+        'SCA sample roasting standard',
+        'sample roaster profile',
+        'coffee cupping roast standard',
+        'green coffee buyer quality control',
+        'sample roast color Agtron',
+        'pre-shipment sample roasting',
+        'coffee sample roast log',
+        'how to sample roast green coffee',
+        'what roast color for coffee cupping',
+        'Ethiopian coffee sample roasting'
+      ],
+      desc: 'Use this green coffee sample roasting protocol to standardize buyer evaluations, diagnose roast faults, document results, and approve lots confidently.'
+    },
     // ===== GREEN COFFEE PESTICIDE RESIDUE TESTING =====
     {
       small_image_url: 'insights/green-coffee-pesticide-residue-testing-guide.webp',
