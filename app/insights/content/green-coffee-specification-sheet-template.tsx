@@ -95,7 +95,7 @@ export default function GreenCoffeeSpecificationSheetTemplate({
         A supplier offer sheet describes coffee that is available. A buyer specification states what the buyer will accept. A contract records the commercial agreement. These documents may share fields, but they do different jobs. The specification should be attached to, or clearly incorporated into, the final contract so technical requirements do not remain trapped in an email thread.
       </p>
       <p className='my-4'>
-        This distinction is consistent with <a href='https://www.iso.org/standard/87698.html' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline font-semibold'>ISO 9116:2025</a>, which provides guidance for describing green coffee for sale and purchase and also addresses sampling, packing, marking, storage, and shipping. The standard does not choose your commercial tolerances. It reinforces the need for a shared method of specification.
+        This distinction is consistent with <a href='https://www.iso.org/standard/87698.html' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline font-semibold'>ISO 9116:2025</a>, which provides guidance for describing green coffee for sale and purchase and also addresses sampling, packing, marking, storage, and shipping. The standard does not choose your commercial tolerances. It reinforces the need for a shared method of specification. Use the separate <Link href='/insights/green-coffee-sampling-protocol' className='text-amber-700 hover:underline font-semibold'>green coffee sampling protocol</Link> to define how bags are selected, increments are combined, and sealed final samples are traced.
       </p>
 
       <div className='overflow-x-auto my-6'>

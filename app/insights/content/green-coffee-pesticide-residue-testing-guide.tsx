@@ -216,7 +216,7 @@ export default function GreenCoffeePesticideResidueTestingGuide({
         Laboratory precision cannot repair a biased sample. The submitted portion must represent the named commercial lot, not one convenient bag or an earlier type sample. Define the lot boundaries first. Keep different washing stations, crop years, grades, process types, storage histories, and treatment histories separate unless the contract deliberately combines them.
       </p>
       <p className='my-4'>
-        Use a written sampling plan that distributes increments across the lot, combines them into a homogeneous aggregate, and divides the prepared sample without choosing “clean-looking” beans. Record bag numbers or sampling positions, date, location, sampler, lot code, method, seal numbers, and any deviation. The lab portion and retained duplicate should come from the same prepared aggregate.
+        Use a written sampling plan that distributes increments across the lot, combines them into a homogeneous aggregate, and divides the prepared sample without choosing “clean-looking” beans. Record bag numbers or sampling positions, date, location, sampler, lot code, method, seal numbers, and any deviation. The lab portion and retained duplicate should come from the same prepared aggregate. Follow our complete <Link href='/insights/green-coffee-sampling-protocol' className='text-amber-700 hover:underline font-semibold'>green coffee sampling protocol</Link> for bag selection, mixing, subdivision, labeling, and chain of custody.
       </p>
 
       <div className='bg-gray-50 border border-gray-200 rounded-lg p-6 my-6'>

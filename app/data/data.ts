@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE SAMPLING PROTOCOL =====
+    {
+      small_image_url: 'insights/green-coffee-sampling-protocol.webp',
+      large_image_url: 'insights/green-coffee-sampling-protocol.webp',
+      date: 'Aug 6, 2026',
+      title: 'Green Coffee Sampling Protocol for Buyers',
+      slug: 'green-coffee-sampling-protocol',
+      category: 'Quality Control / Green Coffee Sampling / Procurement / Roaster Resources',
+      keywords: [
+        'green coffee sampling protocol',
+        'green coffee sampling procedure',
+        'green coffee representative sample',
+        'green coffee composite sample',
+        'green coffee lot sampling',
+        'ISO 4072 coffee sampling',
+        'green coffee sampling plan',
+        'coffee sampling trier',
+        'pre-shipment coffee sample',
+        'green coffee retention sample',
+        'green coffee chain of custody',
+        'how to sample green coffee bags',
+        'how many coffee bags should be sampled',
+        'green coffee quality control sample',
+        'Ethiopian green coffee sampling'
+      ],
+      desc: 'Use this green coffee sampling protocol to define lots, select bags, build composites, divide samples, and preserve chain of custody.'
+    },
     // ===== GREEN COFFEE SAMPLE ROASTING PROTOCOL =====
     {
       small_image_url: 'insights/green-coffee-sample-roasting-protocol.webp',
