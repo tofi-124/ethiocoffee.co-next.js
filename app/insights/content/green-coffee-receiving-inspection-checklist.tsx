@@ -289,6 +289,9 @@ export default function GreenCoffeeReceivingInspectionChecklist({ title, date, l
         Reconcile the physical receipt against the purchase order, commercial invoice, packing list, transport document, certificate references, and warehouse intake record. The <Link href='/insights/green-coffee-shipping-documents-checklist' className='text-amber-700 hover:underline font-bold'>green coffee shipping documents checklist</Link> explains what each trade document proves. Receiving should confirm that the documents and cargo refer to the same lot, not re-audit the entire export file.
       </p>
       <p className='my-4'>
+        For the exact field-level check, follow the <Link href='/insights/green-coffee-bag-markings-guide' className='text-amber-700 hover:underline font-bold'>green coffee bag markings verification workflow</Link>. It separates critical ICO-mark conflicts from operational barcode or artwork issues so the receiving team can hold the right scope instead of blocking sound inventory without cause.
+      </p>
+      <p className='my-4'>
         Post three quantities separately: expected, physically received, and quality released. If 320 bags arrive but two damaged bags remain isolated, the inventory record should show 320 received and only the accepted quantity available for production. Preserve the exception quantity under the same parent lot so traceability is not broken by the hold.
       </p>
 

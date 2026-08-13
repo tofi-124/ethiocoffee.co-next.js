@@ -4,28 +4,6 @@
 export type Faq = { question: string; answer: string }
 
 export const faqsBySlug: Record<string, Faq[]> = {
-  "green-coffee-sample-roasting-protocol": [
-    {
-      "question": "What is the purpose of a green coffee sample roast?",
-      "answer": "A green coffee sample roast prepares a small, representative batch for consistent sensory evaluation. Its purpose is to reveal inherent quality, uniformity, and defects without letting roast character dominate. Buyers use accepted sample roasts to evaluate offers, approve pre-shipment samples, verify arrivals, and monitor stored lots."
-    },
-    {
-      "question": "What roast color should a cupping sample reach?",
-      "answer": "SCA preparation materials identify a target ground reading of 63 on the Agtron Gourmet scale for the standard cupping roast. Record the meter, scale, sample preparation, measurement timing, and house tolerance. Readings from different instruments are not automatically interchangeable, so validate the corresponding target before use."
-    },
-    {
-      "question": "Does every sample roast have to take 8 to 12 minutes?",
-      "answer": "No universal time fits every machine. Eight to twelve minutes is a familiar heritage-protocol range and a useful starting diagnostic for many drum roasters. Current SCA guidance emphasizes the intended roast level, absence of roasting problems, and consistent conditions. Validate a machine-specific time band instead of copying temperatures or times."
-    },
-    {
-      "question": "Can a production roaster be used for green coffee samples?",
-      "answer": "Yes, if the machine can roast the available sample mass repeatably and the lab validates a stable profile and endpoint. Production schedules and low batch-to-capacity ratios often reduce consistency. When sample volume grows, a dedicated sample roaster usually improves turnaround, repeatability, and separation from production contamination."
-    },
-    {
-      "question": "When should a buyer repeat a sample roast?",
-      "answer": "Repeat when the roast misses its endpoint, shows scorching, tipping, stalling, uneven development beyond the sample's condition, machine interruption, failed cooling, or uncertain identity. Preserve the failed record and state why a repeat was authorized. Do not keep roasting until a preferred cup score appears."
-    }
-  ],
   "afca-taste-of-harvest-ethiopian-coffee-competition": [
     {
       "question": "What is the AFCA Taste of Harvest competition?",
@@ -1402,6 +1380,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "No. Ethiopian green coffee enters the EU at 0% import duty under the GSP+ preferential tariff scheme, provided a Form A Certificate of Origin accompanies the shipment. Kaffeesteuer (&euro;2.19/kg) applies after roasting, not at green bean import. VAT (19%) applies but is recoverable for registered businesses."
     }
   ],
+  "green-coffee-bag-markings-guide": [
+    {
+      "question": "What do the numbers on a green coffee bag mean?",
+      "answer": "The standard ICO identification mark has three parts: producing-country code, assigned exporter or grower code, and export-parcel serial number. On Ethiopian coffee, the first group is 010. Extra printed fields such as region, process, grade, crop, buyer lot, or bag number are operational descriptions, not parts of the ICO mark."
+    },
+    {
+      "question": "What is Ethiopia's ICO coffee country code?",
+      "answer": "Ethiopia's ICO producing-country code is 010. The International Coffee Organization lists it in the country-code annex to its Rules on Statistics. A complete Ethiopian parcel mark adds the assigned exporter or grower code and the parcel serial, using the format 010/####/####. The country code alone does not identify a specific seller or shipment."
+    },
+    {
+      "question": "Must every green coffee bag carry the same ICO mark?",
+      "answer": "Every bag within one export parcel should carry that parcel's ICO identification mark, and the same mark should appear on its Certificate of Origin. A container may carry multiple parcels, but the packing list should preserve separate lines by mark, count, and weight so each physical group remains identifiable."
+    },
+    {
+      "question": "Should a buyer put a QR code on green coffee bags?",
+      "answer": "A QR code is useful when the buyer or warehouse has a maintained scanning system and a stable lot database. Keep the core identity in human-readable text as well. Encode a durable record key rather than sensitive data, and test the finished code on filled jute bags before approving the production run."
+    },
+    {
+      "question": "What should happen if bag marks do not match shipping documents?",
+      "answer": "Place the affected bags or parcel on hold, preserve photographs and original markings, and identify the exact field and scope of the mismatch. An ICO-mark conflict needs formal exporter and document review. A correct human-readable identity with a failed barcode may be resolved through a controlled internal label and documented approval."
+    }
+  ],
   "green-coffee-cargo-insurance-guide": [
     {
       "question": "Does a CIF contract include enough insurance for specialty green coffee?",
@@ -1574,6 +1574,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "GrainPro offers reusable hermetic bags in some product lines, including zipper-closure formats designed for multiple uses. However, for export-grade green coffee, most exporters use single-use liners to eliminate contamination risk and simplify supply chain management. Importers who want to reuse liners for on-site storage after arrival should use a clean, food-safe hermetic bag rated for green coffee and verify it holds a proper seal before use."
     }
   ],
+  "green-coffee-pesticide-residue-testing-guide": [
+    {
+      "question": "What is an MRL in green coffee?",
+      "answer": "An MRL is the legally permitted maximum concentration of a defined pesticide residue in or on a specified food commodity. It is usually expressed in mg/kg. The applicable value depends on the substance, residue definition, commodity, destination, and effective date, so buyers must verify the current official source for every planned market."
+    },
+    {
+      "question": "Does organic green coffee still need pesticide residue testing?",
+      "answer": "Organic certification does not automatically remove the need for residue testing. Certification and analysis answer different questions. A buyer may test certified coffee when required by law, a customer program, the certification body, supplier-risk controls, or an investigation. The testing decision should follow the written risk plan rather than a blanket assumption."
+    },
+    {
+      "question": "Which pesticides should a green coffee buyer test for?",
+      "answer": "Build the analyte list from destination MRLs, customer restrictions, known farm inputs, storage or fumigation treatments, supplier history, and certification rules. A broad multiresidue panel is a useful base, but some compounds require separate methods. Ask the laboratory to map every required residue definition to its method and reporting limit."
+    },
+    {
+      "question": "What does “not detected” mean on a pesticide report?",
+      "answer": "“Not detected” means the laboratory did not report the analyte above its stated detection or reporting threshold. It does not prove absolute absence. Check whether the method's LOQ is below the applicable MRL or customer action level. If the LOQ is higher, the result is inconclusive for that compliance decision."
+    },
+    {
+      "question": "When should green coffee be sampled for residue testing?",
+      "answer": "For a shipment-release decision, sample the final identifiable lot after relevant processing, storage, and bagging steps, but before dispatch. Use a representative written plan and seal a duplicate. Earlier supplier or offer samples help assess risk, yet they cannot replace a shipment-lot sample when the contract requires lot-specific proof."
+    }
+  ],
   "green-coffee-quality-claims-guide": [
     {
       "question": "What is a green coffee quality claim?",
@@ -1662,6 +1684,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Keep them through the applicable claim period and, for retained quality samples, until the lot is consumed or the company's longer retention rule expires. The correct period depends on the contract, law, insurer, and customer requirements. Link photographs, test results, notices, and sample IDs to one receipt record."
     }
   ],
+  "green-coffee-sample-roasting-protocol": [
+    {
+      "question": "What is the purpose of a green coffee sample roast?",
+      "answer": "A green coffee sample roast prepares a small, representative batch for consistent sensory evaluation. Its purpose is to reveal inherent quality, uniformity, and defects without letting roast character dominate. Buyers use accepted sample roasts to evaluate offers, approve pre-shipment samples, verify arrivals, and monitor stored lots."
+    },
+    {
+      "question": "What roast color should a cupping sample reach?",
+      "answer": "SCA preparation materials identify a target ground reading of 63 on the Agtron Gourmet scale for the standard cupping roast. Record the meter, scale, sample preparation, measurement timing, and house tolerance. Readings from different instruments are not automatically interchangeable, so validate the corresponding target before use."
+    },
+    {
+      "question": "Does every sample roast have to take 8 to 12 minutes?",
+      "answer": "No universal time fits every machine. Eight to twelve minutes is a familiar heritage-protocol range and a useful starting diagnostic for many drum roasters. Current SCA guidance emphasizes the intended roast level, absence of roasting problems, and consistent conditions. Validate a machine-specific time band instead of copying temperatures or times."
+    },
+    {
+      "question": "Can a production roaster be used for green coffee samples?",
+      "answer": "Yes, if the machine can roast the available sample mass repeatably and the lab validates a stable profile and endpoint. Production schedules and low batch-to-capacity ratios often reduce consistency. When sample volume grows, a dedicated sample roaster usually improves turnaround, repeatability, and separation from production contamination."
+    },
+    {
+      "question": "When should a buyer repeat a sample roast?",
+      "answer": "Repeat when the roast misses its endpoint, shows scorching, tipping, stalling, uneven development beyond the sample's condition, machine interruption, failed cooling, or uncertain identity. Preserve the failed record and state why a repeat was authorized. Do not keep roasting until a preferred cup score appears."
+    }
+  ],
   "green-coffee-shelf-life-storage-guide": [
     {
       "question": "Does green coffee expire?",
@@ -1716,6 +1760,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
     {
       "question": "Can the same checklist work for both EU and non-EU shipments?",
       "answer": "The core review logic stays the same, but the outer layer changes. EU buyers often need additional traceability and sustainability files, while other markets may focus more on customs and banking simplicity. Start with the shared commercial pack, then add market-specific checks on top rather than building two unrelated systems."
+    }
+  ],
+  "green-coffee-specification-sheet-template": [
+    {
+      "question": "What is a green coffee specification sheet?",
+      "answer": "A green coffee specification sheet is a controlled document that defines the lot identity, sensory target, physical limits, packaging, sampling, documents, and acceptance rules for a purchase. It turns a buyer's needs into requirements that the exporter, laboratory, warehouse, and claims team can apply to the same coffee."
+    },
+    {
+      "question": "What should a green coffee spec sheet include?",
+      "answer": "Include document version, contract and lot references, origin, crop, process, grade, approved sample, sensory profile, defects, moisture, water activity, screen distribution, packaging, bag marks, sampling method, required reports, pass or review limits, notice timing, and the remedy or neutral-verification process."
+    },
+    {
+      "question": "Is a supplier offer sheet the same as a buyer specification?",
+      "answer": "No. An offer sheet describes an available coffee and its commercial indication. A buyer specification defines the coffee and conditions the buyer will accept. Verified offer data can populate the draft specification, but the final version needs agreed methods, limits, sample references, packaging instructions, and decision rules."
+    },
+    {
+      "question": "Should cup score be a binding acceptance limit?",
+      "answer": "Cup score can support acceptance when the method, panel, sample roast, and tolerance are defined, but it should not stand alone. Add the intended profile, disqualifying taints, and the approved pre-shipment sample. A coffee can meet a score threshold yet miss the flavor role it was purchased to fill."
+    },
+    {
+      "question": "How should buyers handle a result outside specification?",
+      "answer": "First hold the affected coffee and confirm sample identity, method, calibration, and repeatability. Notify the seller within the contract window, preserve retained samples and records, and use the agreed neutral process if results remain disputed. The contract should define review bands and available remedies before shipment."
     }
   ],
   "green-coffee-supplier-evaluation-checklist": [

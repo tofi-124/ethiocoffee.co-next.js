@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE BAG MARKINGS =====
+    {
+      small_image_url: 'insights/green-coffee-bag-markings-guide.webp',
+      large_image_url: 'insights/green-coffee-bag-markings-guide.webp',
+      date: 'Aug 12, 2026',
+      title: 'Green Coffee Bag Markings: Buyer Verification Guide',
+      slug: 'green-coffee-bag-markings-guide',
+      category: 'Export Operations / Bag Markings / Lot Traceability / Green Coffee Buying',
+      keywords: [
+        'green coffee bag markings',
+        'coffee bag marks',
+        'ICO coffee number',
+        'ICO identification mark',
+        'green coffee bag labeling requirements',
+        'coffee shipping marks',
+        'Ethiopia ICO coffee code',
+        'green coffee lot identification',
+        'coffee sack markings',
+        'green coffee traceability labels',
+        'coffee bag lot number',
+        'green coffee warehouse labels',
+        'how to read coffee bag markings',
+        'what do numbers on coffee bags mean',
+        'Ethiopian green coffee bag marks'
+      ],
+      desc: 'Green coffee bag markings explained: decode ICO numbers, set contract fields, reconcile documents, and manage mismatches before release.'
+    },
     // ===== GREEN COFFEE SAMPLING PROTOCOL =====
     {
       small_image_url: 'insights/green-coffee-sampling-protocol.webp',
@@ -178,6 +205,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/green-coffee-receiving-inspection-checklist.webp',
       large_image_url: 'insights/green-coffee-receiving-inspection-checklist.webp',
       date: 'Jul 24, 2026',
+      dateModified: 'Aug 12, 2026',
       title: 'Green Coffee Receiving Inspection Checklist',
       slug: 'green-coffee-receiving-inspection-checklist',
       category: 'Warehouse Operations / Receiving Inspection / Green Coffee Quality Control / Roaster Resources',
@@ -750,6 +778,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/green-coffee-shipping-documents-checklist.webp',
       large_image_url: 'insights/green-coffee-shipping-documents-checklist.webp',
       date: 'May 21, 2026',
+      dateModified: 'Aug 12, 2026',
       title: 'Green Coffee Shipping Documents Checklist',
       slug: 'green-coffee-shipping-documents-checklist',
       category: 'Shipping Documents / Export Logistics / Contract Execution / Importer Resources',
@@ -1632,6 +1661,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/green-coffee-packaging-bag-types-guide.webp',
       large_image_url: 'insights/green-coffee-packaging-bag-types-guide.webp',
       date: 'Mar 5, 2026',
+      dateModified: 'Aug 12, 2026',
       title: 'Green Coffee Packaging: Bag Types & Buyer\'s Guide',
       slug: 'green-coffee-packaging-bag-types-guide',
       category: 'Quality Control / Storage & Logistics / Green Coffee / Importer Resources',

@@ -321,6 +321,9 @@ export default function GreenCoffeeShippingDocumentsChecklist({ title, date, lar
         <p className='text-sm text-gray-700'>
           Consistent cargo identity matters more than elegant formatting. If the lot code, marks and numbers, net weight, container references, and party names do not line up across invoice, packing list, bill of lading, and certificate set, every downstream actor has to decide which version is true. That is where delays begin.
         </p>
+        <p className='text-sm text-gray-700 mt-2'>
+          The <Link href='/insights/green-coffee-bag-markings-guide' className='text-amber-700 hover:underline font-semibold'>green coffee bag markings guide</Link> extends this review to the physical sacks, including ICO-number decoding, artwork approval, photo evidence, and mismatch disposition.
+        </p>
       </div>
 
       <h3 id='market-incoterm' className='text-2xl font-extrabold mt-12 mb-4 flex items-center gap-3'>

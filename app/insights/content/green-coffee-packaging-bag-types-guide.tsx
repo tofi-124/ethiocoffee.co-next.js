@@ -342,6 +342,9 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
           <p className='text-sm text-gray-700'>
             List required markings: exporter code, ICO number, country of origin (ETHIOPIA), lot number, grade, net weight, and any custom fields (washing station name, harvest year, QR code for traceability). This is especially important for EUDR compliance and specialty resale storytelling.
           </p>
+          <p className='text-sm text-gray-700 mt-2'>
+            Use the <Link href='/insights/green-coffee-bag-markings-guide' className='text-amber-700 hover:underline font-semibold'>green coffee bag markings verification guide</Link> to define the field order, approve variable data, and reconcile the finished sacks against export documents.
+          </p>
         </div>
 
         <div className='bg-amber-50 p-4 rounded-lg border border-amber-200'>
