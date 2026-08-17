@@ -424,5 +424,21 @@ export const newsArticles: NewsArticle[] = [
     desc: 'ECTA data show Ethiopia shipped 47,836 tonnes of coffee worth $347 million to China in the 2025/26 fiscal year, moving China ahead of the United States and into third place behind Saudi Arabia and Germany.',
     source: 'Xinhua / Ethiopian Coffee and Tea Authority',
     keywords: 'China Ethiopian coffee imports 2026, China third largest Ethiopian coffee buyer, Ethiopia coffee exports to China, ECTA coffee export data, Ethiopian coffee China market, Ethiopian organic coffee exports, Saudi Arabia Germany China coffee, Ethiopian coffee exporter, Ethiopian green coffee beans China',
+  },
+  {
+    slug: 'sidama-crown-coffee-auction-2026-results',
+    date: '2026-08-05',
+    title: 'Sidama Crown Auction Reaches $71.75 per Kilogram',
+    desc: 'The 2026 Sidama Crown Coffee Auction closed with 433 bids and $22,570 in total sales. Its top 20-kilogram natural lot reached $71.75 per kilogram, highlighting international demand for distinctive, traceable Sidama specialty coffees.',
+    source: 'Sidama Highland Coffee Excellence / M-Cultivo',
+    keywords: 'Sidama Crown Coffee Auction 2026, Ethiopian coffee auction results, Sidama specialty coffee, Ethiopian coffee price per kilogram, Bekalcho Natural Murago, Ethiopian microlot auction, Ethiopian coffee buyers, traceable Ethiopian coffee, Ethiopian coffee exporter',
+  },
+  {
+    slug: 'ethiopia-taste-of-harvest-auction-2026',
+    date: '2026-08-17',
+    title: 'Ethiopia Taste of Harvest Auction Set for August 25-27',
+    desc: 'AFCA\'s Ethiopia Taste of Harvest 2026 auction will run online from August 25 to 27 after 232 coffees entered the national competition, connecting selected Ethiopian producers and exporters with specialty buyers worldwide.',
+    source: 'African Fine Coffees Association / M-Cultivo',
+    keywords: 'Ethiopia Taste of Harvest 2026, AFCA coffee auction Ethiopia, Ethiopian specialty coffee auction, Ethiopian coffee competition, buy Ethiopian microlots, Ethiopian coffee producers, Ethiopian coffee exporters, August 2026 coffee auction, African Fine Coffees Association',
   }
 ]

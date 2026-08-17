@@ -106,6 +106,10 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./ico-ethiopian-coffee-export-slowdown-may-2026').then(mod => mod.default),
     'china-third-largest-ethiopian-coffee-buyer-2026': () =>
       import('./china-third-largest-ethiopian-coffee-buyer-2026').then(mod => mod.default),
+    'sidama-crown-coffee-auction-2026-results': () =>
+      import('./sidama-crown-coffee-auction-2026-results').then(mod => mod.default),
+    'ethiopia-taste-of-harvest-auction-2026': () =>
+      import('./ethiopia-taste-of-harvest-auction-2026').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 
