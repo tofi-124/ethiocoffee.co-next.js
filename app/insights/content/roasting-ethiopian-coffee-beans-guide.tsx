@@ -576,7 +576,7 @@ export default function RoastingEthiopianCoffeeBeansGuide({ title, date, large_i
         </li>
         <li className='flex items-start gap-2'>
           <HiOutlineCheckCircle className='text-green-600 flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Log everything.</span> Record charge temperature, turning point, yellowing time, first crack onset, drop temperature, total roast time, and weight loss. Ethiopian lots from the same region and processor can vary between seasons, and your roast notes become the reference for future orders.</span>
+          <span><span className='font-bold'>Log everything.</span> Record charge temperature, turning point, yellowing time, first crack onset, drop temperature, total roast time, and weight loss. Our <Link href='/insights/coffee-roasting-weight-loss-yield-cost-guide' className='text-amber-700 hover:underline font-semibold'>coffee roasting weight loss guide</Link> shows how to turn those weights into roast yield, saleable output, and finished coffee cost. Ethiopian lots from the same region and processor can vary between seasons, and your roast notes become the reference for future orders.</span>
         </li>
       </ul>
 

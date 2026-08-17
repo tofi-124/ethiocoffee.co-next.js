@@ -310,6 +310,9 @@ export default function GreenCoffeeDensityQualityControlProtocol({
       <p className='my-4'>
         The production team needs a concise green-data brief, not a density-based roast recipe. Density affects how a coffee may accept and transfer heat, but machine design, batch size, moisture, process, screen distribution, and target flavor still control the production trial. Use the result to choose a sensible first test and to explain behavior, never to bypass tasting.
       </p>
+      <p className='my-4'>
+        Carry the same lot identity into the <Link href='/insights/coffee-roasting-weight-loss-yield-cost-guide' className='text-amber-700 hover:underline font-semibold'>coffee roasting weight loss record</Link>. Tracking density, moisture, green charge, and cooled output together helps the team distinguish a change in green condition from a scale, recovery, or roast-execution issue.
+      </p>
       <ul className='list-disc ml-5 my-4 space-y-3'>
         <li><span className='font-bold'>Send the median and method.</span> “712 g/L, free-flow, 250 mL, three fills” is usable. “High density” is not.</li>
         <li><span className='font-bold'>Attach condition data.</span> Include moisture, water activity when available, crop, process, screen distribution, and days since arrival.</li>

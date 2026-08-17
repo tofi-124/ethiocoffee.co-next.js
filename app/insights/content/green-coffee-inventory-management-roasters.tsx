@@ -109,7 +109,7 @@ export default function GreenCoffeeInventoryManagementRoasters({ title, date, la
         2. Convert Roasted Demand into Green Coffee
       </h3>
       <p className='my-4'>
-        Forecast demand in roasted kilograms by SKU, then convert it to green kilograms with the yield your roastery actually records. Do not apply one assumed loss factor to every roast. Dense light-roast lots, darker profiles, sample roasts, cleaning loss, and production variance can give different usable yields.
+        Forecast demand in roasted kilograms by SKU, then convert it to green kilograms with the yield your roastery actually records. Do not apply one assumed loss factor to every roast. Use the <Link href='/insights/coffee-roasting-weight-loss-yield-cost-guide' className='text-amber-700 hover:underline font-semibold'>coffee roasting weight loss and saleable-yield guide</Link> to separate roaster output from QC, handling, and packing loss. Dense light-roast lots, darker profiles, sample roasts, cleaning loss, and production variance can give different usable yields.
       </p>
 
       <div className='bg-green-50 border border-green-200 rounded-lg p-6 my-6'>

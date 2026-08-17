@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== COFFEE ROASTING WEIGHT LOSS =====
+    {
+      small_image_url: 'insights/coffee-roasting-weight-loss-yield-cost-guide.webp',
+      large_image_url: 'insights/coffee-roasting-weight-loss-yield-cost-guide.webp',
+      date: 'Aug 17, 2026',
+      title: 'Coffee Roasting Weight Loss: Yield and Cost Guide',
+      slug: 'coffee-roasting-weight-loss-yield-cost-guide',
+      category: 'Roaster Operations / Roast Yield / Cost Control / Green Coffee Buying',
+      keywords: [
+        'coffee roasting weight loss',
+        'coffee roast loss percentage',
+        'coffee roast yield',
+        'green to roasted coffee weight',
+        'green coffee cost per roasted kg',
+        'coffee roasting shrinkage',
+        'roasted coffee yield calculation',
+        'coffee production yield',
+        'coffee roast loss formula',
+        'green coffee needed for roasted coffee',
+        'coffee roasting cost calculation',
+        'saleable coffee yield',
+        'how to calculate coffee roasting weight loss',
+        'how much weight does coffee lose when roasted',
+        'how much green coffee is needed for 1 kg roasted'
+      ],
+      desc: 'Coffee roasting weight loss guide for calculating roast yield, saleable output, finished coffee cost, purchasing needs, and batch variance.'
+    },
     // ===== GREEN COFFEE BAG MARKINGS =====
     {
       small_image_url: 'insights/green-coffee-bag-markings-guide.webp',
