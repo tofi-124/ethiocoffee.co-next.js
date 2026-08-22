@@ -143,6 +143,9 @@ export default function GreenCoffeeReceivingInspectionChecklist({ title, date, l
       <p className='my-4'>
         Walk around the unit where site rules allow. Record holes, deep impact damage, open roof seams, wet patches, strong odors, pest activity, or evidence of unauthorized entry. The IMO, ILO, and UNECE <a href='https://unece.org/transport/intermodal-transport/imoilounece-code-practice-packing-cargo-transport-units-ctu-code' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline font-bold'>Code of Practice for Packing of Cargo Transport Units</a> covers both packers and receivers and treats condensation, contamination, and unit condition as risks across the intermodal chain.
       </p>
+      <p className='my-4'>
+        If you find live insects, droppings, webbing, fresh boring dust, or gnawed packaging, follow the <Link href='/insights/green-coffee-warehouse-pest-control-guide' className='text-amber-700 hover:underline font-bold'>green coffee warehouse pest control response</Link>: stop movement, isolate the lot, preserve evidence, inspect adjacent stock, and require an authorized disposition before release.
+      </p>
 
       <div className='border-l-4 border-red-500 pl-6 bg-red-50 p-4 my-6'>
         <p className='text-sm text-gray-700'>

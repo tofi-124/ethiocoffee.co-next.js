@@ -314,6 +314,10 @@ export default function GreenCoffeeShelfLifeStorageGuide({ title, date, large_im
         Palletize all bags at least 10 cm off the floor and 30 cm from exterior walls. Concrete floors and walls conduct moisture, especially in older warehouses without vapor barriers. Stacking bags directly on concrete is one of the most common and most damaging storage mistakes in the industry.
       </p>
 
+      <p className='my-4'>
+        Storage conditions also need a documented <Link href='/insights/green-coffee-warehouse-pest-control-guide' className='underline font-bold'>green coffee warehouse pest control program</Link> covering prevention, monitoring, quarantine, corrective action, and release. Pest activity can expose a moisture or sanitation failure before routine quality testing detects it.
+      </p>
+
       <h4 className='text-xl font-bold mt-8 mb-3'>Warehouse vs Roastery Storage</h4>
 
       <p className='my-4'>

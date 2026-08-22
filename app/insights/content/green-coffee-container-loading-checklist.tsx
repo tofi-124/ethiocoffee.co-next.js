@@ -231,6 +231,10 @@ export default function GreenCoffeeContainerLoadingChecklist({ title, date, larg
       </div>
 
       <p className='my-4'>
+        Any pest evidence should also trigger the site&apos;s <Link href='/insights/green-coffee-warehouse-pest-control-guide' className='text-amber-700 hover:underline font-bold'>green coffee warehouse pest control procedure</Link>. Preserve the finding, check staged lots and nearby stock, and close the investigation before presenting replacement equipment for loading.
+      </p>
+
+      <p className='my-4'>
         Use the facility&apos;s safety procedure for inspection. A closed container may hold hazardous vapors, fumigant residues, or low oxygen. Ventilation, gas testing, lighting, access equipment, dock restraint, and manual-handling controls belong in the site risk assessment, not in an improvised coffee checklist.
       </p>
 

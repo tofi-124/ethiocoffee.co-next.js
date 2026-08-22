@@ -12,6 +12,32 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE WAREHOUSE PEST CONTROL =====
+    {
+      small_image_url: 'insights/green-coffee-warehouse-pest-control-guide.webp',
+      large_image_url: 'insights/green-coffee-warehouse-pest-control-guide.webp',
+      date: 'Aug 22, 2026',
+      title: 'Green Coffee Warehouse Pest Control: IPM Guide',
+      slug: 'green-coffee-warehouse-pest-control-guide',
+      category: 'Warehouse Operations / Pest Control / Green Coffee Quality Assurance / Roaster Resources',
+      keywords: [
+        'green coffee warehouse pest control',
+        'green coffee pest management',
+        'coffee warehouse pest control',
+        'stored coffee insect monitoring',
+        'integrated pest management coffee warehouse',
+        'green coffee infestation response',
+        'coffee bean weevil storage',
+        'green coffee warehouse audit',
+        'green coffee quarantine procedure',
+        'warehouse pest control records',
+        'how to prevent insects in green coffee',
+        'what pests infest stored green coffee beans',
+        'what to do with infested green coffee',
+        'green coffee pest control checklist'
+      ],
+      desc: 'Green coffee warehouse pest control guide for prevention, monitoring, lot isolation, safe response, and audit-ready records.'
+    },
     // ===== COFFEE ROASTING WEIGHT LOSS =====
     {
       small_image_url: 'insights/coffee-roasting-weight-loss-yield-cost-guide.webp',
