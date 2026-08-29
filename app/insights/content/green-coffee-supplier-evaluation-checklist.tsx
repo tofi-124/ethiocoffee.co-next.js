@@ -278,6 +278,7 @@ export default function GreenCoffeeSupplierEvaluationChecklist({
           <ul className='space-y-2 text-sm text-gray-700'>
             <li>Sample roast guidance or at least consistent sample condition notes.</li>
             <li>Test dates for physical data, not just values.</li>
+            <li>A lot-specific <Link href='/insights/green-coffee-certificate-of-analysis-buyer-checklist' className='text-amber-700 hover:underline font-semibold'>green coffee certificate of analysis</Link> with sample provenance, methods, issuer control, and release status.</li>
             <li>Statement of which sample should govern approval.</li>
             <li>Claim-handling path if arrival quality diverges from the approved reference.</li>
           </ul>

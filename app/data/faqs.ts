@@ -368,6 +368,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "A surplus market creates favorable conditions for importers: better lot availability, more negotiating leverage on terms, and the opportunity to diversify origins or upgrade quality within existing budgets. Locking in supply during a surplus window, before a potential weather event re-tightens the market, is a sound procurement strategy."
     }
   ],
+  "coffee-roasting-weight-loss-yield-cost-guide": [
+    {
+      "question": "How do you calculate coffee roasting weight loss?",
+      "answer": "Subtract the cooled roasted output from the actual green charge. Divide that difference by the green charge, then multiply by 100. A 60 kg charge that returns 50.7 kg lost 9.3 kg, so roast loss is 15.5 percent. Record both weights before removing any QC samples."
+    },
+    {
+      "question": "What percentage of weight does coffee lose during roasting?",
+      "answer": "Published guidance places coffee roasting weight loss in a broad range, with many light-to-medium specialty profiles around 11 to 16 percent. Darker conditions can lose more. Green moisture, roast endpoint, batch size, equipment, and weighing method all matter, so a profile's measured history is the better operating benchmark."
+    },
+    {
+      "question": "How much green coffee is needed for 1 kg roasted?",
+      "answer": "Divide one kilogram by the expected yield. At 85 percent roast yield, 1 kg of roasted coffee requires about 1.176 kg of green coffee. For production and purchasing, use saleable yield instead. An 83 percent saleable yield requires about 1.205 kg green for each packed kilogram."
+    },
+    {
+      "question": "Does green coffee moisture affect roast loss?",
+      "answer": "Yes. Higher initial moisture can increase the mass removed before a similar roast endpoint. Moisture is not the only driver; heat transfer, profile, batch size, and recovery also affect the result. Record current lot moisture beside weight loss so teams do not interpret every change as a roast execution problem."
+    },
+    {
+      "question": "Should roast loss determine roast quality?",
+      "answer": "No. Roast loss is a consistency and mass-balance signal, not a stand-alone quality score. Use it with roast color, curve data, physical observations, and sensory evaluation. A batch can hit the expected percentage and still taste wrong, while a valid lot change may shift weight loss without reducing cup quality."
+    }
+  ],
   "complete-guide-to-understanding-coffee": [
     {
       "question": "What is the most important stage in the seed-to-cup chain for green coffee quality?",
@@ -1424,6 +1446,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "Yes. Djibouti sits on the Bab el-Mandeb strait, so every vessel calling there transits the listed high-risk area whether it routes via Suez or the Cape of Good Hope. War and strikes clauses are excluded from standard ICC cover and must be attached separately; the endorsement is inexpensive relative to the exposure."
     }
   ],
+  "green-coffee-certificate-of-analysis-buyer-checklist": [
+    {
+      "question": "What should a green coffee certificate of analysis include?",
+      "answer": "It should include the exporter or seller, unique lot and sample IDs, represented quantity, sampling and test dates, laboratory, methods, results with units, specification limits, disposition, certificate number, revision status, analyst or reviewer, and authorized signatory. Add contract, purchase-order, bag, or container references when they are available at that decision stage."
+    },
+    {
+      "question": "Can an exporter issue a green coffee CoA?",
+      "answer": "Yes, an exporter can issue a CoA for routine physical and sensory checks when the buyer accepts in-house evidence and the report identifies methods, equipment, sample, lot, analyst, and review control. Regulated contaminants, buyer policies, or contracts may require an independent or accredited laboratory, so define the evidence level before testing."
+    },
+    {
+      "question": "Does a CoA replace a pre-shipment sample?",
+      "answer": "No. The pre-shipment sample lets the buyer inspect and cup a physical reference, while the CoA records results for an identified sample. They support the same release file only when both carry matching lot and sample references. A certificate cannot prove that an unlinked sample represents the coffee prepared for shipment."
+    },
+    {
+      "question": "How recent should a green coffee CoA be?",
+      "answer": "The relevant question is whether testing occurred after the last operation that could change the lot and close enough to release to represent current condition. Final sorting, blending, rebagging, storage, or moisture exposure can make an earlier report unsuitable. Set timing in the specification and require a new report when identity or condition changes."
+    },
+    {
+      "question": "What makes a green coffee CoA invalid for release?",
+      "answer": "Treat it as invalid for release when the lot or sample cannot be identified, required methods or units are missing, the issuer cannot be authenticated, the report predates final preparation without a justified link, a revision is uncontrolled, required accredited scope is absent, or results do not map to the agreed specification and decision rule."
+    }
+  ],
   "green-coffee-container-loading-checklist": [
     {
       "question": "What should a green coffee container loading checklist include?",
@@ -1804,6 +1848,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
     {
       "question": "How many suppliers should I evaluate at one time?",
       "answer": "Three to five is usually the right working range. Fewer than three limits comparison. More than five often dilutes sample focus and increases decision fatigue, especially if your team is also reviewing contracts, compliance details, and shipment timing at the same time."
+    }
+  ],
+  "green-coffee-warehouse-pest-control-guide": [
+    {
+      "question": "What pests can infest stored green coffee?",
+      "answer": "Coffee bean weevils and other stored-product insects can affect dried coffee, while rodents, birds, and general warehouse pests can damage bags or contaminate surfaces. Coffee berry borer damage may already be present from the field. Identification by a qualified professional helps distinguish incoming damage from active warehouse infestation."
+    },
+    {
+      "question": "Does one insect mean the whole green coffee lot is infested?",
+      "answer": "Not necessarily. One finding requires containment and investigation, but disposition depends on species, life stage, location, packaging, lot evidence, nearby activity, and applicable rules. Hold the suspected stock, preserve the evidence, inspect outward, sample representatively, and let the authorized quality lead decide the lot's status."
+    },
+    {
+      "question": "Can a warehouse spray pesticide near green coffee bags?",
+      "answer": "Only a legally permitted application that follows the product label, site procedure, food-safety controls, and any applicator requirements should occur. Protect coffee from residues and odors, consider organic restrictions, record affected lots, and verify re-entry and release conditions. Never apply an improvised household treatment around commercial food inventory."
+    },
+    {
+      "question": "How often should coffee warehouse pest devices be checked?",
+      "answer": "Set frequency through the site risk assessment, pest biology, season, zone, legal requirements, and provider guidance. High-risk doors, receiving bays, spill areas, and zones with prior activity need closer review. The schedule must be frequent enough to detect a change before it spreads, with every check recorded."
+    },
+    {
+      "question": "Do hermetic liners prevent green coffee infestation?",
+      "answer": "An intact, correctly sealed hermetic liner reduces exposure to outside insects and moisture, but it does not replace warehouse controls. Pests may arrive inside coffee, damage outer packaging, or affect surrounding materials. Inspect liners at receipt and during storage, and quarantine any bag showing holes, failed seals, webbing, or live activity."
     }
   ],
   "guide-ethiopian-coffee-origins": [

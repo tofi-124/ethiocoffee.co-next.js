@@ -197,6 +197,10 @@ export default function GreenCoffeeSpecificationSheetTemplate({
       </div>
 
       <p className='my-4'>
+        The specification defines the required limits and decision rules. The lot-specific <Link href='/insights/green-coffee-certificate-of-analysis-buyer-checklist' className='text-amber-700 hover:underline font-semibold'>green coffee certificate of analysis</Link> should then report the measured results, methods, sample identity, and release status against that controlled version.
+      </p>
+
+      <p className='my-4'>
         Mark every field as one of three types: <strong>descriptive</strong>, <strong>required</strong>, or <strong>target</strong>. Descriptive fields identify the coffee but do not create automatic rejection. Required fields are pass or fail. Targets guide selection and preparation, while allowing a stated review band. Mixing these types is a common source of avoidable claims.
       </p>
 

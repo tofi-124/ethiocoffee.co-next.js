@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE CERTIFICATE OF ANALYSIS =====
+    {
+      small_image_url: 'insights/green-coffee-certificate-of-analysis-buyer-checklist.webp',
+      large_image_url: 'insights/green-coffee-certificate-of-analysis-buyer-checklist.webp',
+      date: 'Aug 29, 2026',
+      title: 'Green Coffee Certificate of Analysis: Buyer Checklist',
+      slug: 'green-coffee-certificate-of-analysis-buyer-checklist',
+      category: 'Quality Assurance / Certificate of Analysis / Green Coffee Buying / Procurement Resources',
+      keywords: [
+        'green coffee certificate of analysis',
+        'coffee certificate of analysis',
+        'green coffee COA',
+        'coffee COA checklist',
+        'green coffee quality report',
+        'green coffee analysis report',
+        'green coffee lab report',
+        'coffee lot analysis certificate',
+        'green coffee quality documentation',
+        'green coffee test methods',
+        'green coffee lot release',
+        'how to read a green coffee certificate of analysis',
+        'what should a green coffee COA include',
+        'how to verify a coffee COA',
+        'Ethiopian green coffee certificate of analysis'
+      ],
+      desc: 'Green coffee certificate of analysis checklist for verifying lot identity, sample basis, methods, results, and release decisions before purchase.'
+    },
     // ===== GREEN COFFEE WAREHOUSE PEST CONTROL =====
     {
       small_image_url: 'insights/green-coffee-warehouse-pest-control-guide.webp',
@@ -177,6 +204,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/green-coffee-specification-sheet-template.webp',
       large_image_url: 'insights/green-coffee-specification-sheet-template.webp',
       date: 'Jul 30, 2026',
+      dateModified: 'Aug 29, 2026',
       title: 'Green Coffee Specification Sheet: Buyer Template',
       slug: 'green-coffee-specification-sheet-template',
       category: 'Green Coffee Buying / Lot Specifications / Quality Assurance / Procurement Resources',
@@ -831,7 +859,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/green-coffee-shipping-documents-checklist.webp',
       large_image_url: 'insights/green-coffee-shipping-documents-checklist.webp',
       date: 'May 21, 2026',
-      dateModified: 'Aug 12, 2026',
+      dateModified: 'Aug 29, 2026',
       title: 'Green Coffee Shipping Documents Checklist',
       slug: 'green-coffee-shipping-documents-checklist',
       category: 'Shipping Documents / Export Logistics / Contract Execution / Importer Resources',
@@ -859,6 +887,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/green-coffee-supplier-evaluation-checklist.webp',
       large_image_url: 'insights/green-coffee-supplier-evaluation-checklist.webp',
       date: 'May 18, 2026',
+      dateModified: 'Aug 29, 2026',
       title: 'Green Coffee Supplier Evaluation Checklist',
       slug: 'green-coffee-supplier-evaluation-checklist',
       category: 'Supplier Due Diligence / Green Coffee Buying / Sourcing Workflow / Importer Resources',

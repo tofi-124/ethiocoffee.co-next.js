@@ -199,6 +199,10 @@ export default function GreenCoffeeShippingDocumentsChecklist({ title, date, lar
         </table>
       </div>
 
+      <p className='my-4'>
+        Quality papers need their own purpose labels. A <Link href='/insights/green-coffee-certificate-of-analysis-buyer-checklist' className='text-amber-700 hover:underline font-semibold'>green coffee certificate of analysis</Link> reports lot-specific test evidence; it does not replace the certificate of origin, ICO origin paper, phytosanitary certificate, or other authority-issued shipment documents.
+      </p>
+
       <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
         <h4 className='font-bold text-lg mb-3'>Three external standards worth knowing</h4>
         <p className='text-sm text-gray-700 my-2'>
