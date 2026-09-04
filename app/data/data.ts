@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== COFFEE CUPPING CALIBRATION =====
+    {
+      small_image_url: 'insights/coffee-cupping-calibration-team-protocol.webp',
+      large_image_url: 'insights/coffee-cupping-calibration-team-protocol.webp',
+      date: 'Sep 4, 2026',
+      title: 'Coffee Cupping Calibration: A Team Protocol',
+      slug: 'coffee-cupping-calibration-team-protocol',
+      category: 'Quality Control / Cupping Calibration / Green Coffee Buying / Roaster Resources',
+      keywords: [
+        'coffee cupping calibration',
+        'cupping calibration protocol',
+        'coffee sensory calibration',
+        'coffee tasting panel calibration',
+        'green coffee quality calibration',
+        'coffee cupping score alignment',
+        'coffee sensory panel',
+        'coffee cupping repeatability',
+        'coffee quality control cupping',
+        'blind coffee cupping protocol',
+        'coffee descriptor calibration',
+        'how to calibrate coffee cuppers',
+        'how often should coffee cuppers calibrate',
+        'origin and destination lab calibration',
+        'coffee cupping calibration worksheet'
+      ],
+      desc: 'Coffee cupping calibration protocol for reliable buying panels, score drift control, descriptor alignment, and defensible lot decisions.'
+    },
     // ===== GREEN COFFEE CERTIFICATE OF ANALYSIS =====
     {
       small_image_url: 'insights/green-coffee-certificate-of-analysis-buyer-checklist.webp',

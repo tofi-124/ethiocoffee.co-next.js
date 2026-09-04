@@ -214,6 +214,28 @@ export const faqsBySlug: Record<string, Faq[]> = {
       "answer": "For many specialty Ethiopian buyers, a physical fixed-price contract is the cleaner risk tool. It removes more of the actual FOB exposure than a separate futures position, which can leave basis risk behind. ICE hedges make more sense when the contract structure genuinely leaves the benchmark component open."
     }
   ],
+  "coffee-cupping-calibration-team-protocol": [
+    {
+      "question": "What is coffee cupping calibration?",
+      "answer": "Coffee cupping calibration is a controlled process for checking whether evaluators apply the same method, understand sensory terms consistently, repeat their own results, and make dependable quality decisions. It uses blind samples, references, duplicate codes, independent forms, performance measures, and corrective practice rather than simply discussing scores around a table."
+    },
+    {
+      "question": "How often should a coffee buying team calibrate?",
+      "answer": "Place a hidden duplicate in routine cuppings weekly, run a dedicated internal flight monthly, and review performance trends quarterly. Calibrate with important suppliers at least once each buying season. Increase the frequency after staff changes, equipment changes, persistent score drift, or before decisions involving a high-value shipment or quality claim."
+    },
+    {
+      "question": "Do calibrated cuppers need identical scores?",
+      "answer": "No. Sensory judgments contain normal human variation, and quality impressions may reflect different market preferences. A calibrated panel shows controlled, explainable variation, repeats results within its established limits, agrees on important descriptor categories and defects, and reaches the same commercial decision when applying a written acceptance rule."
+    },
+    {
+      "question": "What is a hidden duplicate in coffee cupping?",
+      "answer": "A hidden duplicate is one roasted coffee divided and presented under two unrelated blind codes in the same flight. The absolute difference between each cupper's two results measures within-session repeatability. A large gap triggers a preparation, attention, or sensory review; it should not be concealed by the panel average."
+    },
+    {
+      "question": "How do origin and destination labs calibrate?",
+      "answer": "Both labs receive sealed portions of one homogenized, identified sample and assess it independently under documented conditions. They then exchange preparation records, descriptors, quality impressions, and defect findings. Repeating shared flights across a season reveals a stable laboratory offset and makes unusual divergence easier to investigate."
+    }
+  ],
   "coffee-is-agriculture-production-farming": [
     {
       "question": "What are the four Ethiopian coffee farming systems?",
